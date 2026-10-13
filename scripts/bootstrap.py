@@ -122,7 +122,14 @@ def verify(root, session, push, hosted_check=False):
     url = run(root, "git", "remote", "get-url", "--push", "origin")
     if not url.startswith("git@github.com:") or not url.endswith(".git"):
         raise SystemExit("origin push URL must be git@github.com:OWNER/REPO.git")
-    checkpoint_url = run(root, "git", "remote", "get-url", "--push", checkpoint_remote)
+    if status.get("checkpoint_sync_remote_source") == "dedicated":
+        expected = url.removeprefix("git@github.com:").removesuffix(".git")
+        if checkpoint_remote != expected:
+            raise SystemExit("dedicated checkpoint destination differs from origin; inspect it")
+        checkpoint_remote = url
+        checkpoint_url = url
+    else:
+        checkpoint_url = run(root, "git", "remote", "get-url", "--push", checkpoint_remote)
     if not checkpoint_url.startswith("git@github.com:") or not checkpoint_url.endswith(".git"):
         raise SystemExit("checkpoint push URL must be git@github.com:OWNER/REPO.git")
     repo = "gh/" + checkpoint_url.removeprefix("git@github.com:").removesuffix(".git")
@@ -136,7 +143,10 @@ def verify(root, session, push, hosted_check=False):
     commit = run(root, "git", "rev-parse", "HEAD")
     if push:
         # Caller explicitly authorizes session publication with --push.
-        run(root, "entire", "configure", "--local", "--skip-push-sessions=false")
+        settings_path = root / ".entire/settings.local.json"
+        settings = json.loads(settings_path.read_text()) if settings_path.exists() else {}
+        settings.setdefault("strategy_options", {})["push_sessions"] = True
+        settings_path.write_text(json.dumps(settings, indent=2) + "\n")
         run(root, "git", "push", "--set-upstream", "origin", branch)
     def remote_oid(remote, reference):
         output = run(root, "git", "ls-remote", remote, reference)
