@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/can1357/oh-my-pi",
+  "revision": "818dd42b73ab1caad17fa06d4edcc3a97086dc57",
+  "source_path": ".omp/skills/semantic-compression",
+  "files": {
+    "SKILL.md": {
+      "upstream_path": ".omp/skills/semantic-compression/SKILL.md",
+      "git_blob": "ed63bd6309676edb8aa7c58f9a6833001d033453",
+      "sha256": "11e5ee26fccf39d9eab3adcd02899acbb12ab2d2a4fb9a92220580bc34dab701"
+    },
+    "LICENSE": {
+      "upstream_path": "LICENSE",
+      "git_blob": "09a0c6c926a81c9d56dc3326cff1e5358c63c6d6",
+      "sha256": "16c45f9d667442781f03fa198914cc39abcaa48ec5ed8f644643e554ca2fbf63"
+    }
+  }
+}

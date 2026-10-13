@@ -1,0 +1,15 @@
+[workspace]
+name = "stamped-ai-research"
+channels = ["conda-forge"]
+platforms = [{ platform = "osx-arm64", macos = "14.0" }]
+
+[dependencies]
+python = ">=3.11,<3.14"
+git = ">=2.40"
+
+[pypi-dependencies]
+datalad = "*"
+git-annex = "*"
+
+[tasks]
+bootstrap = "python scripts/bootstrap.py"

@@ -1,0 +1,12 @@
+# SCM syntax highlighting & preventing 3-way merges
+pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff
+
+* annex.largefiles=(largerthan=1mb)
+.datalad/** annex.largefiles=nothing
+.agents/** annex.largefiles=nothing
+.codex/** annex.largefiles=nothing
+.entire/** annex.largefiles=nothing
+*.md annex.largefiles=nothing
+*.py annex.largefiles=nothing
+*.toml annex.largefiles=nothing
+pixi.lock annex.largefiles=nothing
