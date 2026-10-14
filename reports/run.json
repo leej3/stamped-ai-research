@@ -5,7 +5,7 @@
     "checklist_export": "passed; all 31 items preserved",
     "cross_platform": "not_attempted",
     "datalad_record_parse": "run block parsed successfully; complete conventional-subject commit not recognized",
-    "feedback": "five validated observations queued locally; publication not attempted",
+    "feedback": "six validated observations queued locally; publication not attempted",
     "figure": "SVG created and XML structure checked; no visual rendering inspection",
     "final_output_contract": "passed: required fields, all output paths, 50 input SHA-256 values",
     "full_environment_rebuild": "not_attempted",

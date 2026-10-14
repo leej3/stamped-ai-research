@@ -146,5 +146,6 @@ Tom, S.M., Fox, C.R., Trepel, C., Poldrack, R.A. (2007). The neural basis of los
 aversion in decision-making under risk. *Science*, 315(5811), 515–518.
 The citation is attribution; this RT analysis does not estimate loss aversion.
 
-Five frozen-skill feedback records were inspected, validated and queued locally.
+Five frozen-skill records and one shared DataLad-control record were inspected,
+validated and queued locally.
 Publication and capture uploads were not attempted under the offline boundary.

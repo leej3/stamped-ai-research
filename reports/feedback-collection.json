@@ -11,6 +11,11 @@
       "skill_record_validated": true
     },
     {
+      "id": "051433f1-08be-4aaa-a6b3-c0bfbed0b1c7",
+      "path": "/Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/public/observations/records/2026/10/051433f1-08be-4aaa-a6b3-c0bfbed0b1c7.json",
+      "skill_record_validated": true
+    },
+    {
       "id": "7041f035-4504-44cc-a93b-14ca5fa2fe40",
       "path": "/Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/public/observations/records/2026/10/7041f035-4504-44cc-a93b-14ca5fa2fe40.json",
       "skill_record_validated": true
@@ -56,6 +61,12 @@
       "exit_code": 0,
       "stdout": "{\"id\": \"c4312388-8fed-4bc4-82ae-059ae3cce66c\", \"duplicate\": false, \"visibility\": \"shareable\", \"overlay\": false}\n",
       "stderr": ""
+    },
+    {
+      "skill": "datalad",
+      "exit_code": 0,
+      "stdout": "{\"id\": \"051433f1-08be-4aaa-a6b3-c0bfbed0b1c7\", \"duplicate\": false, \"visibility\": \"shareable\", \"overlay\": false}\n",
+      "stderr": ""
     }
   ],
   "validation": {
@@ -69,5 +80,10 @@
     "stderr": "\u2728 Pixi task (memory in default): python scripts/memory.py import-feedback --public /Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/public/observations --private /Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/state/skills-workshop/feedback-overlay\n"
   },
   "publication": "Not attempted: network and scheduling prohibited; local queue only.",
-  "captures": "No conversation history read; outer duct record still runner-owned. No capture upload attempted."
+  "captures": "No conversation history read; outer duct record still runner-owned. No capture upload attempted.",
+  "import_shared_control": {
+    "exit_code": 0,
+    "stdout": "{\"shared\": 6, \"sensitive\": 0, \"duplicates\": 5}\n",
+    "stderr": "\u2728 Pixi task (memory in default): python scripts/memory.py import-feedback --public /Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/public/observations --private /Users/johnlee/.local/state/skills-workshop/isolated-task-feedback/aec13911-0cd0-4dd9-b73c-95afa2b23c1e/state/skills-workshop/feedback-overlay\n"
+  }
 }
