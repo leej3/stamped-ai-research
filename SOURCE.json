@@ -1,0 +1,11 @@
+{
+  "dataset": "ds000102",
+  "url": "https://github.com/OpenNeuroDatasets/ds000102",
+  "commit": "fdc1ce49d524fc1e77e5b763f10acb02f403c581",
+  "license_declared_by_source": "PDDL",
+  "source_bids_version": "1.0.0rc3",
+  "source_rt_unit": "seconds",
+  "data_scope": "ordinary Git event TSVs only; imaging payloads not acquired",
+  "source_attribution": "OpenfMRI ds000102, Kelly et al.; see input README and dataset_description.json",
+  "stage": "01-single-participant"
+}
