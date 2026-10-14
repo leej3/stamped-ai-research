@@ -99,8 +99,14 @@ run['checks']['same_host_fresh_output_replay']='passed; all generated files byte
 run['checks']['screening_and_independent_arithmetic']='passed; see reports/verification.json'
 run['failures']=verification['control_failures']
 run['research_object_evidence']['actionability']['demonstrated'] += ' Same-host fresh-output replay was byte-identical for all generated outputs.'
+run['provenance_streams']={'native_capture':'left enabled; content not inspected','outer_duct':'runner-managed; no nested captures; final capture not inspected','datalad':'input subdataset pinned; run/rerun transformation provenance not recorded','git':'code and outputs saved locally; no remote publication'}
+run['research_object_evidence']['trackability']['untested'] += ' No DataLad run/rerun transformation record was created; Git tracking is not automatic DataLad execution provenance.'
+run['checks']['svg_visual_inspection']='Initial research run rendered with rsvg-convert and visually inspected; replay does not repeat visual review.'
+run['checks']['snapper_formatting']='Replay script applies standalone Snapper with empty configuration; no active formatter pre-commit hook was present.'
 run['stopping_condition']='Analysis and verification completed. No failed scientific checks; initial Workshop recorder environment failures recovered using its preinstalled environment.'
 Path('reports/run.json').write_text(json.dumps(run,indent=2)+'\n')
 with Path('reports/report.md').open('a') as stream:
     stream.write('\nVerification: screening edge cases, independent raw-data medians and bootstrap, all source hashes, and same-host replay in a fresh output directory passed. All generated replay files were byte-identical before adding this verification record. No fresh environment or cross-platform replay was performed. Initial Workshop feedback recorder attempts failed because jsonschema was absent; recording recovered using the existing Workshop environment. No installation or external publication was attempted.\n')
+with Path('reports/report.md').open('a') as stream:
+    stream.write('\nProvenance boundary: code and artifacts are saved in local Git commits. No DataLad run/rerun transformation record was created. Native capture remained enabled and outer duct capture belongs to the runner; neither final capture was inspected. The initial SVG was rendered and visually inspected. Replay uses standalone Snapper with an empty configuration because no active formatter pre-commit hook was present. Configuration files were not modified.\n')
 print(json.dumps({'verification':'passed','check_count':len(checks),'replayed_files':len(replay_files)}))

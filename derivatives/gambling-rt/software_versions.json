@@ -1,0 +1,9 @@
+{
+  "python": "3.13.16",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "git": "git version 2.56.0",
+  "datalad": "datalad 1.7.1",
+  "pixi": "pixi 0.81.0",
+  "git_annex": "git-annex version: 10.20260901-g29d2c4f5723a6bc5dc380b5fd75b4e60aad6e4e1",
+  "snapper": "snapper 0.10.0"
+}
