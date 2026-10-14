@@ -1,0 +1,72 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4Y97TV8QYMRSJA31E1HQJRW",
+  "session_id": "01a13c8e-20f7-70f3-9434-6e7adab37e83",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-14T22:41:29.887223Z",
+  "branch": "codex/mixed-02-treatment",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md",
+    "code/analyze.py",
+    "code/build_reports.py",
+    "code/replay.sh",
+    "code/source_manifest.json",
+    "code/verify.py",
+    "derivatives/gambling-rt/inventory.json",
+    "derivatives/gambling-rt/participant_changes.svg",
+    "derivatives/gambling-rt/participant_changes.tsv",
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summary.tsv",
+    "derivatives/gambling-rt/trial_flags.tsv",
+    "reports/assessment.json",
+    "reports/assessment_validation.txt",
+    "reports/checklist_answers.json",
+    "reports/checklist_responses.json",
+    "reports/environment.json",
+    "reports/feedback_collection.json",
+    "reports/object_manifest.json",
+    "reports/protocol.md",
+    "reports/report.md",
+    "reports/run.json",
+    "reports/skill_use.json",
+    "reports/verification.json",
+    "reports/workshop-feedback/records/2026/10/26fea813-6a54-4bc0-896e-04214d7be552.json",
+    "reports/workshop-feedback/records/2026/10/31bf356d-0203-4e79-9f09-3a8c1f5e927b.json",
+    "reports/workshop-feedback/records/2026/10/48bc48dd-5fee-480f-8dab-8941ca52f752.json",
+    "reports/workshop-feedback/records/2026/10/aad3a711-0ed1-473e-b2a9-b1f462ffed4c.json",
+    "reports/workshop-feedback/records/2026/10/df791978-0911-47cc-9b38-59cabdc6172c.json"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "a5693211e48e",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 72763,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 888576,
+    "output_tokens": 18115,
+    "api_call_count": 16
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-14T22:41:29.865959Z",
+    "agent_lines": 7126,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 7126,
+    "total_lines_changed": 7126,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
