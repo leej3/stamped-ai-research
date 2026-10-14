@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "clone",
+    "--no-hardlinks",
+    "--no-checkout",
+    "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+    "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research",
+  "started_at": "2026-10-14T22:11:39.699407+00:00"
+}

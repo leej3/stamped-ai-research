@@ -1,0 +1,8 @@
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+merge git-annex ok
+add annex-content/treatment/derivatives/gambling-rt/bootstrap_replicates.tsv 
+2%    31.98 KiB        33 MiB/s 0s100%  1.34 MiB        203 MiB/s 0s                                  ok
+(recording state in git...)
+SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv
+Verified origin has no git-annex branch yet; retaining local annex metadata.

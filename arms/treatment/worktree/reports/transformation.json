@@ -1,0 +1,26 @@
+{
+  "record": {
+    "chain": [],
+    "cmd": "python code/analyze_rt.py && python code/verify_replay.py",
+    "dsid": "18c86d31-4f04-41bc-9813-9607402837cd",
+    "exit": 0,
+    "extra_inputs": [],
+    "inputs": [
+      "code",
+      "inputs/ds000005/sub-*/func/*_events.tsv",
+      "inputs/ds000005/README",
+      "inputs/ds000005/dataset_description.json",
+      "pixi.toml",
+      "pixi.lock"
+    ],
+    "outputs": [
+      "derivatives/gambling-rt",
+      "reports/verification.json"
+    ],
+    "pwd": "."
+  },
+  "recorded_message": "feat(results): record RT sensitivity transformation",
+  "commit": "71691d184afe15c4ee1a911c2a6eaccd16e9097b",
+  "native_prefix_discovery": false,
+  "block_parsing_verified": true
+}

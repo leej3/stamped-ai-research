@@ -1,0 +1,10 @@
+{
+  "key": "SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+  "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+  "metadata_ref": "refs/heads/git-annex",
+  "local_oid": "50426240d5e7956116cec27f804baa73c5262922",
+  "remote_oid": "50426240d5e7956116cec27f804baa73c5262922",
+  "verified_equal": true,
+  "remote": "git@github.com:leej3/stamped-ai-research.git",
+  "scope": "Native git-annex metadata only; no research branch commit or worker mutation."
+}

@@ -1,0 +1,34 @@
+{"arm": "baseline", "science_passed": true, "replay_passed": true, "replay_byte_identical": true}
+{"arm": "treatment", "science_passed": true, "replay_passed": true, "replay_byte_identical": true}
+{
+  "stage": "03",
+  "evaluated_at": "2026-10-14T23:09:02.081186+00:00",
+  "both_arms_stopped": true,
+  "failures_retained": true,
+  "scientific_checks_accounted": true,
+  "replay_accounted": true,
+  "proceed": true,
+  "arm_outcomes": {
+    "baseline": {
+      "worker_outcome": "completed",
+      "science_passed": true,
+      "replay_passed": true,
+      "replay_byte_identical": true,
+      "screening_contract_passed": true
+    },
+    "treatment": {
+      "worker_outcome": "completed",
+      "science_passed": true,
+      "replay_passed": true,
+      "replay_byte_identical": true,
+      "screening_contract_passed": false
+    }
+  },
+  "evidence": "Per-arm normalization, extraction, comparison, source audit and replay verification in this directory.",
+  "limitations": [
+    "Unblinded design-author agent assessment, not human reviewed",
+    "Logical isolation on same host/account with shared caches",
+    "Post-stop collection/replay/log packaging is coordinator curation",
+    "Final planned local stage; proceed means gate satisfied, not authorization for an unspecified new trial"
+  ]
+}

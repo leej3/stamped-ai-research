@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-treatment.gate.json",
+  "sha256": "236b5b2184287cbc1a6eb915192d04c3b933524ce3ca6a6a4d50ffd62e705a91",
+  "head": "a57fb34546bb1a5de17541f50ab40e5ef22122c5",
+  "checkpoint_id": "01M4Y7KX2MP1Z2V7Q82HSQZNFY",
+  "native_session_id": "01a13c79-acc7-7cb3-bffb-e4535625d23e"
+}

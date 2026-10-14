@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "checkout",
+    "-b",
+    "codex/mixed-03-baseline",
+    "e5fed631034d20634fcb37fff7f3760d633b40ef"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "started_at": "2026-10-14T22:11:39.730630+00:00"
+}

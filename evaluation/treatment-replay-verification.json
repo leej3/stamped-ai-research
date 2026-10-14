@@ -1,0 +1,425 @@
+{
+  "annex_boundary": "Seven regular snapshot files plus one annex payload verified from stopped worker and replay; original snapshot link has no bundled target. Separate coordinator attachment preserves payload without altering snapshot.",
+  "annex_payload_verification": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-annex-payload-verification.json",
+    "sha256": "ce3ec3d81e2ba9c0b1e2581d9e35104df1dcb93cd0caa40d01f2a63e7d7d9180"
+  },
+  "boundary": "Byte identity checked directly; normalized scientific comparison and interpretation remain separate. Parent/coordination execution after stop does not upgrade worker-produced evidence.",
+  "code_and_lock": [
+    {
+      "identical": true,
+      "original_sha256": "9ccb5f71a2e5be0b5a2750b52fa9b396fe541b64be49cdd67e96fcb93fc1ab62",
+      "path": "code/README.md",
+      "replay_sha256": "9ccb5f71a2e5be0b5a2750b52fa9b396fe541b64be49cdd67e96fcb93fc1ab62"
+    },
+    {
+      "identical": true,
+      "original_sha256": "7ab788d35b60e1958b247255524b3960b7f6aeea13ed0ae5c00dac38459e7bee",
+      "path": "code/analyze_rt.py",
+      "replay_sha256": "7ab788d35b60e1958b247255524b3960b7f6aeea13ed0ae5c00dac38459e7bee"
+    },
+    {
+      "identical": true,
+      "original_sha256": "d9414ea0912068bffed4ccfe00947446b75251f35de8e782c42a1815ea51de93",
+      "path": "code/input-manifest.json",
+      "replay_sha256": "d9414ea0912068bffed4ccfe00947446b75251f35de8e782c42a1815ea51de93"
+    },
+    {
+      "identical": true,
+      "original_sha256": "4d4fb02c4f1ddca96041b072942599540ab073de5278c4e324ec267ca8edd013",
+      "path": "code/replay.sh",
+      "replay_sha256": "4d4fb02c4f1ddca96041b072942599540ab073de5278c4e324ec267ca8edd013"
+    },
+    {
+      "identical": true,
+      "original_sha256": "884b3ddf897e19f31319c5214bc11ce7db8434bcaa630b394170d37f91e5be8a",
+      "path": "code/verify_replay.py",
+      "replay_sha256": "884b3ddf897e19f31319c5214bc11ce7db8434bcaa630b394170d37f91e5be8a"
+    },
+    {
+      "identical": true,
+      "original_sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3",
+      "path": "pixi.lock",
+      "replay_sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+    },
+    {
+      "identical": true,
+      "original_sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9",
+      "path": "pixi.toml",
+      "replay_sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+    }
+  ],
+  "command_succeeded": true,
+  "identity_and_command_passed": true,
+  "inputs": [
+    {
+      "actual_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956",
+      "matches": true,
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+    },
+    {
+      "actual_sha256": "f6d928071dbb18cacb67c8ecc777ea75b4b401d857584e51f8f3c5201c129328",
+      "matches": true,
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "f6d928071dbb18cacb67c8ecc777ea75b4b401d857584e51f8f3c5201c129328"
+    },
+    {
+      "actual_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113",
+      "matches": true,
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+    },
+    {
+      "actual_sha256": "3c70043803eaea17ea2bd51cddca46f31e93b19d7615f3db63138f6908f62dbe",
+      "matches": true,
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "3c70043803eaea17ea2bd51cddca46f31e93b19d7615f3db63138f6908f62dbe"
+    },
+    {
+      "actual_sha256": "ca2a79b9ee1475dfbe2840564091f5c5a4753aa1b28ecddf856250a5cbc68176",
+      "matches": true,
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "ca2a79b9ee1475dfbe2840564091f5c5a4753aa1b28ecddf856250a5cbc68176"
+    },
+    {
+      "actual_sha256": "5fc5fb61abe84d49cc9c23bda96757ba45d3a77ceb88a9bae844e950c8f8b15e",
+      "matches": true,
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "5fc5fb61abe84d49cc9c23bda96757ba45d3a77ceb88a9bae844e950c8f8b15e"
+    },
+    {
+      "actual_sha256": "c83492a23588f56136e2916ba0d7d51a394155a81934294c60301cd13fd335af",
+      "matches": true,
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "c83492a23588f56136e2916ba0d7d51a394155a81934294c60301cd13fd335af"
+    },
+    {
+      "actual_sha256": "d819e5f27c544525cc51a9b61725d63a92a37ea10f4190c732eea599e52c61c5",
+      "matches": true,
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "d819e5f27c544525cc51a9b61725d63a92a37ea10f4190c732eea599e52c61c5"
+    },
+    {
+      "actual_sha256": "42a1b81972d420501d28aa38d76975ff0d79abe1097aad3007edf43a3e30493b",
+      "matches": true,
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "42a1b81972d420501d28aa38d76975ff0d79abe1097aad3007edf43a3e30493b"
+    },
+    {
+      "actual_sha256": "46576c9094ce064451e46aa93a6ea9e0d147f7b8a2c097a64c8afe63b32d4875",
+      "matches": true,
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "46576c9094ce064451e46aa93a6ea9e0d147f7b8a2c097a64c8afe63b32d4875"
+    },
+    {
+      "actual_sha256": "bcce33c8872ed4feaf4d2116944bc2b49fc2075269cb54b37a43514029e72144",
+      "matches": true,
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "bcce33c8872ed4feaf4d2116944bc2b49fc2075269cb54b37a43514029e72144"
+    },
+    {
+      "actual_sha256": "d9a296720eac086103a9efda49f844d035482e8fe5c95379cc4958f6e2b24dfa",
+      "matches": true,
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "d9a296720eac086103a9efda49f844d035482e8fe5c95379cc4958f6e2b24dfa"
+    },
+    {
+      "actual_sha256": "ad10b6d1f1d6f33cd3452b852f62dee1c2416b1899e86fd5a527ba9399d60947",
+      "matches": true,
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "ad10b6d1f1d6f33cd3452b852f62dee1c2416b1899e86fd5a527ba9399d60947"
+    },
+    {
+      "actual_sha256": "a32a2b9ea829b523de62ad46e4ff9f71139165fbbe8a5dd4bdf1766339d990a6",
+      "matches": true,
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "a32a2b9ea829b523de62ad46e4ff9f71139165fbbe8a5dd4bdf1766339d990a6"
+    },
+    {
+      "actual_sha256": "7a1d621bb17c7f6488cde46e1f00620331b50959e1dd3ea886f2aba4a6273866",
+      "matches": true,
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "7a1d621bb17c7f6488cde46e1f00620331b50959e1dd3ea886f2aba4a6273866"
+    },
+    {
+      "actual_sha256": "124875f24b4752c38164df988f8fc4355c7a3b635416d584216fba076cc6812d",
+      "matches": true,
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "124875f24b4752c38164df988f8fc4355c7a3b635416d584216fba076cc6812d"
+    },
+    {
+      "actual_sha256": "c6829a9b5df07c407127cd15449b41c375c35a77ed6b1c86fdce585e7da46df5",
+      "matches": true,
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "c6829a9b5df07c407127cd15449b41c375c35a77ed6b1c86fdce585e7da46df5"
+    },
+    {
+      "actual_sha256": "f0add01995c49919fb8d00d5bed287aadae8b111228db56f3ea7f0c0e7649142",
+      "matches": true,
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "f0add01995c49919fb8d00d5bed287aadae8b111228db56f3ea7f0c0e7649142"
+    },
+    {
+      "actual_sha256": "e37df3e2cc5f25d97a04ebb0b7ecfffa722b5f7368539e869c7a9c041dfff3be",
+      "matches": true,
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "e37df3e2cc5f25d97a04ebb0b7ecfffa722b5f7368539e869c7a9c041dfff3be"
+    },
+    {
+      "actual_sha256": "389ac681b82059cc68f6d7a6f7498d4cf909a82f5ddcb0249179b86db0d25ce7",
+      "matches": true,
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "389ac681b82059cc68f6d7a6f7498d4cf909a82f5ddcb0249179b86db0d25ce7"
+    },
+    {
+      "actual_sha256": "b7823b3d8815d729c15717235fa74dd8766fa9603bf7436616c5510db40d51b1",
+      "matches": true,
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "b7823b3d8815d729c15717235fa74dd8766fa9603bf7436616c5510db40d51b1"
+    },
+    {
+      "actual_sha256": "bf7339661d8e7f81cf0100ae6c792b3f9c32ac0351a6e9bfedbb11211d58cf1c",
+      "matches": true,
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "bf7339661d8e7f81cf0100ae6c792b3f9c32ac0351a6e9bfedbb11211d58cf1c"
+    },
+    {
+      "actual_sha256": "14813c9503852c27f7baeeafed05acf327d7084ffa78a38d358d1c235c004654",
+      "matches": true,
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "14813c9503852c27f7baeeafed05acf327d7084ffa78a38d358d1c235c004654"
+    },
+    {
+      "actual_sha256": "b83f455313fd0a828a4afafca3632cab4e9da8acaecae309aea61f8ea7035793",
+      "matches": true,
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "b83f455313fd0a828a4afafca3632cab4e9da8acaecae309aea61f8ea7035793"
+    },
+    {
+      "actual_sha256": "18ca07f306d3aebfdd3e0e61a97b2b95fa4f78fa539eada8281a92c1e26388db",
+      "matches": true,
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "18ca07f306d3aebfdd3e0e61a97b2b95fa4f78fa539eada8281a92c1e26388db"
+    },
+    {
+      "actual_sha256": "8bc71c65e0d0c8778ee28c8ec194920e0ab96ad04ec16005f7e49c8471a504f0",
+      "matches": true,
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "8bc71c65e0d0c8778ee28c8ec194920e0ab96ad04ec16005f7e49c8471a504f0"
+    },
+    {
+      "actual_sha256": "789905e20009704f82fa02e634fe5464d8427709b534f3d40372a16ad4557fb3",
+      "matches": true,
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "789905e20009704f82fa02e634fe5464d8427709b534f3d40372a16ad4557fb3"
+    },
+    {
+      "actual_sha256": "2ffd0e0af216a0ab25d90cbe5894d34e9bf41ec4257b3aa99e15fd611be5342c",
+      "matches": true,
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "2ffd0e0af216a0ab25d90cbe5894d34e9bf41ec4257b3aa99e15fd611be5342c"
+    },
+    {
+      "actual_sha256": "bccc9e67aa4654b9536edc7a4d1119607b6e1d6bb1cee65b2041e80979146c2f",
+      "matches": true,
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "bccc9e67aa4654b9536edc7a4d1119607b6e1d6bb1cee65b2041e80979146c2f"
+    },
+    {
+      "actual_sha256": "48b7ecdc1425f5d0e7c63319a2e41fdb5bcae62c84fa8c59757a8338f29f3f35",
+      "matches": true,
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "48b7ecdc1425f5d0e7c63319a2e41fdb5bcae62c84fa8c59757a8338f29f3f35"
+    },
+    {
+      "actual_sha256": "d39f9b109d2c2b34687820dc64f19f645cb63806771d4797aef7bd040a476c68",
+      "matches": true,
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "d39f9b109d2c2b34687820dc64f19f645cb63806771d4797aef7bd040a476c68"
+    },
+    {
+      "actual_sha256": "65f28df7a882742b10ee492e605e53769de734838ac46db05d00a585f0900e9e",
+      "matches": true,
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "65f28df7a882742b10ee492e605e53769de734838ac46db05d00a585f0900e9e"
+    },
+    {
+      "actual_sha256": "28b91c49422cb40857a7773641df3e1337a33aca5e072b3a2b1baf18dc53aebc",
+      "matches": true,
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "28b91c49422cb40857a7773641df3e1337a33aca5e072b3a2b1baf18dc53aebc"
+    },
+    {
+      "actual_sha256": "9ff69a5cf6767bd8a6bd0494d140060f22561030f27bcc4afe026dcf706ce360",
+      "matches": true,
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "9ff69a5cf6767bd8a6bd0494d140060f22561030f27bcc4afe026dcf706ce360"
+    },
+    {
+      "actual_sha256": "bd3475eda8ef0bfd5df18668eb230dcb8d7aa72317f047a3cc22f17e5cd0d22e",
+      "matches": true,
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "bd3475eda8ef0bfd5df18668eb230dcb8d7aa72317f047a3cc22f17e5cd0d22e"
+    },
+    {
+      "actual_sha256": "334fa9d610e5abea303c5b2bc00e0bccd0429d71a27efdf33b6b6e30f549177e",
+      "matches": true,
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "334fa9d610e5abea303c5b2bc00e0bccd0429d71a27efdf33b6b6e30f549177e"
+    },
+    {
+      "actual_sha256": "ada556f4a4c9e9020726bfeab7bf323b13398ba67c1e902a85a7ea52e31af518",
+      "matches": true,
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "ada556f4a4c9e9020726bfeab7bf323b13398ba67c1e902a85a7ea52e31af518"
+    },
+    {
+      "actual_sha256": "5e5bc44d1065b32e4bac33c71d02fcbf066eeffa852ea8059ec4feea49d407c2",
+      "matches": true,
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "5e5bc44d1065b32e4bac33c71d02fcbf066eeffa852ea8059ec4feea49d407c2"
+    },
+    {
+      "actual_sha256": "12b00cb702352b414ba7c8ba3811a3b42c61912e15b8109eb1599e66bbd51f3c",
+      "matches": true,
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "12b00cb702352b414ba7c8ba3811a3b42c61912e15b8109eb1599e66bbd51f3c"
+    },
+    {
+      "actual_sha256": "a3c0826f03c5843aed6614a166defad089644b09d561e9ad61020e7c10c95b38",
+      "matches": true,
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "a3c0826f03c5843aed6614a166defad089644b09d561e9ad61020e7c10c95b38"
+    },
+    {
+      "actual_sha256": "8c4e38dcc0f65beeb3bbaff028ab0eea01e67498d8fc3fdb7ab467821caabdb8",
+      "matches": true,
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "8c4e38dcc0f65beeb3bbaff028ab0eea01e67498d8fc3fdb7ab467821caabdb8"
+    },
+    {
+      "actual_sha256": "05cc25381b634c9c3f8b11ca62338ded6426556fbc0384de2dd334e64eac7477",
+      "matches": true,
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "05cc25381b634c9c3f8b11ca62338ded6426556fbc0384de2dd334e64eac7477"
+    },
+    {
+      "actual_sha256": "02a741e6e3b55958c12cbeeee396505accd21eb589bab81155e1b016fbe8e033",
+      "matches": true,
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "02a741e6e3b55958c12cbeeee396505accd21eb589bab81155e1b016fbe8e033"
+    },
+    {
+      "actual_sha256": "15dda1844fdd2b81c651bd1efa855dab860586d4ddacb25409bd1adafa9a3560",
+      "matches": true,
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "15dda1844fdd2b81c651bd1efa855dab860586d4ddacb25409bd1adafa9a3560"
+    },
+    {
+      "actual_sha256": "af578bf4f2011bcccece712a324b7f62bb45b46f53e3b77cb354d939e4d857dc",
+      "matches": true,
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "af578bf4f2011bcccece712a324b7f62bb45b46f53e3b77cb354d939e4d857dc"
+    },
+    {
+      "actual_sha256": "312d67ff625e68c9d3adc016baca3c06001bed5f89aef4fc585ee0b4b021bb30",
+      "matches": true,
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv",
+      "reported_sha256": "312d67ff625e68c9d3adc016baca3c06001bed5f89aef4fc585ee0b4b021bb30"
+    },
+    {
+      "actual_sha256": "2b9fd1add0175743f6a4a9b5121b2485e4e10d39ab50e257e45e7ef9f2517fb1",
+      "matches": true,
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv",
+      "reported_sha256": "2b9fd1add0175743f6a4a9b5121b2485e4e10d39ab50e257e45e7ef9f2517fb1"
+    },
+    {
+      "actual_sha256": "5a56da92d62c44218d966d1478508fe3858f2f1abed683b9d34b70dc95c9db7b",
+      "matches": true,
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv",
+      "reported_sha256": "5a56da92d62c44218d966d1478508fe3858f2f1abed683b9d34b70dc95c9db7b"
+    },
+    {
+      "actual_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988",
+      "matches": true,
+      "path": "inputs/ds000005/README",
+      "reported_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+    },
+    {
+      "actual_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018",
+      "matches": true,
+      "path": "inputs/ds000005/dataset_description.json",
+      "reported_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+    }
+  ],
+  "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+  "output_commit_matches": true,
+  "parent_scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+  "phase_timings_seconds": {
+    "checkout": 0.010967625072225928,
+    "clone": 0.04220758308656514,
+    "documented_replay": 3.7160179170314223,
+    "environment": 1.9095740000484511,
+    "inputs": 0.717789415968582
+  },
+  "phases_exit_zero": true,
+  "record_sha256": "b7319ad17589e2c2de986b1688c9af93496c087363f8f1d90635cadda2226fed",
+  "scientific_outputs": [
+    {
+      "identical": true,
+      "original_sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf",
+      "path": "derivatives/gambling-rt/output_hashes.json",
+      "replay_sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf"
+    },
+    {
+      "identical": true,
+      "original_sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015",
+      "path": "derivatives/gambling-rt/participant_changes.tsv",
+      "replay_sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015"
+    },
+    {
+      "identical": true,
+      "original_sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925",
+      "path": "derivatives/gambling-rt/results.json",
+      "replay_sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925"
+    },
+    {
+      "identical": true,
+      "original_sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85",
+      "path": "derivatives/gambling-rt/run_summaries.tsv",
+      "replay_sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85"
+    },
+    {
+      "identical": true,
+      "original_sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71",
+      "path": "derivatives/gambling-rt/sensitivity.svg",
+      "replay_sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71"
+    },
+    {
+      "identical": true,
+      "original_sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90",
+      "path": "derivatives/gambling-rt/software.json",
+      "replay_sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90"
+    },
+    {
+      "identical": true,
+      "original_sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd",
+      "path": "derivatives/gambling-rt/trial_audit.tsv",
+      "replay_sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd"
+    },
+    {
+      "identical": true,
+      "original_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+      "path": "derivatives/gambling-rt/bootstrap_replicates.tsv",
+      "replay_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af"
+    }
+  ],
+  "scientific_outputs_byte_identical": true,
+  "scientific_outputs_removed_before_run": true,
+  "software_metadata_differences": {},
+  "software_metadata_scope": "Software metadata kept separate from scientific byte identity; absolute interpreter prefix expected to change.",
+  "source_clean": true,
+  "source_commit_matches": true,
+  "source_worker_unchanged": true
+}

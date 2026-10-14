@@ -1,0 +1,159 @@
+{
+  "read_caveat": "Large combined source outputs were truncated; paper normative statements and schema fields were separately reread. No efficacy inference from one arm.",
+  "records": [
+    {
+      "application": "Baseline gaps -> explicit interface/manifests/replay -> evidence-based reassessment.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+      "entrypoint_sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+      "skill": "align-with-stamped-principles",
+      "tree_files": [
+        {
+          "path": "SKILL.md",
+          "read_in_this_turn": true,
+          "sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289"
+        },
+        {
+          "path": "references/principles.md",
+          "read_in_this_turn": true,
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        }
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "application": "Seven-property evidence, source-version conflict, portable assessment, complete checklist side product.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "entrypoint_sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+      "skill": "assess-alignment-with-stamped-principles",
+      "tree_files": [
+        {
+          "path": "SKILL.md",
+          "read_in_this_turn": true,
+          "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb"
+        },
+        {
+          "path": "references/assessment-contract.md",
+          "read_in_this_turn": true,
+          "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+        },
+        {
+          "path": "references/checklist-responses.md",
+          "read_in_this_turn": true,
+          "sha256": "29919f38338c935530e9f1781976a02afd7447b6607e5e915f570549d3f68635"
+        },
+        {
+          "path": "references/principles.md",
+          "read_in_this_turn": true,
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "references/research-assessment.schema.json",
+          "read_in_this_turn": true,
+          "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+        },
+        {
+          "executed_in_this_turn": true,
+          "path": "scripts/export_checklist.py",
+          "read_in_this_turn": false,
+          "sha256": "ea667090655f463cf80b80486c94a75ab14a01777682f31903bd38b52670013d"
+        },
+        {
+          "executed_in_this_turn": true,
+          "path": "scripts/validate_assessment.py",
+          "read_in_this_turn": false,
+          "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+        }
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "application": "Raw BIDS revision and attribution preserved; derivatives separated; DataLad transformation; no imaging pipeline.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+      "entrypoint_sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+      "skill": "create-repronim-stamped-project",
+      "tree_files": [
+        {
+          "path": "SKILL.md",
+          "read_in_this_turn": true,
+          "sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5"
+        },
+        {
+          "path": "references/principles.md",
+          "read_in_this_turn": true,
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "references/repronim.md",
+          "read_in_this_turn": true,
+          "sha256": "f976644b0d926ca455ded85dd0617915c2295d41d3a637ff8f3d62a6a833a358"
+        }
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "application": "Boundary, component identities, code/environment interface, executable local research object.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+      "entrypoint_sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+      "skill": "create-stamped-project",
+      "tree_files": [
+        {
+          "path": "SKILL.md",
+          "read_in_this_turn": true,
+          "sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373"
+        },
+        {
+          "path": "references/principles.md",
+          "read_in_this_turn": true,
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        }
+      ],
+      "version": "0.1.0"
+    },
+    {
+      "application": "Pre-analysis protocol, complete endpoints, independent checks, disposable replay, explicit scientific limits.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+      "entrypoint_sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+      "skill": "do-full-research-loop",
+      "tree_files": [
+        {
+          "path": "SKILL.md",
+          "read_in_this_turn": true,
+          "sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9"
+        },
+        {
+          "path": "references/assessment-contract.md",
+          "read_in_this_turn": false,
+          "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+        },
+        {
+          "path": "references/paired-evaluation.md",
+          "read_in_this_turn": true,
+          "sha256": "8c9ac59c52823e26fd889ff7a07c3cdd7208cca25669e34f335fa7a3d2c32a35"
+        },
+        {
+          "path": "references/principles.md",
+          "read_in_this_turn": true,
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "references/research-assessment.schema.json",
+          "read_in_this_turn": false,
+          "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+        },
+        {
+          "path": "scripts/validate_assessment.py",
+          "read_in_this_turn": false,
+          "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+        }
+      ],
+      "version": "0.1.0"
+    }
+  ],
+  "run_id": "mixed-03-treatment",
+  "shared_controls": [
+    "duct outer-wrapper exception",
+    "DataLad via installed Pixi",
+    "commit-provenance current-turn metadata only",
+    "workshop-feedback and private-workshop-memory; no recall or network publication"
+  ]
+}

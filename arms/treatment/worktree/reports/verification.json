@@ -1,0 +1,68 @@
+{
+  "comparisons": [
+    {
+      "equal": true,
+      "original_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+      "path": "bootstrap_replicates.tsv",
+      "replay_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af"
+    },
+    {
+      "equal": true,
+      "original_sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf",
+      "path": "output_hashes.json",
+      "replay_sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf"
+    },
+    {
+      "equal": true,
+      "original_sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015",
+      "path": "participant_changes.tsv",
+      "replay_sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015"
+    },
+    {
+      "equal": true,
+      "original_sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925",
+      "path": "results.json",
+      "replay_sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925"
+    },
+    {
+      "equal": true,
+      "original_sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85",
+      "path": "run_summaries.tsv",
+      "replay_sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85"
+    },
+    {
+      "equal": true,
+      "original_sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71",
+      "path": "sensitivity.svg",
+      "replay_sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71"
+    },
+    {
+      "equal": true,
+      "original_sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90",
+      "path": "software.json",
+      "replay_sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90"
+    },
+    {
+      "equal": true,
+      "original_sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd",
+      "path": "trial_audit.tsv",
+      "replay_sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd"
+    }
+  ],
+  "counts_independent": {
+    "absent": 154,
+    "nonpositive": 153,
+    "positive_absent": 1,
+    "total": 4096
+  },
+  "edge_cases": 15,
+  "independent_checks": "Decimal summaries, eligibility, counts, independently implemented seeded bootstrap with absolute tolerance 1e-9 ms",
+  "limitations": [
+    "Existing base interpreter reused; no full Pixi environment reconstruction.",
+    "No remote retrieval, alternate platform, or independent investigator reproduction."
+  ],
+  "raw_git_status_clean": true,
+  "replay": "Fresh temporary directory and venv without pip, copied hash-verified inputs and code, existing base Python interpreter",
+  "replay_exit_code": 0,
+  "status": "passed"
+}

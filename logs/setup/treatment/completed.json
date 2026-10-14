@@ -1,0 +1,10 @@
+{
+  "status": "capture_verified",
+  "completed_at": "2026-10-14T22:13:21.854772+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment",
+  "head": "a57fb34546bb1a5de17541f50ab40e5ef22122c5",
+  "tree": "8095a41482f25a5777f436daedefb0205f5e1ef0",
+  "native_session_id": "01a13c79-acc7-7cb3-bffb-e4535625d23e",
+  "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-treatment.gate.json",
+  "scientific_analysis_performed": false
+}

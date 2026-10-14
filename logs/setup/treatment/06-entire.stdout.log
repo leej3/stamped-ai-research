@@ -1,0 +1,7 @@
+  Agent: Codex
+  Hooks for Codex - OpenAI's CLI coding agent already installed
+  ✓ Configured project
+    .entire/settings.local.json
+
+Ready.
+Checkpoint uploads use the dedicated destination: git@github.com:leej3/stamped-ai-research.git.

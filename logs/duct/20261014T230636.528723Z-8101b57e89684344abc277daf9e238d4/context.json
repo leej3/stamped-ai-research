@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "task_id": null,
+  "project_id": "03-rt-sensitivity-188cacd5aa9714bc",
+  "project_root": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+  "working_directory": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+  "started_at": "2026-10-14T23:06:36.528723+00:00",
+  "git_commit": "e5fed631034d20634fcb37fff7f3760d633b40ef",
+  "git_dirty": true,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

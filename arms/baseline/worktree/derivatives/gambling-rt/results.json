@@ -1,0 +1,295 @@
+{
+  "all_trial_flag_counts": {
+    "absent_response": 154,
+    "duplicate_onset": 0,
+    "invalid_numeric_rt": 0,
+    "missing_rt": 0,
+    "nonfinite_rt": 0,
+    "nonmonotonic_onset": 0,
+    "nonpositive_rt": 153,
+    "outside_rt_band": 191,
+    "response_code_pair_disagreement": 0,
+    "response_presence_disagreement": 1,
+    "unexpected_response_code": 0
+  },
+  "bootstrap": {
+    "order": "lexical participant ID",
+    "percentiles": "linear interpolation at (10000-1)*p",
+    "replicates": 10000,
+    "restart": "each endpoint and common-set variant",
+    "rng": "Python random.Random",
+    "sampling": "n randrange(n) calls per replicate, paired changes",
+    "seed": 20261014
+  },
+  "common_eligible_intersection": {
+    "mean_band": {
+      "bootstrap_95_percentile_ci_ms": [
+        -69.95707276536827,
+        128.12038918360184
+      ],
+      "mean_change_ms": 27.7099102239331,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ]
+    },
+    "mean_primary": {
+      "bootstrap_95_percentile_ci_ms": [
+        -36.58981756853354,
+        150.72133936355112
+      ],
+      "mean_change_ms": 58.70382847148604,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ]
+    },
+    "median_band": {
+      "bootstrap_95_percentile_ci_ms": [
+        -93.71953124999997,
+        120.93984374999997
+      ],
+      "mean_change_ms": 11.156250000000007,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ]
+    },
+    "median_primary": {
+      "bootstrap_95_percentile_ci_ms": [
+        -70.284375,
+        132.65781249999998
+      ],
+      "mean_change_ms": 31.343749999999993,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ]
+    }
+  },
+  "context_primary_median_all_three_runs": {
+    "equal_weight_mean_of_person_medians_ms": {
+      "01": 1401.625,
+      "02": 1398.40625,
+      "03": 1432.96875
+    },
+    "n_participants": 16,
+    "participants": [
+      "sub-01",
+      "sub-02",
+      "sub-03",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-07",
+      "sub-08",
+      "sub-09",
+      "sub-10",
+      "sub-11",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-16"
+    ]
+  },
+  "eligible_sets_differ": false,
+  "flag_semantics": {
+    "duplicate_onset": "Any finite onset already seen earlier in the same file.",
+    "nonmonotonic_onset": "Finite onset strictly below previous finite onset; ties counted separately.",
+    "nonpositive_rt": "Parsed RT <=0, including negative infinity if present.",
+    "outside_rt_band": "Finite RT <0.2 or >3.0 seconds; diagnostic for primary, exclusion for band.",
+    "response_presence_disagreement": "XOR of positive finite RT and membership in a recorded-response pair."
+  },
+  "units": "milliseconds",
+  "variants": {
+    "mean_band": {
+      "bootstrap_95_percentile_ci_ms": [
+        -69.95707276536827,
+        128.12038918360184
+      ],
+      "ineligible_participants": [],
+      "mean_change_ms": 27.7099102239331,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ],
+      "trial_counts_all_runs": {
+        "excluded_union": 192,
+        "retained": 3904,
+        "total": 4096
+      }
+    },
+    "mean_primary": {
+      "bootstrap_95_percentile_ci_ms": [
+        -36.58981756853354,
+        150.72133936355112
+      ],
+      "ineligible_participants": [],
+      "mean_change_ms": 58.70382847148604,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ],
+      "trial_counts_all_runs": {
+        "excluded_union": 154,
+        "retained": 3942,
+        "total": 4096
+      }
+    },
+    "median_band": {
+      "bootstrap_95_percentile_ci_ms": [
+        -93.71953124999997,
+        120.93984374999997
+      ],
+      "ineligible_participants": [],
+      "mean_change_ms": 11.156250000000007,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ],
+      "trial_counts_all_runs": {
+        "excluded_union": 192,
+        "retained": 3904,
+        "total": 4096
+      }
+    },
+    "median_primary": {
+      "bootstrap_95_percentile_ci_ms": [
+        -70.284375,
+        132.65781249999998
+      ],
+      "ineligible_participants": [],
+      "mean_change_ms": 31.343749999999993,
+      "n_participants": 16,
+      "participants": [
+        "sub-01",
+        "sub-02",
+        "sub-03",
+        "sub-04",
+        "sub-05",
+        "sub-06",
+        "sub-07",
+        "sub-08",
+        "sub-09",
+        "sub-10",
+        "sub-11",
+        "sub-12",
+        "sub-13",
+        "sub-14",
+        "sub-15",
+        "sub-16"
+      ],
+      "trial_counts_all_runs": {
+        "excluded_union": 154,
+        "retained": 3942,
+        "total": 4096
+      }
+    }
+  }
+}

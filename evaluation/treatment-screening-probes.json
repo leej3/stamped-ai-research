@@ -1,0 +1,1164 @@
+{
+  "arm": "treatment",
+  "cases": 15,
+  "checks": [
+    {
+      "path": "missing_empty.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_empty.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_lower.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.missing_rt",
+      "status": "failed",
+      "expected": true,
+      "observed": false
+    },
+    {
+      "path": "missing_upper.primary.flags.invalid_numeric_rt",
+      "status": "failed",
+      "expected": false,
+      "observed": true
+    },
+    {
+      "path": "missing_upper.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.missing_rt",
+      "status": "failed",
+      "expected": true,
+      "observed": false
+    },
+    {
+      "path": "missing_upper.band.flags.invalid_numeric_rt",
+      "status": "failed",
+      "expected": false,
+      "observed": true
+    },
+    {
+      "path": "missing_upper.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_upper.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.missing_rt",
+      "status": "failed",
+      "expected": true,
+      "observed": false
+    },
+    {
+      "path": "missing_mixed.primary.flags.invalid_numeric_rt",
+      "status": "failed",
+      "expected": false,
+      "observed": true
+    },
+    {
+      "path": "missing_mixed.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.missing_rt",
+      "status": "failed",
+      "expected": true,
+      "observed": false
+    },
+    {
+      "path": "missing_mixed.band.flags.invalid_numeric_rt",
+      "status": "failed",
+      "expected": false,
+      "observed": true
+    },
+    {
+      "path": "missing_mixed.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "missing_mixed.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "invalid.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "negative_infinity.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "nan.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "nan.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "absent_positive.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "zero_absent.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "lower_boundary.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "upper_boundary.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "below_band.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "above_band.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "noninteger_code.band.flags.outside_rt_band",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.retained",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.primary.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.retained",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "pair_disagreement.band.flags.outside_rt_band",
+      "status": "passed"
+    }
+  ],
+  "passed": false,
+  "boundary": "Additional pure-function implementation-contract probes on replay code; no source result changed, no worker repair. Missing-token case-insensitivity was already frozen in the task; these probes expose its implementation."
+}

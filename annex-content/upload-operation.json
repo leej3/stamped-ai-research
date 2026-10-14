@@ -1,0 +1,10 @@
+{
+  "operation": "git annex copy --to con-hub -- annex-content/treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "returncode": 0,
+  "result": "copy reported ok; full anonymous retrieval subsequently passed",
+  "capture": "Credential-bearing operation bypassed duct according to user-level credential guidance. No credential value or credential-helper response is retained.",
+  "authentication_source": "Existing user-level host credential helper",
+  "verification": "retrieval-verification.json",
+  "metadata_publication": "metadata-publication.json",
+  "scope": "Post-stop coordinator delivery; no research branch commit or worker changes."
+}

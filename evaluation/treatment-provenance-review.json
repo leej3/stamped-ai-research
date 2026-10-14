@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-14T23:09:00.868786+00:00",
+  "scope": "Stopped treatment provenance/structure only; no scientific endpoint or source-semantic adjudication, command replay, native rerun or worker mutation.",
+  "head": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+  "transformation_commit": "71691d184afe15c4ee1a911c2a6eaccd16e9097b",
+  "commit_message_sha256": "ad9613ec4e6399e83517a58301ad56d0fd398630f91ce79017ca9659a23bcff7",
+  "datalad_parser": {
+    "version": "1.7.1",
+    "source_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py",
+    "source_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3",
+    "actual_recognized": false,
+    "marker_offset": 57,
+    "preserved_block_matches_transformation": true
+  },
+  "assessment_validation": {
+    "schema_sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1",
+    "validator_sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567",
+    "schema_errors": 0,
+    "semantic_bookkeeping_errors": [],
+    "interpretation": "Valid structure and evidence bookkeeping do not validate judgments."
+  },
+  "artifact_manifest": {
+    "entries": 23,
+    "mismatches": [],
+    "coverage": "Listed artifacts only; this is not a complete working-tree manifest.",
+    "all_worker_bytes_verified": true,
+    "snapshot_missing_content": [
+      {
+        "path": "derivatives/gambling-rt/bootstrap_replicates.tsv",
+        "snapshot_symlink": "../../.git/annex/objects/gJ/WP/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+        "worker_content_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+        "worker_content_bytes": 1404481
+      }
+    ],
+    "interpretation": "All listed worker content matches. Snapshot preserves the annex symlink for the listed large artifact but omits its object; Git bundle alone cannot restore annex content. Payload transfer and availability must be verified separately."
+  },
+  "input_manifest": {
+    "entries": 50,
+    "mismatches": [],
+    "interpretation": "Byte hashes only; dataset semantics and numerical results were not evaluated."
+  },
+  "skill_use": {
+    "record_count": 5,
+    "entrypoint_hash_mismatches": [],
+    "interpretation": "Recorded exposure and selected application in a preconfigured project do not establish full creation/adapter/HPC validation or causal efficacy."
+  },
+  "checklist": {
+    "format": 3,
+    "checklist_version": "0.3.1",
+    "response_count": 31,
+    "interpretation": "Presence/shape noted; truth of individual answers not regraded."
+  },
+  "feedback": {
+    "local_records": [
+      {
+        "id": "2a4ddab8-ef61-40fb-882e-84d7a3516a85",
+        "exists": true,
+        "sha256": "a242adab04acb8dba69e02015020069cac4c35ecfe7ce195283d49b6eb298a9b"
+      },
+      {
+        "id": "f5855ca7-8ea8-4a33-af88-fcd83e3b95fc",
+        "exists": true,
+        "sha256": "bd66c2474e15343c4504ed9ac9ec78ce570288b6cd761af3312a448b0ca1d644"
+      },
+      {
+        "id": "051433f1-08be-4aaa-a6b3-c0bfbed0b1c7",
+        "exists": true,
+        "sha256": "639df1815098b0f6e538b00f6a5ac012cdbb84be1f6ae91d9d46eb3dfb191009"
+      },
+      {
+        "id": "7041f035-4504-44cc-a93b-14ca5fa2fe40",
+        "exists": true,
+        "sha256": "5cdb2bf60e54dc146c1a44b72109d56fbdb986b5a6b166f4a46160320f76e4d9"
+      },
+      {
+        "id": "c4312388-8fed-4bc4-82ae-059ae3cce66c",
+        "exists": true,
+        "sha256": "6110e4daccd05f970eae395f09076bfe2fec7667dd2f29229500dd08c126d9a2"
+      },
+      {
+        "id": "02be76fa-0480-44e9-a67d-e8a75831d8cd",
+        "exists": true,
+        "sha256": "7939c52c04268c22f462a78873ef62d4152853a037fd860dcc1c146269f2d379"
+      }
+    ],
+    "publication": "Not attempted: network and scheduling prohibited; local queue only.",
+    "independent_schema_revalidation": false
+  },
+  "worker_reported_limits": {
+    "project_jsonschema_import": "failed_then_recovered_with_preinstalled_Workshop_environment",
+    "figure": "SVG structure checked; no visual rendering inspection by this worker",
+    "native_datalad_rerun": "not recognized; block retained",
+    "full_environment_rebuild": "not attempted"
+  },
+  "worker_state_before": {
+    "head": "43c276c71676dddccbd2222f6ab89431306411da0f6588610dda6bcf82fc047d",
+    "status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index": "cce4dc74577e8b82768f2726d85791ba78c1c2ef50083b2cd8532c9d7dd131ba"
+  },
+  "worker_state_after": {
+    "head": "43c276c71676dddccbd2222f6ab89431306411da0f6588610dda6bcf82fc047d",
+    "status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index": "cce4dc74577e8b82768f2726d85791ba78c1c2ef50083b2cd8532c9d7dd131ba"
+  },
+  "worker_state_unchanged": true
+}

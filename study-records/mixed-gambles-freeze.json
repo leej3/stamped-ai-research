@@ -1,0 +1,1447 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-10-14T22:14:39.163074+00:00",
+  "all_six_setup_gates_verified": true,
+  "configuration": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-gambles-config.json",
+    "mode": "redacted_json",
+    "sha256": "e63420ac03298afc4322abb7b71537b0fcf3095e54eaf21cb08502abea48a8a3"
+  },
+  "configuration_redacted": {
+    "schema_version": 1,
+    "project_root": "/Users/johnlee/code/CON/stamped-ai-research",
+    "treatment_repository": "/Users/johnlee/code/CON/stamped-ai-research/skills",
+    "allocation_file": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/allocation.json",
+    "common_skill_directories": [
+      "/Users/johnlee/.codex/skills/duct",
+      "/Users/johnlee/.agents/skills/commit-provenance",
+      "/Users/johnlee/.codex/skills/datalad",
+      "/Users/johnlee/.codex/skills/skills-workshop",
+      "/Users/johnlee/.agents/skills/workshop-feedback",
+      "/Users/johnlee/.agents/skills/private-workshop-memory",
+      "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup"
+    ],
+    "common_skill_selection_note": "Shared control source identities; worker invocation is measured afterward, not inferred from availability. Native Entire hooks are identical across all six workers.",
+    "additional_control_files": [],
+    "stages": {
+      "01": {
+        "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+        "arms": {
+          "baseline": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-baseline.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline"
+          },
+          "treatment": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-treatment.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment"
+          }
+        }
+      },
+      "02": {
+        "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt",
+        "arms": {
+          "baseline": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-baseline.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline"
+          },
+          "treatment": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-treatment.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment"
+          }
+        }
+      },
+      "03": {
+        "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+        "arms": {
+          "baseline": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-baseline.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline"
+          },
+          "treatment": {
+            "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment",
+            "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-treatment.gate.json",
+            "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment"
+          }
+        }
+      }
+    }
+  },
+  "controls": {
+    "common_files": [
+      {
+        "path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+        "mode": "sha256",
+        "sha256": "50ab38ba21d0d9f8346f32f41848382f15b556190f3c7a07e885a4fb73e379c8"
+      },
+      {
+        "path": "/Users/johnlee/.agents/skills/private-workshop-memory/SKILL.md",
+        "mode": "sha256",
+        "sha256": "029598db52448162bfbb8a6f1df177dc01e9e326bc27928835e4e43b57979100"
+      },
+      {
+        "path": "/Users/johnlee/.agents/skills/private-workshop-memory/scripts/check_transport.py",
+        "mode": "sha256",
+        "sha256": "6e00f3f506dc2638a5db75e35e756d76e4e69c84d7b74110d0bed2ab7e07235f"
+      },
+      {
+        "path": "/Users/johnlee/.codex/AGENTS.md",
+        "mode": "sha256",
+        "sha256": "42f93b54f87ba630e6d92d30eaf9e1221af028590ae348188afdcd4a3f5f9d82"
+      },
+      {
+        "path": "/Users/johnlee/.codex/config.toml",
+        "mode": "redacted_toml",
+        "sha256": "d0e37bb09b6b90498e6c87709010716eecf9960141503b1e5b4a40c6ecbdf2dc"
+      },
+      {
+        "path": "/Users/johnlee/.codex/hooks.json",
+        "mode": "redacted_json",
+        "sha256": "aaaa0c8c60515d41ed767190f7502ac0f17ac3ecbc02c1435c04c7092de976e0"
+      },
+      {
+        "path": "/Users/johnlee/.codex/rules/default.rules",
+        "mode": "sha256",
+        "sha256": "42cd0a27be733ecb848053ad8f9fdaeaac2a0b6c62d9fe086d202c3a4b094d58"
+      },
+      {
+        "path": "/Users/johnlee/.codex/skills/datalad/SKILL.md",
+        "mode": "sha256",
+        "sha256": "56d1072c2a157a5bde2df3b1698bf545896e02d6f216cd4675bb7fe2b978d855"
+      },
+      {
+        "path": "/Users/johnlee/.codex/skills/datalad/agents/openai.yaml",
+        "mode": "sha256",
+        "sha256": "bf35236860499c3109d462b28da3183abbd22e1d2b3488b74f5b1fcd284f2948"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/run.py",
+        "mode": "sha256",
+        "sha256": "c3e9ea39eb8d31eb587d0126c599342d9df10741f69b98ce3bc1a6929f213ef7"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/SKILL.md",
+        "mode": "sha256",
+        "sha256": "2e383ed3a67241195466e91375284951225451221dec69dc537277a004c47ff6"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/agents/openai.yaml",
+        "mode": "sha256",
+        "sha256": "1c3686aee92d6e0c3a03b2ec4f3c947a6a4bab4c56fb55a509bc659cd8fe9c29"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/run.py",
+        "mode": "sha256",
+        "sha256": "c3e9ea39eb8d31eb587d0126c599342d9df10741f69b98ce3bc1a6929f213ef7"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/test_run.py",
+        "mode": "sha256",
+        "sha256": "bbdb20a217aa41a275cd3d5694b0de3ebcbd429504eb867fe83f630f862f649d"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/SKILL.md",
+        "mode": "sha256",
+        "sha256": "bb785ffbfdcab32a32c8ec8aadd4fb484ee59cbe90edd5dc55d345eb3c0dd7ed"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/agents/openai.yaml",
+        "mode": "sha256",
+        "sha256": "dd9e354a78322173231f545fa49bbbcb0027a9fb58b1edda9649cf89d5852b5b"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/references/workflow.md",
+        "mode": "sha256",
+        "sha256": "53e6e7acd2a96fcc1dd1af512343d8c76136ff5c756770d69d06c4dd028d795f"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/SKILL.md",
+        "mode": "sha256",
+        "sha256": "ec29718af2fb7cb31c1376f0d2c4e3ef5b772cb5f00b2361ba3d2bc910ad8235"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/agents/openai.yaml",
+        "mode": "sha256",
+        "sha256": "b35277f51636bf08f82bba598488ef89b37c91f3423628e9fca112576bf44a00"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/publication.md",
+        "mode": "sha256",
+        "sha256": "6023207c8fc2f9e786154c35277d743985059137b263c03b2338240d0bde792e"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/reporting.md",
+        "mode": "sha256",
+        "sha256": "83d614121cedb4417503ae6473d6f5ec598cc439b4fd6c1bf2b1ea92ce86b491"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v1.schema.json",
+        "mode": "redacted_json",
+        "sha256": "8c89556ac9b9967e177ffef673c0d09b3f15dbd82e41b173bcf4660eb2406fd9"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v2.schema.json",
+        "mode": "redacted_json",
+        "sha256": "08db6e21f3310df72ef13b1d8ca20b9a04bfa0d30a5892146d91052d97546764"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/observation-v2.schema.json",
+        "mode": "redacted_json",
+        "sha256": "37ee3c96b39c8fc6b2471e47553a5f2afccb5e6b0cfc30c96a1cc4286207297f"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/capture.py",
+        "mode": "sha256",
+        "sha256": "c888836574d35b38c140520530641dc048b7609b73543179e7dbc3a80dd7f430"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/feedback.py",
+        "mode": "sha256",
+        "sha256": "c1b97c575597ffe69f9eac1abf245b3d54ee5e5e3742c514b5b406a649f1406c"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/observation_store.py",
+        "mode": "sha256",
+        "sha256": "1525048967d57600f78723492a3729375bb3872385bfd720fcee088ef105d793"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/usage.py",
+        "mode": "sha256",
+        "sha256": "b488564275ebab4a0e2dd35c15f9631cfc6b57ed7266a2dc5358e55288b08832"
+      },
+      {
+        "path": "/Users/johnlee/.local/share/uv/tools/con-duct/bin/duct",
+        "mode": "sha256",
+        "sha256": "87a121c5f4aadfef71abd18b7b9599e9709f5b9b4906e64627a6d2dbdad2d27f"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/SKILL.md",
+        "mode": "sha256",
+        "sha256": "2c7dc2327f1a33113429ab40b6fc26d4175bd9ed8257e84bd3dd2f8a0b06be7d"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/agents/openai.yaml",
+        "mode": "sha256",
+        "sha256": "63c947f223861a26b8a475074bd6587dbd1d92ea315c08672caf1767ecdffb87"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/resolve.sh",
+        "mode": "sha256",
+        "sha256": "7b99c2dbe34bd90cbd5cf2ac54525e7fbf855f081b0c451733755cbfefc55960"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/runtime_context.py",
+        "mode": "sha256",
+        "sha256": "2d2389e4ea1dd67782e518d9d3a9bde8f6a536b81804430bac157603573d9a74"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/test_runtime_context.py",
+        "mode": "sha256",
+        "sha256": "7dff5ee8bcbc1fe23c09b4f36281de7beb39a925f110bba5c3962a6e3f66d0a2"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/SKILL.md",
+        "mode": "sha256",
+        "sha256": "2bdb551cea8dbc9d167fc39b8c1dcd996d71a76fe079ec3a0f640b93081ddb85"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/scripts/sync.py",
+        "mode": "sha256",
+        "sha256": "04d802a48c5638be4a6b397c97cd77d6885e9432ac3387a199fece3a3366f7fe"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.codex/hooks.json",
+        "mode": "redacted_json",
+        "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.entire/settings.json",
+        "mode": "redacted_json",
+        "sha256": "0b2e70da641caa93348f12ac2bc080ce54b7d3f1215bc139aa9f6c8943a9807a"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/datalad",
+        "mode": "sha256",
+        "sha256": "bdf97dfb33f3bd88209c7ccf0e918639e659f1471f6a28eb5f2ff46af753e3c6"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git",
+        "mode": "sha256",
+        "sha256": "1569b36b24143daf794d6dda13ba2dffbc39ddb6673ac05702bbac92334a4402"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git-annex",
+        "mode": "sha256",
+        "sha256": "b7e9d8af0281a627c5749bb171c2b4ffef1168234a0455831762167dd13e1346"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/python3.13",
+        "mode": "sha256",
+        "sha256": "dd02c2c899efc25689bad09a3e84de1444338bbd3134f3a1b3633a547d79b27e"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/pixi.lock",
+        "mode": "sha256",
+        "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+        "mode": "redacted_toml",
+        "sha256": "5dc743e18d0aabba87455db51e5d7b9b4456ac35fb509d45b1704fc22a9bb212"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/allocation.json",
+        "mode": "redacted_json",
+        "sha256": "ced18b1e40978efb5c47730614f9f0e7bbac7cc015206aba2fb5a5376a45f87c"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/build_manifest.py",
+        "mode": "sha256",
+        "sha256": "69903ee98a44b059f9ed84e7191f1b05083ea4bef1d699232a49c03037ce628d"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/prepare_worker.py",
+        "mode": "sha256",
+        "sha256": "066df4f0c0861a11562a9d356fdcf57d38e18eaa8e4e8bb91dbec180b59d5c31"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/run_one.py",
+        "mode": "sha256",
+        "sha256": "bf0dce85af971351141ff4717cc4f03dee24ba936f2fad4771b152bbbdcc00e1"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/verify_capture.py",
+        "mode": "sha256",
+        "sha256": "9bd385de9ae485ad596cb1fbe30d02d6d010dd1bb6c1e02c09a58921af955282"
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/protocol.json",
+        "mode": "redacted_json",
+        "sha256": "92f4628a09d1810776f7775679cbceed09c3462e9f8abb48b2c44a386598d9f8"
+      },
+      {
+        "path": "/opt/homebrew/Caskroom/entire/0.11.4/entire",
+        "mode": "sha256",
+        "sha256": "74c008fe881a3c06600f78afdd978c18864e67a11b10f4d6bbfe21c3f9104f2f"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/git/2.55.0/bin/git",
+        "mode": "sha256",
+        "sha256": "5f0351f649aa1321345229d5256fc8043517778b134a3b4571ecdc3818f124b2"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/pixi/0.81.0/bin/pixi",
+        "mode": "sha256",
+        "sha256": "e671115a49b9f886273a5d7ef19c2d4977e261d378e2340608658146eb2fb479"
+      },
+      {
+        "path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+        "mode": "sha256",
+        "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+      }
+    ],
+    "tool_identities": [
+      {
+        "file": {
+          "path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+          "mode": "sha256",
+          "sha256": "50ab38ba21d0d9f8346f32f41848382f15b556190f3c7a07e885a4fb73e379c8"
+        },
+        "version_status": "reported",
+        "version": "codex-cli 0.162.0-alpha.17.2",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/Users/johnlee/.local/share/uv/tools/con-duct/bin/duct",
+          "mode": "sha256",
+          "sha256": "87a121c5f4aadfef71abd18b7b9599e9709f5b9b4906e64627a6d2dbdad2d27f"
+        },
+        "version_status": "reported",
+        "version": "con-duct run 0.22.0",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/datalad",
+          "mode": "sha256",
+          "sha256": "bdf97dfb33f3bd88209c7ccf0e918639e659f1471f6a28eb5f2ff46af753e3c6"
+        },
+        "version_status": "reported",
+        "version": "datalad 1.7.1",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git",
+          "mode": "sha256",
+          "sha256": "1569b36b24143daf794d6dda13ba2dffbc39ddb6673ac05702bbac92334a4402"
+        },
+        "version_status": "reported",
+        "version": "git version 2.56.0",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git-annex",
+          "mode": "sha256",
+          "sha256": "b7e9d8af0281a627c5749bb171c2b4ffef1168234a0455831762167dd13e1346"
+        },
+        "version_status": "unavailable",
+        "version": null,
+        "version_exit_code": 1
+      },
+      {
+        "file": {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/python3.13",
+          "mode": "sha256",
+          "sha256": "dd02c2c899efc25689bad09a3e84de1444338bbd3134f3a1b3633a547d79b27e"
+        },
+        "version_status": "reported",
+        "version": "Python 3.13.16",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/opt/homebrew/Caskroom/entire/0.11.4/entire",
+          "mode": "sha256",
+          "sha256": "74c008fe881a3c06600f78afdd978c18864e67a11b10f4d6bbfe21c3f9104f2f"
+        },
+        "version_status": "reported",
+        "version": "Entire CLI 0.11.4\nGo version: go1.27.1\nOS/Arch: darwin/arm64",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/opt/homebrew/Cellar/git/2.55.0/bin/git",
+          "mode": "sha256",
+          "sha256": "5f0351f649aa1321345229d5256fc8043517778b134a3b4571ecdc3818f124b2"
+        },
+        "version_status": "reported",
+        "version": "git version 2.55.0",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/opt/homebrew/Cellar/pixi/0.81.0/bin/pixi",
+          "mode": "sha256",
+          "sha256": "e671115a49b9f886273a5d7ef19c2d4977e261d378e2340608658146eb2fb479"
+        },
+        "version_status": "reported",
+        "version": "pixi 0.81.0",
+        "version_exit_code": 0
+      },
+      {
+        "file": {
+          "path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+          "mode": "sha256",
+          "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+        },
+        "version_status": "reported",
+        "version": "Python 3.14.7",
+        "version_exit_code": 0
+      }
+    ],
+    "instruction_inventory": [
+      "/Users/johnlee/.codex/AGENTS.md",
+      "/Users/johnlee/.codex/config.toml",
+      "/Users/johnlee/.codex/hooks.json",
+      "/Users/johnlee/.codex/rules/default.rules"
+    ],
+    "common_skill_sources": [
+      {
+        "directory": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct",
+        "files": [
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/SKILL.md",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/agents/openai.yaml",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/run.py",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/test_run.py"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance",
+        "files": [
+          "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/SKILL.md",
+          "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/agents/openai.yaml",
+          "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/resolve.sh",
+          "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/runtime_context.py",
+          "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/test_runtime_context.py"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/.codex/skills/datalad",
+        "files": [
+          "/Users/johnlee/.codex/skills/datalad/SKILL.md",
+          "/Users/johnlee/.codex/skills/datalad/agents/openai.yaml"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop",
+        "files": [
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/SKILL.md",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/agents/openai.yaml",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/references/workflow.md"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback",
+        "files": [
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/SKILL.md",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/agents/openai.yaml",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/publication.md",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/reporting.md",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v1.schema.json",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v2.schema.json",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/observation-v2.schema.json",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/capture.py",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/feedback.py",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/observation_store.py",
+          "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/usage.py"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/.agents/skills/private-workshop-memory",
+        "files": [
+          "/Users/johnlee/.agents/skills/private-workshop-memory/SKILL.md",
+          "/Users/johnlee/.agents/skills/private-workshop-memory/scripts/check_transport.py"
+        ]
+      },
+      {
+        "directory": "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup",
+        "files": [
+          "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/SKILL.md",
+          "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/scripts/sync.py"
+        ]
+      }
+    ],
+    "actual_research_skill_use": "Determine from each native worker record after execution; this list pins shared control sources only"
+  },
+  "allocation": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/allocation.json",
+    "mode": "sha256",
+    "sha256": "566123e2cd5c89c28118989bfc8de7e34c39bdeecd3512c6a3d32f9f47ce88ca"
+  },
+  "treatment_bundle": {
+    "repository": "/Users/johnlee/code/CON/stamped-ai-research/skills",
+    "commit": "8f3acaa4a7c353b6c8ea6928c278478f95328fc5",
+    "skills": {
+      "align-with-stamped-principles": {
+        "path": "align-with-stamped-principles",
+        "tree_sha256": "786a9e25a6b3e08634b3a4511171684ee19166c6b8609657d4212c8e816876e4"
+      },
+      "assess-alignment-with-stamped-principles": {
+        "path": "assess-alignment-with-stamped-principles",
+        "tree_sha256": "a8e26ff0e8583d107dad32e97116e921cd61e0b22acd157a7bc02e2dca1c2d16"
+      },
+      "create-repronim-stamped-project": {
+        "path": "create-repronim-stamped-project",
+        "tree_sha256": "0ccb9d4c96e38b6a90fbdd0a3597a9052430c3d6fe523a49a36ab52e7f09bf66"
+      },
+      "create-stamped-project": {
+        "path": "create-stamped-project",
+        "tree_sha256": "5b8a171b3853d427c3edda0ce867376a6d3f6fefd5c20775d65e6b690cc2e7a9"
+      },
+      "do-full-research-loop": {
+        "path": "do-full-research-loop",
+        "tree_sha256": "a398909d20dd7ff914f06f5c9f367909bc4c237ef42a7b582ba2aa75c2501315"
+      }
+    }
+  },
+  "stages": {
+    "01": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+      "scientific_base_commit": "8777706d546d968d1a7427ab9efc710fcdd47523",
+      "source_tree": "2f7b04dd8382986c1d671bbbe342d3a67110047d",
+      "prompt": {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/TASK.md",
+        "mode": "sha256",
+        "sha256": "a02ba8757a2c2bea715431cf3a38371de920e9d2aac0dc529519e1e8a4500ef5"
+      },
+      "input_files": [
+        {
+          "path": ".codex/hooks.json",
+          "sha256": "d0ed5dd1cf5d2d269abfdb6c00161b406d0233b7a4bf1ff72f288405b4959b10"
+        },
+        {
+          "path": "SOURCE.json",
+          "sha256": "b57159d43ba30876d8b97f1d4ad109fd962b2da3ebc767e514ba2e69ee565564"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "a02ba8757a2c2bea715431cf3a38371de920e9d2aac0dc529519e1e8a4500ef5"
+        },
+        {
+          "path": "inputs/ds000005/README",
+          "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+        },
+        {
+          "path": "inputs/ds000005/dataset_description.json",
+          "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+        },
+        {
+          "path": "pixi.lock",
+          "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+        },
+        {
+          "path": "pixi.toml",
+          "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+        },
+        {
+          "path": "references/stamped/SOURCES.json",
+          "sha256": "de8af39062c423e4401def1ab53788b6b580e7231ad63d639f639bb784103013"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+          "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist.json",
+          "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+        },
+        {
+          "path": "references/stamped/paper/main.tex",
+          "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+        },
+        {
+          "path": "references/stamped/principles/stamped-principles.json",
+          "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+        }
+      ],
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-baseline.gate.json",
+            "mode": "sha256",
+            "sha256": "5e8c501020390afe3e0fa6d505df21dcfc245843007e6aa753720b094e3e0869"
+          }
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-treatment.gate.json",
+            "mode": "sha256",
+            "sha256": "8f3b55d24baf640d2d5b6a4489a273dce14fbccd53e2ad778fb3aa25022daa80"
+          }
+        }
+      },
+      "worker_controls": {
+        "baseline": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ],
+        "treatment": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ]
+      }
+    },
+    "02": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt",
+      "scientific_base_commit": "24e4de3820271869ff03cf0dd38b4faaa48b1dd1",
+      "source_tree": "6d81cd98600cc1c27049549aee0e1f6d73705f3f",
+      "prompt": {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt/TASK.md",
+        "mode": "sha256",
+        "sha256": "dedc74c5311bc764bfd7d390b7e8d08b9e4d701d0276f688c5daf263ddb6b9b3"
+      },
+      "input_files": [
+        {
+          "path": ".codex/hooks.json",
+          "sha256": "d0ed5dd1cf5d2d269abfdb6c00161b406d0233b7a4bf1ff72f288405b4959b10"
+        },
+        {
+          "path": "SOURCE.json",
+          "sha256": "b2ac7d1bf8f1b15aa5eef48a4857d15ffe354401af1f6cedddd3b3d63b3f1e93"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "dedc74c5311bc764bfd7d390b7e8d08b9e4d701d0276f688c5daf263ddb6b9b3"
+        },
+        {
+          "path": "inputs/ds000005/README",
+          "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+        },
+        {
+          "path": "inputs/ds000005/dataset_description.json",
+          "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "f6d928071dbb18cacb67c8ecc777ea75b4b401d857584e51f8f3c5201c129328"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "3c70043803eaea17ea2bd51cddca46f31e93b19d7615f3db63138f6908f62dbe"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "ca2a79b9ee1475dfbe2840564091f5c5a4753aa1b28ecddf856250a5cbc68176"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "5fc5fb61abe84d49cc9c23bda96757ba45d3a77ceb88a9bae844e950c8f8b15e"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "c83492a23588f56136e2916ba0d7d51a394155a81934294c60301cd13fd335af"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "d819e5f27c544525cc51a9b61725d63a92a37ea10f4190c732eea599e52c61c5"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "42a1b81972d420501d28aa38d76975ff0d79abe1097aad3007edf43a3e30493b"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "46576c9094ce064451e46aa93a6ea9e0d147f7b8a2c097a64c8afe63b32d4875"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bcce33c8872ed4feaf4d2116944bc2b49fc2075269cb54b37a43514029e72144"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "d9a296720eac086103a9efda49f844d035482e8fe5c95379cc4958f6e2b24dfa"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "ad10b6d1f1d6f33cd3452b852f62dee1c2416b1899e86fd5a527ba9399d60947"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "a32a2b9ea829b523de62ad46e4ff9f71139165fbbe8a5dd4bdf1766339d990a6"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "7a1d621bb17c7f6488cde46e1f00620331b50959e1dd3ea886f2aba4a6273866"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "124875f24b4752c38164df988f8fc4355c7a3b635416d584216fba076cc6812d"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "c6829a9b5df07c407127cd15449b41c375c35a77ed6b1c86fdce585e7da46df5"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "f0add01995c49919fb8d00d5bed287aadae8b111228db56f3ea7f0c0e7649142"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "e37df3e2cc5f25d97a04ebb0b7ecfffa722b5f7368539e869c7a9c041dfff3be"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "389ac681b82059cc68f6d7a6f7498d4cf909a82f5ddcb0249179b86db0d25ce7"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "b7823b3d8815d729c15717235fa74dd8766fa9603bf7436616c5510db40d51b1"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "bf7339661d8e7f81cf0100ae6c792b3f9c32ac0351a6e9bfedbb11211d58cf1c"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "14813c9503852c27f7baeeafed05acf327d7084ffa78a38d358d1c235c004654"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "b83f455313fd0a828a4afafca3632cab4e9da8acaecae309aea61f8ea7035793"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "18ca07f306d3aebfdd3e0e61a97b2b95fa4f78fa539eada8281a92c1e26388db"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "8bc71c65e0d0c8778ee28c8ec194920e0ab96ad04ec16005f7e49c8471a504f0"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "789905e20009704f82fa02e634fe5464d8427709b534f3d40372a16ad4557fb3"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "2ffd0e0af216a0ab25d90cbe5894d34e9bf41ec4257b3aa99e15fd611be5342c"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bccc9e67aa4654b9536edc7a4d1119607b6e1d6bb1cee65b2041e80979146c2f"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "48b7ecdc1425f5d0e7c63319a2e41fdb5bcae62c84fa8c59757a8338f29f3f35"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "d39f9b109d2c2b34687820dc64f19f645cb63806771d4797aef7bd040a476c68"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "65f28df7a882742b10ee492e605e53769de734838ac46db05d00a585f0900e9e"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "28b91c49422cb40857a7773641df3e1337a33aca5e072b3a2b1baf18dc53aebc"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "9ff69a5cf6767bd8a6bd0494d140060f22561030f27bcc4afe026dcf706ce360"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bd3475eda8ef0bfd5df18668eb230dcb8d7aa72317f047a3cc22f17e5cd0d22e"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "334fa9d610e5abea303c5b2bc00e0bccd0429d71a27efdf33b6b6e30f549177e"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "ada556f4a4c9e9020726bfeab7bf323b13398ba67c1e902a85a7ea52e31af518"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "5e5bc44d1065b32e4bac33c71d02fcbf066eeffa852ea8059ec4feea49d407c2"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "12b00cb702352b414ba7c8ba3811a3b42c61912e15b8109eb1599e66bbd51f3c"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "a3c0826f03c5843aed6614a166defad089644b09d561e9ad61020e7c10c95b38"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "8c4e38dcc0f65beeb3bbaff028ab0eea01e67498d8fc3fdb7ab467821caabdb8"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "05cc25381b634c9c3f8b11ca62338ded6426556fbc0384de2dd334e64eac7477"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "02a741e6e3b55958c12cbeeee396505accd21eb589bab81155e1b016fbe8e033"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "15dda1844fdd2b81c651bd1efa855dab860586d4ddacb25409bd1adafa9a3560"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "af578bf4f2011bcccece712a324b7f62bb45b46f53e3b77cb354d939e4d857dc"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "312d67ff625e68c9d3adc016baca3c06001bed5f89aef4fc585ee0b4b021bb30"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "2b9fd1add0175743f6a4a9b5121b2485e4e10d39ab50e257e45e7ef9f2517fb1"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "5a56da92d62c44218d966d1478508fe3858f2f1abed683b9d34b70dc95c9db7b"
+        },
+        {
+          "path": "pixi.lock",
+          "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+        },
+        {
+          "path": "pixi.toml",
+          "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+        },
+        {
+          "path": "references/stamped/SOURCES.json",
+          "sha256": "de8af39062c423e4401def1ab53788b6b580e7231ad63d639f639bb784103013"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+          "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist.json",
+          "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+        },
+        {
+          "path": "references/stamped/paper/main.tex",
+          "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+        },
+        {
+          "path": "references/stamped/principles/stamped-principles.json",
+          "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+        }
+      ],
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-baseline.gate.json",
+            "mode": "sha256",
+            "sha256": "a1ec43212113d6401738c6a2088d1d4c80e54104d979f01293be64a5f4fd3e7c"
+          }
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-treatment.gate.json",
+            "mode": "sha256",
+            "sha256": "02b5c4798c15e3961e7ce9b42a4edceaef568f736d86001199b54fbdba92046c"
+          }
+        }
+      },
+      "worker_controls": {
+        "baseline": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ],
+        "treatment": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ]
+      }
+    },
+    "03": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+      "scientific_base_commit": "e5fed631034d20634fcb37fff7f3760d633b40ef",
+      "source_tree": "8095a41482f25a5777f436daedefb0205f5e1ef0",
+      "prompt": {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity/TASK.md",
+        "mode": "sha256",
+        "sha256": "417c2b7e22ca5e12debbacda817b8d9d9c616b936ccd6cca4f69fef70c8f42af"
+      },
+      "input_files": [
+        {
+          "path": ".codex/hooks.json",
+          "sha256": "d0ed5dd1cf5d2d269abfdb6c00161b406d0233b7a4bf1ff72f288405b4959b10"
+        },
+        {
+          "path": "SOURCE.json",
+          "sha256": "ab09572896f8cbb0f89996d7766ad868ffce4f90ebaa233a9e9088c36333d500"
+        },
+        {
+          "path": "TASK.md",
+          "sha256": "417c2b7e22ca5e12debbacda817b8d9d9c616b936ccd6cca4f69fef70c8f42af"
+        },
+        {
+          "path": "inputs/ds000005/README",
+          "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+        },
+        {
+          "path": "inputs/ds000005/dataset_description.json",
+          "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "f6d928071dbb18cacb67c8ecc777ea75b4b401d857584e51f8f3c5201c129328"
+        },
+        {
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "3c70043803eaea17ea2bd51cddca46f31e93b19d7615f3db63138f6908f62dbe"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "ca2a79b9ee1475dfbe2840564091f5c5a4753aa1b28ecddf856250a5cbc68176"
+        },
+        {
+          "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "5fc5fb61abe84d49cc9c23bda96757ba45d3a77ceb88a9bae844e950c8f8b15e"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "c83492a23588f56136e2916ba0d7d51a394155a81934294c60301cd13fd335af"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "d819e5f27c544525cc51a9b61725d63a92a37ea10f4190c732eea599e52c61c5"
+        },
+        {
+          "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "42a1b81972d420501d28aa38d76975ff0d79abe1097aad3007edf43a3e30493b"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "46576c9094ce064451e46aa93a6ea9e0d147f7b8a2c097a64c8afe63b32d4875"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bcce33c8872ed4feaf4d2116944bc2b49fc2075269cb54b37a43514029e72144"
+        },
+        {
+          "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "d9a296720eac086103a9efda49f844d035482e8fe5c95379cc4958f6e2b24dfa"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "ad10b6d1f1d6f33cd3452b852f62dee1c2416b1899e86fd5a527ba9399d60947"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "a32a2b9ea829b523de62ad46e4ff9f71139165fbbe8a5dd4bdf1766339d990a6"
+        },
+        {
+          "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "7a1d621bb17c7f6488cde46e1f00620331b50959e1dd3ea886f2aba4a6273866"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "124875f24b4752c38164df988f8fc4355c7a3b635416d584216fba076cc6812d"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "c6829a9b5df07c407127cd15449b41c375c35a77ed6b1c86fdce585e7da46df5"
+        },
+        {
+          "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "f0add01995c49919fb8d00d5bed287aadae8b111228db56f3ea7f0c0e7649142"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "e37df3e2cc5f25d97a04ebb0b7ecfffa722b5f7368539e869c7a9c041dfff3be"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "389ac681b82059cc68f6d7a6f7498d4cf909a82f5ddcb0249179b86db0d25ce7"
+        },
+        {
+          "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "b7823b3d8815d729c15717235fa74dd8766fa9603bf7436616c5510db40d51b1"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "bf7339661d8e7f81cf0100ae6c792b3f9c32ac0351a6e9bfedbb11211d58cf1c"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "14813c9503852c27f7baeeafed05acf327d7084ffa78a38d358d1c235c004654"
+        },
+        {
+          "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "b83f455313fd0a828a4afafca3632cab4e9da8acaecae309aea61f8ea7035793"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "18ca07f306d3aebfdd3e0e61a97b2b95fa4f78fa539eada8281a92c1e26388db"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "8bc71c65e0d0c8778ee28c8ec194920e0ab96ad04ec16005f7e49c8471a504f0"
+        },
+        {
+          "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "789905e20009704f82fa02e634fe5464d8427709b534f3d40372a16ad4557fb3"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "2ffd0e0af216a0ab25d90cbe5894d34e9bf41ec4257b3aa99e15fd611be5342c"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bccc9e67aa4654b9536edc7a4d1119607b6e1d6bb1cee65b2041e80979146c2f"
+        },
+        {
+          "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "48b7ecdc1425f5d0e7c63319a2e41fdb5bcae62c84fa8c59757a8338f29f3f35"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "d39f9b109d2c2b34687820dc64f19f645cb63806771d4797aef7bd040a476c68"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "65f28df7a882742b10ee492e605e53769de734838ac46db05d00a585f0900e9e"
+        },
+        {
+          "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "28b91c49422cb40857a7773641df3e1337a33aca5e072b3a2b1baf18dc53aebc"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "9ff69a5cf6767bd8a6bd0494d140060f22561030f27bcc4afe026dcf706ce360"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "bd3475eda8ef0bfd5df18668eb230dcb8d7aa72317f047a3cc22f17e5cd0d22e"
+        },
+        {
+          "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "334fa9d610e5abea303c5b2bc00e0bccd0429d71a27efdf33b6b6e30f549177e"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "ada556f4a4c9e9020726bfeab7bf323b13398ba67c1e902a85a7ea52e31af518"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "5e5bc44d1065b32e4bac33c71d02fcbf066eeffa852ea8059ec4feea49d407c2"
+        },
+        {
+          "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "12b00cb702352b414ba7c8ba3811a3b42c61912e15b8109eb1599e66bbd51f3c"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "a3c0826f03c5843aed6614a166defad089644b09d561e9ad61020e7c10c95b38"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "8c4e38dcc0f65beeb3bbaff028ab0eea01e67498d8fc3fdb7ab467821caabdb8"
+        },
+        {
+          "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "05cc25381b634c9c3f8b11ca62338ded6426556fbc0384de2dd334e64eac7477"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "02a741e6e3b55958c12cbeeee396505accd21eb589bab81155e1b016fbe8e033"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "15dda1844fdd2b81c651bd1efa855dab860586d4ddacb25409bd1adafa9a3560"
+        },
+        {
+          "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "af578bf4f2011bcccece712a324b7f62bb45b46f53e3b77cb354d939e4d857dc"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv",
+          "sha256": "312d67ff625e68c9d3adc016baca3c06001bed5f89aef4fc585ee0b4b021bb30"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv",
+          "sha256": "2b9fd1add0175743f6a4a9b5121b2485e4e10d39ab50e257e45e7ef9f2517fb1"
+        },
+        {
+          "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv",
+          "sha256": "5a56da92d62c44218d966d1478508fe3858f2f1abed683b9d34b70dc95c9db7b"
+        },
+        {
+          "path": "pixi.lock",
+          "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+        },
+        {
+          "path": "pixi.toml",
+          "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+        },
+        {
+          "path": "references/stamped/SOURCES.json",
+          "sha256": "de8af39062c423e4401def1ab53788b6b580e7231ad63d639f639bb784103013"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+          "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+        },
+        {
+          "path": "references/stamped/checklist/stamped-checklist.json",
+          "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+        },
+        {
+          "path": "references/stamped/paper/main.tex",
+          "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+        },
+        {
+          "path": "references/stamped/principles/stamped-principles.json",
+          "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+        }
+      ],
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-baseline.gate.json",
+            "mode": "sha256",
+            "sha256": "20e04a94aea63329c65f1ebc0612c9f01ba4b59bda9564ecc7f1f2c5e78f06c1"
+          }
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment",
+          "gate": {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-treatment.gate.json",
+            "mode": "sha256",
+            "sha256": "236b5b2184287cbc1a6eb915192d04c3b933524ce3ca6a6a4d50ffd62e705a91"
+          }
+        }
+      },
+      "worker_controls": {
+        "baseline": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ],
+        "treatment": [
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.codex/hooks.json",
+            "mode": "redacted_json",
+            "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.entire/settings.local.json",
+            "mode": "redacted_json",
+            "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/commit-msg",
+            "mode": "sha256",
+            "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/post-commit",
+            "mode": "sha256",
+            "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/post-rewrite",
+            "mode": "sha256",
+            "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/pre-push",
+            "mode": "sha256",
+            "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/prepare-commit-msg",
+            "mode": "sha256",
+            "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+          },
+          {
+            "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/.git/hooks/prepare-commit-msg.pre-entire",
+            "mode": "sha256",
+            "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+          }
+        ]
+      }
+    }
+  },
+  "agent_launched": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "task_id": null,
+  "project_id": "mixed-03-baseline-dd10a809a3eea605",
+  "project_root": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "working_directory": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "started_at": "2026-10-14T22:52:45.244648+00:00",
+  "git_commit": "ce4b915ab5a72ac287245ff110dca3adc56221c3",
+  "git_dirty": false,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-14T23:04:37.190010+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "head": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+  "datalad_version": "1.7.1",
+  "parser_source": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py",
+    "sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3",
+    "function_sha256": "f3ce4d4406fd27d54c795fb1c9b815af0de505ce8bf04c94d9661820322bc762",
+    "starting_line": 731
+  },
+  "commit_message": {
+    "sha256": "bf14eea44497ba8e37bbc2e032b37573b23c7014c9c709997d74166a2d29daaa",
+    "bytes": 852,
+    "subject": "feat: record mixed-gambles RT sensitivity results",
+    "datalad_marker_offset": -1
+  },
+  "observed_native_parser_result": {
+    "message": null,
+    "record": null
+  },
+  "hypothetical_prefix_test": {
+    "prefix": "[DATALAD RUNCMD] ",
+    "synthetic_message_sha256": "b5b95ec71a6aa56b9509d49afef50a5090bec68dbef71bd491555739e64891da",
+    "parsed_record_matches_retained_execution_record": true,
+    "is_actual_historical_message": false
+  },
+  "retained_record": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/reports/datalad-provenance.json",
+    "sha256": "938f833e6fcc98a38f1d5791323cc49286e3de11fdb9cccda528300fd047defd",
+    "command": "python code/analyze_rt.py && python code/check_rt.py && python code/verify_replay.py"
+  },
+  "worker_state_before": {
+    "head": "f2c882533d937640a1920c4b4e697e5a7bf7bf1ee587a36359d9b31f102cfdaf",
+    "status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index": "a14fff7121608e0c0d5f086e639f43b38ede182e0add1ef49d1b295e2a3179fa"
+  },
+  "worker_state_after": {
+    "head": "f2c882533d937640a1920c4b4e697e5a7bf7bf1ee587a36359d9b31f102cfdaf",
+    "status": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "index": "a14fff7121608e0c0d5f086e639f43b38ede182e0add1ef49d1b295e2a3179fa"
+  },
+  "worker_state_unchanged": true,
+  "conclusion": "Installed DataLad 1.7.1 does not recognize the actual normalized HEAD as a native run record. The inline JSON remains intact and matches the retained execution record. A hypothetical marker-prefix restoration parses that record; no restoration was applied. Native rerun, command replay, and scientific correctness were not executed or assessed by this check."
+}

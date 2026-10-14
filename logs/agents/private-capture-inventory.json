@@ -1,0 +1,19 @@
+{
+  "reason": "Raw native command events embed user-private Workshop setup guidance. Full original bytes are retained locally; these payloads are intentionally not uploaded publicly. Public results, evaluations, native reference receipts and computational captures remain available.",
+  "files": [
+    {
+      "path": "logs/agents/baseline/codex-events.jsonl",
+      "key": "SHA256E-s202168--ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "bytes": 202168,
+      "sha256": "ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "public_payload_upload": false
+    },
+    {
+      "path": "logs/agents/treatment/codex-events.jsonl",
+      "key": "SHA256E-s333705--64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+      "bytes": 333705,
+      "sha256": "64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+      "public_payload_upload": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": "Python standard library only",
+  "environment_specification": "pixi.toml and pixi.lock; no new environment constructed",
+  "implementation": "CPython",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.16 | packaged by conda-forge | (main, Oct  7 2026, 00:20:42) [Clang 21.1.8 ]"
+}

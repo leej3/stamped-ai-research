@@ -1,0 +1,3 @@
+Created the exact file bytes using native `apply_patch` and committed only `.setup/native-capture-probe.txt` with freshly resolved provenance trailers. Hooks preserved; no push.
+
+Commit: `ce4b915ab5a72ac287245ff110dca3adc56221c3`

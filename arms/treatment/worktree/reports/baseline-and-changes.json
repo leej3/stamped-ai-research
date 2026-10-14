@@ -1,0 +1,51 @@
+{
+  "A": {
+    "baseline": "No study-specific executable entry point.",
+    "gap": "Evidence is for this host and selected scientific outputs, not automatic narrative regeneration.",
+    "improvement": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+    "judgment": "demonstrated",
+    "next_step": "Have another investigator execute code/replay.sh on the pinned object."
+  },
+  "D": {
+    "baseline": "Source retrieval route and terms documented.",
+    "gap": "Offline scope leaves persistent third-party retrieval and analysis licensing untested.",
+    "improvement": "Source URL, revision, source PDDL terms and requested attribution preserved.",
+    "judgment": "unknown",
+    "next_step": "Establish license and archive, then test recipient retrieval."
+  },
+  "E": {
+    "baseline": "No disposable study replay observed.",
+    "gap": "Existing base interpreter reused; host and full tool environment not rebuilt.",
+    "improvement": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+    "judgment": "partial",
+    "next_step": "Rebuild the declared runtime in a fresh environment under future authorization."
+  },
+  "M": {
+    "baseline": "Input subdataset and environment separated; analysis module absent.",
+    "gap": "Independent module replacement was not tested.",
+    "improvement": "Immutable upstream subdataset, code with explicit input/output interface, derivatives and reports are separate.",
+    "judgment": "demonstrated",
+    "next_step": "Retest interface when deliberately updating inputs."
+  },
+  "P": {
+    "baseline": "Supplied macOS ARM64 Pixi specification existed.",
+    "gap": "Only macOS 27.0.1 ARM64 tested; full locked environment reconstruction unattempted.",
+    "improvement": "Relative analysis paths, Python standard library, Pixi files and observed software/host versions retained.",
+    "judgment": "partial",
+    "next_step": "Test declared runtime on an additional platform when authorized."
+  },
+  "S": {
+    "baseline": "Upstream identity was present; code and executable workflow absent.",
+    "gap": "Module licenses and external environment artifacts are not all bundled.",
+    "improvement": "Source events/metadata, code, input manifest, outputs and environment files are present locally.",
+    "judgment": "partial",
+    "next_step": "Clarify code licensing and verify archived environment retrieval."
+  },
+  "T": {
+    "baseline": "Pinned input and environment present; transformations absent.",
+    "gap": "Native/outer capture content uninspected; DataLad subject convention limits automatic discovery.",
+    "improvement": "Input hashes, code commit, result commit, DataLad run block, software versions and output hashes retained.",
+    "judgment": "partial",
+    "next_step": "Preserve runner capture links and use explicit replay; resolve commit convention for future DataLad rerun."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-14T23:15:33.161452+00:00",
+  "authentication": "none",
+  "cache": "fresh HTTP response; no local object reuse",
+  "all_passed": true,
+  "files": [
+    {
+      "path": "annex-content/treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+      "key": "SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+      "local_bytes": 1404481,
+      "local_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+      "http_status": 200,
+      "final_url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+      "received_bytes": 1404481,
+      "received_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+      "passed": true
+    }
+  ]
+}

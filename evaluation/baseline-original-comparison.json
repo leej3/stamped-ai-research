@@ -1,0 +1,21 @@
+{
+  "absolute_tolerance_ms": 1e-06,
+  "all_check_results_sha256": "76dc2994be532693fdf579d95da022bc6ac77a3b80b91717d17439cf76b4755b",
+  "check_count": 2042,
+  "extraction_map": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-original-extraction-map.json",
+    "sha256": "15cf1434d5ca0b623a999391e1808f53345151ff72233f5f584ab44850b0a4a6"
+  },
+  "failed_checks": [],
+  "passed": true,
+  "passed_count": 2042,
+  "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads.",
+  "reference": {
+    "path": "research/mixed-gambles-design/evaluator/reference-results.json",
+    "sha256": "39e6cb0af0461a1cd3ae2ae563dcc1390024d71bf27a1483433fee9faacb6db3"
+  },
+  "submission": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-original-normalized.json",
+    "sha256": "8bac3c8c0253def4bf3e852a02693529c9b8ef0409a2229bbcc0de2c0e667e0a"
+  }
+}

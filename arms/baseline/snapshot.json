@@ -1,0 +1,784 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-14T22:59:34.427277+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "operational_evidence": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline",
+  "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity/arms/baseline",
+  "git": {
+    "head": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+    "tree": "b68543c8604f5f3033424b97c7020a4ede135367",
+    "branch": "codex/mixed-03-baseline",
+    "status_porcelain_v1_z": ""
+  },
+  "dirty": false,
+  "source_gitlinks": [
+    {
+      "path": "inputs/ds000005",
+      "HEAD_entry": {
+        "mode": "160000",
+        "type": "commit",
+        "oid": "b094fc2f41487f92d382a1a432165ae58caae386"
+      },
+      "index_entries": [
+        {
+          "mode": "160000",
+          "oid": "b094fc2f41487f92d382a1a432165ae58caae386",
+          "stage": 0
+        }
+      ],
+      "initialized_worktree_state": {
+        "head": "b094fc2f41487f92d382a1a432165ae58caae386",
+        "tree": "936e54c8f66caacc9a0a6106687b34f7722b1862",
+        "branch": "HEAD",
+        "status_porcelain_v1_z": ""
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": ".codex/hooks.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "79c5f77d9ec33966bc0341b95865dafd01f8bc62"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "79c5f77d9ec33966bc0341b95865dafd01f8bc62",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 2362,
+      "sha256": "d0ed5dd1cf5d2d269abfdb6c00161b406d0233b7a4bf1ff72f288405b4959b10"
+    },
+    {
+      "path": ".datalad/.gitattributes",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "5928185081410e652fcb8b4446fae9caf43288e5"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "5928185081410e652fcb8b4446fae9caf43288e5",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 32,
+      "sha256": "903e231de46d90c10b6e0462ed96419e231bb130229035bb12d2bb5430ff3c60"
+    },
+    {
+      "path": ".datalad/config",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "fe00f77deb55f4d76f5814d4bcc0c0e57e81cbdf"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "fe00f77deb55f4d76f5814d4bcc0c0e57e81cbdf",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 63,
+      "sha256": "6c84a4bc9bc02f0ced48ab39a21774b6f7630f7faf137f19d579f2ce20879dab"
+    },
+    {
+      "path": ".gitattributes",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "02d61ad44ce355170ff2cd12db313996601b8d46"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "02d61ad44ce355170ff2cd12db313996601b8d46",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 232,
+      "sha256": "6de0893472c40a5c574a0ebd72d913d788321fe382a9de95d4c54fcfd76cd831"
+    },
+    {
+      "path": ".gitignore",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "e0559e8e4a28300e8faf9ea33922e0fb028498c9"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "e0559e8e4a28300e8faf9ea33922e0fb028498c9",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 20,
+      "sha256": "644d561de23c9375a908d5a37274705e3bf91593b194b83f2d5f04292b618446"
+    },
+    {
+      "path": ".gitmodules",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "4bffcbe5aa9c3596928a421553b976b943741dd7"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "4bffcbe5aa9c3596928a421553b976b943741dd7",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 111,
+      "sha256": "5fb2acfcebadbb98b85de0f93d19cb10f3db16c0df4f598a16c98b5e864ef2f5"
+    },
+    {
+      "path": ".setup/native-capture-probe.txt",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "4e4b7b861a9ad95666805bcc8193a5ffff2855b5"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "4e4b7b861a9ad95666805bcc8193a5ffff2855b5",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 52,
+      "sha256": "bc789e10b13d697ddbb8e11b034eba6884e893d68a11f9929a87e9afcd0d298e"
+    },
+    {
+      "path": "SOURCE.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "30f10264e191b02b9d11cc051a5b6425552ae251"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "30f10264e191b02b9d11cc051a5b6425552ae251",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 520,
+      "sha256": "ab09572896f8cbb0f89996d7766ad868ffce4f90ebaa233a9e9088c36333d500"
+    },
+    {
+      "path": "TASK.md",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "a75afd6760eca80c47de72f8b5c8584efe8d7183"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "a75afd6760eca80c47de72f8b5c8584efe8d7183",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 7167,
+      "sha256": "417c2b7e22ca5e12debbacda817b8d9d9c616b936ccd6cca4f69fef70c8f42af"
+    },
+    {
+      "path": "code/analyze_rt.py",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100755",
+        "type": "blob",
+        "oid": "0d581cb3e6a15b74f98132196b5807480bc0e287"
+      },
+      "index_entries": [
+        {
+          "mode": "100755",
+          "oid": "0d581cb3e6a15b74f98132196b5807480bc0e287",
+          "stage": 0
+        }
+      ],
+      "mode": 493,
+      "status": "regular",
+      "size": 27139,
+      "sha256": "1798edb17d0d7c06f01530936b7ab8a8aa7a703501db2b1aadd1a0ed2635ae92"
+    },
+    {
+      "path": "code/check_rt.py",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100755",
+        "type": "blob",
+        "oid": "5210fac168a430a83879a6002ab9d75bc6b69f41"
+      },
+      "index_entries": [
+        {
+          "mode": "100755",
+          "oid": "5210fac168a430a83879a6002ab9d75bc6b69f41",
+          "stage": 0
+        }
+      ],
+      "mode": 493,
+      "status": "regular",
+      "size": 3521,
+      "sha256": "67b039afadbbaab43aac89a376b02c8bc0602b3c9491229224464bc3621c5beb"
+    },
+    {
+      "path": "code/verify_replay.py",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100755",
+        "type": "blob",
+        "oid": "326862714b0e0251b5ad4cae09c8973e448aa6d4"
+      },
+      "index_entries": [
+        {
+          "mode": "100755",
+          "oid": "326862714b0e0251b5ad4cae09c8973e448aa6d4",
+          "stage": 0
+        }
+      ],
+      "mode": 493,
+      "status": "regular",
+      "size": 2548,
+      "sha256": "d492a776a83391830dee31400f32eeaea0f5e7a28ac5dbc46891ef714d669b11"
+    },
+    {
+      "path": "derivatives/gambling-rt/missingness_by_run.tsv",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "ed39f11cbae3c594be2b2eb39e94e72e54afe2be"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "ed39f11cbae3c594be2b2eb39e94e72e54afe2be",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 992,
+      "sha256": "272f7b7060ffca4ce0e4149ee9bf80427cfef1128cece2797dbd7f16dc4c08c7"
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.tsv",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "673832a515b65c311c7f51457c6fecc63e7cf76d"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "673832a515b65c311c7f51457c6fecc63e7cf76d",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 4046,
+      "sha256": "d462c22d7498d4face4f5abff21b3f003bab076bacf82f25c28f0ef998455967"
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "c5731386381347456cdcdf0ee6d850dc741dde64"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "c5731386381347456cdcdf0ee6d850dc741dde64",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 6605,
+      "sha256": "25a9548035354bc13e235382b22b1a3f6e86cea48a4a32f277d6d54ed7c80680"
+    },
+    {
+      "path": "derivatives/gambling-rt/run_summaries.tsv",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "4fd8e6528e11a3bf52a70e1fa8687913254f15da"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "4fd8e6528e11a3bf52a70e1fa8687913254f15da",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 12958,
+      "sha256": "3592100fb8267e75cc7c3fd73e2a9fba972d183c807f3cc10a12aa92762d44e8"
+    },
+    {
+      "path": "derivatives/gambling-rt/sensitivity.svg",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "956b7a13d7547ff910f18d63a67c35052af452f0"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "956b7a13d7547ff910f18d63a67c35052af452f0",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 2143,
+      "sha256": "3bae29b54df59e5a59281105e1adb7d82a3158df5a4771bf80813850c39597a6"
+    },
+    {
+      "path": "derivatives/gambling-rt/software.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "7db21745de7499939675040d81f3e0056293f5d7"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "7db21745de7499939675040d81f3e0056293f5d7",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 452,
+      "sha256": "c519e863db1feef7f6dc076e5af556ebf4e5d344fb22a22679ba2228a7a995fa"
+    },
+    {
+      "path": "derivatives/gambling-rt/source_hashes.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "f551abde12365ed9b65cf23323cf595a1633a9ea"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "f551abde12365ed9b65cf23323cf595a1633a9ea",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 8917,
+      "sha256": "f3b3f9b41449f9ea39011c6e3114435f4a9df38229646a8b6ef1938f09083e84"
+    },
+    {
+      "path": "derivatives/gambling-rt/trial_audit.tsv",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "955a1fd74e3a6c2279088a1b7bec2d66c742d981"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "955a1fd74e3a6c2279088a1b7bec2d66c742d981",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 582146,
+      "sha256": "e8a1895346254bd2da67ba66812bba3b7d811d5fbb7b5e5a145e55158b945c99"
+    },
+    {
+      "path": "pixi.lock",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "a7f00385b718c21c7284b602b1654fbc29a8f072"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "a7f00385b718c21c7284b602b1654fbc29a8f072",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 39557,
+      "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+    },
+    {
+      "path": "pixi.toml",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "cad921640a5a66cc4f4f7930199a54642af3440a"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "cad921640a5a66cc4f4f7930199a54642af3440a",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 240,
+      "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+    },
+    {
+      "path": "references/stamped/SOURCES.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "fb6b2a2fe10c724451f38c5d3972ad9110bdd8a3"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "fb6b2a2fe10c724451f38c5d3972ad9110bdd8a3",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 1744,
+      "sha256": "de8af39062c423e4401def1ab53788b6b580e7231ad63d639f639bb784103013"
+    },
+    {
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "c6bc1839a164946b819d2665aa307019c6157230"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "c6bc1839a164946b819d2665aa307019c6157230",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 5075,
+      "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+    },
+    {
+      "path": "references/stamped/checklist/stamped-checklist.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "8818065f520b9f3426ffec6f1e49dfa8f8e7aa9a"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "8818065f520b9f3426ffec6f1e49dfa8f8e7aa9a",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 10709,
+      "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+    },
+    {
+      "path": "references/stamped/paper/main.tex",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "9c5d24720b6763ed54912f741c1f19ebb33bf7c3"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "9c5d24720b6763ed54912f741c1f19ebb33bf7c3",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 68693,
+      "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+    },
+    {
+      "path": "references/stamped/principles/stamped-principles.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "c79eb1a544f1dd820c857afdfcd4c7d63efb8792"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "c79eb1a544f1dd820c857afdfcd4c7d63efb8792",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 3707,
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+    },
+    {
+      "path": "reports/datalad-provenance.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "0da15ebed18c7ed5d110920d314c354c52bed678"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "0da15ebed18c7ed5d110920d314c354c52bed678",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 1508,
+      "sha256": "938f833e6fcc98a38f1d5791323cc49286e3de11fdb9cccda528300fd047defd"
+    },
+    {
+      "path": "reports/report.md",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "3125946849e2e5cc7b829725cb8bcc7f9c45d3cf"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "3125946849e2e5cc7b829725cb8bcc7f9c45d3cf",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 9185,
+      "sha256": "7c86c6d78b86a678d4c86dd027ddfdcabc468ec04642d60cd94d64c10f0f4152"
+    },
+    {
+      "path": "reports/run.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "c1cdb6539c1bc053e268d8bca1f985170a31d56b"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "c1cdb6539c1bc053e268d8bca1f985170a31d56b",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 16891,
+      "sha256": "5d801cf48b4d033babc9e46b2c3713a402a5dbb03898b89dc8e17060b62958ca"
+    },
+    {
+      "path": "reports/verification.json",
+      "tracked_in_HEAD": true,
+      "HEAD_entry": {
+        "mode": "100644",
+        "type": "blob",
+        "oid": "4916946ea95a8e860c9de0927da5b7a702225ac1"
+      },
+      "index_entries": [
+        {
+          "mode": "100644",
+          "oid": "4916946ea95a8e860c9de0927da5b7a702225ac1",
+          "stage": 0
+        }
+      ],
+      "mode": 420,
+      "status": "regular",
+      "size": 2671,
+      "sha256": "68e52660b5f373e11d21025399588ac3378d1c77287c6ca8c9be00ec37eb27d0"
+    }
+  ],
+  "omitted": [
+    {
+      "path": ".entire/.gitignore",
+      "reason": "source gitlink or operational/runtime metadata"
+    },
+    {
+      "path": "inputs/ds000005",
+      "reason": "source gitlink or operational/runtime metadata"
+    }
+  ],
+  "index_blobs": [],
+  "bundle": {
+    "path": "head.bundle",
+    "sha256": "a3b2d6c417d45dc5ed2b4cf9b339cf72e5531342ccbc9f268c35e754e8aed445",
+    "size": 128948,
+    "refs": [
+      "HEAD"
+    ]
+  },
+  "operational_files": [
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/codex-events.jsonl",
+      "sha256": "ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "size": 202168,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/codex-stderr.log",
+      "sha256": "cb3a12dde28dc2efee7d120bcfb830f043e8c07ed258de0ae25ca77ce513f02e",
+      "size": 2697,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/command.json",
+      "sha256": "791c99710e7baffd15df98b6018907efa5e15f8b8fd4c7ea2ca9da72aa60a788",
+      "size": 455,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/effective-prompt.txt",
+      "sha256": "a8af25a06a59e9e5612c9c7fd1b7f6961db4460b011c04149fefd46477099ac6",
+      "size": 9159,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/evidence-links.json",
+      "sha256": "cbac34856dd58ef05cc152354bc930d39fa3dfc0c101b9289214ae41f0606d85",
+      "size": 364,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/final-response.txt",
+      "sha256": "d90d74ce468afc5f1512c16a7fc13dc978d851e6d21cc3c2087bda6d34df488d",
+      "size": 1322,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/launch-record.json",
+      "sha256": "de2ed33ff0c9998030ccd984f6b2766c6a4b267b8c8f4ec1268a7af32f7725f2",
+      "size": 17027,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/manifest.json",
+      "sha256": "44fd552142fc73e1103cfe0e03e5672a276eee2adcff761ee2ffd86210b5c971",
+      "size": 35482,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/run-result.json",
+      "sha256": "04f083df24b7fd1083cc219d0d508b0e86d0eecdf228d672e3107653981cc4ce",
+      "size": 1291,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/supervisor-stderr.log",
+      "sha256": "2dd8309d87c8461869a3971f09a91503a2f922a3f0574ffec8ddd0b82966fb78",
+      "size": 1732,
+      "copied": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/supervisor-stdout.log",
+      "sha256": "bf4586575877c622e23daa7440dc3044b00a4047abc0b731a63343b4a5d3265d",
+      "size": 183,
+      "copied": false
+    }
+  ],
+  "runner_summary": {
+    "outcome": "completed",
+    "finished_at": "2026-10-14T22:59:08.366188+00:00",
+    "elapsed_seconds": 382.97944491694216,
+    "timeout_seconds": 480,
+    "timed_out": false,
+    "process_returncode": 0,
+    "turn_completed": true,
+    "token_usage_status": "reported_by_provider",
+    "turn_usage": [
+      {
+        "input_tokens": 1025737,
+        "cached_input_tokens": 976000,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18687,
+        "reasoning_output_tokens": 4535
+      }
+    ],
+    "native_session_ids": [
+      "01a13c9e-3c5d-7f71-aa33-73e6be42573a"
+    ]
+  },
+  "launch_summary": {
+    "arm": "baseline",
+    "started_at": "2026-10-14T22:52:45.207258+00:00",
+    "head": "ce4b915ab5a72ac287245ff110dca3adc56221c3",
+    "tree": "8095a41482f25a5777f436daedefb0205f5e1ef0",
+    "dataset_id": "18c86d31-4f04-41bc-9813-9607402837cd",
+    "common_sha256": "382324707b4f94a5ddc76e06b3040f9e90a6fc2f976fb6c43b2480c3e714fbfd",
+    "manifest_sha256": "44fd552142fc73e1103cfe0e03e5672a276eee2adcff761ee2ffd86210b5c971",
+    "codex_version": "codex-cli 0.162.0-alpha.17.2",
+    "hard_wall_seconds": 480
+  },
+  "supervisor_returncode": 0,
+  "stop_evidence": "Finalized runner child result and supervisor return record; no process scan or claim that detached descendants are absent",
+  "recovery": "Clone head.bundle; overlay worktree preserving symlinks; remove entries marked missing. Index entries plus index-blobs preserve staged-only/conflict contents. Source gitlinks require separately supplied pinned repositories; annex payloads and ignored files are not collected.",
+  "scientific_assessment": "not performed",
+  "worker_modified": false
+}

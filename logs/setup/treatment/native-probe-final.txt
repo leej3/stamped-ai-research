@@ -1,0 +1,5 @@
+Created `.setup/native-capture-probe.txt` with the exact bytes and one trailing newline using native `apply_patch`.
+
+Committed only that file with freshly resolved provenance. Existing hooks preserved; no push.
+
+Commit: `a57fb34546bb1a5de17541f50ab40e5ef22122c5`

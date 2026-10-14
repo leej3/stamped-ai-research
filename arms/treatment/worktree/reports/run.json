@@ -1,0 +1,330 @@
+{
+  "checks": {
+    "assessment_schema": "passed using preinstalled Workshop Python",
+    "bids_validation": "not_attempted",
+    "checklist_export": "passed; all 31 items preserved",
+    "cross_platform": "not_attempted",
+    "datalad_record_parse": "run block parsed successfully; complete conventional-subject commit not recognized",
+    "feedback": "six validated observations queued locally; publication not attempted",
+    "figure": "SVG created and XML structure checked; no visual rendering inspection",
+    "final_output_contract": "passed: required fields, all output paths, 50 input SHA-256 values",
+    "full_environment_rebuild": "not_attempted",
+    "independent_calculation": "passed",
+    "input_sha256": "passed",
+    "network_retrieval": "not_attempted",
+    "raw_input_git_status": "clean",
+    "replay": "8 files byte-identical in fresh venv/directory",
+    "snapper_precommit": "unavailable: hook absent; configuration not modified",
+    "source_revision": "passed"
+  },
+  "failures": [
+    {
+      "check": "Workshop helper with system Python",
+      "error": "ModuleNotFoundError: jsonschema",
+      "recovery": "Use preinstalled Workshop Pixi Python.",
+      "status": "failed_then_recovered"
+    },
+    {
+      "check": "jsonschema import in project Python",
+      "error": "ModuleNotFoundError: jsonschema",
+      "recovery": "Use preinstalled Workshop Pixi Python for schema validator.",
+      "status": "failed_then_recovered"
+    },
+    {
+      "check": "Native DataLad rerun discovery with Conventional subject",
+      "evidence": "Installed get_run_info uses re.match against leading [DATALAD RUNCMD]; complete block preserved in commit; explicit replay verified.",
+      "status": "not_supported"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "f6d928071dbb18cacb67c8ecc777ea75b4b401d857584e51f8f3c5201c129328"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+    },
+    {
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "3c70043803eaea17ea2bd51cddca46f31e93b19d7615f3db63138f6908f62dbe"
+    },
+    {
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "ca2a79b9ee1475dfbe2840564091f5c5a4753aa1b28ecddf856250a5cbc68176"
+    },
+    {
+      "path": "inputs/ds000005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "5fc5fb61abe84d49cc9c23bda96757ba45d3a77ceb88a9bae844e950c8f8b15e"
+    },
+    {
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "c83492a23588f56136e2916ba0d7d51a394155a81934294c60301cd13fd335af"
+    },
+    {
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "d819e5f27c544525cc51a9b61725d63a92a37ea10f4190c732eea599e52c61c5"
+    },
+    {
+      "path": "inputs/ds000005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "42a1b81972d420501d28aa38d76975ff0d79abe1097aad3007edf43a3e30493b"
+    },
+    {
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "46576c9094ce064451e46aa93a6ea9e0d147f7b8a2c097a64c8afe63b32d4875"
+    },
+    {
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "bcce33c8872ed4feaf4d2116944bc2b49fc2075269cb54b37a43514029e72144"
+    },
+    {
+      "path": "inputs/ds000005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "d9a296720eac086103a9efda49f844d035482e8fe5c95379cc4958f6e2b24dfa"
+    },
+    {
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "ad10b6d1f1d6f33cd3452b852f62dee1c2416b1899e86fd5a527ba9399d60947"
+    },
+    {
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "a32a2b9ea829b523de62ad46e4ff9f71139165fbbe8a5dd4bdf1766339d990a6"
+    },
+    {
+      "path": "inputs/ds000005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "7a1d621bb17c7f6488cde46e1f00620331b50959e1dd3ea886f2aba4a6273866"
+    },
+    {
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "124875f24b4752c38164df988f8fc4355c7a3b635416d584216fba076cc6812d"
+    },
+    {
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "c6829a9b5df07c407127cd15449b41c375c35a77ed6b1c86fdce585e7da46df5"
+    },
+    {
+      "path": "inputs/ds000005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "f0add01995c49919fb8d00d5bed287aadae8b111228db56f3ea7f0c0e7649142"
+    },
+    {
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "e37df3e2cc5f25d97a04ebb0b7ecfffa722b5f7368539e869c7a9c041dfff3be"
+    },
+    {
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "389ac681b82059cc68f6d7a6f7498d4cf909a82f5ddcb0249179b86db0d25ce7"
+    },
+    {
+      "path": "inputs/ds000005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "b7823b3d8815d729c15717235fa74dd8766fa9603bf7436616c5510db40d51b1"
+    },
+    {
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "bf7339661d8e7f81cf0100ae6c792b3f9c32ac0351a6e9bfedbb11211d58cf1c"
+    },
+    {
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "14813c9503852c27f7baeeafed05acf327d7084ffa78a38d358d1c235c004654"
+    },
+    {
+      "path": "inputs/ds000005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "b83f455313fd0a828a4afafca3632cab4e9da8acaecae309aea61f8ea7035793"
+    },
+    {
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "18ca07f306d3aebfdd3e0e61a97b2b95fa4f78fa539eada8281a92c1e26388db"
+    },
+    {
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "8bc71c65e0d0c8778ee28c8ec194920e0ab96ad04ec16005f7e49c8471a504f0"
+    },
+    {
+      "path": "inputs/ds000005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "789905e20009704f82fa02e634fe5464d8427709b534f3d40372a16ad4557fb3"
+    },
+    {
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "2ffd0e0af216a0ab25d90cbe5894d34e9bf41ec4257b3aa99e15fd611be5342c"
+    },
+    {
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "bccc9e67aa4654b9536edc7a4d1119607b6e1d6bb1cee65b2041e80979146c2f"
+    },
+    {
+      "path": "inputs/ds000005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "48b7ecdc1425f5d0e7c63319a2e41fdb5bcae62c84fa8c59757a8338f29f3f35"
+    },
+    {
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "d39f9b109d2c2b34687820dc64f19f645cb63806771d4797aef7bd040a476c68"
+    },
+    {
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "65f28df7a882742b10ee492e605e53769de734838ac46db05d00a585f0900e9e"
+    },
+    {
+      "path": "inputs/ds000005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "28b91c49422cb40857a7773641df3e1337a33aca5e072b3a2b1baf18dc53aebc"
+    },
+    {
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "9ff69a5cf6767bd8a6bd0494d140060f22561030f27bcc4afe026dcf706ce360"
+    },
+    {
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "bd3475eda8ef0bfd5df18668eb230dcb8d7aa72317f047a3cc22f17e5cd0d22e"
+    },
+    {
+      "path": "inputs/ds000005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "334fa9d610e5abea303c5b2bc00e0bccd0429d71a27efdf33b6b6e30f549177e"
+    },
+    {
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "ada556f4a4c9e9020726bfeab7bf323b13398ba67c1e902a85a7ea52e31af518"
+    },
+    {
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "5e5bc44d1065b32e4bac33c71d02fcbf066eeffa852ea8059ec4feea49d407c2"
+    },
+    {
+      "path": "inputs/ds000005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "12b00cb702352b414ba7c8ba3811a3b42c61912e15b8109eb1599e66bbd51f3c"
+    },
+    {
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "a3c0826f03c5843aed6614a166defad089644b09d561e9ad61020e7c10c95b38"
+    },
+    {
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "8c4e38dcc0f65beeb3bbaff028ab0eea01e67498d8fc3fdb7ab467821caabdb8"
+    },
+    {
+      "path": "inputs/ds000005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "05cc25381b634c9c3f8b11ca62338ded6426556fbc0384de2dd334e64eac7477"
+    },
+    {
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "02a741e6e3b55958c12cbeeee396505accd21eb589bab81155e1b016fbe8e033"
+    },
+    {
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "15dda1844fdd2b81c651bd1efa855dab860586d4ddacb25409bd1adafa9a3560"
+    },
+    {
+      "path": "inputs/ds000005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "af578bf4f2011bcccece712a324b7f62bb45b46f53e3b77cb354d939e4d857dc"
+    },
+    {
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "312d67ff625e68c9d3adc016baca3c06001bed5f89aef4fc585ee0b4b021bb30"
+    },
+    {
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv",
+      "sha256": "2b9fd1add0175743f6a4a9b5121b2485e4e10d39ab50e257e45e7ef9f2517fb1"
+    },
+    {
+      "path": "inputs/ds000005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "5a56da92d62c44218d966d1478508fe3858f2f1abed683b9d34b70dc95c9db7b"
+    },
+    {
+      "path": "inputs/ds000005/README",
+      "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+    },
+    {
+      "path": "inputs/ds000005/dataset_description.json",
+      "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+    }
+  ],
+  "limitations": [
+    "Temporal association only: run position was not randomized and task composition may differ.",
+    "Observed valid responses are the estimand; differential missingness can select the sample.",
+    "The 0.2\u20133.0 s band is a declared sensitivity choice, not a documented response deadline.",
+    "Current BIDS validation, remote retrieval, full Pixi environment rebuild, alternate-platform execution and independent investigator reproduction were not attempted.",
+    "Local fresh-directory replay uses a venv without pip and the existing base Python interpreter.",
+    "Analysis-module licensing and a durable distribution route have not been established.",
+    "Native capture and outer duct capture are runner-owned; their contents were not inspected and no per-computation duct logs are claimed.",
+    "Native DataLad rerun detection requires its fixed commit-subject prefix; the final Conventional Commit subject retains the run block but uses the verified explicit replay command."
+  ],
+  "outputs": [
+    "derivatives/gambling-rt/bootstrap_replicates.tsv",
+    "derivatives/gambling-rt/output_hashes.json",
+    "derivatives/gambling-rt/participant_changes.tsv",
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summaries.tsv",
+    "derivatives/gambling-rt/sensitivity.svg",
+    "derivatives/gambling-rt/software.json",
+    "derivatives/gambling-rt/trial_audit.tsv",
+    "reports/report.md",
+    "reports/protocol.md",
+    "reports/verification.json",
+    "reports/assessment.json",
+    "reports/checklist-answers.json",
+    "reports/skill-use.json",
+    "reports/artifact-manifest.json",
+    "reports/baseline-and-changes.json",
+    "reports/checklist-responses.json",
+    "reports/transformation.json",
+    "reports/feedback-collection.json"
+  ],
+  "provenance": {
+    "analysis_code_commit": "26bcb0c",
+    "duct": "One runner-owned outer capture; no nested wrapper or per-computation record",
+    "native_capture": "Runner-owned; enabled by existing hook, not inspected",
+    "results_commit": "71691d184afe15c4ee1a911c2a6eaccd16e9097b",
+    "run_id": "mixed-03-treatment",
+    "transformation": "DataLad run block, exit 0, explicit inputs and outputs; conventional subject"
+  },
+  "replay_command": "sh code/replay.sh",
+  "research_object_evidence": {
+    "A": {
+      "gap": "Evidence is for this host and selected scientific outputs, not automatic narrative regeneration.",
+      "judgment": "demonstrated",
+      "observed": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+      "property": "Actionability"
+    },
+    "D": {
+      "gap": "Offline scope leaves persistent third-party retrieval and analysis licensing untested.",
+      "judgment": "unknown",
+      "observed": "Source URL, revision, source PDDL terms and requested attribution preserved.",
+      "property": "Distributability"
+    },
+    "E": {
+      "gap": "Existing base interpreter reused; host and full tool environment not rebuilt.",
+      "judgment": "partial",
+      "observed": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+      "property": "Ephemerality"
+    },
+    "M": {
+      "gap": "Independent module replacement was not tested.",
+      "judgment": "demonstrated",
+      "observed": "Immutable upstream subdataset, code with explicit input/output interface, derivatives and reports are separate.",
+      "property": "Modularity"
+    },
+    "P": {
+      "gap": "Only macOS 27.0.1 ARM64 tested; full locked environment reconstruction unattempted.",
+      "judgment": "partial",
+      "observed": "Relative analysis paths, Python standard library, Pixi files and observed software/host versions retained.",
+      "property": "Portability"
+    },
+    "S": {
+      "gap": "Module licenses and external environment artifacts are not all bundled.",
+      "judgment": "partial",
+      "observed": "Source events/metadata, code, input manifest, outputs and environment files are present locally.",
+      "property": "Self-containment"
+    },
+    "T": {
+      "gap": "Native/outer capture content uninspected; DataLad subject convention limits automatic discovery.",
+      "judgment": "partial",
+      "observed": "Input hashes, code commit, result commit, DataLad run block, software versions and output hashes retained.",
+      "property": "Trackability"
+    }
+  },
+  "scientific_conclusion": "All four equal-participant estimates are positive (+11.16 to +58.70 ms), but all participant bootstrap 95% intervals include zero. Magnitude depends on summary and RT band; these results do not establish a directional population change or a causal practice, fatigue, learning, loss-aversion, or choice-preference effect.",
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "stage": "03-rt-sensitivity",
+  "status": "completed",
+  "stopping_condition": "Requested outputs and bounded local verification complete; no budget extension."
+}

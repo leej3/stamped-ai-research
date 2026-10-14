@@ -1,0 +1,8 @@
+{
+  "all_check_results_sha256": "9e52bbe1ac5ff2a857d3eb8f95705c2b422653a1b9862feef64aec91c0d500d2",
+  "check_count": 291,
+  "failed_checks": [],
+  "passed": true,
+  "passed_count": 291,
+  "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+}

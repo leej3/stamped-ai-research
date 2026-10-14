@@ -1,0 +1,21 @@
+Completed with all 16 participants eligible in every variant.
+
+| Estimator | Run 03 − run 01, ms | 95% bootstrap interval |
+|---|---:|---:|
+| Median, primary | +31.34 | −70.28 to 132.66 |
+| Mean, primary | +58.70 | −36.59 to 150.72 |
+| Median, band | +11.16 | −93.72 to 120.94 |
+| Mean, band | +27.71 | −69.96 to 128.12 |
+
+Magnitude varies; all intervals span zero. These are temporal associations among valid responses, with substantial differential missingness—not causal effects.
+
+Outputs: [report](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/reports/report.md), [machine-readable manifest](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/reports/run.json), and [editable figure](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline/derivatives/gambling-rt/sensitivity.svg).
+
+Replay:
+
+```sh
+pixi run --frozen python code/analyze_rt.py
+pixi run --frozen python code/verify_replay.py
+```
+
+Independent recomputation, input hashes, and byte-identical local replay passed. Inputs remain unchanged; work is committed locally. Failure evidence is preserved. Native DataLad rerun recognition is unavailable after commit-subject normalization; direct replay is verified. Fresh-environment, cross-platform, retrieval, and current BIDS checks remain untested.

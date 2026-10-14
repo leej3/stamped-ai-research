@@ -1,0 +1,41 @@
+{
+  "all_run_summaries": {
+    "all_check_results_sha256": "a00c0afe2773a35809e23b7bd557b5f8d59c921edbba32bc821c8ddb1bfb6781",
+    "check_count": 2400,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 2400,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "band": {
+    "all_check_results_sha256": "52788385cdc43027994f54789fe983d699cb824d6337a3a1b0888b1a149e50b5",
+    "check_count": 57344,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 57344,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads.",
+    "rows_observed": 4096
+  },
+  "onsets": {
+    "all_check_results_sha256": "e325e766127c2325903c66a656616c8d11988fb74aa35189418fe404192af5fe",
+    "check_count": 8192,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 8192,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "passed": true,
+  "primary": {
+    "all_check_results_sha256": "ab872add3a996e06020f0bb6f8213990105d6adb93dbd703706bffa86df0da43",
+    "check_count": 53248,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 53248,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads.",
+    "rows_observed": 4096
+  },
+  "source_audit": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/source-audit.json",
+    "sha256": "83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2"
+  }
+}

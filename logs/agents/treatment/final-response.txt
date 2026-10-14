@@ -1,0 +1,16 @@
+Completed all four analyses with the same 16 participants.
+
+| Variant | Change, ms | Bootstrap 95% interval |
+|---|---:|---:|
+| Primary median | +31.34 | −70.28 to +132.66 |
+| Primary mean | +58.70 | −36.59 to +150.72 |
+| Banded median | +11.16 | −93.72 to +120.94 |
+| Banded mean | +27.71 | −69.96 to +128.12 |
+
+Magnitude varies; every interval includes zero. Differential missingness limits interpretation, and no causal conclusion is supported.
+
+[Report](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/reports/report.md) · [Machine-readable record](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/reports/run.json) · [Editable figure](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment/derivatives/gambling-rt/sensitivity.svg)
+
+Replay: `sh code/replay.sh`
+
+Independent checks passed; fresh-directory replay matched eight files exactly. Raw inputs remain unchanged. Full environment reconstruction, current BIDS validation, and other platforms remain untested. Use the explicit replay script; native DataLad rerun discovery has a documented commit-format limitation.

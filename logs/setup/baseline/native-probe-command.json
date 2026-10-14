@@ -1,0 +1,21 @@
+[
+  "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+  "--no-daemon",
+  "-a",
+  "never",
+  "-s",
+  "danger-full-access",
+  "-m",
+  "gpt-6-astra",
+  "-c",
+  "model_reasoning_effort=\"ultra\"",
+  "exec",
+  "--json",
+  "--color",
+  "never",
+  "-C",
+  "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "-o",
+  "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-03-baseline/native-probe-final.txt",
+  "-"
+]

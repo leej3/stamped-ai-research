@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-14T23:10:37.228861+00:00",
+  "scope": "Post-stop coordinator curation, not worker repair; original snapshot and symlink preserved unchanged.",
+  "arm": "treatment",
+  "original_output_commit": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+  "original_scientific_relative_path": "derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "original_annex_target": "../../.git/annex/objects/gJ/WP/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+  "source_worker_path": ".runs/mixed-03-treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "source_snapshot_path": "experiments/03-rt-sensitivity/arms/treatment/worktree/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "snapshot_manifest_path": "experiments/03-rt-sensitivity/arms/treatment/snapshot.json",
+  "snapshot_manifest_sha256": "d5fd69ff9d136da06139d5085a5f020d6dcad4532d718431d9a9c6c75672d59e",
+  "attachment_path": "experiments/03-rt-sensitivity/annex-content/treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+  "bytes": 1404481,
+  "source_and_copy_sha256_agree": true,
+  "snapshot_manifest_unchanged": true,
+  "boundary": "Local attachment only; parent manages annex storage and publication/retrieval verification separately."
+}

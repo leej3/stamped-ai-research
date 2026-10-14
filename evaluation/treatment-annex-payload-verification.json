@@ -1,0 +1,25 @@
+{
+  "annex_key_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+  "annex_target": "../../.git/annex/objects/gJ/WP/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv/SHA256E-s1404481--cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af.tsv",
+  "identical": true,
+  "original_payload": ".runs/mixed-03-treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "original_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+  "passed": true,
+  "path": "derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "payload_curation": "Original immutable snapshot retains link only; separate later payload packaging is coordinator curation.",
+  "replay_payload": ".runs/replay-mixed-03-treatment/derivatives/gambling-rt/bootstrap_replicates.tsv",
+  "replay_sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af",
+  "replicate_checks": {
+    "all_check_results_sha256": "693b2f26e5227808a172e870b768d15c7cc890eda15ce1386b80924c9ae232e4",
+    "check_count": 80001,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 80001,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "scope": "Annex payload read after stop without worker mutation, independent of the regular-file snapshot; post-stop coordinator evidence.",
+  "size_bytes": 1404481,
+  "snapshot_output_commit": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+  "snapshot_payload_resolves_at_review": false,
+  "source_output_commit": "c9cd03c5b6da2106a59d843141da74f347d15d4b"
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "Complete available finished duct run directories for attachment delivery, including failed metadata fetch. Credential-bearing upload deliberately bypassed capture; no historical stdin reconstruction. Central copies retained.",
+  "runs": [
+    {
+      "run_id": "20261014T231444.989789Z-4e9ba1a7fa454c85a2bf930cb78bd143",
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T231444.989789Z-4e9ba1a7fa454c85a2bf930cb78bd143",
+      "destination": "experiments/03-rt-sensitivity/logs/duct/20261014T231444.989789Z-4e9ba1a7fa454c85a2bf930cb78bd143",
+      "files": {
+        "run_info.json": "9bb366c75a92c79c2d9d9110fbd42fcd5c38038eb89328f7abb689fb807051ec",
+        "run_stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "context.json": "70662abf09d5270cc21caf9545296eae9033eff97decfeb086068ae4c0d67532",
+        "run_usage.jsonl": "7e220b0b0c2a0d9c76a3602434fbf8090795cffa70b88d5502669e64a076e33a",
+        "run_stderr": "3c8b98508bb7c733527c0dae4e6fdab7f627b9b4404f196adf3dfe6d527eb4d3"
+      },
+      "byte_identical": true
+    },
+    {
+      "run_id": "20261014T231501.859733Z-181330b2fe844c38b45dbad3f9893aec",
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T231501.859733Z-181330b2fe844c38b45dbad3f9893aec",
+      "destination": "experiments/03-rt-sensitivity/logs/duct/20261014T231501.859733Z-181330b2fe844c38b45dbad3f9893aec",
+      "files": {
+        "run_info.json": "bd77cd52d6e7ff4776e0a820b5d007a6e1a0cc09c46b4a1f24f02532b071d68a",
+        "run_stdout": "9def779dc6d64536cb992720c20a2a282b5d829e50d201874bdfdd464319f0f5",
+        "context.json": "4ec319790378aac0b1842c77e5e7281f735ab637796fb8bdf4d8b4a70bd5da65",
+        "run_usage.jsonl": "0ebc4d7179308cf66d526295df6914771ebb03071b7caa3e2197db1abec8a2b0",
+        "run_stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "byte_identical": true
+    },
+    {
+      "run_id": "20261014T231532.111139Z-18d2ea022126411dade0324c9dd11e00",
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T231532.111139Z-18d2ea022126411dade0324c9dd11e00",
+      "destination": "experiments/03-rt-sensitivity/logs/duct/20261014T231532.111139Z-18d2ea022126411dade0324c9dd11e00",
+      "files": {
+        "run_info.json": "71048fc3f615994bea0af84f5e029ae37825a19f7c2bf58b8eb908be98048c88",
+        "run_stdout": "701710865ee2620d208470eeffc59ed83c5c598460bcbc69ed35afea3681184c",
+        "context.json": "e268a4b4c04f2967597b7c371c708f800621596fe95b1d185e7bed3702841ae1",
+        "run_usage.jsonl": "e6e927613205726a9b8728f2e0d26d652491eb3f42bac55ef9612c1e329eb8be",
+        "run_stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "byte_identical": true
+    },
+    {
+      "run_id": "20261014T231550.176032Z-cbf1db028f904ab8a4ff0faa268e0023",
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T231550.176032Z-cbf1db028f904ab8a4ff0faa268e0023",
+      "destination": "experiments/03-rt-sensitivity/logs/duct/20261014T231550.176032Z-cbf1db028f904ab8a4ff0faa268e0023",
+      "files": {
+        "run_info.json": "b3d9c6d654bb709c038c092864fd88a70a37420e7c0a76171b401241534b664d",
+        "run_stdout": "15da746a5cf7e34596a133558d340c86749e4bd7986e026741f6a1c7f5a8e34a",
+        "context.json": "24830d597e5e1d37e4615eab4c92e7b11927bb6ac846c89c24a84db3548c9a60",
+        "run_usage.jsonl": "6697fc68e0f2d4eceebe2d19cdcc253b5b05322dbf01f33acc4e76178af3e9ff",
+        "run_stderr": "76ecb49ffb7514b201a8439296644927992aa6a697fd9c7aeac58a2aa583dc71"
+      },
+      "byte_identical": true
+    },
+    {
+      "run_id": "20261014T231635.198846Z-9178d02888e743d58c32d60eaedb2afa",
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T231635.198846Z-9178d02888e743d58c32d60eaedb2afa",
+      "destination": "experiments/03-rt-sensitivity/logs/duct/20261014T231635.198846Z-9178d02888e743d58c32d60eaedb2afa",
+      "files": {
+        "run_info.json": "1b3418c915156236543f4d5e575f001eeba07d2815a470c68f1b0bf1e59a9a78",
+        "run_stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "context.json": "2a3b4a1e596ef6e2504994f94fa47bcafe65cf0e7d70b6ec0bd9ea26347efdc4",
+        "run_usage.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "run_stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "byte_identical": true
+    }
+  ],
+  "all_byte_identical": true
+}
