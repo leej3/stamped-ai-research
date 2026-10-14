@@ -1,0 +1,24 @@
+{
+  "receipt": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/operational-guidance-containment.json",
+  "metadata_oid": "6db70f7a2646b23d51b53cf58870380916e48fe3",
+  "verified_results": {
+    "replacement01_and02_remote_refs_match": true,
+    "all_six_index_entries_are_annex_pointers": true,
+    "all_six_local_complete_payloads_match_originals": true,
+    "no_public_event_urls_observed": true
+  },
+  "public_replacements": [
+    {
+      "stage": "01",
+      "old_published_tip": "ab60452f5e411e42c1171d3a1bf54cdf2bc25a0d",
+      "replacement_tip": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb",
+      "remote_head": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb"
+    },
+    {
+      "stage": "02",
+      "old_published_tip": "cbf2020bc41833b00280f4af4d8a7598d4ba9217",
+      "replacement_tip": "395d6c460434773281f6e7989a8530139b01be8a",
+      "remote_head": "395d6c460434773281f6e7989a8530139b01be8a"
+    }
+  ]
+}

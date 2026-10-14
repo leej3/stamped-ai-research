@@ -1,0 +1,9 @@
+{
+  "authentication": "none",
+  "purpose": "Check whether the interrupted private log upload exposed a payload",
+  "key": "MD5E-s238147--941a8d8fc93ba98dfd371d41e2523151",
+  "status": 200,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "private_guidance_marker": false
+}

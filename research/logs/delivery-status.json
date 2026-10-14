@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-14T23:39:22.688402+00:00",
+  "status": "delivered_on_review_branches_with_documented_limits",
+  "poster": {
+    "module": "talks/2026-usrse/stamped-ai-study",
+    "editable_source": "index.html",
+    "pdf": "exports/stamped-ai-poster.pdf",
+    "pdf_sha256": "ff238582851dfcf54a7e3be92c955e99644bd09d5eeed34f2c9c0f4ec969f68d",
+    "bytes": 694949,
+    "pages": 1,
+    "inches": [
+      44,
+      44
+    ],
+    "minimum_inspectable_text_pt": 24,
+    "qr_codes_decoded_from_pdf": 4,
+    "link_annotations": 17,
+    "unique_link_destinations": 14,
+    "destinations_http_200": 14,
+    "fresh_anonymous_receiver_files_verified": 54,
+    "unavailable_optional_qr_diagnostic_images": 2,
+    "unuploaded_cleared_large_stdout_payloads": 2
+  },
+  "skills": {
+    "requested_entrypoints": 5,
+    "frozen_implementation_revision": "8f3acaa4a7c353b6c8ea6928c278478f95328fc5",
+    "frozen_implementation_unchanged": true,
+    "candidate_prs_reviewed": [
+      23,
+      24,
+      26
+    ],
+    "candidate_workflows_adopted_during_series": false
+  },
+  "experiments": {
+    "completed_pairs": 3,
+    "actual_data_checks_passed": 6,
+    "fresh_scientific_replays_passed": 6,
+    "stage_03_treatment_required_missing_token_cases_failed": 2,
+    "worker_repairs": false,
+    "efficacy_claim": false,
+    "abcd_mri_hpc_or_bids_app_run": false
+  },
+  "complete_execution_records": {
+    "captures": 211,
+    "duct_runs": 198,
+    "agent_operational_directories": 6,
+    "worker_setup_directories": 7,
+    "source_files": 1327,
+    "source_bytes": 4511505,
+    "annex_destinations_after_final_commits": 9,
+    "postcommit_verification": "log-export-postcommit-verification.json",
+    "central_sources_retained": true,
+    "historically_unrecorded_stdin_reconstructed": false
+  },
+  "native_capture": {
+    "research_attempts_verified_with_uploaded_references": 6,
+    "skills_delivery_checkpoint_verified": true,
+    "root_and_poster_latest_packaging_checkpoint_uploads": "withheld; complete available native history remains local"
+  },
+  "privacy": {
+    "private_operational_payloads_local_only": 6,
+    "private_poster_stdout_local_only": 1,
+    "mistaken_publication": "Private setup guidance appeared in two coordinator-authored experiment branch tips; those tips were replaced using exact expected-reference checks.",
+    "containment_receipt": "operational-guidance-containment.json",
+    "cached_or_orphaned_object_erasure_verified": false,
+    "earlier_native_history_not_covered_by_tip_containment": true
+  },
+  "child_repositories": [
+    {
+      "path": "skills",
+      "branch": "codex/stamped-research-skills",
+      "head": "1c37c41df935946550c7a829deeb226cab0dd59e",
+      "dirty": false
+    },
+    {
+      "path": "talks",
+      "branch": "codex/stamped-usrse-poster",
+      "head": "1e96d413e43ca048c7f45674ada9d5f316a68b91",
+      "dirty": false
+    },
+    {
+      "path": "experiments/00-flanker-screening",
+      "branch": "codex/screening-flanker",
+      "head": "38f77853e3608b7ffedae91c0a966cf900f557c0",
+      "dirty": false
+    },
+    {
+      "path": "experiments/01-participant-rt",
+      "branch": "codex/mixed-01-participant-rt-source",
+      "head": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb",
+      "dirty": false
+    },
+    {
+      "path": "experiments/02-cohort-rt",
+      "branch": "codex/mixed-02-cohort-rt-source",
+      "head": "395d6c460434773281f6e7989a8530139b01be8a",
+      "dirty": false
+    },
+    {
+      "path": "experiments/03-rt-sensitivity",
+      "branch": "codex/mixed-03-rt-sensitivity-source",
+      "head": "952bad0c3973236748936ada64b45675d1b1f1ff",
+      "dirty": false
+    }
+  ],
+  "submission": {
+    "pull_request_created": false,
+    "conference_upload": false,
+    "shared_thread_post": false
+  },
+  "feedback": {
+    "records_validated_and_queued": 16,
+    "publication": "queued_not_published",
+    "additional_capture_import_attempts_rejected": 5,
+    "reason": "Existing exact capture identities conflict with changed metadata; original records retained.",
+    "missing_capture_evidence": false,
+    "failed_attempt_receipts_retained": true,
+    "verification": "workshop-feedback-status.json"
+  },
+  "scope_notes": "Completed scientific and poster work remains subject to the explicit delivery, privacy, replay, licensing and study-design limits in research/DELIVERY.md and REPORT.md. No final-root commit identity is embedded in its own file."
+}

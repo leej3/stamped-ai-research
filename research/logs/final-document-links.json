@@ -1,0 +1,370 @@
+{
+  "links": [
+    {
+      "source": "README.md",
+      "target": "research/DELIVERY.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/REPORT.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/STATUS.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/protocol.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/protocol.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/skill-candidates/REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/poster-context/html-adaptation/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/01-participant-rt/",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-01/review.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/02-cohort-rt/",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-02/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-02/review.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "experiments/03-rt-sensitivity/",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-03/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/stage-03/pair-review.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/mixed-gambles-design/evaluator/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "research/harness/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "DELIVERY.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-01/review.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-02/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-02/review.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/review.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-01/pair-review.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-02/pair-review.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/pair-review.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/protocol.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "harness/allocation.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "harness/amend_default_model_freeze.py",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "../experiments/03-rt-sensitivity/annex-content/",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/conventional-datalad-note.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/baseline-screening-probes.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "skill-candidates/REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "skill-candidates/pr26-noop-result.json",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "../talks/2026-usrse/stamped-ai-study/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "poster-context/html-adaptation/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/REPORT.md",
+      "target": "DELIVERY.md",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "DELIVERY.md",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "REPORT.md",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "poster-context/html-adaptation/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "mixed-gambles-design/evaluator/stage-02/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "mixed-gambles-design/evaluator/stage-03/assessment.json",
+      "exists": true
+    },
+    {
+      "source": "research/STATUS.md",
+      "target": "skill-candidates/REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "../talks/2026-usrse/stamped-ai-study/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "../talks/2026-usrse/stamped-ai-study/exports/stamped-ai-poster.pdf",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "../skills/docs/stamped-study/README.md",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "skill-candidates/REVIEW.md",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "REPORT.md",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "../experiments/03-rt-sensitivity/packaging/verification.json",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "logs/operational-guidance-containment.json",
+      "exists": true
+    },
+    {
+      "source": "research/DELIVERY.md",
+      "target": "logs/poster-private-upload-check.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "../harness/log-export-map.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-plan-01.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-report-01.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-summary-01.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "../../experiments/00-flanker-screening/logs/duct/",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "../skill-drafts/logs/duct/",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-plan-02.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-report-02.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-summary-02.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-plan-03.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-report-03.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-summary-03.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-plan-final.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-report-final.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-summary-final.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "../DELIVERY.md",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "operational-guidance-containment.json",
+      "exists": true
+    },
+    {
+      "source": "research/logs/README.md",
+      "target": "log-export-postcommit-verification.json",
+      "exists": true
+    }
+  ],
+  "all_passed": true
+}

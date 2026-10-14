@@ -1,0 +1,106 @@
+{
+  "report": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/evaluator/private-guidance-exposure-audit.json",
+  "files": 18,
+  "private_guidance_files": 6,
+  "configured_tokens_checked": 3,
+  "exact_secret_match_files": 0,
+  "credential_pattern_match_files": 0,
+  "occurrences": [
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/codex-events.jsonl",
+      "events": [
+        [
+          "item_4",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              17873,
+              22597
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment/codex-events.jsonl",
+      "events": [
+        [
+          "item_4",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              36388,
+              41112
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline/codex-events.jsonl",
+      "events": [
+        [
+          "item_6",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              27046,
+              31770
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/codex-events.jsonl",
+      "events": [
+        [
+          "item_4",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              41381,
+              46105
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/codex-events.jsonl",
+      "events": [
+        [
+          "item_3",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              21455,
+              26179
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment/codex-events.jsonl",
+      "events": [
+        [
+          "item_4",
+          "complete_skill_body",
+          4649,
+          [
+            [
+              37529,
+              42253
+            ]
+          ]
+        ]
+      ]
+    }
+  ]
+}

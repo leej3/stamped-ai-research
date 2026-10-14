@@ -1,0 +1,22 @@
+{
+  "captures": 211,
+  "kinds": {
+    "duct": 198,
+    "agent_operational": 6,
+    "worker_setup": 7
+  },
+  "regular_files": 1327,
+  "bytes": 4511505,
+  "annex_file_count": 7,
+  "skipped": [],
+  "blocked": 0,
+  "plan_sha256": "d58b69bc10291d88a993c6a80accc421a85b87cc4d29aa0314fe6679ae5d57aa",
+  "receipt_sha256": "61e8c8f4e02c9f186feb1ba5d516f15aa1ab5b2d6a56e8d793a561c1783bf6dd",
+  "notes": "Source inventories preserve original file modes and bytes. Private native streams and large local delivery records can be annex pointers without public payload uploads. Earlier duplicate exports are retained.",
+  "postcommit_verification": {
+    "path": "log-export-postcommit-verification.json",
+    "captures": 211,
+    "annex_file_count": 9,
+    "all_source_bytes_verified": true
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-14T23:24:35.488653+00:00",
+  "scope": "Finished synchronization and verification captures; exact private-guidance/paragraph and configured-token matching, bounded credential-format scan. No private text or values emitted.",
+  "configured_secret_values_checked": 3,
+  "private_skill_sha256": "029598db52448162bfbb8a6f1df177dc01e9e326bc27928835e4e43b57979100",
+  "native_capture_existing_review": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/native-finalize-privacy-review.json",
+    "sha256": "dfa2e18d4a19613111caa14f0779d8b0e17513aefdf5f1b98f72139deb6f76a9",
+    "all_reviewed_file_hashes_still_match": true
+  },
+  "files": [
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232133.552524Z-e60db6168f7749c4ac2373f66e30bc41/context.json",
+      "bytes": 482,
+      "sha256": "9c0d3cd2348c917472fa4653e80104a5224a8592c51724eb6618e62f4df1e920",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232133.552524Z-e60db6168f7749c4ac2373f66e30bc41/run_info.json",
+      "bytes": 2395,
+      "sha256": "870428e9a4064739b4d608438ba4f45b863482eb4a602b5c92c6bd902c1a1e1d",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232133.552524Z-e60db6168f7749c4ac2373f66e30bc41/run_stderr",
+      "bytes": 89,
+      "sha256": "29bcda552f6151c892436139a0d999c74bb846457cd864839e978ae8409f42e2",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232133.552524Z-e60db6168f7749c4ac2373f66e30bc41/run_stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232133.552524Z-e60db6168f7749c4ac2373f66e30bc41/run_usage.jsonl",
+      "bytes": 2334,
+      "sha256": "4d65130f6af5afe785358d5fc2f10fa727865cb5c8502ababb2f81da0a4200e7",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232150.506819Z-cca7069b1999435db2f4f239415eaf4c/context.json",
+      "bytes": 482,
+      "sha256": "ef3488ec7cde114c97d8d3d4dee36f911be4eaf34fbd75ed796e86364b9aa363",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232150.506819Z-cca7069b1999435db2f4f239415eaf4c/run_info.json",
+      "bytes": 3306,
+      "sha256": "218cc8ebd2b97cc7f6f325a0a2d72642eba422c107c42a42b9380e60751a9c33",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232150.506819Z-cca7069b1999435db2f4f239415eaf4c/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232150.506819Z-cca7069b1999435db2f4f239415eaf4c/run_stdout",
+      "bytes": 239,
+      "sha256": "f7a6966cfe0c456b61365b98b449bfec186c892290705f164c35fb42538d7492",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T232150.506819Z-cca7069b1999435db2f4f239415eaf4c/run_usage.jsonl",
+      "bytes": 3222,
+      "sha256": "caecd24a0883be50fd0d9f26849f277e1ff22a7d1ab14e8cc8ec60c8973cb220",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": 0
+    }
+  ],
+  "withhold_raw_publication": false,
+  "limitations": [
+    "Bounded scan is not proof of absence of every possible sensitive item."
+  ]
+}

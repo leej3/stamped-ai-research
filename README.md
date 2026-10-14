@@ -7,7 +7,7 @@ The public mixed-gambles case replaces an ABCD proposal whose data access was no
 All three pairs are assessed: both arms matched the actual-data checks and passed fresh-checkout scientific replay.
 Stage 03 treatment failed two required missing-token screening cases, which remain unrepaired.
 These small, unblinded comparisons share account infrastructure and do not establish general skill effectiveness.
-Final packaging and poster export remain pending.
+The editable poster and checked PDF are delivered; see [delivery details](research/DELIVERY.md) for retrieval, private captures, and two unavailable diagnostic images.
 
 ## Start here
 
@@ -21,9 +21,9 @@ Final packaging and poster export remain pending.
 The 44 × 44 inch HTML/CSS poster uses the con/talks PR 20 layout and exact institutional artwork.
 Current preparation and build instructions are in [the root adaptation](research/poster-context/html-adaptation/README.md).
 The final module is [con/talks: 2026-usrse/stamped-ai-study](https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study).
-Its intended editable source is `index.html`; the expected final PDF path is `exports/stamped-ai-poster.pdf`.
-Final installation/export and retrieval checks are pending.
-A GitHub annex pointer alone is not the PDF: use the module's verified retrieval instructions once available.
+Its editable source is `index.html`; the final PDF is `exports/stamped-ai-poster.pdf`.
+The PDF is one 44-inch square page, with at least 24-point inspectable text, all expected link annotations, and all four QR codes decoded from the exported pixels.
+A GitHub annex pointer alone is not the PDF: use the module's verified direct download or core-asset retrieval instructions.
 The initial SVG remains labeled superseded.
 
 ## Five experimental skills
@@ -53,7 +53,8 @@ See the [evaluator guide](research/mixed-gambles-design/evaluator/README.md) and
 These experiments used pinned event tables from [ds000005](https://github.com/OpenNeuroDatasets/ds000005/tree/b094fc2f41487f92d382a1a432165ae58caae386), not MRI payloads or HPC jobs.
 
 Native agent history, duct computational records, and DataLad transformation records are distinct evidence.
-Complete duct logs will be curated into each experiment/module and committed with outputs, with large files in annex; central originals remain.
+Complete available duct records are retained alongside their module outputs; central originals remain.
+Raw native streams containing private setup instructions stay in local annex behind committed pointers; they are not public payloads.
 That later packaging is coordinator work and does not change what the workers produced.
 Successful command replay on this host does not imply offline, cross-platform, native DataLad rerun, or full-report reconstruction; consult each assessment's actual scope.
 

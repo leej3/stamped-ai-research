@@ -1,0 +1,75 @@
+{
+  "scope": "Targeted instruction-marker check only, not a universal secret scan. Exact bytes inspected after stop.",
+  "files": [
+    {
+      "run": "20261014T231621.673858Z-579ca4da3ca240fc93cf2b2e20140463",
+      "file": "run_info.json",
+      "bytes": 2853,
+      "sha256": "488c82b7f6eb4bff993420301c9639aeac657714702ad9aa836a3b84654e57f2",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231621.673858Z-579ca4da3ca240fc93cf2b2e20140463",
+      "file": "run_stdout",
+      "bytes": 131375,
+      "sha256": "51614005efaad9d682ae28dac768947a8aca578c6cf0b58518790df36ae22f56",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231621.673858Z-579ca4da3ca240fc93cf2b2e20140463",
+      "file": "context.json",
+      "bytes": 478,
+      "sha256": "a1fea843e33b69c896d0993ef6c9af9c367b6980545bb58fba52b069c671ccb6",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231621.673858Z-579ca4da3ca240fc93cf2b2e20140463",
+      "file": "run_usage.jsonl",
+      "bytes": 6480,
+      "sha256": "c75353f7c96bcfbc00b36022bc27b001047ae19439067e3a11afbab1f4abbc23",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231621.673858Z-579ca4da3ca240fc93cf2b2e20140463",
+      "file": "run_stderr",
+      "bytes": 2697,
+      "sha256": "b0d3ce031a235bf36258b33031b06b6317439d63b51055ff7f010c52b15df732",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231943.198651Z-d7342d0e671f4524bed0ee3fa45c532b",
+      "file": "run_info.json",
+      "bytes": 2879,
+      "sha256": "b883c89b9e8d785210ff2b4ad9d4892421e6edf8416435c9be0294f5968d48a1",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231943.198651Z-d7342d0e671f4524bed0ee3fa45c532b",
+      "file": "run_stdout",
+      "bytes": 182384,
+      "sha256": "a1a76fa010e352d8a09b3f69447c1207996b505098a1fcf568728d8ce518f576",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231943.198651Z-d7342d0e671f4524bed0ee3fa45c532b",
+      "file": "context.json",
+      "bytes": 478,
+      "sha256": "567e0700c2054efcac1d0d2567ddb7e41358227d8aee0b06f5b6e16676fc4379",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231943.198651Z-d7342d0e671f4524bed0ee3fa45c532b",
+      "file": "run_usage.jsonl",
+      "bytes": 25747,
+      "sha256": "55bb037830df52ed52b046cc5a0fc0eb685cecf5cc1673ef50b5c38142f448fd",
+      "private_instruction_markers": false
+    },
+    {
+      "run": "20261014T231943.198651Z-d7342d0e671f4524bed0ee3fa45c532b",
+      "file": "run_stderr",
+      "bytes": 3857,
+      "sha256": "1f80e51706d68412910122dbcc65b384d4893f54ad8c4915c2427253b161a124",
+      "private_instruction_markers": false
+    }
+  ]
+}

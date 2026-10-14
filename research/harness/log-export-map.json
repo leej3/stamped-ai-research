@@ -54,7 +54,14 @@
     "20261014T231401.734760Z-a92084eebda04eca9e8ef08a7653c160": "research",
     "20261014T231408.422568Z-c856c6a689ed473082406320d1d97280": "research",
     "20261014T231439.638724Z-611afc7351ec477b989cd166b7692a30": "research",
-    "20261014T230900.378834Z-e531da85ee844eb8a9c7b79d79f9f5c9": "experiments/03-rt-sensitivity"
+    "20261014T230900.378834Z-e531da85ee844eb8a9c7b79d79f9f5c9": "experiments/03-rt-sensitivity",
+    "20261014T232132.877209Z-1123524d1e5042e78bca858791ca8e14": "talks/2026-usrse/stamped-ai-study",
+    "20261014T233224.675803Z-9033232fffc244ad9a29e644ef195003": "talks/2026-usrse/stamped-ai-study",
+    "20261014T231444.989789Z-4e9ba1a7fa454c85a2bf930cb78bd143": "experiments/03-rt-sensitivity",
+    "20261014T231501.859733Z-181330b2fe844c38b45dbad3f9893aec": "experiments/03-rt-sensitivity",
+    "20261014T231532.111139Z-18d2ea022126411dade0324c9dd11e00": "experiments/03-rt-sensitivity",
+    "20261014T231550.176032Z-cbf1db028f904ab8a4ff0faa268e0023": "experiments/03-rt-sensitivity",
+    "20261014T231635.198846Z-9178d02888e743d58c32d60eaedb2afa": "experiments/03-rt-sensitivity"
   },
   "routing_note": "Every draft-01 route was reviewed using command metadata, run messages, and known task chronology. Explicit notes state their evidence and do not reconstruct missing stdin. Shared coordinator or ambiguous captures remain research/logs. Withdrawn Flanker logs are under experiments/00-flanker-screening and linked from research/study-design. Skill-development logs stay in research/skill-drafts until the frozen series ends; no frozen skill-repository write occurs.",
   "duct_override_notes": {
@@ -93,7 +100,14 @@
     "20261014T231401.734760Z-a92084eebda04eca9e8ef08a7653c160": "Reviewed parent delivery command covers multiple source/evaluator modules; shared storage and retrieval work belongs to parent research logs.",
     "20261014T231408.422568Z-c856c6a689ed473082406320d1d97280": "Reviewed parent delivery command covers multiple source/evaluator modules; shared storage and retrieval work belongs to parent research logs.",
     "20261014T231439.638724Z-611afc7351ec477b989cd166b7692a30": "Reviewed parent delivery command covers multiple source/evaluator modules; shared storage and retrieval work belongs to parent research logs.",
-    "20261014T230900.378834Z-e531da85ee844eb8a9c7b79d79f9f5c9": "Reviewed evaluator/skills native handoff identifies stage03 treatment provenance audit; Workshop Python in argv does not transfer ownership. Existing draft/skills copies remain documented duplicates."
+    "20261014T230900.378834Z-e531da85ee844eb8a9c7b79d79f9f5c9": "Reviewed evaluator/skills native handoff identifies stage03 treatment provenance audit; Workshop Python in argv does not transfer ownership. Existing draft/skills copies remain documented duplicates.",
+    "20261014T232132.877209Z-1123524d1e5042e78bca858791ca8e14": "Reviewed poster-context handoff identifies final anonymous poster retrieval or post-stop native delivery verification; ownership is the poster module.",
+    "20261014T233224.675803Z-9033232fffc244ad9a29e644ef195003": "Reviewed poster-context handoff identifies final anonymous poster retrieval or post-stop native delivery verification; ownership is the poster module.",
+    "20261014T231444.989789Z-4e9ba1a7fa454c85a2bf930cb78bd143": "Owning module delivery manifest identifies this complete capture as stage03 bootstrap attachment delivery. Earlier duplicate copies remain retained.",
+    "20261014T231501.859733Z-181330b2fe844c38b45dbad3f9893aec": "Owning module delivery manifest identifies this complete capture as stage03 bootstrap attachment delivery. Earlier duplicate copies remain retained.",
+    "20261014T231532.111139Z-18d2ea022126411dade0324c9dd11e00": "Owning module delivery manifest identifies this complete capture as stage03 bootstrap attachment delivery. Earlier duplicate copies remain retained.",
+    "20261014T231550.176032Z-cbf1db028f904ab8a4ff0faa268e0023": "Owning module delivery manifest identifies this complete capture as stage03 bootstrap attachment delivery. Earlier duplicate copies remain retained.",
+    "20261014T231635.198846Z-9178d02888e743d58c32d60eaedb2afa": "Owning module delivery manifest identifies this complete capture as stage03 bootstrap attachment delivery. Earlier duplicate copies remain retained."
   },
   "setup_capture_root": ".setup/workers",
   "failed_setup_interventions": {

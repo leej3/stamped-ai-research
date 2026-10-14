@@ -1,0 +1,72 @@
+[
+  {
+    "path": "index.html",
+    "sha256": "59aa1d1c3f1cedd69000e7acb138c84a2c39ec379d7db0c1309f1e7ccd028436",
+    "bytes": 16412
+  },
+  {
+    "path": "template.css",
+    "sha256": "e8c4ec782936e242e824c49305dba2add22c54257c652380f95852006d0ea845",
+    "bytes": 9470
+  },
+  {
+    "path": "poster.css",
+    "sha256": "878332525bbaa508869b86c74fba4ca69248dea42f65c2f9e7683ca69dc397b4",
+    "bytes": 5379
+  },
+  {
+    "path": "results-data.json",
+    "sha256": "24d7e20bfe07ade368ffb13b1267e840e4ef833df75d5fee6fd61da7e2406ab9",
+    "bytes": 8330
+  },
+  {
+    "path": "source-manifest.json",
+    "sha256": "d2de681dcd1b8564e155f6c438ff37a8215929c992908e398c3752712f22419e",
+    "bytes": 1353
+  },
+  {
+    "path": "exports/stamped-ai-poster.pdf",
+    "sha256": "ff238582851dfcf54a7e3be92c955e99644bd09d5eeed34f2c9c0f4ec969f68d",
+    "bytes": 694949
+  },
+  {
+    "path": "exports/pdf-preview.png",
+    "sha256": "14c9514014a363c55ed49aae1cd3caaebfe8a9edc24bea624bdb222389525a38",
+    "bytes": 1024548
+  },
+  {
+    "path": "assets/stamped-qr-con.svg",
+    "sha256": "9f5725bea98bf4b3b4b4a9479bdc734529b19db205089b291ee86e43320b1d49",
+    "bytes": 67605
+  },
+  {
+    "path": "assets/con-logo-outlined.svg",
+    "sha256": "076adc1bf4e2d9dba5983e22f753f562a7408c8a3393adea281c5478f64f7ee1",
+    "bytes": 125811
+  },
+  {
+    "path": "assets/repronim_logo.svg",
+    "sha256": "0e1101fa2dca811587d0ad4caa040961da5156e11b9b23f64f29ca3463d84870",
+    "bytes": 33939
+  },
+  {
+    "path": "assets/stamped-qr-skills.svg",
+    "sha256": "07e0002ae67f6a491ac421b76386e7ea7cf957d76b1c57ef7b5c798734b8d324",
+    "bytes": 69859
+  },
+  {
+    "path": "assets/con-ccn-dartmouth-letterhead.svg",
+    "sha256": "69dfcc6cd70367b7a03b19982589ac7d2180fdf6723bbb17ae2361c6c356d625",
+    "bytes": 379034
+  },
+  {
+    "path": "assets/stamped-qr-poster.svg",
+    "sha256": "a21e0078d98f2ecc05ac5afcb404f459814df0fb8b8be32d56fce4a22f11f04e",
+    "bytes": 72489
+  },
+  {
+    "path": "assets/stamped-qr-study.svg",
+    "sha256": "304f7fe5a93d693824d00b1ee2f14b25c5e6f6d291b129aee44b35f10e77496a",
+    "bytes": 73018
+  }
+]

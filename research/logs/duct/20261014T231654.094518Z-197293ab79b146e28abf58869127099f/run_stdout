@@ -1,0 +1,1 @@
+{"modules": [{"module": "experiments/01-participant-rt", "copied_records": 33, "mismatches": []}, {"module": "experiments/02-cohort-rt", "copied_records": 44, "mismatches": []}, {"module": "experiments/03-rt-sensitivity", "copied_records": 50, "mismatches": []}], "all_passed": true}

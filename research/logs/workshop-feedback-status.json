@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-14T23:40:11.264936+00:00",
+  "status": "queued-not-published",
+  "observations": {
+    "new_task_observations_validated_and_queued": 16,
+    "selected_records_validated": 25,
+    "existing_selected_records_deduplicated": 9
+  },
+  "child_captures": {
+    "new_import_attempts_succeeded": 134,
+    "additional_import_attempts_rejected": 5,
+    "rejection_cause": "Immutable duplicate capture identity with changed metadata.",
+    "existing_rejected_capture_payloads_verified_exact": 5,
+    "missing_evidence_for_rejected_attempts": 0
+  },
+  "verification": "All five rejected attempts refer to previously retained, schema-valid captures. Exact archive bytes and payload metadata match; only agent, classification reason, and relation metadata differ.",
+  "source_retention": "Original source captures and failed receipts retained unchanged.",
+  "publication": {
+    "state": "queued-not-published",
+    "performed_by_this_task": false,
+    "claim": "Local collection and queueing are verified; publication is not claimed."
+  },
+  "scope": "Aggregate bookkeeping status only; no private content, credentials, source paths, or private capture identifiers."
+}

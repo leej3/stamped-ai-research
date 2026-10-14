@@ -6,7 +6,7 @@ The defect was not repaired.
 Treatment used more worker time in every pair and added explicit research-record artifacts.
 Dependency gaps, native DataLad rerun failures, and stage 02 untracked bookkeeping files remain visible.
 These three exploratory pairs do not establish general skill effectiveness.
-Delivery packaging and the final poster export remain pending.
+The final editable poster and checked PDF are delivered; [delivery notes](DELIVERY.md) separate verified public assets, local private captures, and two incomplete ancillary image uploads.
 
 The evidence of record is the [stage 01 assessment](mixed-gambles-design/evaluator/stage-01/assessment.json), with its [readable review](mixed-gambles-design/evaluator/stage-01/review.md), the [stage 02 assessment](mixed-gambles-design/evaluator/stage-02/assessment.json) with its [readable review](mixed-gambles-design/evaluator/stage-02/review.md), and the [stage 03 assessment](mixed-gambles-design/evaluator/stage-03/assessment.json) with its [readable review](mixed-gambles-design/evaluator/stage-03/review.md).
 The [stage 01](mixed-gambles-design/evaluator/stage-01/pair-review.json), [stage 02](mixed-gambles-design/evaluator/stage-02/pair-review.json), and [stage 03](mixed-gambles-design/evaluator/stage-03/pair-review.json) review gates passed; the last gate does not authorize an unspecified additional trial.
@@ -42,8 +42,8 @@ Workers may make scoped local provenance commits but receive no post-attempt rep
 Evaluator replay happens after stopping and outside the worker budget.
 Advancement requires a stopped, assessed pair with retained failures and at least one correct result with successful replay.
 
-Complete duct execution records will be copied into their corresponding experiment/module directories and committed with the outputs: metadata, stdout/stderr, resource samples, and summaries, with large files managed by git-annex.
-This collection is pending coordinator curation after the arms stop.
+Complete available duct execution records are copied into their corresponding experiment/module directories: metadata, stdout/stderr, resource samples, and summaries, with large files managed by git-annex.
+Raw native streams containing private setup guidance are retained fully in local annex and withheld from public payload delivery; inventories preserve exact identities.
 Central originals remain retained.
 These uniformly added archives document the study; their presence must not be credited as an artifact independently produced by a worker.
 Agent-native histories and DataLad provenance remain separately identified.
@@ -64,7 +64,7 @@ The runner explicitly supplies `gpt-6-astra` and `ultra` for every attempt, so t
 The coordinator recorded a bounded amendment at `2026-10-14T22:34:51.378800Z` for stages 02 and 03, preserving the original all-six setup freeze, tasks, inputs, skill pins, and allocation.
 This is an orchestrator review, not human approval or a new setup freeze.
 The [amendment helper](harness/amend_default_model_freeze.py) did not edit the live configuration.
-The retained local gate record is `.setup/mixed-gambles-freeze-amended.json` at the repository root; its final distribution packaging remains coordinator work.
+The retained local gate record is `.setup/mixed-gambles-freeze-amended.json` at the repository root; it is also copied into each later experiment's study-records directory.
 The original freeze SHA-256 is `0fb7e23164c45059f3ed25cd43e542a029af4a4be40d26fa3d36b2268431ece0`.
 Original and amended redacted configuration hashes are respectively `d0e37bb09b6b90498e6c87709010716eecf9960141503b1e5b4a40c6ecbdf2dc` and `f9cab39e6b8ef88a5970b50fe4c6d497cf48b8f4e060f19aa586def1f3405ecd`.
 
@@ -125,7 +125,7 @@ The middle run supplies descriptive context, not a causal model or an additional
 Each stage 03 original and replay passed 2,042 scalar comparisons, with all 4,096 source rows checked independently under both retention rules and all 192 variant/run summaries recomputed. The primary rule retained 3,942 rows and excluded 154; the band retained 3,904 and excluded 192. A second Decimal implementation, prepared before inspecting stage 03 outputs, also passed 292 checks against the frozen reference. Baseline's seven regular scientific derivative files were byte-identical on replay. Treatment reproduced seven regular files plus one annexed bootstrap table. Separate verification matched the annex key, original/replay hashes, and all 40,000 retained replicate values.
 The original snapshot contains the annex symlink without its target; a [separate coordinator attachment](../experiments/03-rt-sensitivity/annex-content/) preserves the verified 1,404,481-byte payload with source/key/hash metadata.
 This does not replace or repair the original snapshot.
-Publication and independent-recipient retrieval checks remain separate delivery work.
+The coordinator separately verified a fresh anonymous download of this exact payload from the CON Hub; that delivery check does not change worker credit.
 
 | Stage / arm | Provider input tokens | Included cached input | Output tokens | Reasoning-output field |
 | --- | ---: | ---: | ---: | ---: |
@@ -217,20 +217,22 @@ A reproducible scientific module does not establish complete dependency closure 
 
 The arms share an account and infrastructure, with logical read boundaries rather than OS isolation.
 Sequential order, one pair per stage, unblinded design-author assessment, and authors developing the assessed framework/skills limit inference.
-New-code licensing, independent external-recipient delivery, and persistent distribution remain unresolved.
+New-code licensing, complete independent-recipient reconstruction, and long-term distribution remain unresolved.
+Later anonymous full-byte checks cover selected delivered assets and evidence, not the full experimental software environment.
 Source-data openness does not resolve the original ABCD access boundary.
 
 The three planned local pairs are assessed.
-Finish the full duct-record curation, retain setup/amendment metadata, and verify external artifact retrieval without changing historical worker outcomes.
+Coordinator curation retains execution records and setup/amendment metadata without changing historical worker outcomes.
 The poster's seven-property matrix now covers all three pairs, explicitly distinguishing supplied seeds and coordinator checks from worker artifacts.
-Final native installation, PDF export, visual review, links, QR decoding, and font-size checks remain delivery work.
+The final poster was installed, exported, and visually inspected; its dimensions, font sizes, link annotations, and all four PDF QR codes passed.
 These data support scoped actual-data replay and explicit tradeoffs, not a claim that skills improve research generally.
 
 The poster remains an editable 44-inch square HTML/CSS artifact adapted from con/talks PR 20, retaining exact institutional artwork and the submitted title in metadata.
 The initial SVG is superseded, not erased.
 The central table distinguishes historical abstract tools from observed evidence; actual cost, failures, gaps, and the unresolved ABCD access boundary address the reviewer requests.
-Current source is in [the HTML adaptation](poster-context/html-adaptation/README.md); installation into the native-captured talks branch, final PDF export, 24-point text audit, all-link checks, and decoding every PDF QR remain finalization tasks.
-Existing provisional PDFs are stale after content updates.
+Final source and exports are in [the talks module](../talks/2026-usrse/stamped-ai-study/README.md).
+The [root adaptation](poster-context/html-adaptation/README.md) records the scientific handoff; older provisional PDFs are superseded.
+[Delivery notes](DELIVERY.md) record the exact PDF hash, external checks, privacy handling, and remaining ancillary upload limits.
 
 Author order is John A. Lee, Austin Macdonald, Cody C. Baker, and Yaroslav O. Halchenko, with Dartmouth/CON affiliation.
 OpenAI Codex assisted the analyses and poster draft; ReproNim supports this work.

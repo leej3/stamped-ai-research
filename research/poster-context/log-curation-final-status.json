@@ -1,0 +1,14 @@
+{
+  "head": "1e96d413e43ca048c7f45674ada9d5f316a68b91",
+  "remote_sha": "1e96d413e43ca048c7f45674ada9d5f316a68b91",
+  "frozen_artifacts_verified": 14,
+  "pdf_sha256": "ff238582851dfcf54a7e3be92c955e99644bd09d5eeed34f2c9c0f4ec969f68d",
+  "capture_count": 35,
+  "files": 175,
+  "git_payloads": 172,
+  "annex_payloads": 3,
+  "empty_files": 31,
+  "all_copied_payload_hashes_match": true,
+  "checkpoint_push_disabled": true,
+  "dirty_status": ""
+}

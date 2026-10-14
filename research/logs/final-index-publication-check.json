@@ -1,0 +1,6 @@
+{
+  "scope": "Current root Git index regular blobs only; subdataset payloads and prior history are outside this check. Long private-guidance excerpts and selected credential patterns; not a universal privacy/secret audit.",
+  "checked_at": "2026-10-14T23:40:29.240906+00:00",
+  "regular_blobs": 1629,
+  "findings": []
+}

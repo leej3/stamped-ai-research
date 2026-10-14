@@ -5,5 +5,5 @@ __pycache__/
 .setup/codex-trust-sync.lock
 .setup/private-feedback/
 # Provisional renders and log-export bookkeeping have durable module copies.
-.setup/poster-*/
+.setup/poster-*
 .setup/log-export-*.json

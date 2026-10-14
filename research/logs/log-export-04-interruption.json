@@ -1,0 +1,7 @@
+{
+  "plan": ".setup/log-export-plan-04.json",
+  "status": "verification-stopped",
+  "failure": "The held poster-native stdout had been converted to annex and unstaged by the active delivery worker; the exporter correctly refused to accept an untracked symlink as a verified destination.",
+  "copy_behavior": "Existing successful copies were retained; no overwrite or source deletion. A new final plan/receipt will recheck all completed captures after the delivery worker stops and the local annex pointer is staged.",
+  "private_payload": "Complete source and local annex object retained; no public upload authorized by this receipt."
+}
