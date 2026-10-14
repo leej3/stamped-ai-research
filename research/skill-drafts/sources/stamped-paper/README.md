@@ -1,0 +1,52 @@
+<div align="center">
+  <picture>
+    <img alt="stamped logo" src="https://raw.githubusercontent.com/stamped-principles/stamped-branding/c3191c404b734ba62ceddcad29f382ef51f9d249/ver-2/name-main%2Blogo/name-main%2Blogo_ver-2.svg" width="600">
+  </picture>
+
+  <h1 align="center">STAMPED Principles (Paper)</h1>
+  <p align="center">
+    <a href="https://github.com/stamped-principles/stamped-paper/actions/workflows/build-pdf.yml"><img alt="Build PDF" src="https://github.com/stamped-principles/stamped-paper/actions/workflows/build-pdf.yml/badge.svg"></a>
+  </p>
+</div>
+
+Manuscript formalizing the **STAMPED** properties for reproducible research objects:
+
+> 📦 **S**elf-contained: Everything under one boundary<br>
+> 🔍 **T**racked: Version control & provenance<br>
+> ▶️ **A**ctionable: Executable & documented workflows<br>
+> 🧩 **M**odular: Independent & composable modules<br>
+> 🚢 **P**ortable: Runs anywhere with explicit specifications<br>
+> 💨 **E**phemeral: Transient compute environment<br>
+> 🌐 **D**istributable: Shareable, persistent, and retrievable
+
+Originating from the [YODA Principles](https://github.com/stamped-principles/poster/blob/master/ohbm2018.pdf); earlier working names for this formalization included [VAMP](???).
+
+**[View current PDF](https://stamped-principles.github.io/stamped-paper/)** | [Download PDF](https://stamped-principles.github.io/stamped-paper/main.pdf)
+
+Associated examples: [stamped-principles.github.io/stamped-examples](https://stamped-principles.github.io/stamped-examples)
+
+Target venue: **Nature Scientific Data** (Article format).
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for project conventions (writing style,
+terminology, build, licensing, and workflow). AI agents should also read
+[.claude/CLAUDE.md](.claude/CLAUDE.md).
+
+## Licensing
+
+This project follows the [REUSE specification](https://reuse.software/) for
+machine-readable copyright and licensing information.
+
+- Manuscript text, bibliography, figures and auxililary documentation are
+  licensed under [CC-BY-4.0](LICENSES/CC-BY-4.0.txt).
+- Code, tooling, and CI configuration are licensed under
+  [Apache-2.0](LICENSES/Apache-2.0.txt).
+
+Per-path declarations live in [`REUSE.toml`](REUSE.toml); full license texts
+live under [`LICENSES/`](LICENSES/). To verify compliance locally:
+
+```bash
+make reuse-lint   # or: uvx --from reuse reuse lint
+```
+
+When adding new files, extend the relevant `path` list in `REUSE.toml` so they
+fall under the appropriate block.

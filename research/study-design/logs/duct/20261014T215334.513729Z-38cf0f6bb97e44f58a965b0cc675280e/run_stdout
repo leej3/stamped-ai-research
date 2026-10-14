@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "protocol JSON parse and required study values",
+    "run record schema JSON parse",
+    "all retained response body hashes",
+    "all four prompt files present"
+  ],
+  "source_responses": 33,
+  "failed_source_http_statuses": [
+    "https://raw.githubusercontent.com/stamped-principles/stamped-skills-assessment/c4c0428e6962a631d910d0becb00b7bb1c3c903c/docs/automation-evidence-lessons.md"
+  ],
+  "prompt_sha256": {
+    "task-common.md": "6726171bebd04cec39a7b282c851bd4ef55bc5a8bf14258fd57a00fa180a624b",
+    "task-01.md": "9852dfb5d17d6b01abf8716fc0e50d426029dbc5f8dfae7d244ce3e1200b4f0a",
+    "task-02.md": "34db171d9ddbeb6958c790c39b78b1e00e7b5f14fd441a367cf4f6d73321fdde",
+    "task-03.md": "d4a0e4af78eb8120e06bd880a294b1f3d202a59ab746399c1b9d08d8e7153254"
+  }
+}

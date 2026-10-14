@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv",
+  "retrieved_at": "2026-10-14T21:59:11.373041+00:00",
+  "status": 200,
+  "sha256": "9c224da34a5658da4a7105d8017c1b2628f18600e0764ee705523c25328efadd",
+  "bytes": 6624,
+  "path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv"
+}

@@ -1,0 +1,2970 @@
+{
+  "repository": "https://github.com/OpenNeuroDatasets/ds000006",
+  "commit": "dcedff1d22b7abe4e90fab8f9dff888ded0983be",
+  "event_files": 164,
+  "event_bytes": 177812,
+  "rows": 10492,
+  "column_values": {
+    "trial_type": {
+      "pl_ns": 3260,
+      "junk": 1588,
+      "mr_ns": 2747,
+      "pl_sw": 1449,
+      "mr_sw": 1448
+    }
+  },
+  "files": [
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "524f44807eaf56167dc965cd15e1d129a0daff5e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "01842c19808956c1fdd9d306aa3dbd8f8cefa93e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "b55b775abeff6e8695756ffd2c6c74691db7d3bd",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "51d0cf4b5c7914468588929a84ded6291b29424a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "666be1b24be2441f5014c3c28c657d7da4a2b9e9",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "7420a77f8443f3fa6a404eca64a9cf2a247a71c1",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "204829e5b8705684e1ce83626fbfad2c0d9ccbcf",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "12675d48171a4585a1cf03d7ea1db21675aaa087",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "b34ab9940492e5ea4db9f1d8ed7394203497310e",
+      "rows": 63,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 63,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "cd71bfe57f6350eeab8192f6af96d4e0430dbb16",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "0277c139f81ed31bc5aa16facce4f95fc8a2280d",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "81783ac2c6cf233d2172ab80e7e64a94d33543ba",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "a67b573648fd2c9a33a37450b61456703ae675d2",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "4ceafe17eeeed27ab907b8019e7d249e7f47d2d5",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "064d196dbc3118b0cd089bcff36e0ce60481b8e8",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "0c53ad60ca721a2ddd375ed5d3a3bcd217749a5e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "1af51cd7830fea79e579dd521c39fa1ee3c23795",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "d687dd671a69c64b5b09d9b6e98ac4c398461332",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "ba7255cb715565b1ffe45d171f1bc43dfeaabe59",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "8ba652f19fb07e6eddb4ed8879aae1b9f01f5b02",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "edaae23bef04d9d8e9b5c1f7ba4fcdae3eb46440",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "03f57ca7bd92084a48e963061d325047f063a041",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "b623a1e55f9d291f4c6451fcf4e5b899347ff022",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "ca0e521024f587ec232e5079f2314bbab1191689",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "9b1302bc69c78bec612e67fcd5bc7fa40184bb32",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "bcf63cd50507eea784c3dcc2797292c6360f1ccb",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "0b64c04c4111c4f8f19ef7860d5fdd5a0ee848b0",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "5646dc213efe435e101d3b7130bb828602acbef6",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "5695e125f0dc9841743c76486bc1efd57b8ff357",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "19ac245b512a2acab559ef1bd879b49e3ee30dbb",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "2f16c8d53c2b82e5a22b896228264c03a4f44c82",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "78d35fcc6cd9ceb93e716b3f64a09be02a399e45",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "54422ca3598f75aeb0de301c1fe70203466777fc",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "8939592ed458d2494ddbcdea59e1101b4d280f3c",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "eda792dd4d8087a1a658482612512f9ae6386019",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "35ed567debb1abd942a919b75d19b0e4c47bf389",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "ac31adc23c9d915872e1e0200277af44b029e38d",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "61736a6d2c6b1a31e436b89e5a0d57ff42309f17",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "c79958d38f520dcd4939186a2626b8d36ffd4b89",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "12431db798fb5f5e709c7c6b78e56d1e8a9063c3",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "6a36d0514325fb2464fb463de395a1424002737e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "4f91e85e2710fe08bc1baccb4a14dfe257e83b22",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "f730f6b067fd31d7c74fb61557d395be27243580",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "e095441d4cb1fb54d90c4013712d08212b63a603",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "e3241434a2f0926bb71db0211f7968c5d31ea4f9",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "315dc5f9aca878d0098b4f9dd354122a3117d2b2",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "db7598f08bf0d0f8b1da6873692a0139b1b635cd",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "8d7c12167295dc02550f58baa4cc22ca462e1b22",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "7a851d5d1a66350c0f726fe489593193e7e70294",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "6d179a9b7bda8237c4eb754da3fe787e41cf1e88",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "2f58ab24207c9ec4d63d977d1090dd60e6eafc71",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "71b4b3b193d6b2fd9d323c934fba33f5a2a34f27",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "b583990b1321f906e2144bf58281085105e40774",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "f0b773320ee1e8ceda47087bb1970aa93b25c6d6",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "0e749e67fc1936ae9d5d8034ec95325161d03087",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "b2853c12072ae5cdc7faf79e35fa2c858606013f",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "8dfb467a439f3df4ee59e836c4bcd68895d53b8e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "cddd32342e85abcb28b9e0644e4c601a1169f7fb",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "f91c63523f53c42c1128b98f98d450eb82618c22",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "b3c335f24afed329db7c84ff195ad471b2bbf40c",
+      "rows": 63,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 63,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "90415eb7d12861c959564e656f88b180655303ac",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "4342f125c7e370d0771f87a8da9cccb2070567c7",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "ba3cbcd75d30316a148c7ce1e21354835a14ecbc",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "d87e5f55a8411abbdd73271a72e423eb8b79d45a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "0449d54374ba3eef3c1e7f3cdb7147942bf650d3",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "bdcfc21c19a8b282320e795a4431fc4b6900f02a",
+      "rows": 63,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 63,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "3c12f27c73ba40e3b9f2f3e442520e5c88d54aa4",
+      "rows": 63,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 63,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "85a062510202b1c00487d23545077baa15ea68b1",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "f42e5f7eed0cd76c33454d5d3ee7b1cd939f9557",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "946f36e526205a5a01d598cd94027e0da0536b9b",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "5161fd21f232c10cbadc9873a1fb2395e323e638",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "9b322e38c4f69e5413941d0196cf526b6d89b263",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "5735f8731615b4f05b1d866f097b2009268804d7",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "b1939111265b31a45f4f41f74164b3f2fdd11588",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "faf2ff225c2f6c18a371b1a9617e0ad93ff9763c",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "300a070fe8ceff46a87bec5e66782910e40b8baa",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "bf64d4116f8aab30d6335e7c4a44a56a9cdcfd8a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "6bc2c45119991ed03663b968ae4b6d0376c89b94",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "38899fdb4f52207ecb92cec6f1cf0f2193adf788",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "e8078d6a2c2f73a8d56320de7384edfa98dd2cc8",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "c3461bdee38067fe03dfff071a6d98b74ff6fc3a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "326a18e0870f098a8ce3f382eb54221d99ae7960",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "166f5972068266405e082317557e379456c9990e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "aea519df6e652340d39572a2523216d7aee4eee5",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "d8b90c6b680993bc33ceaaa63be65ea6deb6d2d1",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "2a938f1c13c3f67609d2f99b2c261e9805584b3b",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "662842bc16ac766e4ae26d416f783d5335cf35c5",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "6ac21e4eeea5310e130a8e9681fa8c740fca3672",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "e8eb244cb50a32d1825862c5a715484d6cf02fe5",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "37cb74c491ea394d53cd5cf9ffa106a8aad1ec22",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "87190cf51a876adc0805ad7c4293c7f8762ff3d4",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "34adc378c2f6b1aaf1d2ce7ff3fa9583138b08a8",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "3d9f510c9b05a76f4c902a239888f323e5f316d7",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "fb1bf09c4be29e8203f4b819b451760625601a44",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "0a48847b205034d624b51022753efbf19f153066",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "b9cfd7eddc150e33331931afd9546c8985fa8cd4",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "37e7537a1fb8f1fc5f4083cfe069a3c4fbe1e1be",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "65b6ef8b9f478dfae0032bf060b07f2e3165863b",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "6a3e4d059025423a7fd9a27e379cadd9befac232",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "9f8a51a7956b10dbebd9c38fe1307521ef66ed38",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "31fda0ec5fd1a66b498f56732c2c88240dd65dd3",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "97a83846452b2fbd3d7882b64fec13f2767caf02",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "67df8818900309ffa1b5746c646edf15a8d38f50",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "987af997a28b92cfbf5be303f30dd4b67f9dbc49",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "0cc4258c54604a608ce25c8defce4a5a96dbb5f0",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "7547391bfa9464d3b99d9ac9f1618b4be351ba6b",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "4428a854d9f92c6d4547ee8fe9293dc03eb8ed09",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "f25c7ce46eeed35b34f9b000b4e5b9a8cf7b3039",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "b4ae5622a8f0b05fc3c30428881b759759f102cf",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "8d2dbcfe7eba3796481224f84c9148a6bd31444f",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "0d6c35cc6fbbf168b89d7b1fc9f200d2a260e117",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "61602ea042bc6127c1d032b3675f497bb682ca69",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "6155364eb0c6a035bf1c792da45a46ac7cd2fb77",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "c858f6deee0566b82863e64c5a79bf159601a920",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "3f2bd2865e2366acd075a8ba9d78e3f46c35da5c",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "d6715cca0556423d1307aeb23d3c752f364a0b3e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "6e292e4ddde32a561a1a5b25e0fd0c1287ebbfa4",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "2e03731398891ab18cfc06a01b9a12d0a0fa7600",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "cb2e9f893d22686a1677e7b907a6f5752a8ca736",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "cf9ae5eb715aac15f0bfda43cadeb5a161834f22",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "537ff09c7a143da337f6f45af3d48697999db2bf",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "abf58ebdfaaa584dc17961d5f25213dc26723ded",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "8b6f1fa0550a46d36c06bb605e8b0b39e6e0b00a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "c49292843882eefc79a4f13e2260cd475347eff6",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "11290a563e6e18d8a7f1b399939420b1870ae500",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "803674ffc1425460c71ccbaaf5ad83f88e37c02e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "fb4bddeb700cc661fb74f7c8dd1297ce50d12f3a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "673e01d64ae4063a16908541ff796d1cb532704a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "62f795d149fd7a89a917f7447a1fde7ab8f748e8",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "ee288d86c3252b9983630aaa7fac3c3e1b327e79",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "4a3f563348b4edb7e0b0415749639558366c7c9a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "aaeab368d8186e30c7644926cdd25161c2071fb1",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "312edd43e1a522a8122bf916dd7cdecc82c74a7a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "32ac264fccae337ae7c080f5de956ef2d7dfce6a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "15bdb8ece7d114d153ad70250775f4140a5fb3f3",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "63e0cef4faa7504bee5a750943772f3930acbc83",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "59fc996a19ea65a71aef0b09273576b07f00d627",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "2bc0c2ed810401e1d0d0bcb65f8b55704cfc5a7a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "27cbcbe490340131cf88480b1b2bb71ead4f8975",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "2f71e7b29a12208e74cac4f10d5f1a8f5f7842ce",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "fde83c881f9832e59b722168d07e9adc94383fd0",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "33abd51d447ef39d48a0c7834aae926e0b5e0289",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "cb740324f8c8e69d14b8ddf6b1b135e64c603308",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "f0243f5955810a5701c51a0e67fd446d1f9754ba",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "9492b5bcb22791786bc9d97792601bc7b0b6cea6",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "cc0b988007c41617d19869e96abf34840ee39e63",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "30e36e5a575ccdf4701490a69ea291945609ce4e",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "8b0ab4cf6bb4ab17f0ef28286bea8c0dbac89287",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "9d1cad2598f8884977c310242a6947a0735645b0",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "efe2574f596e32c3bcd4e7f6bffce37f7974cdd4",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "e9c58b9a2c3c54abbfb4377b4bf135c895841b7d",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "6dd803d72d274e53760d1a3a2fb9827eed1240cd",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "44e4243aac86c1d2bb4aa1b993484a805c3e3eec",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "8e8980a104a5dc1a06b1066005e3aa1c7dc9740f",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "f6bb4a5d23bc949e880e60ee52af533e7559057b",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "47b2297a3553d4c4d7009be80211634dced73493",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "e1201d0368475bdf8c25c201c33c2a94d9c361c9",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "f99668fc85dea2151cd82f92802b066a1f7600df",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "git_blob": "0b4cb9e299101782526338c22720641eb25cb318",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "git_blob": "216bda81ceba53a67c13ae11be8d21176c56c113",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "git_blob": "2876dc05b8c5ae9b9deffa8df25b634cf2051223",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "git_blob": "9b33e37560d7df20044491ea1bea61b51c319700",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "git_blob": "46d375b32ec9d1ea61c8f2596a52fc4da72fa08a",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "git_blob": "840f1d61553b9412027d3ce4158de6c9dc3d8601",
+      "rows": 64,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 64,
+          "min": 3.25,
+          "max": 3.25,
+          "invalid": {}
+        }
+      }
+    }
+  ]
+}

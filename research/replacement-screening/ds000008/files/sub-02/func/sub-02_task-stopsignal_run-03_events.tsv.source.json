@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv",
+  "retrieved_at": "2026-10-14T21:59:11.100677+00:00",
+  "status": 200,
+  "sha256": "6bd01906937a4c38e53be4612c411c020c8f350afcedb73c6791dea036a0cad6",
+  "bytes": 5278,
+  "path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv"
+}

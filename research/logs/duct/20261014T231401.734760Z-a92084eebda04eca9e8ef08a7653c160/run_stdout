@@ -1,0 +1,7 @@
+add research/mixed-gambles-design/evaluator/stage-02/source-audit.json 
+1%    31.98 KiB        12 MiB/s 0s100%  2.92 MiB        221 MiB/s 0s                                  ok
+add research/mixed-gambles-design/evaluator/stage-03/source-audit.json 
+1%    31.98 KiB       351 MiB/s 0s100%  4.37 MiB         44 MiB/s 0s                                  ok
+add research/skill-candidates/sources/pr-26/changed-files.json 
+3%    31.98 KiB       367 MiB/s 0s100%  1.05 MiB        231 MiB/s 0s                                  ok
+(recording state in git...)

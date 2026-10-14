@@ -1,0 +1,87 @@
+{
+  "captures": 103,
+  "kinds": {
+    "duct": 101,
+    "agent_operational": 2
+  },
+  "counts": {
+    "file": 527,
+    "bytes": 1730629
+  },
+  "owners": {
+    "experiments/01-participant-rt": {
+      "captures": 17,
+      "regular_files": 97,
+      "bytes": 636985
+    },
+    "research/skill-drafts": {
+      "captures": 17,
+      "regular_files": 85,
+      "bytes": 287383
+    },
+    "talks/2026-usrse/stamped-ai-study": {
+      "captures": 16,
+      "regular_files": 80,
+      "bytes": 386525
+    },
+    "experiments/00-flanker-screening": {
+      "captures": 12,
+      "regular_files": 60,
+      "bytes": 92827
+    },
+    "research/study-design": {
+      "captures": 5,
+      "regular_files": 25,
+      "bytes": 67813
+    },
+    "research": {
+      "captures": 20,
+      "regular_files": 100,
+      "bytes": 154550
+    },
+    "research/replacement-screening": {
+      "captures": 3,
+      "regular_files": 15,
+      "bytes": 35362
+    },
+    "research/mixed-gambles-design": {
+      "captures": 5,
+      "regular_files": 25,
+      "bytes": 22127
+    },
+    "experiments/02-cohort-rt": {
+      "captures": 3,
+      "regular_files": 15,
+      "bytes": 13626
+    },
+    "experiments/03-rt-sensitivity": {
+      "captures": 1,
+      "regular_files": 5,
+      "bytes": 4201
+    },
+    "research/skill-candidates": {
+      "captures": 4,
+      "regular_files": 20,
+      "bytes": 29230
+    }
+  },
+  "missing_named_outputs": [],
+  "duct_without_stdin_file": 101,
+  "empty_files_by_name": {
+    "run_stderr": 57,
+    "run_stdout": 14,
+    "run_usage.jsonl": 4
+  },
+  "skipped": [
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1",
+      "reason": "run metadata is incomplete or unreadable; central capture retained"
+    },
+    {
+      "source": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment",
+      "reason": "arm/supervisor not finalized; not inspected or exported"
+    }
+  ],
+  "plan_sha256": "2523d7fc4d79eb66733a9098736ff8a81f7423d3c2e2f618d822010243c29ba7",
+  "report_sha256": "f696b524e513aefad7cdb866e8c14f69d8b9dd64948c3583b306f646303825ec"
+}

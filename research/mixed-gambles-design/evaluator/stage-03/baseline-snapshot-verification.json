@@ -1,0 +1,134 @@
+{
+  "boundary": "Verifies retained file bytes and recorded source state; does not claim absence of detached processes or complete capture.",
+  "clean": true,
+  "files": [
+    {
+      "passed": true,
+      "path": ".codex/hooks.json"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/.gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/config"
+    },
+    {
+      "passed": true,
+      "path": ".gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".gitignore"
+    },
+    {
+      "passed": true,
+      "path": ".gitmodules"
+    },
+    {
+      "passed": true,
+      "path": ".setup/native-capture-probe.txt"
+    },
+    {
+      "passed": true,
+      "path": "SOURCE.json"
+    },
+    {
+      "passed": true,
+      "path": "TASK.md"
+    },
+    {
+      "passed": true,
+      "path": "code/analyze_rt.py"
+    },
+    {
+      "passed": true,
+      "path": "code/check_rt.py"
+    },
+    {
+      "passed": true,
+      "path": "code/verify_replay.py"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/missingness_by_run.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/participant_changes.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/results.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/run_summaries.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/sensitivity.svg"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/software.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/source_hashes.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/trial_audit.tsv"
+    },
+    {
+      "passed": true,
+      "path": "pixi.lock"
+    },
+    {
+      "passed": true,
+      "path": "pixi.toml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/SOURCES.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/paper/main.tex"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/principles/stamped-principles.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/datalad-provenance.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/report.md"
+    },
+    {
+      "passed": true,
+      "path": "reports/run.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/verification.json"
+    }
+  ],
+  "output_commit": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+  "passed": true,
+  "snapshot_sha256": "49eb75092ef39caef0a6076f71ebec7d862f554f39d66f4625dab529c09d4151",
+  "source_matches": true
+}

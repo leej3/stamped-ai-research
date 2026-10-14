@@ -1,0 +1,18 @@
+{
+  "both_arms_stopped": true,
+  "evaluated_at": "2026-10-14T22:32:03.294499+00:00",
+  "evidence": "evidence-checks.json; per-arm original/replay comparisons, row audits and replay verification",
+  "failures_retained": true,
+  "proceed": true,
+  "replay_accounted": true,
+  "retained_limitations": [
+    "Unblinded design-author assessment; no human review",
+    "Shared account, cache and host; logical isolation",
+    "Treatment formal assessment validator unavailable (jsonschema absent)",
+    "Treatment DataLad native rerun recognition broken by Conventional Commit prefix; direct code replay succeeds",
+    "Only one task pair; no generalized skill efficacy inference"
+  ],
+  "review": "Both arms scientifically correct for the frozen single-participant task. Direct command replay succeeds in fresh Git/new locked Pixi prefixes on same host. No worker repairs.",
+  "scientific_checks_accounted": true,
+  "stage": "01"
+}

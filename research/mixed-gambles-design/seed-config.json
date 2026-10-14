@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ds000005",
+  "dataset_url": "https://github.com/OpenNeuroDatasets/ds000005.git",
+  "dataset_revision": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "source_path": "inputs/ds000005",
+  "raw_bids_version": "1.0.0rc4",
+  "raw_license": "Public Domain Dedication and License v1.0 (PDDL)",
+  "common_task_path": "research/mixed-gambles-design/task-common.md",
+  "stages": [
+    {"id": "01", "name": "participant-rt", "task_path": "research/mixed-gambles-design/task-01.md"},
+    {"id": "02", "name": "cohort-rt", "task_path": "research/mixed-gambles-design/task-02.md"},
+    {"id": "03", "name": "rt-sensitivity", "task_path": "research/mixed-gambles-design/task-03.md"}
+  ],
+  "wall_seconds": 480,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "ultra",
+  "reference_code_and_outputs_are_worker_forbidden": true
+}

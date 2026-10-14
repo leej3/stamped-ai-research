@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "head": "ce4b915ab5a72ac287245ff110dca3adc56221c3",
+  "tree": "8095a41482f25a5777f436daedefb0205f5e1ef0",
+  "native_session_id": "01a13c79-a8ad-78e1-8088-293ac899a61b",
+  "checkpoint_id": "01M4Y7KZHMVXRTV3TF20RH58V3",
+  "verified_at": "2026-10-14T22:13:26.435686+00:00",
+  "native_capture_verified": true,
+  "uploaded_refs_verified": true,
+  "code": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/heads/codex/mixed-03-baseline",
+    "local_sha": "ce4b915ab5a72ac287245ff110dca3adc56221c3",
+    "remote_sha": "ce4b915ab5a72ac287245ff110dca3adc56221c3"
+  },
+  "checkpoint": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/entire/checkpoints/V3/01M4Y7KZHMVXRTV3TF20RH58V3",
+    "local_sha": "6a190efce54a7f2d3da02338aad59738a5885feb",
+    "remote_sha": "6a190efce54a7f2d3da02338aad59738a5885feb"
+  },
+  "evidence": [
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-baseline.evidence.json",
+      "sha256": "c49e751f5510f887ee9977f4757231db2ccac3dac0b19b482ef62daa6f0db576"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 __pycache__/
+.runs/
 .pixi/
-
-.pixi/
-__pycache__/
+.setup/workers/
+.setup/codex-trust-sync.lock
+.setup/private-feedback/
+# Provisional renders and log-export bookkeeping have durable module copies.
+.setup/poster-*/
+.setup/log-export-*.json

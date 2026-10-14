@@ -6,3 +6,6 @@ repos:
         entry: snapper --in-place
         language: system
         types: [markdown]
+        # Preserve exact captures, frozen controls, and source snapshots.
+        exclude: >-
+          ^(?:\.setup/|\.agents/|research/(?:.*?/logs/|logs/|.*?/sources/|replacement-screening/|study-design/|mixed-gambles-design/|skill-drafts/|poster-context/native-[^/]+\.md$))

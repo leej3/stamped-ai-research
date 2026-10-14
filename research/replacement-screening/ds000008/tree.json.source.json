@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000008/git/trees/a65448a0f00ebf4038e134f5a956f429ec4ca1ed?recursive=1",
+  "retrieved_at": "2026-10-14T21:59:10.557110+00:00",
+  "status": 200,
+  "sha256": "0d78cc85172d1b80b64123834a053a74cdb14f3baad61ceb0516ba7c150076e5",
+  "bytes": 62035,
+  "path": "ds000008/tree.json"
+}

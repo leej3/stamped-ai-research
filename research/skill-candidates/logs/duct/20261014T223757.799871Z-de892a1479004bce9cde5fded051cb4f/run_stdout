@@ -1,0 +1,6 @@
+AGENTS.md
+README.md
+create-stamped-project/templates/pre-commit-run-guard
+create-stamped-project/templates/preflight.sh
+create-stamped-project/templates/run-recorded.sh
+tox.ini

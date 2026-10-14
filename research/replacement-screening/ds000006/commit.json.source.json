@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000006/commits/HEAD",
+  "retrieved_at": "2026-10-14T21:59:10.149375+00:00",
+  "status": 200,
+  "sha256": "8dbee1a7f265659f04b482ffa99da046c0a1d9d5e0384745fc5631f1cb6d4de8",
+  "bytes": 3457,
+  "path": "ds000006/commit.json"
+}

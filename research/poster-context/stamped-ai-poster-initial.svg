@@ -1,0 +1,403 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44in" height="44in" viewBox="0 0 3168 3168" role="img" aria-labelledby="title desc">
+<title id="title">STAMPED in Practice: initial public-data study poster layout</title>
+<desc id="desc">Editable initial layout. ABCD reproduction did not proceed because data access was not obtained. The seven-property table distinguishes abstract implementation examples from pending evidence, effort, failures, tradeoffs and gaps. No scientific result or general skill benefit is claimed.</desc>
+<metadata>Initial layout dated 2026-10-14; 44 by 44 inches; all table findings pending. Author order follows the conference program, confirmed by John. Accepted title retained in evidence-notes.md. Draft prepared with Codex assistance; awaiting author review. All text remains editable.</metadata>
+<rect width="3168" height="3168" fill="#ffffff"/>
+<g font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="3168" height="18" rx="0" fill="#086e76"/>
+<text x="104" y="83" font-size="25" fill="#086e76" font-weight="700">
+<tspan x="104" dy="0">US-RSE 2026  /  ADVANCING SCIENCE IN THE AGE OF AI</tspan>
+</text>
+<text x="2290" y="83" font-size="25" fill="#986219" font-weight="700">
+<tspan x="2290" dy="0">INITIAL LAYOUT · 14 OCT 2026</tspan>
+</text>
+<text x="104" y="207" font-size="104" fill="#163047" font-weight="700">
+<tspan x="104" dy="0">STAMPED in Practice</tspan>
+</text>
+<text x="104" y="306" font-size="71" fill="#163047" font-weight="400">
+<tspan x="104" dy="0">Building reviewable research objects with AI</tspan>
+</text>
+<text x="108" y="389" font-size="36" fill="#203848" font-weight="400">
+<tspan x="108" dy="0">John A. Lee  ·  Austin Macdonald  ·  Cody C. Baker  ·  Yaroslav O. Halchenko</tspan>
+</text>
+<text x="108" y="444" font-size="30" fill="#526574" font-weight="400">
+<tspan x="108" dy="0">Center for Open Neuroscience · Psychological and Brain Sciences · Dartmouth College</tspan>
+</text>
+<path d="M104 484 L3064 484" stroke="#b6d3d6" stroke-width="3"/>
+<rect x="104" y="532" width="1016" height="396" rx="16" fill="#f7f0e5"/>
+<text x="144" y="591" font-size="39" fill="#163047" font-weight="700">
+<tspan x="144" dy="0">Why the study changed</tspan>
+</text>
+<text x="144" y="653" font-size="32" fill="#203848" font-weight="400">
+<tspan x="144" dy="0">ABCD data access was not obtained.</tspan>
+<tspan x="144" dy="43">The planned reconstruction stalled.</tspan>
+<tspan x="144" dy="43">Public-data studies now test how</tspan>
+<tspan x="144" dy="43">agents build reviewable research</tspan>
+<tspan x="144" dy="43">objects.</tspan>
+</text>
+<text x="144" y="895" font-size="27" fill="#986219" font-weight="700">
+<tspan x="144" dy="0">ABCD scientific claim: not reproduced</tspan>
+</text>
+<rect x="1160" y="532" width="1904" height="396" rx="16" fill="#eef6f6"/>
+<text x="1200" y="591" font-size="39" fill="#163047" font-weight="700">
+<tspan x="1200" dy="0">A matched exploratory comparison</tspan>
+</text>
+<rect x="1200" y="632" width="560" height="112" rx="12" fill="#ffffff" stroke="#c4dfe0" stroke-width="2"/>
+<text x="1228" y="675" font-size="31" fill="#086e76" font-weight="700">
+<tspan x="1228" dy="0">Same question</tspan>
+<tspan x="1228" dy="39">+ source revision</tspan>
+</text>
+<rect x="1804" y="632" width="560" height="112" rx="12" fill="#ffffff" stroke="#c4dfe0" stroke-width="2"/>
+<text x="1832" y="675" font-size="31" fill="#086e76" font-weight="700">
+<tspan x="1832" dy="0">New skills</tspan>
+<tspan x="1832" dy="39">absent | present</tspan>
+</text>
+<rect x="2408" y="632" width="560" height="112" rx="12" fill="#ffffff" stroke="#c4dfe0" stroke-width="2"/>
+<text x="2436" y="675" font-size="31" fill="#086e76" font-weight="700">
+<tspan x="2436" dy="0">Scientific result</tspan>
+<tspan x="2436" dy="39">+ research object</tspan>
+</text>
+<text x="1200" y="802" font-size="29" fill="#203848" font-weight="400">
+<tspan x="1200" dy="0">Match tasks, tools, permissions and budgets; retain common account controls.</tspan>
+</text>
+<text x="1200" y="851" font-size="29" fill="#203848" font-weight="400">
+<tspan x="1200" dy="0">Preserve failed attempts and human interventions; verify independent replay.</tspan>
+</text>
+<text x="1200" y="900" font-size="29" fill="#086e76" font-weight="700">
+<tspan x="1200" dy="0">Assess scientific correctness separately from research-object quality.</tspan>
+</text>
+<text x="104" y="1011" font-size="49" fill="#163047" font-weight="700">
+<tspan x="104" dy="0">Seven properties. Evidence before claims.</tspan>
+</text>
+<text x="104" y="1065" font-size="28" fill="#526574" font-weight="400">
+<tspan x="104" dy="0">Abstract implementation examples guide the study. All findings below are pending until demonstrated.</tspan>
+</text>
+<rect x="104" y="1110" width="2960" height="106" rx="0" fill="#163047"/>
+<text x="130" y="1152" font-size="28" fill="#ffffff" font-weight="700">
+<tspan x="130" dy="0">Property</tspan>
+</text>
+<text x="452" y="1152" font-size="28" fill="#ffffff" font-weight="700">
+<tspan x="452" dy="0">Reusable practice</tspan>
+<tspan x="452" dy="37">+ abstract example tools</tspan>
+</text>
+<text x="1092" y="1152" font-size="28" fill="#ffffff" font-weight="700">
+<tspan x="1092" dy="0">Observed evidence</tspan>
+<tspan x="1092" dy="37">+ source identifiers</tspan>
+</text>
+<text x="1740" y="1152" font-size="28" fill="#ffffff" font-weight="700">
+<tspan x="1740" dy="0">Effort, failures</tspan>
+<tspan x="1740" dy="37">+ tradeoffs</tspan>
+</text>
+<text x="2384" y="1152" font-size="28" fill="#ffffff" font-weight="700">
+<tspan x="2384" dy="0">Remaining gaps</tspan>
+<tspan x="2384" dy="37">+ next verification</tspan>
+</text>
+<g id="property-1">
+<rect x="104" y="1216" width="2960" height="180" rx="0" fill="#f0f5f6"/>
+<rect x="104" y="1216" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="1288" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Self-</tspan>
+<tspan x="130" dy="43">containment</tspan>
+</text>
+<text x="452" y="1265" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Define research-object</tspan>
+<tspan x="452" dy="37">boundaries.</tspan>
+<tspan x="452" dy="37">DataLad · git-annex</tspan>
+</text>
+<text x="1092" y="1251" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="1292" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Versioned manifest;</tspan>
+<tspan x="1092" dy="37">input identities, licenses</tspan>
+<tspan x="1092" dy="37">and access requirements</tspan>
+</text>
+<text x="1740" y="1251" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="1292" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Setup effort; missing inputs;</tspan>
+<tspan x="1740" dy="37">judgment about boundaries</tspan>
+</text>
+<text x="2384" y="1251" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="1292" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">External dependencies;</tspan>
+<tspan x="2384" dy="37">what remains outside</tspan>
+<tspan x="2384" dy="37">the research object</tspan>
+</text>
+<path d="M104 1396 L3064 1396" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-2">
+<rect x="104" y="1396" width="2960" height="180" rx="0" fill="#ffffff"/>
+<rect x="104" y="1396" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="1468" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Tracking</tspan>
+</text>
+<text x="452" y="1445" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Version state + provenance.</tspan>
+<tspan x="452" dy="37">Git · DataLad run · con-duct</tspan>
+<tspan x="452" dy="37">NIDM · PROV</tspan>
+</text>
+<text x="1092" y="1431" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="1472" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Linked agent history,</tspan>
+<tspan x="1092" dy="37">execution logs and</tspan>
+<tspan x="1092" dy="37">DataLad run records</tspan>
+</text>
+<text x="1740" y="1431" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="1472" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Capture overhead; missing</tspan>
+<tspan x="1740" dy="37">records; manual interventions</tspan>
+</text>
+<text x="2384" y="1431" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="1472" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">Retrieval and completeness;</tspan>
+<tspan x="2384" dy="37">semantic provenance</tspan>
+<tspan x="2384" dy="37">coverage</tspan>
+</text>
+<path d="M104 1576 L3064 1576" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-3">
+<rect x="104" y="1576" width="2960" height="180" rx="0" fill="#f0f5f6"/>
+<rect x="104" y="1576" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="1648" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Actionability</tspan>
+</text>
+<text x="452" y="1625" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Provide runnable interfaces.</tspan>
+<tspan x="452" dy="37">Tested BIDS Apps</tspan>
+<tspan x="452" dy="37">Pixi tasks</tspan>
+</text>
+<text x="1092" y="1611" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="1652" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">One documented command;</tspan>
+<tspan x="1092" dy="37">tests and independently</tspan>
+<tspan x="1092" dy="37">replayed result</tspan>
+</text>
+<text x="1740" y="1611" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="1652" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Repair attempts; ambiguous</tspan>
+<tspan x="1740" dy="37">steps; required expert input</tspan>
+</text>
+<text x="2384" y="1611" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="1652" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">Unexecuted paths;</tspan>
+<tspan x="2384" dy="37">unsupported inputs;</tspan>
+<tspan x="2384" dy="37">validation limits</tspan>
+</text>
+<path d="M104 1756 L3064 1756" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-4">
+<rect x="104" y="1756" width="2960" height="180" rx="0" fill="#ffffff"/>
+<rect x="104" y="1756" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="1828" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Modularity</tspan>
+</text>
+<text x="452" y="1805" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Version components</tspan>
+<tspan x="452" dy="37">independently.</tspan>
+<tspan x="452" dy="37">DataLad composition</tspan>
+</text>
+<text x="1092" y="1791" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="1832" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Pinned subdatasets;</tspan>
+<tspan x="1092" dy="37">explicit interfaces;</tspan>
+<tspan x="1092" dy="37">component boundaries</tspan>
+</text>
+<text x="1740" y="1791" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="1832" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Composition work; interface</tspan>
+<tspan x="1740" dy="37">friction; duplicated state</tspan>
+</text>
+<text x="2384" y="1791" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="1832" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">Replacement or reuse</tspan>
+<tspan x="2384" dy="37">without hidden coupling</tspan>
+<tspan x="2384" dy="37">remains to be tested</tspan>
+</text>
+<path d="M104 1936 L3064 1936" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-5">
+<rect x="104" y="1936" width="2960" height="180" rx="0" fill="#f0f5f6"/>
+<rect x="104" y="1936" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="2008" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Portability</tspan>
+</text>
+<text x="452" y="1985" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Identify execution</tspan>
+<tspan x="452" dy="37">environments.</tspan>
+<tspan x="452" dy="37">Apptainer containers</tspan>
+</text>
+<text x="1092" y="1971" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="2012" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Environment lock or image</tspan>
+<tspan x="1092" dy="37">identity; execution on</tspan>
+<tspan x="1092" dy="37">a second compatible host</tspan>
+</text>
+<text x="1740" y="1971" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="2012" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Setup + transfer cost;</tspan>
+<tspan x="1740" dy="37">platform-specific repairs</tspan>
+</text>
+<text x="2384" y="1971" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="2012" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">Untested platforms;</tspan>
+<tspan x="2384" dy="37">runtime assumptions;</tspan>
+<tspan x="2384" dy="37">external services</tspan>
+</text>
+<path d="M104 2116 L3064 2116" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-6">
+<rect x="104" y="2116" width="2960" height="180" rx="0" fill="#ffffff"/>
+<rect x="104" y="2116" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="2188" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Ephemerality</tspan>
+</text>
+<text x="452" y="2165" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Execute with fresh state.</tspan>
+<tspan x="452" dy="37">Apptainer · BABS · Slurm</tspan>
+<tspan x="452" dy="37">Current BIDS plan: mechababs</tspan>
+</text>
+<text x="1092" y="2151" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="2192" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Fresh workspace execution;</tspan>
+<tspan x="1092" dy="37">explicit mounts + inputs;</tspan>
+<tspan x="1092" dy="37">comparison with replay</tspan>
+</text>
+<text x="1740" y="2151" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="2192" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Recreation cost; cache</tspan>
+<tspan x="1740" dy="37">effects; undeclared state</tspan>
+</text>
+<text x="2384" y="2151" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="2192" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">Host-state influence;</tspan>
+<tspan x="2384" dy="37">clean execution beyond</tspan>
+<tspan x="2384" dy="37">the observed environment</tspan>
+</text>
+<path d="M104 2296 L3064 2296" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<g id="property-7">
+<rect x="104" y="2296" width="2960" height="180" rx="0" fill="#f0f5f6"/>
+<rect x="104" y="2296" width="8" height="180" rx="0" fill="#086e76"/>
+<text x="130" y="2368" font-size="36" fill="#086e76" font-weight="700">
+<tspan x="130" dy="0">Distributability</tspan>
+</text>
+<text x="452" y="2345" font-size="28" fill="#203848" font-weight="400">
+<tspan x="452" dy="0">Make permitted artifacts</tspan>
+<tspan x="452" dy="37">persistently retrievable.</tspan>
+<tspan x="452" dy="37">git-annex remotes + boundaries</tspan>
+</text>
+<text x="1092" y="2331" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1092" dy="0">PENDING</tspan>
+</text>
+<text x="1092" y="2372" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1092" dy="0">Retrieval by a fresh clone;</tspan>
+<tspan x="1092" dy="37">content checks; stated</tspan>
+<tspan x="1092" dy="37">permissions and access</tspan>
+</text>
+<text x="1740" y="2331" font-size="20" fill="#986219" font-weight="700">
+<tspan x="1740" dy="0">PENDING</tspan>
+</text>
+<text x="1740" y="2372" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1740" dy="0">Upload + retrieval effort;</tspan>
+<tspan x="1740" dy="37">access failures; storage cost</tspan>
+</text>
+<text x="2384" y="2331" font-size="20" fill="#986219" font-weight="700">
+<tspan x="2384" dy="0">PENDING</tspan>
+</text>
+<text x="2384" y="2372" font-size="28" fill="#203848" font-weight="400">
+<tspan x="2384" dy="0">ABCD access unresolved;</tspan>
+<tspan x="2384" dy="37">public-data retrieval does</tspan>
+<tspan x="2384" dy="37">not resolve controlled access</tspan>
+</text>
+<path d="M104 2476 L3064 2476" stroke="#d4dfe4" stroke-width="2"/>
+</g>
+<path d="M426 1216 L426 2476" stroke="#dbe4e8" stroke-width="1.5"/>
+<path d="M1066 1216 L1066 2476" stroke="#dbe4e8" stroke-width="1.5"/>
+<path d="M1714 1216 L1714 2476" stroke="#dbe4e8" stroke-width="1.5"/>
+<path d="M2358 1216 L2358 2476" stroke="#dbe4e8" stroke-width="1.5"/>
+<rect x="104" y="2530" width="1440" height="395" rx="16" fill="#eef6f6"/>
+<text x="144" y="2589" font-size="38" fill="#163047" font-weight="700">
+<tspan x="144" dy="0">What evidence will change this poster?</tspan>
+</text>
+<text x="144" y="2653" font-size="31" fill="#203848" font-weight="700">
+<tspan x="144" dy="0">1   Small public-data analysis</tspan>
+</text>
+<text x="144" y="2711" font-size="31" fill="#203848" font-weight="400">
+<tspan x="144" dy="0">2   Greater complexity after independent replay</tspan>
+</text>
+<text x="144" y="2769" font-size="31" fill="#203848" font-weight="400">
+<tspan x="144" dy="0">3   BIDS App after bounded end-to-end trials</tspan>
+</text>
+<text x="144" y="2841" font-size="28" fill="#986219" font-weight="700">
+<tspan x="144" dy="0">Question, dataset, sample size and metric: PENDING</tspan>
+</text>
+<text x="144" y="2892" font-size="27" fill="#526574" font-weight="400">
+<tspan x="144" dy="0">Escalate only when the preceding study is controlled.</tspan>
+</text>
+<rect x="1584" y="2530" width="1480" height="395" rx="16" fill="#f4f6f8"/>
+<text x="1624" y="2589" font-size="38" fill="#163047" font-weight="700">
+<tspan x="1624" dy="0">Useful beyond neuroimaging</tspan>
+</text>
+<text x="1624" y="2653" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1624" dy="0">Executable interface  →  BIDS App / ordinary workflow</tspan>
+</text>
+<text x="1624" y="2711" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1624" dy="0">Versioned component  →  subdataset / reusable package</tspan>
+</text>
+<text x="1624" y="2769" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1624" dy="0">Fresh runtime  →  temporary container / job workspace</tspan>
+</text>
+<text x="1624" y="2827" font-size="28" fill="#203848" font-weight="400">
+<tspan x="1624" dy="0">Retrievable result  →  repository + permitted data remote</tspan>
+</text>
+<text x="1624" y="2892" font-size="27" fill="#086e76" font-weight="700">
+<tspan x="1624" dy="0">Where do your team&#x27;s constraints overlap with ours?</tspan>
+</text>
+<text x="104" y="2995" font-size="27" fill="#526574" font-weight="400">
+<tspan x="104" dy="0">Application by a team including STAMPED authors; a companion poster introduces the framework.</tspan>
+</text>
+<text x="104" y="3040" font-size="27" fill="#526574" font-weight="400">
+<tspan x="104" dy="0">Exploratory comparison: no general skill benefit demonstrated. Costs will be reported only when measured.</tspan>
+</text>
+<text x="104" y="3100" font-size="24" fill="#526574" font-weight="400">
+<tspan x="104" dy="0">Supported by ReproNim  ·  Draft prepared with Codex assistance; awaiting author review</tspan>
+</text>
+<a href="https://stamped-principles.org">
+<text x="2500" y="3100" font-size="25" fill="#086e76" font-weight="700">
+<tspan x="2500" dy="0">stamped-principles.org</tspan>
+</text>
+</a></g></svg>

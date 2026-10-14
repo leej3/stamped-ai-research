@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-14T22:14:39.163074+00:00",
+  "frozen_redacted_sha256": "d0e37bb09b6b90498e6c87709010716eecf9960141503b1e5b4a40c6ecbdf2dc",
+  "current_redacted_sha256": "f9cab39e6b8ef88a5970b50fe4c6d497cf48b8f4e060f19aa586def1f3405ecd",
+  "prefix_matches": [],
+  "single_added_node_matches": [],
+  "backup_identities": [
+    {
+      "path": "/Users/johnlee/.codex/config.toml.before-stamped-trust-20261013T055109Z",
+      "redacted_sha256": "c321ee517b5a0497cc5a6f8299d5fb27fcd14867bde1b6f07d67ff31b290ee4a"
+    },
+    {
+      "path": "/Users/johnlee/.codex/backups/side-chat-hook-20260930T165101Z/config.toml",
+      "redacted_sha256": "bd61c9a0e20c05bbd62dd8c2232c12147c6fc196b13948e3afb15c87c3a8f1a2"
+    }
+  ],
+  "stage01_runner_times": {
+    "treatment": {
+      "started_at": "2026-10-14T22:14:58.795400+00:00",
+      "finished_at": "2026-10-14T22:20:57.558550+00:00"
+    },
+    "baseline": {
+      "started_at": "2026-10-14T22:20:57.830209+00:00",
+      "finished_at": "2026-10-14T22:25:28.230258+00:00"
+    }
+  },
+  "raw_config_printed_or_copied": false,
+  "config_modified": false
+}

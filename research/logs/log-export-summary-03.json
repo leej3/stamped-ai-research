@@ -1,0 +1,22 @@
+{
+  "captures": 188,
+  "kinds": {
+    "duct": 175,
+    "agent_operational": 6,
+    "worker_setup": 7
+  },
+  "regular_files": 1212,
+  "bytes": 3696839,
+  "new_captures": 55,
+  "new_files": 287,
+  "new_bytes": 937729,
+  "blocked": 0,
+  "skipped": [
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8",
+      "reason": "run metadata is incomplete or unreadable; central capture retained"
+    }
+  ],
+  "plan_sha256": "adaab2379aaedc0ae4ef7ac8003a31ed7b7e19d2688569b9b01955a7d20c3bd6",
+  "receipt_sha256": "d3a9922ebdbfe49beb6da86b5cd66d80d896a7fa01fce8beef3f6f6c3edad98a"
+}

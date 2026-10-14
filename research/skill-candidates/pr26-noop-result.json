@@ -1,0 +1,44 @@
+{
+  "probe": "fresh-rerun",
+  "items": [
+    "stamped-checklist:must/007",
+    "stamped-checklist:must/008",
+    "stamped-checklist:must/015",
+    "stamped-checklist:must/017",
+    "stamped-checklist:should/004",
+    "stamped-checklist:should/006"
+  ],
+  "source": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "started_at": "2026-10-14T22:42:31+00:00",
+  "host": {
+    "uname": "Darwin vpn-two-factor-general-229-133-11.dartmouth.edu 27.0.0 Darwin Kernel Version",
+    "datalad": false,
+    "container_runtime": null
+  },
+  "steps": [
+    {
+      "step": "git clone",
+      "returncode": 0,
+      "log": "Cloning into '/Users/johnlee/code/CON/stamped-ai-research/.runs/candidate-pr26-noop/clone'...\ndone.\n"
+    },
+    {
+      "step": "entry: true",
+      "returncode": 0,
+      "log": ""
+    }
+  ],
+  "outputs_shipped": {
+    "derivatives/gambling-rt/results.json": "0f8b4551f753dcbfeb3d8baef8f254cd966cf7d8b4b7b24997db3063da82e8c8"
+  },
+  "comparison": {
+    "identical": [
+      "derivatives/gambling-rt/results.json"
+    ],
+    "within_tolerance": [],
+    "differing": [],
+    "missing_after_rerun": []
+  },
+  "status": "met",
+  "reason": "All 1 compared output(s) reproduced from a fresh clone via `true`.",
+  "finished_at": "2026-10-14T22:42:31+00:00"
+}

@@ -1,0 +1,9 @@
+test_nonexclusive_flags_and_union (test_reference.IndependentReferenceChecks.test_nonexclusive_flags_and_union) ... ok
+test_pair_disagreement_and_rt_edge_cases (test_reference.IndependentReferenceChecks.test_pair_disagreement_and_rt_edge_cases) ... ok
+test_paired_equal_weight_not_pooled (test_reference.IndependentReferenceChecks.test_paired_equal_weight_not_pooled) ... ok
+test_summary_variants_and_bootstrap (test_reference.IndependentReferenceChecks.test_summary_variants_and_bootstrap) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.016s
+
+OK

@@ -1,0 +1,481 @@
+{
+  "checked_at": "2026-10-14T23:18:47.322218+00:00",
+  "scope": "Read-only targeted local audit. Only event locations, spans, digests and classifications emitted; private text and secret values are never output.",
+  "private_skill_sha256": "029598db52448162bfbb8a6f1df177dc01e9e326bc27928835e4e43b57979100",
+  "private_body_characters": 4649,
+  "configured_secret_values_checked": 3,
+  "files": [
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/codex-events.jsonl",
+      "bytes": 120416,
+      "sha256": "cda4cce8cca0e840e4a4aad25a9d5123eecc5faf84c9b5d3fbbc5ef5c018f462",
+      "guidance_occurrences": [
+        {
+          "line": 10,
+          "event_id": "item_4",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            10204,
+            14853
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            7179,
+            22638
+          ],
+          "matched_raw_byte_spans": [
+            [
+              17873,
+              22597
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 2,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-baseline-f2ee0ef2f2c6e4de/20261014T222057.863403Z-7dc02ef6149e492da62ab566b20fa679/run_stdout",
+      "bytes": 183,
+      "sha256": "d1c4a13dd198aa408a73c38a58c69494359ee7cdd27e844b3981b4b586c80dd6",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-baseline-f2ee0ef2f2c6e4de/20261014T222057.863403Z-7dc02ef6149e492da62ab566b20fa679/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment/codex-events.jsonl",
+      "bytes": 299816,
+      "sha256": "1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2",
+      "guidance_occurrences": [
+        {
+          "line": 10,
+          "event_id": "item_4",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            10204,
+            14853
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            25694,
+            41153
+          ],
+          "matched_raw_byte_spans": [
+            [
+              36388,
+              41112
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 1,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-treatment-004a17a6d2ae695b/20261014T221458.875731Z-5f0c3994818d4241a81ceabe927d0e83/run_stdout",
+      "bytes": 184,
+      "sha256": "508bc7d51791f3b95a771cf91c1102cbc366198abbf2ec31ae8e897880f82e31",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-treatment-004a17a6d2ae695b/20261014T221458.875731Z-5f0c3994818d4241a81ceabe927d0e83/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline/codex-events.jsonl",
+      "bytes": 203873,
+      "sha256": "37a271c0f38f2c64b2e4046196bfeae604584e55045a15f50f2fa00cb14c912a",
+      "guidance_occurrences": [
+        {
+          "line": 13,
+          "event_id": "item_6",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            10204,
+            14853
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            16338,
+            31811
+          ],
+          "matched_raw_byte_spans": [
+            [
+              27046,
+              31770
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 2,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-02-baseline-1f73a8892ff99475/20261014T224202.715689Z-d2c227bd71aa48648446bb3290e1be43/run_stdout",
+      "bytes": 183,
+      "sha256": "05eed586280cb24332ad504ffebf6492ce631122a872dc997a9098c8bb216d9b",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-02-baseline-1f73a8892ff99475/20261014T224202.715689Z-d2c227bd71aa48648446bb3290e1be43/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/codex-events.jsonl",
+      "bytes": 412712,
+      "sha256": "99fd1352fc5182b64e2643b1d96c63c5e1e9da37df32e8b20c8840fcf9904881",
+      "guidance_occurrences": [
+        {
+          "line": 10,
+          "event_id": "item_4",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            15132,
+            19781
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            25707,
+            46146
+          ],
+          "matched_raw_byte_spans": [
+            [
+              41381,
+              46105
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 2,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1/run_stdout",
+      "bytes": 184,
+      "sha256": "41999a54d6cda5124224a1003a3b950f8254e262aed933b093cfcca24e3b849b",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/codex-events.jsonl",
+      "bytes": 202168,
+      "sha256": "ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "guidance_occurrences": [
+        {
+          "line": 8,
+          "event_id": "item_3",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            15132,
+            19781
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            5771,
+            26220
+          ],
+          "matched_raw_byte_spans": [
+            [
+              21455,
+              26179
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 2,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-03-baseline-dd10a809a3eea605/20261014T225245.244648Z-275ab9bf212b4cfa85ce8a8cf6fc6fff/run_stdout",
+      "bytes": 183,
+      "sha256": "bf4586575877c622e23daa7440dc3044b00a4047abc0b731a63343b4a5d3265d",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-03-baseline-dd10a809a3eea605/20261014T225245.244648Z-275ab9bf212b4cfa85ce8a8cf6fc6fff/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment/codex-events.jsonl",
+      "bytes": 333705,
+      "sha256": "64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+      "guidance_occurrences": [
+        {
+          "line": 10,
+          "event_id": "item_4",
+          "field": "$.item.aggregated_output",
+          "classification": "complete_skill_body",
+          "decoded_char_span": [
+            15132,
+            19781
+          ],
+          "private_source_char_span": [
+            0,
+            4649
+          ],
+          "matched_characters": 4649,
+          "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+          "event_byte_span": [
+            21855,
+            42294
+          ],
+          "matched_raw_byte_spans": [
+            [
+              37529,
+              42253
+            ]
+          ]
+        }
+      ],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": true,
+      "raw_header_markers": 1,
+      "raw_transport_path_markers": 2,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": true
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-03-treatment-67cfbd33a08da8a5/20261014T225908.676003Z-92e9a2b5adf74452bf0188d71e2106e1/run_stdout",
+      "bytes": 184,
+      "sha256": "b6a5d2bd36e753e241934cdd441e528658ff986e3c3bf57d8cf08e8ce52148f7",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/mixed-03-treatment-67cfbd33a08da8a5/20261014T225908.676003Z-92e9a2b5adf74452bf0188d71e2106e1/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "raw_header_markers": 0,
+      "raw_transport_path_markers": 0,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false
+    }
+  ],
+  "limitations": [
+    "Exact configured-token and obvious credential-format scans are bounded; absence is not proof that every possible secret is absent.",
+    "Native checkpoint repositories and other captures are outside this first narrow pass."
+  ]
+}

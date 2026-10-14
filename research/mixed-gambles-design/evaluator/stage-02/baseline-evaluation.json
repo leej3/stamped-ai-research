@@ -1,0 +1,72 @@
+{
+  "arm": "baseline",
+  "attempt": {
+    "path": ".runs/evidence/mixed-02-baseline/run-result.json",
+    "sha256": "a9d681e5f0df229b158673951e2661428fecc6015ab8bcdb4ee4f63bed46393a"
+  },
+  "failure_evidence": {
+    "path": "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+    "sha256": "5894961ca1d67d255e1661763e2d7a3dfd89ab0456025f3ca4e7018b5f0000b0"
+  },
+  "failures": [
+    {
+      "control": "Workshop feedback recorder",
+      "evidence": "System Python and project Pixi Python both raised ModuleNotFoundError: No module named jsonschema. Recording then succeeded with the existing Workshop Python; no dependency installation or publication attempted.",
+      "status": "recovered"
+    }
+  ],
+  "interpretation": {
+    "evidence": {
+      "path": "experiments/02-cohort-rt/arms/baseline/worktree/reports/report.md",
+      "sha256": "7f17d73868e4888efea705fb0664a74236630de6f69926584eb571a78314f4e2"
+    },
+    "finding": "Descriptive observed-response endpoint, paired equal weights and bootstrap, explicit sub05 differential missingness and sub15 contradictory-row exclusion; no causal or loss-aversion claim.",
+    "status": "passed_manual_read"
+  },
+  "output_commit": "f8df3fef0c46ac4ab0f01015b3a906966c7dad27",
+  "provider_turn_usage": [
+    {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 946176,
+      "input_tokens": 1004998,
+      "output_tokens": 18015,
+      "reasoning_output_tokens": 5005
+    }
+  ],
+  "replay_byte_identical": true,
+  "replay_identity_and_command_passed": true,
+  "replay_passed": true,
+  "science_passed": true,
+  "scope_note": "Run02 supplemental audit retained when emitted; primary endpoint uses only01/03.",
+  "snapshot_clean": true,
+  "snapshot_identity_passed": true,
+  "source_manifest": {
+    "all_check_results_sha256": "1f36aa2e6b1c460c6dda58a5c2a9ba670af61ca113b6d4a8e931caee5b070a15",
+    "check_count": 32,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 32,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "versions": {
+    "original": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "emitted_rows": 4096,
+      "primary_rows": 2736,
+      "reference_passed": true,
+      "scalar_checks": 489
+    },
+    "replay": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "emitted_rows": 4096,
+      "primary_rows": 2736,
+      "reference_passed": true,
+      "scalar_checks": 489
+    }
+  },
+  "wall_seconds": 387.1459320409922,
+  "worker_outcome": "completed",
+  "worker_stopped": true
+}

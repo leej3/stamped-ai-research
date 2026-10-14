@@ -1,0 +1,4 @@
+Child initially in leader process group: True
+Leader exited: True
+TERM-resistant child survives current cleanup branch: True
+Reproducer group force-terminated during cleanup

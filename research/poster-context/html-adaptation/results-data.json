@@ -1,0 +1,216 @@
+{
+  "status": "complete_evaluations",
+  "timing_definition": "Worker wall seconds only; setup and evaluator replay excluded; 480-second cap per attempt.",
+  "display_rounding": "Whole seconds for worker timing; one decimal millisecond for cohort results.",
+  "data_check_scope": "Correctness on the pinned source data, not complete implementation-contract correctness. Separate screening probes are shown when available.",
+  "reviewed_stages": [
+    "01",
+    "02",
+    "03"
+  ],
+  "property_judgment_scope": "Three reviewed pairs; worker evidence distinguished from supplied seeds and coordinator replay/curation; no aggregate score or general certification.",
+  "stages": [
+    {
+      "stage": "01",
+      "label": "One person",
+      "baseline": {
+        "worker_wall_seconds": 270.2424976249458,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-01/assessment.json"
+      },
+      "treatment": {
+        "worker_wall_seconds": 358.4730830839835,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-01/assessment.json"
+      }
+    },
+    {
+      "stage": "02",
+      "label": "Cohort",
+      "baseline": {
+        "worker_wall_seconds": 387.1459320409922,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-02/baseline-evaluation.json",
+        "worker_outcome": "completed",
+        "scalar_checks": 489,
+        "replay_byte_identical": true
+      },
+      "treatment": {
+        "worker_wall_seconds": 412.5168959159637,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-02/treatment-evaluation.json",
+        "worker_outcome": "completed",
+        "scalar_checks": 489,
+        "replay_byte_identical": true
+      }
+    },
+    {
+      "stage": "03",
+      "label": "Sensitivity",
+      "baseline": {
+        "worker_wall_seconds": 382.97944491694216,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-03/baseline-evaluation.json",
+        "worker_outcome": "completed",
+        "scalar_checks": 2042,
+        "replay_byte_identical": true,
+        "screening_contract": "passed",
+        "screening_contract_evidence": {
+          "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-screening-probes.json",
+          "sha256": "fbe60031ebbd94657a59d26603ec54545e0af0ea1c274203aef37fd1b47c7ee2"
+        }
+      },
+      "treatment": {
+        "worker_wall_seconds": 474.4654870419763,
+        "correctness": "passed",
+        "fresh_replay": "passed",
+        "evidence": "research/mixed-gambles-design/evaluator/stage-03/treatment-evaluation.json",
+        "worker_outcome": "completed",
+        "scalar_checks": 2042,
+        "replay_byte_identical": true,
+        "screening_contract": "failed",
+        "screening_contract_evidence": {
+          "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+          "sha256": "b427318d0b4d6fc4e83c710acfd0fa3123d23396c78354ee32b6ae285518abfd"
+        }
+      }
+    }
+  ],
+  "scientific_results": {
+    "stage01": {
+      "run01_median_ms": 1272.0,
+      "run03_median_ms": 1261.0,
+      "change_ms": -11.0
+    },
+    "stage02": {
+      "ci95_ms": [
+        -70.284375,
+        132.65781249999998
+      ],
+      "mean_change_ms": 31.343749999999993,
+      "n": 16,
+      "checked_arms": [
+        "baseline",
+        "treatment"
+      ],
+      "cohort_by_arm": {
+        "baseline": {
+          "ci95_ms": [
+            -70.284375,
+            132.65781249999998
+          ],
+          "mean_change_ms": 31.343749999999993,
+          "n": 16
+        },
+        "treatment": {
+          "ci95_ms": [
+            -70.284375,
+            132.65781249999998
+          ],
+          "mean_change_ms": 31.343749999999993,
+          "n": 16
+        }
+      },
+      "checked_arms_agree": true
+    },
+    "stage03": {
+      "variants_by_arm": {
+        "baseline": {
+          "mean_band": {
+            "ci95_ms": [
+              -69.95707276536827,
+              128.12038918360184
+            ],
+            "mean_change_ms": 27.7099102239331,
+            "n": 16
+          },
+          "mean_primary": {
+            "ci95_ms": [
+              -36.58981756853354,
+              150.72133936355112
+            ],
+            "mean_change_ms": 58.70382847148604,
+            "n": 16
+          },
+          "median_band": {
+            "ci95_ms": [
+              -93.71953124999997,
+              120.93984374999997
+            ],
+            "mean_change_ms": 11.156250000000007,
+            "n": 16
+          },
+          "median_primary": {
+            "ci95_ms": [
+              -70.284375,
+              132.65781249999998
+            ],
+            "mean_change_ms": 31.343749999999993,
+            "n": 16
+          }
+        },
+        "treatment": {
+          "mean_band": {
+            "ci95_ms": [
+              -69.95707276536827,
+              128.12038918360182
+            ],
+            "mean_change_ms": 27.709910223933086,
+            "n": 16
+          },
+          "mean_primary": {
+            "ci95_ms": [
+              -36.58981756853354,
+              150.72133936355112
+            ],
+            "mean_change_ms": 58.70382847148604,
+            "n": 16
+          },
+          "median_band": {
+            "ci95_ms": [
+              -93.71953124999997,
+              120.93984374999997
+            ],
+            "mean_change_ms": 11.156250000000007,
+            "n": 16
+          },
+          "median_primary": {
+            "ci95_ms": [
+              -70.284375,
+              132.65781249999998
+            ],
+            "mean_change_ms": 31.343749999999993,
+            "n": 16
+          }
+        }
+      },
+      "checked_arms": [
+        "baseline",
+        "treatment"
+      ],
+      "checked_arms_agree": true
+    }
+  },
+  "source_sha256": {
+    "research/mixed-gambles-design/evaluator/stage-01/assessment.json": "7481c0a07ab8ee82dd13ef124666ff6deb017700887f43a977636bf6e7b5fce0",
+    "research/mixed-gambles-design/evaluator/stage-02/baseline-evaluation.json": "ac7178690f04f8df091269a0a81db8310884c8bc588497b7f34979fd6889c6ee",
+    "research/mixed-gambles-design/evaluator/stage-02/treatment-evaluation.json": "cec1d97939ff78bc0b7df991b1357a8d6ee1e33be51035e1c6e3610979aee379",
+    "research/mixed-gambles-design/evaluator/stage-03/baseline-evaluation.json": "5607651b7bdb2f5311219021ffed301be000167dda02f8a2cd1d8a2e6a624bd9",
+    "research/mixed-gambles-design/evaluator/stage-03/treatment-evaluation.json": "cdb3b579667234de7a28d98c98e43d8d748633345836a9c72b889ef051cc3211",
+    "research/mixed-gambles-design/evaluator/stage-01/pair-review.json": "95cd955f3ef038fd6a188fab37bc03f41a8907b83badfb660e0ada88b879ad6f",
+    "research/mixed-gambles-design/evaluator/stage-02/assessment.json": "be41ba2194ae4afa4ef063e9906ff1d9481d52676320605567b2f623382bb691",
+    "research/mixed-gambles-design/evaluator/stage-02/pair-review.json": "47b7eacd5ac40970375bc4c9568e27e2583cc430869f0e202fecb082dbbb66ce",
+    "research/mixed-gambles-design/evaluator/stage-03/assessment.json": "3617219d7e21ec949cabb7ee8a9e554b37df2f7972d843277b6d6e014cc0d0f5",
+    "research/mixed-gambles-design/evaluator/stage-03/pair-review.json": "8fa644b275bbd1906fc823f45477fb5c09503d7a939c468a0cfdfc20ae3d63be",
+    "research/mixed-gambles-design/evaluator/stage-01/baseline-original-normalized.json": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81",
+    "research/mixed-gambles-design/evaluator/stage-02/baseline-original-normalized.json": "9ba020055ccfe59adea31db21ab70de78ecceca5488faa29887e733694988058",
+    "research/mixed-gambles-design/evaluator/stage-02/treatment-original-normalized.json": "9ba020055ccfe59adea31db21ab70de78ecceca5488faa29887e733694988058",
+    "research/mixed-gambles-design/evaluator/stage-03/baseline-original-normalized.json": "8bac3c8c0253def4bf3e852a02693529c9b8ef0409a2229bbcc0de2c0e667e0a",
+    "research/mixed-gambles-design/evaluator/stage-03/treatment-original-normalized.json": "51a9c6e284fe52b272865a86a0501a6cab497316fa6fe388acc5f00e55eec2be"
+  }
+}

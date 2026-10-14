@@ -1,0 +1,65 @@
+{
+  "code_and_lock_unchanged": true,
+  "documented_command_exit_zero": true,
+  "environment_differences": {
+    "python_executable": {
+      "original": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/bin/python",
+      "replay": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment/.pixi/envs/default/bin/python"
+    }
+  },
+  "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+  "outputs": [
+    {
+      "identical": false,
+      "original_sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/environment.json",
+      "replay_sha256": "ebb2a3d54da3a424cb302598b04137dbcef39de3c4b3f229933ca5ac7e9840fd"
+    },
+    {
+      "identical": true,
+      "original_sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/median-rt.svg",
+      "replay_sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62"
+    },
+    {
+      "identical": true,
+      "original_sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/results.json",
+      "replay_sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424"
+    },
+    {
+      "identical": true,
+      "original_sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/run-summary.tsv",
+      "replay_sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719"
+    },
+    {
+      "identical": true,
+      "original_sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/trial-audit.tsv",
+      "replay_sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4"
+    }
+  ],
+  "parent_record": {
+    "path": "experiments/01-participant-rt/replay/treatment.json",
+    "sha256": "28e817c56118bc9e7d7b89614bffd21ac2cc9a5c6d07ae5a490f09285d206916"
+  },
+  "passed": true,
+  "phase_timings_seconds": {
+    "checkout": 0.011478457949124277,
+    "clone": 0.05902641703141853,
+    "documented_replay": 3.5440872920444235,
+    "environment": 2.392172167019453,
+    "inputs": 0.7477177919936366
+  },
+  "preexisting_scientific_outputs_removed": true,
+  "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+  "source_head_matches": true,
+  "source_input_clean": true,
+  "source_input_head_matches": true
+}

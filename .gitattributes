@@ -10,3 +10,6 @@ pixi.lock merge=binary linguist-language=YAML linguist-generated=true -diff
 *.py annex.largefiles=nothing
 *.toml annex.largefiles=nothing
 pixi.lock annex.largefiles=nothing
+
+# Preserve an upstream symlink-target capture as literal evidence bytes.
+research/study-design/sources/OpenNeuroDatasets_ds000102-derivatives_mriqc_fMRIQC.csv -filter

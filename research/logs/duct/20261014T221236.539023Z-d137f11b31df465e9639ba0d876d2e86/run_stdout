@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "seed": 20261014,
+  "algorithm": "One Python random.Random(20261014); fresh [baseline,treatment] list shuffled once per stage in 01,02,03 order",
+  "execution": "Sequential arms within each pair; escalation requires predecessor review",
+  "pairs": [
+    {
+      "stage": "01",
+      "arm_order": [
+        "treatment",
+        "baseline"
+      ]
+    },
+    {
+      "stage": "02",
+      "arm_order": [
+        "treatment",
+        "baseline"
+      ]
+    },
+    {
+      "stage": "03",
+      "arm_order": [
+        "baseline",
+        "treatment"
+      ]
+    }
+  ]
+}
+helper syntax valid; no experiment launched

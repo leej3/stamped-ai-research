@@ -1,0 +1,54 @@
+create(ok): /Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt (dataset)
+[codex/mixed-01-participant-rt-source 8777706] chore: freeze stage 01 scientific inputs and task
+ 15 files changed, 2321 insertions(+), 2 deletions(-)
+ create mode 100644 .codex/hooks.json
+ create mode 100644 .entire/.gitignore
+ create mode 100644 .gitignore
+ create mode 100644 .gitmodules
+ create mode 100644 SOURCE.json
+ create mode 100644 TASK.md
+ create mode 160000 inputs/ds000005
+ create mode 100644 pixi.lock
+ create mode 100644 pixi.toml
+ create mode 100644 references/stamped/SOURCES.json
+ create mode 100644 references/stamped/checklist/stamped-checklist-schema.yaml
+ create mode 100644 references/stamped/checklist/stamped-checklist.json
+ create mode 100644 references/stamped/paper/main.tex
+ create mode 100644 references/stamped/principles/stamped-principles.json
+{"stage": "01-participant-rt", "source_commit": "8777706d546d968d1a7427ab9efc710fcdd47523", "source_tree": "99cc38a06ab577903b72f7610741a8847382c202"}
+create(ok): /Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt (dataset)
+[codex/mixed-02-cohort-rt-source 24e4de3] chore: freeze stage 02 scientific inputs and task
+ 15 files changed, 2326 insertions(+), 2 deletions(-)
+ create mode 100644 .codex/hooks.json
+ create mode 100644 .entire/.gitignore
+ create mode 100644 .gitignore
+ create mode 100644 .gitmodules
+ create mode 100644 SOURCE.json
+ create mode 100644 TASK.md
+ create mode 160000 inputs/ds000005
+ create mode 100644 pixi.lock
+ create mode 100644 pixi.toml
+ create mode 100644 references/stamped/SOURCES.json
+ create mode 100644 references/stamped/checklist/stamped-checklist-schema.yaml
+ create mode 100644 references/stamped/checklist/stamped-checklist.json
+ create mode 100644 references/stamped/paper/main.tex
+ create mode 100644 references/stamped/principles/stamped-principles.json
+{"stage": "02-cohort-rt", "source_commit": "24e4de3820271869ff03cf0dd38b4faaa48b1dd1", "source_tree": "7ed9393bc457c1fa4957064a3d83acc8378d412d"}
+create(ok): /Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity (dataset)
+[codex/mixed-03-rt-sensitivity-source e5fed63] chore: freeze stage 03 scientific inputs and task
+ 15 files changed, 2329 insertions(+), 2 deletions(-)
+ create mode 100644 .codex/hooks.json
+ create mode 100644 .entire/.gitignore
+ create mode 100644 .gitignore
+ create mode 100644 .gitmodules
+ create mode 100644 SOURCE.json
+ create mode 100644 TASK.md
+ create mode 160000 inputs/ds000005
+ create mode 100644 pixi.lock
+ create mode 100644 pixi.toml
+ create mode 100644 references/stamped/SOURCES.json
+ create mode 100644 references/stamped/checklist/stamped-checklist-schema.yaml
+ create mode 100644 references/stamped/checklist/stamped-checklist.json
+ create mode 100644 references/stamped/paper/main.tex
+ create mode 100644 references/stamped/principles/stamped-principles.json
+{"stage": "03-rt-sensitivity", "source_commit": "e5fed631034d20634fcb37fff7f3760d633b40ef", "source_tree": "2e4b117487c23ef47ea31cf40992da7a265aea8f"}

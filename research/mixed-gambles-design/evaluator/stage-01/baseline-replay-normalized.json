@@ -1,0 +1,50 @@
+{
+  "eligible_participants": [
+    "sub-01"
+  ],
+  "excluded_participants": [],
+  "participant_changes_ms": {
+    "sub-01": -11.0
+  },
+  "run_summaries": [
+    {
+      "flag_counts": {
+        "absent_response": 1,
+        "invalid_numeric_rt": 0,
+        "missing_rt": 0,
+        "nonfinite_rt": 0,
+        "nonpositive_rt": 1,
+        "response_code_pair_disagreement": 0,
+        "response_presence_disagreement": 0,
+        "unexpected_response_code": 0
+      },
+      "n_excluded_union": 1,
+      "n_presented": 86,
+      "n_retained": 85,
+      "participant_id": "sub-01",
+      "rt_ms": 1272.0,
+      "run": "01"
+    },
+    {
+      "flag_counts": {
+        "absent_response": 0,
+        "invalid_numeric_rt": 0,
+        "missing_rt": 0,
+        "nonfinite_rt": 0,
+        "nonpositive_rt": 0,
+        "response_code_pair_disagreement": 0,
+        "response_presence_disagreement": 0,
+        "unexpected_response_code": 0
+      },
+      "n_excluded_union": 0,
+      "n_presented": 85,
+      "n_retained": 85,
+      "participant_id": "sub-01",
+      "rt_ms": 1261.0,
+      "run": "03"
+    }
+  ],
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "stage": "01",
+  "units": "milliseconds"
+}

@@ -1,0 +1,2543 @@
+{
+  "repository": "https://github.com/OpenNeuroDatasets/ds000008",
+  "commit": "a65448a0f00ebf4038e134f5a956f429ec4ca1ed",
+  "event_files": 80,
+  "event_bytes": 465982,
+  "rows": 10240,
+  "column_values": {
+    "trial_type": {
+      "failed stop-critical": 294,
+      "go-noncritical": 1814,
+      "go-critical": 1793,
+      "successful stop-critical": 314,
+      "junk": 125,
+      "failed stop-noncritical": 600,
+      "n/a": 15,
+      "go": 3957,
+      "failed stop": 624,
+      "successful stop": 704
+    },
+    "TrialType": {
+      "1": 2496,
+      "0": 7488
+    },
+    "Stimulus": {
+      "1": 4992,
+      "0": 4992
+    },
+    "SSD": {
+      "0.15": 463,
+      "0.0": 7536,
+      "0.1": 262,
+      "0.2": 545,
+      "0.25": 483,
+      "0.05": 87,
+      "0.3": 300,
+      "0.35": 145,
+      "0.4": 61,
+      "0.45": 35,
+      "-0.05": 29,
+      "-0.1": 8,
+      "0.5": 21,
+      "0.55": 6,
+      "0.6": 3
+    },
+    "Response": {
+      "50": 4579,
+      "49": 4361,
+      "0": 1044
+    },
+    "CorrectGo": {
+      "1": 8181,
+      "0": 1803
+    },
+    "SuccStop": {
+      "0": 8984,
+      "1": 1000
+    }
+  },
+  "files": [
+    {
+      "path": "sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "74527b7de94374cf7d7ac4ea5bb7ff931749f52d",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.987,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "4be8fdd61bcbe6703c20a202edc3f2c5f2d17ccc",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.9590000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "ced26f7b3ff9a55439e239472558fd715b65c294",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.88,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+      "git_blob": "e460bd58a53c9b68253137dcb2c2ba41fc972319",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.995,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+      "git_blob": "cc02345681d4fe5de5019f523d15f34e0215a870",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.78,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+      "git_blob": "e46b7435cf2f4f4ff688884b9a96d455d91702c5",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.741,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "f4cfd201f13e1dd954d7c2fb4e90c69c8b7ab0e3",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.873,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "0aa7dfef630bbf1dfff609741c1caf828f124bea",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.971,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+      "git_blob": "84f25256d92eb341326b51cb53987115db2db19e",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.956,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/func/sub-02_task-stopsignal_run-02_events.tsv",
+      "git_blob": "6d23030090e3ee73c279752b39af9ba7aa56c625",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.894,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-02/func/sub-02_task-stopsignal_run-03_events.tsv",
+      "git_blob": "730ba33b452760c6dd736226518b791562186235",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.9259999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "89d032f21e0e2af8401ca5b7ade10f3e4e2f2cb0",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.757,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "29ec5e785319937cefe4ec51f4403417c91749e7",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.773,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "200280b8fdd0b898c8049203074a1e25f9628a00",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.638,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-stopsignal_run-01_events.tsv",
+      "git_blob": "be02b3db5025a2998529875d0eea6cbb1a93891e",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.693,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-stopsignal_run-02_events.tsv",
+      "git_blob": "28e89f716afe6a7d79cdf457c220106ae47a0f4f",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.9009999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-03/func/sub-03_task-stopsignal_run-03_events.tsv",
+      "git_blob": "0cdde31f28140f3dd64ff84ff42a6c8b81945556",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.711,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "f1fcd3c204e7c1db95270b3771a51b94a3fcadbd",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.6779999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "3bb2a4fcf21851252e7e773c9f53ab4494cea95f",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.722,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "d8a22307da01c8d16c11c1d69505a0eb2dd3761a",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.812,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-stopsignal_run-01_events.tsv",
+      "git_blob": "2428a298d8412f45892e468db6fc84e764eb771e",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 126,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 2
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.843,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-stopsignal_run-02_events.tsv",
+      "git_blob": "c0966bf6a086bc2d5802d05284edf4d20332403b",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.799,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-04/func/sub-04_task-stopsignal_run-03_events.tsv",
+      "git_blob": "0f5d05aedf084882ea2d2a8f3b18b46019a355cc",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.753,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "b678b8654cf4b7e78ebdddccb5c3215907606090",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.9159999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "01d792455b5d8070e4bc32ffd2d751435c5e8484",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.868,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "afa6e9c5fb8543425b383b3d3eb6a450eafe8ae1",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8809999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-stopsignal_run-01_events.tsv",
+      "git_blob": "5156b05d6f6785c852ae3b892309dfb4563e4c3f",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8370000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-stopsignal_run-02_events.tsv",
+      "git_blob": "6d1821ca482d1e1aa803222c3966c3d6a70882be",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.6829999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-05/func/sub-05_task-stopsignal_run-03_events.tsv",
+      "git_blob": "f2e4d5bb4bf291c63315c299eeb58ec6dac0f139",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.754,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "2f2cf637da173790e0cf4d5846f64b3a831fa161",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8059999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "8c0210fdd25bc8d303a1faf2ff832013557b11d9",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.723,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "c0e582ec8ff69c94e917978c8cccc925a9e105ae",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.594,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-stopsignal_run-01_events.tsv",
+      "git_blob": "2c5408ef066db52d7ee5850c3ae1ea9272d1931f",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.564,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-stopsignal_run-02_events.tsv",
+      "git_blob": "26328ebeea9bbb22acadef75246fbeb434edc5bb",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.5589999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-06/func/sub-06_task-stopsignal_run-03_events.tsv",
+      "git_blob": "148f7921a1ad9115d9b276ea533b64003b034684",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.55,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "1653c5204f055ac67e24f2195f8b369f63a218ca",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.657,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "c1d7b879ffe32ee36f3f62585f08d8ed5c855d1d",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.655,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "1a92213cc8db49dcf9aab29eddb22cb684c77acf",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.621,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-stopsignal_run-01_events.tsv",
+      "git_blob": "0840dcad37621c1ce39aad1f95be54b835b65a51",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.672,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-stopsignal_run-02_events.tsv",
+      "git_blob": "274855ade35316cbe5616bd862dbaacb8dbd6a51",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.6970000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-07/func/sub-07_task-stopsignal_run-03_events.tsv",
+      "git_blob": "730e2e9cfd517ff4b36872723d6e38a3937e932b",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.855,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/func/sub-09_task-stopsignal_run-01_events.tsv",
+      "git_blob": "ab575cb6559e98e50615b2368df668e23c44397b",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.585,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/func/sub-09_task-stopsignal_run-02_events.tsv",
+      "git_blob": "31a20512d5c725bda44719bf2fbaafb8f9397c80",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.581,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-09/func/sub-09_task-stopsignal_run-03_events.tsv",
+      "git_blob": "4ee16cbf0d3292558c20cb96f23bc73902d53713",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.657,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "7e078c1d9a5f84799a567a4a3ae3ca77b412191a",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.765,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "d2cca4c52a36a54183c50e390889dcaf9a795b7e",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.782,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "842010a8782f8bee65882608f9be3b0912e75a05",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8690000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-stopsignal_run-01_events.tsv",
+      "git_blob": "f33fe3ec6257c6d7d78e9c4d678d99c41081b3f4",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.7170000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-stopsignal_run-02_events.tsv",
+      "git_blob": "98afa43dfb57af9fe521659fd49f7c6f676d28d7",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.909,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-10/func/sub-10_task-stopsignal_run-03_events.tsv",
+      "git_blob": "915df317e6e9c4a632fea86dde9b5ad18f14a057",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8490000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "13267ae92482d3f64cc640618cf9a44be537b18a",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.635,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "14254b0ce6437ba1d9b92910215691c282ca78f5",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.547,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "a49635ffc4ea9e941b61334d6df1d30cfa5ace79",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.6920000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-stopsignal_run-01_events.tsv",
+      "git_blob": "e9c5a93a8356235369f79f99998c5693667d5c8c",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.727,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-stopsignal_run-02_events.tsv",
+      "git_blob": "52f9c157b9cbb886fd4603579efe3a8fcae17e4b",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.613,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-11/func/sub-11_task-stopsignal_run-03_events.tsv",
+      "git_blob": "93c831e923ffa8f8f0c9c14d53505f0ee10298fb",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "a13d79647efda640268da4281c1442c8bcce7300",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.8220000000000001,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "6bc670a3fe8e0dd5d3318516b5a4f95162bd3e2c",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.693,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "7d00cc7e2d8cc23ddd7aae797d20dd957b646f41",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.722,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-stopsignal_run-01_events.tsv",
+      "git_blob": "2084e3a9b9a5ce830d4d4df432c7e2dec1570188",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.528,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-stopsignal_run-02_events.tsv",
+      "git_blob": "773d30b9c1afd25d251a3fde31060e89c29d99f0",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.632,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-12/func/sub-12_task-stopsignal_run-03_events.tsv",
+      "git_blob": "f527191abdb06dc317cdac93574fbaadd0e9aa21",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "1dfcdfd5024c53a9fd4452d8197f2a3e4c41c2cd",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.925,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "30cb57d3610996a015b06dbb4ab3a0affab7e796",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.7709999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "a28ff8767efbc87ba32f61ef8da53076e2c9e701",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.809,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-stopsignal_run-01_events.tsv",
+      "git_blob": "43eb78d8cc45b4b8a6ff73959b68f130f628e62b",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.993,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-stopsignal_run-02_events.tsv",
+      "git_blob": "b6c7df73f2df77b83fea992bb12d79afc9f89704",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.653,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-13/func/sub-13_task-stopsignal_run-03_events.tsv",
+      "git_blob": "0ebd9fdc9f118e2d3fd6c74881f7f528f346781f",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.892,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "3bcae990eb0b9c224dd2fd0968d1549f9630ed73",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.705,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "e5527d06b7264f5738fcace80c29164b567343b8",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.606,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "ffe7b00d7277954d100bf2e1b86cdf3dc4c091fd",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.649,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-stopsignal_run-01_events.tsv",
+      "git_blob": "4877d76cff5a0c7bdc60da016b968ffc96e722a8",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.579,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-stopsignal_run-02_events.tsv",
+      "git_blob": "e27b7a89a696be59fa706d87ad19d4f3abf4626d",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.418,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-14/func/sub-14_task-stopsignal_run-03_events.tsv",
+      "git_blob": "f5e9ac6728c056aeeca4b2fcc8455f4abd4c6c57",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.551,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv",
+      "git_blob": "dd743de5e6709c3150dc121fda2ea723bb06e3ab",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.9209999999999999,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv",
+      "git_blob": "77ea181de74a94b00511331c7c9f3cb6574eec74",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.981,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv",
+      "git_blob": "343c0a142c8e8e80485ef55fc76244589d6b4029",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 128,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {}
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.992,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-stopsignal_run-01_events.tsv",
+      "git_blob": "07a733344ab18d408079a094c56f78c04a0b5e99",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.941,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-stopsignal_run-02_events.tsv",
+      "git_blob": "f5fc9d360d01a8eee01f71fec4a24db0f27c8adf",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.963,
+          "invalid": {}
+        }
+      }
+    },
+    {
+      "path": "sub-15/func/sub-15_task-stopsignal_run-03_events.tsv",
+      "git_blob": "8749d022c083e741af9b71a0499cb1bf3c11d401",
+      "rows": 128,
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "times": {
+        "duration": {
+          "n_numeric": 127,
+          "min": 1.5,
+          "max": 1.5,
+          "invalid": {
+            "n/a": 1
+          }
+        },
+        "response_time": {
+          "n_numeric": 128,
+          "min": 0.0,
+          "max": 0.985,
+          "invalid": {}
+        }
+      }
+    }
+  ]
+}

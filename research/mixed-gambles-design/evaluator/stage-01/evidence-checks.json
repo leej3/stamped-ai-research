@@ -1,0 +1,467 @@
+{
+  "arms": {
+    "baseline": {
+      "attempt": {
+        "path": ".runs/evidence/mixed-01-baseline/run-result.json",
+        "sha256": "f0e657fc5e06b11716b0c26d4af31e6f5a71ce09979983a9205725c2af74ec47"
+      },
+      "attempt_wall_seconds": 270.2424976249458,
+      "comparisons": {
+        "original": {
+          "audit_passed": true,
+          "audited_rows": 171,
+          "numeric_checks": 33,
+          "numeric_passed": true
+        },
+        "replay": {
+          "audit_passed": true,
+          "audited_rows": 171,
+          "numeric_checks": 33,
+          "numeric_passed": true
+        }
+      },
+      "failure_evidence": [
+        {
+          "path": "experiments/01-participant-rt/arms/baseline/worktree/reports/run.json",
+          "sha256": "be830961b2ba7ffea8840db858ab049f59f22bf82e347e00e198436af3891015"
+        }
+      ],
+      "failures": [
+        {
+          "error": "ModuleNotFoundError: No module named jsonschema",
+          "operation": "Workshop feedback CLI help using system Python",
+          "resolution": "Used the existing Workshop Pixi environment without installing dependencies.",
+          "status": "recovered"
+        }
+      ],
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/01-participant-rt/arms/baseline/worktree/reports/report.md",
+          "sha256": "9a2a78e96e5f679c360c9574b0a803112021526abd1b1c7318ef4eefa605a822"
+        },
+        "review": "Explicit one-participant observed-response estimand, run03 minus run01 direction, no population interval, no causal/practice/learning/loss-aversion claim; supplied outside-stage missingness and anomaly distinguished from analyzed data.",
+        "status": "passed_manual_read"
+      },
+      "original_source_snapshot_identity_passed": true,
+      "output_commit": "18bbaca0a42823b3b59de7c53cfb535a488a4faa",
+      "provider_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 599040,
+          "input_tokens": 655959,
+          "output_tokens": 13710,
+          "reasoning_output_tokens": 3896
+        }
+      ],
+      "replay_passed": true,
+      "snapshot_clean": true,
+      "snapshot_identity_checks": [
+        {
+          "matches": true,
+          "path": ".codex/hooks.json"
+        },
+        {
+          "matches": true,
+          "path": ".datalad/.gitattributes"
+        },
+        {
+          "matches": true,
+          "path": ".datalad/config"
+        },
+        {
+          "matches": true,
+          "path": ".gitattributes"
+        },
+        {
+          "matches": true,
+          "path": ".gitignore"
+        },
+        {
+          "matches": true,
+          "path": ".gitmodules"
+        },
+        {
+          "matches": true,
+          "path": ".setup/native-capture-probe.txt"
+        },
+        {
+          "matches": true,
+          "path": "SOURCE.json"
+        },
+        {
+          "matches": true,
+          "path": "TASK.md"
+        },
+        {
+          "matches": true,
+          "path": "code/analyze_rt.py"
+        },
+        {
+          "matches": true,
+          "path": "code/replay.sh"
+        },
+        {
+          "matches": true,
+          "path": "code/verify_rt.py"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/median_rt.svg"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/results.json"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/run_summary.tsv"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/trial_audit.tsv"
+        },
+        {
+          "matches": true,
+          "path": "pixi.lock"
+        },
+        {
+          "matches": true,
+          "path": "pixi.toml"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/SOURCES.json"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/checklist/stamped-checklist-schema.yaml"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/checklist/stamped-checklist.json"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/paper/main.tex"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/principles/stamped-principles.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/report.md"
+        },
+        {
+          "matches": true,
+          "path": "reports/run.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/verification.json"
+        }
+      ],
+      "snapshot_identity_passed": true,
+      "source_checks": [
+        {
+          "actual_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988",
+          "matches": true,
+          "path": "inputs/ds000005/README",
+          "reference_matches": true,
+          "reference_sha256": null,
+          "reported_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+        },
+        {
+          "actual_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018",
+          "matches": true,
+          "path": "inputs/ds000005/dataset_description.json",
+          "reference_matches": true,
+          "reference_sha256": null,
+          "reported_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+        },
+        {
+          "actual_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956",
+          "matches": true,
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+          "reference_matches": true,
+          "reference_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956",
+          "reported_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+        },
+        {
+          "actual_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113",
+          "matches": true,
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+          "reference_matches": true,
+          "reference_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113",
+          "reported_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+        }
+      ],
+      "source_passed": true,
+      "worker_stopped": true
+    },
+    "treatment": {
+      "attempt": {
+        "path": ".runs/evidence/mixed-01-treatment/run-result.json",
+        "sha256": "0a79022a71cadadde677bf7955736b9c56fe350db2d607b85da8385e77a0ba49"
+      },
+      "attempt_wall_seconds": 358.4730830839835,
+      "comparisons": {
+        "original": {
+          "audit_passed": true,
+          "audited_rows": 171,
+          "numeric_checks": 33,
+          "numeric_passed": true
+        },
+        "replay": {
+          "audit_passed": true,
+          "audited_rows": 171,
+          "numeric_checks": 33,
+          "numeric_passed": true
+        }
+      },
+      "failure_evidence": [
+        {
+          "path": "experiments/01-participant-rt/arms/treatment/worktree/reports/failures.json",
+          "sha256": "6bd4a424d43509b6a8814eb42d1f9e5fb7fbe27007dd56492e632b0cf8a202a8"
+        }
+      ],
+      "failures": [
+        {
+          "check": "assessment schema validation in project Pixi environment",
+          "effect": "Assessment schema validation unavailable; scientific verification passed.",
+          "error": "jsonschema>=4,<5 not installed",
+          "exit_code": 2,
+          "status": "failed"
+        },
+        {
+          "check": "offline alternate system-Python validator prerequisite",
+          "effect": "No dependencies installed; no further validator retry.",
+          "error": "ModuleNotFoundError: No module named 'jsonschema'",
+          "exit_code": 1,
+          "status": "failed"
+        },
+        {
+          "check": "Workshop feedback recorder prerequisite",
+          "effect": "Local task skill-use record retained; Workshop queue/publication not performed; network forbidden.",
+          "error": "ModuleNotFoundError: No module named 'jsonschema'",
+          "exit_code": 1,
+          "status": "failed"
+        }
+      ],
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/01-participant-rt/arms/treatment/worktree/reports/report.md",
+          "sha256": "02a1b0373996a03d5904433cc40cefef0d3f2859da66855a0d963b0b2b95dd25"
+        },
+        "review": "Explicit one-participant observed-response estimand, run03 minus run01 direction, no population interval, no causal/practice/learning/loss-aversion claim; supplied outside-stage missingness and anomaly distinguished from analyzed data.",
+        "status": "passed_manual_read"
+      },
+      "original_source_snapshot_identity_passed": true,
+      "output_commit": "8bac3a2aa1ae82847aca64267704294c106c45f2",
+      "provider_turn_usage": [
+        {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 825472,
+          "input_tokens": 890539,
+          "output_tokens": 17808,
+          "reasoning_output_tokens": 2950
+        }
+      ],
+      "replay_passed": true,
+      "snapshot_clean": true,
+      "snapshot_identity_checks": [
+        {
+          "matches": true,
+          "path": ".codex/hooks.json"
+        },
+        {
+          "matches": true,
+          "path": ".datalad/.gitattributes"
+        },
+        {
+          "matches": true,
+          "path": ".datalad/config"
+        },
+        {
+          "matches": true,
+          "path": ".gitattributes"
+        },
+        {
+          "matches": true,
+          "path": ".gitignore"
+        },
+        {
+          "matches": true,
+          "path": ".gitmodules"
+        },
+        {
+          "matches": true,
+          "path": ".setup/native-capture-probe.txt"
+        },
+        {
+          "matches": true,
+          "path": "README.md"
+        },
+        {
+          "matches": true,
+          "path": "SOURCE.json"
+        },
+        {
+          "matches": true,
+          "path": "TASK.md"
+        },
+        {
+          "matches": true,
+          "path": "code/analyze_rt.py"
+        },
+        {
+          "matches": true,
+          "path": "code/build_report.py"
+        },
+        {
+          "matches": true,
+          "path": "code/verify_rt.py"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/environment.json"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/median-rt.svg"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/results.json"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/run-summary.tsv"
+        },
+        {
+          "matches": true,
+          "path": "derivatives/gambling-rt/trial-audit.tsv"
+        },
+        {
+          "matches": true,
+          "path": "pixi.lock"
+        },
+        {
+          "matches": true,
+          "path": "pixi.toml"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/SOURCES.json"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/checklist/stamped-checklist-schema.yaml"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/checklist/stamped-checklist.json"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/paper/main.tex"
+        },
+        {
+          "matches": true,
+          "path": "references/stamped/principles/stamped-principles.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/assessment.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/checklist-answers.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/checklist-responses.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/datalad-run-message.txt"
+        },
+        {
+          "matches": true,
+          "path": "reports/datalad-transformation.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/failures.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/object-manifest.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/protocol.md"
+        },
+        {
+          "matches": true,
+          "path": "reports/report.md"
+        },
+        {
+          "matches": true,
+          "path": "reports/run.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/skill-use.json"
+        },
+        {
+          "matches": true,
+          "path": "reports/verification.json"
+        }
+      ],
+      "snapshot_identity_passed": true,
+      "source_checks": [
+        {
+          "actual_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988",
+          "matches": true,
+          "path": "inputs/ds000005/README",
+          "reference_matches": true,
+          "reference_sha256": null,
+          "reported_sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+        },
+        {
+          "actual_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018",
+          "matches": true,
+          "path": "inputs/ds000005/dataset_description.json",
+          "reference_matches": true,
+          "reference_sha256": null,
+          "reported_sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+        },
+        {
+          "actual_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956",
+          "matches": true,
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+          "reference_matches": true,
+          "reference_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956",
+          "reported_sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+        },
+        {
+          "actual_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113",
+          "matches": true,
+          "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+          "reference_matches": true,
+          "reference_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113",
+          "reported_sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+        }
+      ],
+      "source_passed": true,
+      "worker_stopped": true
+    }
+  },
+  "assessor": "study_design agent; design/reference author; unblinded; did not author worker analyses",
+  "evaluator_code": {
+    "path": "research/mixed-gambles-design/evaluator/evaluate_stage01.py",
+    "sha256": "fb6a51117812d3cf48b420cca2e2fcf3105a2e31ae87800343322ce3f64fa1ec"
+  },
+  "unblinded": true
+}

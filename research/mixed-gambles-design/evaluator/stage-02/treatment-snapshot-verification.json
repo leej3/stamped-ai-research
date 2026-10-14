@@ -1,0 +1,202 @@
+{
+  "boundary": "Verifies retained file bytes and recorded source state; does not claim absence of detached processes or complete capture.",
+  "clean": false,
+  "files": [
+    {
+      "passed": true,
+      "path": ".codex/hooks.json"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/.gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/config"
+    },
+    {
+      "passed": true,
+      "path": ".gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".gitignore"
+    },
+    {
+      "passed": true,
+      "path": ".gitmodules"
+    },
+    {
+      "passed": true,
+      "path": ".setup/native-capture-probe.txt"
+    },
+    {
+      "passed": true,
+      "path": "README.md"
+    },
+    {
+      "passed": true,
+      "path": "SOURCE.json"
+    },
+    {
+      "passed": true,
+      "path": "TASK.md"
+    },
+    {
+      "passed": true,
+      "path": "code/analyze.py"
+    },
+    {
+      "passed": true,
+      "path": "code/build_reports.py"
+    },
+    {
+      "passed": true,
+      "path": "code/replay.sh"
+    },
+    {
+      "passed": true,
+      "path": "code/source_manifest.json"
+    },
+    {
+      "passed": true,
+      "path": "code/verify.py"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/inventory.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/participant_changes.svg"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/participant_changes.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/results.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/run_summary.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/trial_flags.tsv"
+    },
+    {
+      "passed": true,
+      "path": "pixi.lock"
+    },
+    {
+      "passed": true,
+      "path": "pixi.toml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/SOURCES.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/paper/main.tex"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/principles/stamped-principles.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/analysis_stdout.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/assessment.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/assessment_validation.txt"
+    },
+    {
+      "passed": true,
+      "path": "reports/checklist_answers.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/checklist_responses.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/environment.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/feedback_collection.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/object_manifest.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/protocol.md"
+    },
+    {
+      "passed": true,
+      "path": "reports/report.md"
+    },
+    {
+      "passed": true,
+      "path": "reports/run.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/skill_use.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/verification.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/verification_stdout.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/.feedback.lock"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/records/2026/10/26fea813-6a54-4bc0-896e-04214d7be552.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/records/2026/10/31bf356d-0203-4e79-9f09-3a8c1f5e927b.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/records/2026/10/48bc48dd-5fee-480f-8dab-8941ca52f752.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/records/2026/10/aad3a711-0ed1-473e-b2a9-b1f462ffed4c.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/workshop-feedback/records/2026/10/df791978-0911-47cc-9b38-59cabdc6172c.json"
+    }
+  ],
+  "output_commit": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9",
+  "passed": true,
+  "snapshot_sha256": "255cf252c7011cf59583feba1f67ccb4957c07decce700860074b91b7e2ebe92",
+  "source_matches": true
+}

@@ -1,0 +1,104 @@
+{
+  "arm": "treatment",
+  "attempt": {
+    "path": ".runs/evidence/mixed-03-treatment/run-result.json",
+    "sha256": "1f497075148f0cfda28802e89a0f4ee075ac30cf1c3d3c341a5447aab9291dc6"
+  },
+  "evaluator_findings": [
+    {
+      "evidence": {
+        "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+        "sha256": "b427318d0b4d6fc4e83c710acfd0fa3123d23396c78354ee32b6ae285518abfd"
+      },
+      "finding": "Uppercase/mixed-case N/A tokens are classified invalid_numeric_rt instead of missing_rt, contrary to the frozen case-insensitive missing-token rule.",
+      "impact": "No such tokens in the pinned event data; retention and numerical results unaffected, but reusable screening contract is not fully met.",
+      "status": "unrepaired"
+    }
+  ],
+  "failure_evidence": {
+    "path": "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+    "sha256": "0c4f154dfc761b0cc6631c9f0260993b748de2067de9814b5cae4b657215dc62"
+  },
+  "failures": [
+    {
+      "check": "Workshop helper with system Python",
+      "error": "ModuleNotFoundError: jsonschema",
+      "recovery": "Use preinstalled Workshop Pixi Python.",
+      "status": "failed_then_recovered"
+    },
+    {
+      "check": "jsonschema import in project Python",
+      "error": "ModuleNotFoundError: jsonschema",
+      "recovery": "Use preinstalled Workshop Pixi Python for schema validator.",
+      "status": "failed_then_recovered"
+    },
+    {
+      "check": "Native DataLad rerun discovery with Conventional subject",
+      "evidence": "Installed get_run_info uses re.match against leading [DATALAD RUNCMD]; complete block preserved in commit; explicit replay verified.",
+      "status": "not_supported"
+    }
+  ],
+  "interpretation": {
+    "evidence": {
+      "path": "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/report.md",
+      "sha256": "6e6824366b5b10f76cf76c016da222fd003a10e1c341d065f15eae124a083dcd"
+    },
+    "finding": "All four declared variants reported; observed-response estimand, differential missingness and noncausal interpretation explicit; run02 descriptive only. No outcome-based preferred variant.",
+    "status": "passed_manual_read"
+  },
+  "output_commit": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+  "provider_turn_usage": [
+    {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 1093632,
+      "input_tokens": 1165190,
+      "output_tokens": 23269,
+      "reasoning_output_tokens": 4701
+    }
+  ],
+  "replay_byte_identical": true,
+  "replay_identity_and_command_passed": true,
+  "replay_passed": true,
+  "science_passed": true,
+  "science_passed_scope": "Observed pinned dataset results, rows and interpretation; generalized screening-contract probes are reported separately.",
+  "screening_contract_evidence": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+    "sha256": "b427318d0b4d6fc4e83c710acfd0fa3123d23396c78354ee32b6ae285518abfd"
+  },
+  "screening_contract_passed": false,
+  "snapshot_clean": true,
+  "snapshot_identity_passed": true,
+  "source_manifest": {
+    "all_check_results_sha256": "70956a101c80a56ec1d85cf036f6425b7ce130431f28aa4752789d5148829d2e",
+    "check_count": 48,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 48,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "versions": {
+    "original": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "reference_passed": true,
+      "rows_per_mode": {
+        "band": 4096,
+        "primary": 4096
+      },
+      "scalar_checks": 2042
+    },
+    "replay": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "reference_passed": true,
+      "rows_per_mode": {
+        "band": 4096,
+        "primary": 4096
+      },
+      "scalar_checks": 2042
+    }
+  },
+  "wall_seconds": 474.4654870419763,
+  "worker_outcome": "completed",
+  "worker_stopped": true
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-14T23:21:30.355157+00:00",
+  "capture": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8",
+  "outer_exit_code": 0,
+  "scope": "Finished documentation capture; decoded JSON events plus whole-file literal/escaped private-body and paragraph checks, exact configured-token matching and obvious credential formats. Only metadata/counts/digests/spans are emitted.",
+  "private_skill_sha256": "029598db52448162bfbb8a6f1df177dc01e9e326bc27928835e4e43b57979100",
+  "private_body_characters": 4649,
+  "configured_secret_values_checked": 3,
+  "files": [
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8/context.json",
+      "bytes": 482,
+      "sha256": "08c7dd4357a325f75b7a2ffb86597c99b3d883455a3990fa3efe979031131fd8",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": []
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8/run_info.json",
+      "bytes": 3161,
+      "sha256": "3a1967aaf1f4271dd1de0d207698b2e3ea726b2272b36356b87a87954bf738de",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": []
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8/run_stderr",
+      "bytes": 3738,
+      "sha256": "e9fd1522f60b1708dce1fdc382e915277e42339432259cc9379fb83e37a26d96",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": []
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8/run_stdout",
+      "bytes": 317941,
+      "sha256": "771c387b257a6ac0d821c9d6e0f521aed10476b349ba602b513c2a2b3983dd9c",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": []
+    },
+    {
+      "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8/run_usage.jsonl",
+      "bytes": 16884,
+      "sha256": "178fd2d8bdc71ec1bdcc85932e7e4c779b3ec90565d47f827a38fb7da91bc963",
+      "guidance_occurrences": [],
+      "exact_configured_token_matches": 0,
+      "credential_pattern_match_counts": {
+        "github_token": 0,
+        "jwt": 0
+      },
+      "path_mentions_only": false,
+      "contains_private_guidance": false,
+      "literal_full_body_present": false,
+      "escaped_full_body_present": false,
+      "private_paragraph_matches": []
+    }
+  ],
+  "withhold_raw_publication": false,
+  "limitations": [
+    "Targeted checks do not prove absence of all possible sensitive information.",
+    "Native Entire checkpoint transcript publication is a separately authorized transport and is not reclassified by this file scan."
+  ]
+}

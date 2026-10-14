@@ -1,0 +1,916 @@
+{
+  "dataset": "ds000005",
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "event_files": 48,
+  "declared_event_bytes": 228644,
+  "issues": [
+    {
+      "path": "sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+      "reason": "response presence mismatch"
+    }
+  ],
+  "response_presence_patterns": [
+    {
+      "respnum": 0,
+      "respcat": -1,
+      "rt_positive": false,
+      "n": 153
+    },
+    {
+      "respnum": 0,
+      "respcat": -1,
+      "rt_positive": true,
+      "n": 1
+    },
+    {
+      "respnum": 1,
+      "respcat": 1,
+      "rt_positive": true,
+      "n": 958
+    },
+    {
+      "respnum": 2,
+      "respcat": 1,
+      "rt_positive": true,
+      "n": 1068
+    },
+    {
+      "respnum": 3,
+      "respcat": 0,
+      "rt_positive": true,
+      "n": 929
+    },
+    {
+      "respnum": 4,
+      "respcat": 0,
+      "rt_positive": true,
+      "n": 987
+    }
+  ],
+  "files": [
+    {
+      "path": "sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 2,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 3,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 3,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 3,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 65,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 11,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 6,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 2,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 4,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 14,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 5,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 3,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 3,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 2,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 9,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 4,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 1,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 2,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 2,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 4,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv",
+      "rows": 86,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    },
+    {
+      "path": "sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv",
+      "rows": 85,
+      "nonresponse_rows": 0,
+      "columns": [
+        "onset",
+        "duration",
+        "parametric loss",
+        "distance from indifference",
+        "parametric gain",
+        "gain",
+        "loss",
+        "PTval",
+        "respnum",
+        "respcat",
+        "response_time"
+      ]
+    }
+  ]
+}

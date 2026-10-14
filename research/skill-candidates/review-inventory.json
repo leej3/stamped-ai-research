@@ -1,0 +1,72 @@
+{
+  "23": {
+    "head": "15da761f63a5a45c507e6596a549720bd43a1e84",
+    "tree_truncated": false,
+    "downloaded_source_files": 4,
+    "hash_failures": [],
+    "stamped_entrypoints": [
+      "align-stamped/SKILL.md",
+      "assess-stamped/SKILL.md"
+    ],
+    "create_templates": [],
+    "apm_manifests": [],
+    "test_function_definitions": [],
+    "upstream_code_executed": false
+  },
+  "24": {
+    "head": "99e8240fdf49b6184b23dc64e3e911376ea3eb3c",
+    "tree_truncated": false,
+    "downloaded_source_files": 5,
+    "hash_failures": [],
+    "stamped_entrypoints": [],
+    "create_templates": [],
+    "apm_manifests": [],
+    "test_function_definitions": [],
+    "upstream_code_executed": false
+  },
+  "26": {
+    "head": "664d48bafca7e05d942707713bd896f95932b3a4",
+    "tree_truncated": false,
+    "downloaded_source_files": 97,
+    "hash_failures": [],
+    "stamped_entrypoints": [
+      "align-with-stamped-principles/SKILL.md",
+      "assess-alignment-with-stamped-principles/SKILL.md",
+      "create-stamped-project/SKILL.md",
+      "do-full-research-loop/SKILL.md",
+      "stamped-conventions/SKILL.md"
+    ],
+    "create_templates": [
+      "create-stamped-project/templates/pre-commit-run-guard",
+      "create-stamped-project/templates/preflight.sh",
+      "create-stamped-project/templates/run-recorded.sh"
+    ],
+    "apm_manifests": [],
+    "test_function_definitions": [
+      "test_fixture_is_clean_and_all_probes_pass",
+      "test_every_probe_returns_a_known_status",
+      "test_mutant_flips_its_items",
+      "test_probes_do_not_modify_the_object",
+      "test_run_probes_writes_a_valid_response",
+      "test_checklist_pin_matches_the_lock",
+      "test_response_round_trips_through_the_app_url",
+      "test_app_payload_only_carries_what_the_app_accepts",
+      "test_must_items_are_never_satisfied_by_partial",
+      "test_unknown_item_id_is_refused",
+      "test_fresh_rerun_reproduces_a_reproducible_object",
+      "test_fresh_rerun_reports_a_difference_as_such",
+      "test_absolute_path_classifier",
+      "test_judgement_mutants_do_not_trip_the_probes",
+      "test_skill_states_the_coverage_it_actually_has",
+      "test_preflight_passes_on_the_clean_fixture",
+      "test_preflight_refuses_a_mutant",
+      "test_run_guard_refuses_an_outside_commit",
+      "test_run_recorded_clears_its_marker",
+      "test_run_recorded_clears_its_marker_when_the_command_fails",
+      "test_run_recorded_keeps_a_multiword_message_intact",
+      "test_run_recorded_leaves_the_worktree_clean_for_datalad",
+      "test_preflight_ignores_installed_tooling"
+    ],
+    "upstream_code_executed": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "common": {
+    "stage": "01",
+    "codex_path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "ultra",
+    "wall_seconds": 480,
+    "sandbox": "danger-full-access",
+    "approval_policy": "never",
+    "no_daemon": true,
+    "profile": null,
+    "isolation": "fresh_context_instructional_filesystem_boundaries",
+    "network_policy": {"mode": "instructional_allowlist", "allowlist": []},
+    "scientific_base_commit": "REPLACE_FULL_SCIENTIFIC_SEED_COMMIT",
+    "source_tree": "REPLACE_IDENTICAL_POST_SETUP_TREE",
+    "prompt": {"path": "/ABSOLUTE/PATH/concatenated-common-and-stage-01.md", "sha256": "REPLACE"},
+    "sources": [{"path": "inputs/REPLACE_SELECTED_SOURCE", "commit": "REPLACE_FROZEN_SOURCE_COMMIT"}],
+    "input_files": [{"path": "inputs/REPLACE_SELECTED_SOURCE/REPLACE_REQUIRED_INPUT", "sha256": "REPLACE"}],
+    "duct_helper": "/Users/johnlee/.codex/skills/duct/scripts/run.py",
+    "common_files": [
+      {"path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex", "sha256": "REPLACE", "mode": "sha256"},
+      {"path": "/Users/johnlee/.codex/config.toml", "sha256": "REPLACE", "mode": "redacted_toml"},
+      {"path": "/Users/johnlee/.codex/skills/duct/scripts/run.py", "sha256": "REPLACE", "mode": "sha256"}
+    ],
+    "treatment_bundle": {
+      "repository": "/ABSOLUTE/PATH/PINNED_SKILLS_CLONE",
+      "commit": "REPLACE_FULL_COMMIT",
+      "skills": {
+        "assess-alignment-with-stamped-principles": {"path": "skills/assess-alignment-with-stamped-principles", "tree_sha256": "REPLACE"},
+        "align-with-stamped-principles": {"path": "skills/align-with-stamped-principles", "tree_sha256": "REPLACE"},
+        "create-stamped-project": {"path": "skills/create-stamped-project", "tree_sha256": "REPLACE"},
+        "create-repronim-stamped-project": {"path": "skills/create-repronim-stamped-project", "tree_sha256": "REPLACE"},
+        "do-full-research-loop": {"path": "skills/do-full-research-loop", "tree_sha256": "REPLACE"}
+      }
+    },
+    "predecessor_review": null
+  },
+  "orchestrator_review": {"status": "pending", "common_sha256": "REPLACE_AFTER_FREEZE", "reviewer": "parent-orchestrator", "reviewed_at": "REPLACE_UTC"},
+  "arms": {
+    "baseline": {"workspace": "/ABSOLUTE/PATH/.runs/01-baseline", "output_dir": "/ABSOLUTE/PRIVATE/NEW/01-baseline", "gate": {"path": "/ABSOLUTE/PATH/gate-01-baseline.json", "sha256": "REPLACE"}},
+    "treatment": {"workspace": "/ABSOLUTE/PATH/.runs/01-treatment", "output_dir": "/ABSOLUTE/PRIVATE/NEW/01-treatment", "gate": {"path": "/ABSOLUTE/PATH/gate-01-treatment.json", "sha256": "REPLACE"}}
+  }
+}

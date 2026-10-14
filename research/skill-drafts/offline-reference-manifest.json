@@ -1,0 +1,33 @@
+{
+  "purpose": "Shared offline reading inputs for BOTH arms. Main manuscript text is supplied for assessment, not a complete LaTeX build bundle. This makes the comparison procedural skills beyond common STAMPED reference access, not STAMPED-naive agents.",
+  "sources": [
+    {
+      "source_path": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/sources/stamped-paper/main.tex",
+      "destination": "paper/main.tex",
+      "url": "https://raw.githubusercontent.com/stamped-principles/stamped-paper/310eefa1bd756a04d69161c216d93af4d354dd05/main.tex",
+      "revision": "310eefa1bd756a04d69161c216d93af4d354dd05",
+      "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+    },
+    {
+      "source_path": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/sources/stamped-principles-schema/stamped-principles.json",
+      "destination": "principles/stamped-principles.json",
+      "url": "https://raw.githubusercontent.com/stamped-principles/stamped-principles-schema/929e87db4e1248aa6b3b32c368da9e825137175e/stamped-principles.json",
+      "revision": "929e87db4e1248aa6b3b32c368da9e825137175e",
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+    },
+    {
+      "source_path": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/sources/stamped-checklist-schema/stamped-checklist.json",
+      "destination": "checklist/stamped-checklist.json",
+      "url": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist.json",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+    },
+    {
+      "source_path": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/sources/stamped-checklist-schema/stamped-checklist-schema.yaml",
+      "destination": "checklist/stamped-checklist-schema.yaml",
+      "url": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist-schema.yaml",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+    }
+  ]
+}

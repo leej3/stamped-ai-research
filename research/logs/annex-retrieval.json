@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-14T23:14:44.943690+00:00",
+  "authentication": "none",
+  "cache": "fresh HTTP response; no local object reuse",
+  "all_passed": true,
+  "files": [
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-02/source-audit.json",
+      "key": "SHA256E-s3063031--bcfb2952261542f484629844bfcdbb13fdbeab5de3d320971708e27682c1c28c.json",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s3063031--bcfb2952261542f484629844bfcdbb13fdbeab5de3d320971708e27682c1c28c.json",
+      "local_bytes": 3063031,
+      "local_sha256": "bcfb2952261542f484629844bfcdbb13fdbeab5de3d320971708e27682c1c28c",
+      "http_status": 200,
+      "final_url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s3063031--bcfb2952261542f484629844bfcdbb13fdbeab5de3d320971708e27682c1c28c.json",
+      "received_bytes": 3063031,
+      "received_sha256": "bcfb2952261542f484629844bfcdbb13fdbeab5de3d320971708e27682c1c28c",
+      "passed": true
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/source-audit.json",
+      "key": "SHA256E-s4585401--83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2.json",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s4585401--83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2.json",
+      "local_bytes": 4585401,
+      "local_sha256": "83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2",
+      "http_status": 200,
+      "final_url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s4585401--83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2.json",
+      "received_bytes": 4585401,
+      "received_sha256": "83ab0f8fbe32378e5ae45a7111c3f195bdb7829bba7dd33923a968f92fb29db2",
+      "passed": true
+    },
+    {
+      "path": "research/skill-candidates/sources/pr-26/changed-files.json",
+      "key": "SHA256E-s1104212--bbbb9d31494d4bef7399a26cc676d64e9655668fab727091fdc84f79a6dcb4c5.json",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1104212--bbbb9d31494d4bef7399a26cc676d64e9655668fab727091fdc84f79a6dcb4c5.json",
+      "local_bytes": 1104212,
+      "local_sha256": "bbbb9d31494d4bef7399a26cc676d64e9655668fab727091fdc84f79a6dcb4c5",
+      "http_status": 200,
+      "final_url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1104212--bbbb9d31494d4bef7399a26cc676d64e9655668fab727091fdc84f79a6dcb4c5.json",
+      "received_bytes": 1104212,
+      "received_sha256": "bbbb9d31494d4bef7399a26cc676d64e9655668fab727091fdc84f79a6dcb4c5",
+      "passed": true
+    },
+    {
+      "path": "research/study-design/sources/con_mechababs-head.json",
+      "key": "SHA256E-s1072765--9e1eb49080c218c7298259d2cd09955c011ba76011da0da18ca95023f95eb1ce.json",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1072765--9e1eb49080c218c7298259d2cd09955c011ba76011da0da18ca95023f95eb1ce.json",
+      "local_bytes": 1072765,
+      "local_sha256": "9e1eb49080c218c7298259d2cd09955c011ba76011da0da18ca95023f95eb1ce",
+      "http_status": 200,
+      "final_url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s1072765--9e1eb49080c218c7298259d2cd09955c011ba76011da0da18ca95023f95eb1ce.json",
+      "received_bytes": 1072765,
+      "received_sha256": "9e1eb49080c218c7298259d2cd09955c011ba76011da0da18ca95023f95eb1ce",
+      "passed": true
+    }
+  ]
+}

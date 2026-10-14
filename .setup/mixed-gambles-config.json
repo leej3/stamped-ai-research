@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "project_root": "/Users/johnlee/code/CON/stamped-ai-research",
+  "treatment_repository": "/Users/johnlee/code/CON/stamped-ai-research/skills",
+  "allocation_file": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/allocation.json",
+  "common_skill_directories": [
+    "/Users/johnlee/.codex/skills/duct",
+    "/Users/johnlee/.agents/skills/commit-provenance",
+    "/Users/johnlee/.codex/skills/datalad",
+    "/Users/johnlee/.codex/skills/skills-workshop",
+    "/Users/johnlee/.agents/skills/workshop-feedback",
+    "/Users/johnlee/.agents/skills/private-workshop-memory",
+    "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup"
+  ],
+  "common_skill_selection_note": "Shared control source identities; worker invocation is measured afterward, not inferred from availability. Native Entire hooks are identical across all six workers.",
+  "additional_control_files": [],
+  "stages": {
+    "01": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-baseline.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline"
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-01-treatment.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment"
+        }
+      }
+    },
+    "02": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt",
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-baseline.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline"
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-treatment.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment"
+        }
+      }
+    },
+    "03": {
+      "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+      "arms": {
+        "baseline": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-baseline.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline"
+        },
+        "treatment": {
+          "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment",
+          "gate": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-03-treatment.gate.json",
+          "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "trial_type": {
+    "Levels": {
+      "pl_sw": "plain switch",
+      "mr_sw": "mirror switch",
+      "pl_ns": "plain nonswitch",
+      "mr_ns": "mirror nonswitch",
+      "junk": "junk"
+    }
+  }
+}

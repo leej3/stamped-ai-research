@@ -1,0 +1,23 @@
+{
+  "status": "all_six_setup_frozen",
+  "freeze": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-gambles-freeze.json",
+    "mode": "sha256",
+    "sha256": "0fb7e23164c45059f3ed25cd43e542a029af4a4be40d26fa3d36b2268431ece0"
+  },
+  "agent_launched": false
+}
+{
+  "status": "pair_manifest_validated",
+  "manifest": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-stage01-manifest.json",
+    "mode": "sha256",
+    "sha256": "9d957b9f036dbcd82d08a29c2181688c3f8ecf3c2cf9981724f042fc5bdaebfc"
+  },
+  "common_sha256": "17e14866df919cc2932408acd77517851e85c4f1ed75e71ea0d25ee6dcde3265",
+  "arm_order": [
+    "treatment",
+    "baseline"
+  ],
+  "agent_launched": false
+}

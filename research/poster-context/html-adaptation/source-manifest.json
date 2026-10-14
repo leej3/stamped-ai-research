@@ -1,0 +1,36 @@
+{
+  "reference": {
+    "repository": "https://github.com/con/talks",
+    "pull_request": 20,
+    "commit": "8a15964ed5cbcd07b04d1f325e848c788e672b05",
+    "html": "2026-usrse/orinoco-lite_poster.html"
+  },
+  "submitted_title": "STAMPED in Practice: Reproducing a Scientific Result Using ABCD Neuroimaging Data",
+  "current_scope": "Public mixed-gambles response-time case study; ABCD reproduction not performed.",
+  "authors": [
+    "John A. Lee",
+    "Austin Macdonald",
+    "Cody C. Baker",
+    "Yaroslav O. Halchenko"
+  ],
+  "assets": {
+    "con-logo-outlined.svg": {
+      "bytes": 125811,
+      "md5": "5429db5139ba49cc5a94dceb1532abe0",
+      "sha256": "076adc1bf4e2d9dba5983e22f753f562a7408c8a3393adea281c5478f64f7ee1",
+      "source": "2026-usrse/orinoco-lite/assets/con-logo-outlined.svg"
+    },
+    "con-ccn-dartmouth-letterhead.svg": {
+      "bytes": 379034,
+      "md5": "be7ae71a14ff2301bb0cf1cde08457e9",
+      "sha256": "69dfcc6cd70367b7a03b19982589ac7d2180fdf6723bbb17ae2361c6c356d625",
+      "source": "2026-usrse/orinoco-lite/assets/con-ccn-dartmouth-letterhead.svg"
+    },
+    "repronim_logo.svg": {
+      "bytes": 33939,
+      "md5": "cfe9b83acfb1f1292027c0a214c4b0f9",
+      "sha256": "0e1101fa2dca811587d0ad4caa040961da5156e11b9b23f64f29ca3463d84870",
+      "source": "2026-usrse/orinoco-lite/assets/repronim_logo.svg"
+    }
+  }
+}

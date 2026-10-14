@@ -1,0 +1,46 @@
+{
+  "status": "interim_data_for_future_layout_only",
+  "rendered_into_html": false,
+  "timing_definition": "Worker wall seconds only; setup and evaluator replay excluded; 480-second cap per attempt.",
+  "display_rounding": "Nearest whole second for poster; retain unrounded values here.",
+  "layout": {
+    "replace": "Existing right-column .result-box contents only",
+    "heading": "Checked outcomes",
+    "columns": ["Task", "Baseline", "With skills"],
+    "column_width_percent": [26, 37, 37],
+    "cell_lines": ["Rounded worker time in seconds", "Correctness status", "Fresh replay status"],
+    "font_px": {"heading": 46, "time": 36, "status": 32, "caption": 32},
+    "caption": "Worker time only; setup and evaluator replay are separate. Replay used a fresh checkout on the same host.",
+    "rules": [
+      "Use separate per-arm correctness and replay labels; never infer one from the other.",
+      "Use Pending for stages without an assessment, Failed only for a failed check, and Not attempted for an unattempted check.",
+      "Keep the lower Limits of this study callout and all source links.",
+      "No color-only status encoding, aggregate score, percentage benefit, or causal efficacy headline.",
+      "Shorten text if needed; preserve the minimum 32 CSS px / 24 pt font floor.",
+      "Rebuild and inspect layout after all stage data are complete; do not treat the earlier PDF as current."
+    ]
+  },
+  "stages": [
+    {
+      "stage": "01",
+      "label": "One person",
+      "assessment": "research/mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "baseline": {"worker_wall_seconds": 270.2424976249458, "correctness": "passed", "fresh_replay": "passed"},
+      "treatment": {"worker_wall_seconds": 358.4730830839835, "correctness": "passed", "fresh_replay": "passed"}
+    },
+    {
+      "stage": "02",
+      "label": "Cohort",
+      "assessment": null,
+      "baseline": {"worker_wall_seconds": null, "correctness": "pending", "fresh_replay": "pending"},
+      "treatment": {"worker_wall_seconds": null, "correctness": "pending", "fresh_replay": "pending"}
+    },
+    {
+      "stage": "03",
+      "label": "Sensitivity",
+      "assessment": null,
+      "baseline": {"worker_wall_seconds": null, "correctness": "pending", "fresh_replay": "pending"},
+      "treatment": {"worker_wall_seconds": null, "correctness": "pending", "fresh_replay": "pending"}
+    }
+  ]
+}

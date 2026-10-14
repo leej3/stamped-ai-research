@@ -1,0 +1,11 @@
+Committed and pushed via configured SSH to `codex/stamped-research-skills`.
+
+- Commit: `d0f83b9492a697b929ddda2788da35fb3285170d`
+- Checkpoint: `01M4YBEX6G6R092NECKSQ8JFMC`
+- Changed: `README.md`, `docs/stamped-study/README.md`, `docs/stamped-study/logs/manifest.json`, and 90 files under `docs/stamped-study/logs/duct/`.
+
+Validation passed: Snapper, local links, scoped diff, 17 input identities, and exact log bytes after hooks. All five skill trees—20 files—still match both experimental manifests and `8f3acaa`. Hooks remain unchanged; checkout is clean.
+
+Delivered 18 completed captures totaling 291,226 bytes. Seventeen match export plan 02; the later audit is explicitly distinguished and verified against its central source.
+
+The current invocation’s capture remains pending coordinator export after stop, along with final uploaded-reference verification.

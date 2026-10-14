@@ -1,0 +1,32 @@
+{
+  "arm_outcomes": {
+    "baseline": {
+      "replay_byte_identical": true,
+      "replay_passed": true,
+      "science_passed": true,
+      "screening_contract_passed": true,
+      "worker_outcome": "completed"
+    },
+    "treatment": {
+      "replay_byte_identical": true,
+      "replay_passed": true,
+      "science_passed": true,
+      "screening_contract_passed": false,
+      "worker_outcome": "completed"
+    }
+  },
+  "both_arms_stopped": true,
+  "evaluated_at": "2026-10-14T23:09:02.081186+00:00",
+  "evidence": "Per-arm normalization, extraction, comparison, source audit and replay verification in this directory.",
+  "failures_retained": true,
+  "limitations": [
+    "Unblinded design-author agent assessment, not human reviewed",
+    "Logical isolation on same host/account with shared caches",
+    "Post-stop collection/replay/log packaging is coordinator curation",
+    "Final planned local stage; proceed means gate satisfied, not authorization for an unspecified new trial"
+  ],
+  "proceed": true,
+  "replay_accounted": true,
+  "scientific_checks_accounted": true,
+  "stage": "03"
+}

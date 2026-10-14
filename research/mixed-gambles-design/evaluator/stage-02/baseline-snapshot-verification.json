@@ -1,0 +1,134 @@
+{
+  "boundary": "Verifies retained file bytes and recorded source state; does not claim absence of detached processes or complete capture.",
+  "clean": true,
+  "files": [
+    {
+      "passed": true,
+      "path": ".codex/hooks.json"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/.gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".datalad/config"
+    },
+    {
+      "passed": true,
+      "path": ".gitattributes"
+    },
+    {
+      "passed": true,
+      "path": ".gitignore"
+    },
+    {
+      "passed": true,
+      "path": ".gitmodules"
+    },
+    {
+      "passed": true,
+      "path": ".setup/native-capture-probe.txt"
+    },
+    {
+      "passed": true,
+      "path": "SOURCE.json"
+    },
+    {
+      "passed": true,
+      "path": "TASK.md"
+    },
+    {
+      "passed": true,
+      "path": "code/analyze_rt.py"
+    },
+    {
+      "passed": true,
+      "path": "code/replay.sh"
+    },
+    {
+      "passed": true,
+      "path": "code/verify_rt.py"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/implementation_hashes.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/input_hashes.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/inventory.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/participant_changes.svg"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/participant_changes.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/results.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/run_summaries.tsv"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/software_versions.json"
+    },
+    {
+      "passed": true,
+      "path": "derivatives/gambling-rt/trial_audit.tsv"
+    },
+    {
+      "passed": true,
+      "path": "pixi.lock"
+    },
+    {
+      "passed": true,
+      "path": "pixi.toml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/SOURCES.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/checklist/stamped-checklist.json"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/paper/main.tex"
+    },
+    {
+      "passed": true,
+      "path": "references/stamped/principles/stamped-principles.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/report.md"
+    },
+    {
+      "passed": true,
+      "path": "reports/run.json"
+    },
+    {
+      "passed": true,
+      "path": "reports/verification.json"
+    }
+  ],
+  "output_commit": "f8df3fef0c46ac4ab0f01015b3a906966c7dad27",
+  "passed": true,
+  "snapshot_sha256": "2e5b43c939123acef72caab89fa1aec4c7b140a0d15d69b564c74cb1b11d6266",
+  "source_matches": true
+}

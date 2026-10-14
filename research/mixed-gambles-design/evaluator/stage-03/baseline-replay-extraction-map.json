@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "common_set": "common_eligible_intersection.median_primary.participants direct; eligible_sets_differ direct. Sets identical, so no additional common-set endpoint required.",
+    "context": "context_primary_median_all_three_runs direct IDs/count/equal_weight_mean_of_person_medians_ms",
+    "flags": "Eight direct flags for primary; add outside_rt_band for band. Primary outside_rt_band is explicitly diagnostic, not exclusion.",
+    "identity": "reports/run.json stage first two characters and source_commit; results.json units direct",
+    "trial_audit": "trial_audit.tsv participant/run/data_row_1based, retained_primary/band and raw four fields; integer flags and Boolean0/1 conversions only",
+    "variants": "results.variants cohort and participant fields; run_summaries.tsv variant and runs01/03; participant_changes.tsv eligible=1; summary_ms and change_ms direct floats"
+  },
+  "no_missing_results_imputed": true,
+  "reviewer": "study_design agent; unblinded design/reference author, not worker author",
+  "sources": [
+    {
+      "path": ".runs/replay-mixed-03-baseline/derivatives/gambling-rt/results.json",
+      "sha256": "25a9548035354bc13e235382b22b1a3f6e86cea48a4a32f277d6d54ed7c80680"
+    },
+    {
+      "path": ".runs/replay-mixed-03-baseline/derivatives/gambling-rt/run_summaries.tsv",
+      "sha256": "3592100fb8267e75cc7c3fd73e2a9fba972d183c807f3cc10a12aa92762d44e8"
+    },
+    {
+      "path": ".runs/replay-mixed-03-baseline/derivatives/gambling-rt/participant_changes.tsv",
+      "sha256": "d462c22d7498d4face4f5abff21b3f003bab076bacf82f25c28f0ef998455967"
+    },
+    {
+      "path": ".runs/replay-mixed-03-baseline/derivatives/gambling-rt/trial_audit.tsv",
+      "sha256": "e8a1895346254bd2da67ba66812bba3b7d811d5fbb7b5e5a145e55158b945c99"
+    },
+    {
+      "path": ".runs/replay-mixed-03-baseline/reports/run.json",
+      "sha256": "e4cd7db9c0cdca1d2ffbb68dcfa0a11a52f8da537e3001c7e587def656bcec6e"
+    }
+  ]
+}

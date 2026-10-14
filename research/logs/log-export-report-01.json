@@ -1,0 +1,4422 @@
+{
+  "schema_version": 1,
+  "exported_at": "2026-10-14T22:42:08.279657+00:00",
+  "plan": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/log-export-plan-01.json",
+    "sha256": "2523d7fc4d79eb66733a9098736ff8a81f7423d3c2e2f618d822010243c29ba7"
+  },
+  "exports": [
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-baseline-f2ee0ef2f2c6e4de/20261014T222057.863403Z-7dc02ef6149e492da62ab566b20fa679",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222057.863403Z-7dc02ef6149e492da62ab566b20fa679",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 527,
+          "mode": 384,
+          "sha256": "25dc0a78a905cb181e8e9cf8b64323839df173d35628848814d04a3fcb8b6b48"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2936,
+          "mode": 420,
+          "sha256": "2294c91651dda0f1735106bcdecb8e9850ad05148a10a44039b47caca50ef13e"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 183,
+          "mode": 420,
+          "sha256": "d1c4a13dd198aa408a73c38a58c69494359ee7cdd27e844b3981b4b586c80dd6"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 5070,
+          "mode": 420,
+          "sha256": "1ec284ae8d7faad08d44688687f9b8079951556d38d894992e06614601dd551d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/mixed-01-treatment-004a17a6d2ae695b/20261014T221458.875731Z-5f0c3994818d4241a81ceabe927d0e83",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T221458.875731Z-5f0c3994818d4241a81ceabe927d0e83",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 530,
+          "mode": 384,
+          "sha256": "aaccb7a09cb3a006d6574877d3305c5de52a360dc6dc7114f632d903fa82055b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2948,
+          "mode": 420,
+          "sha256": "c96f2e666d87a8382c9a0a244994bdd59d1187c7516131c1483a59affb1a7207"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 184,
+          "mode": 420,
+          "sha256": "508bc7d51791f3b95a771cf91c1102cbc366198abbf2ec31ae8e897880f82e31"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 5996,
+          "mode": 420,
+          "sha256": "90118fe32b1da891f66e500c659e7a4c92bb606518bfac0159c2547044d0ba57"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214543.724426Z-71868ac250a144cdb3315ed92a498ee8",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214543.724426Z-71868ac250a144cdb3315ed92a498ee8",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "e19f48cd4b199dfe8011bd20c8e4b9d112781c277eab0ae71ebade074263d1b9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2230,
+          "mode": 420,
+          "sha256": "5cbb318cd30431b7a67ba2187829007298bce5ec4919690db5a4b243f2f76e99"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 71,
+          "mode": 420,
+          "sha256": "7c38675ec1ff5ee0a18976ac5b191f93706796737fa3267b5759e55af99f77fb"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 876,
+          "mode": 420,
+          "sha256": "b203915c8ae56604283bbb70f9fa61d0c6e0266352ff497692c20d83e13a0129"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 447,
+          "mode": 420,
+          "sha256": "227a13bbf962cfcaa802e3bf10cbc23858fd0ade75b0eb2dc61bc874e6ba76dd"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214543.724426Z-9a80ab30d1a249c1a879564b1efc6a21",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214543.724426Z-9a80ab30d1a249c1a879564b1efc6a21",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "e19f48cd4b199dfe8011bd20c8e4b9d112781c277eab0ae71ebade074263d1b9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2218,
+          "mode": 420,
+          "sha256": "fffa4852f0640694d5ccaadea6df9112140c175aed01c6ce020abb79221f8215"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 73,
+          "mode": 420,
+          "sha256": "9b2c049bc4103cbf1abd40d05f99a9b639aba5ffbe6e09a6d7475b81802b45a4"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 96,
+          "mode": 420,
+          "sha256": "6e080b179ccce88b3a740440e133f0bcff3f77dfc98e2e91aca2338bbd56596a"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 449,
+          "mode": 420,
+          "sha256": "1abb3fd85785348c480b16211ab2874499ef39d5ac81c304b310852368a16d09"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214651.274328Z-12c8243dd5744d78a7cee0bcd1742ba9",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214651.274328Z-12c8243dd5744d78a7cee0bcd1742ba9",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "a678c635d36347677dda4dc9ae6cede15dbb682f768ffe5b0427c105decbc8bf"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2238,
+          "mode": 420,
+          "sha256": "fe2093c71228feabfc5eb6438ec28626a8676abda9f7ea65f90dc9198737b430"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 73,
+          "mode": 420,
+          "sha256": "9b2c049bc4103cbf1abd40d05f99a9b639aba5ffbe6e09a6d7475b81802b45a4"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 96,
+          "mode": 420,
+          "sha256": "6e080b179ccce88b3a740440e133f0bcff3f77dfc98e2e91aca2338bbd56596a"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 452,
+          "mode": 420,
+          "sha256": "909a67ee2aab66d6732d352179b6f42e67d4eb17c0c818aa7b5fd2787bb7edf7"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214651.274328Z-647c4501e4f5473c9718a4c1eecaa956",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214651.274328Z-647c4501e4f5473c9718a4c1eecaa956",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "a678c635d36347677dda4dc9ae6cede15dbb682f768ffe5b0427c105decbc8bf"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2238,
+          "mode": 420,
+          "sha256": "bbbf1b14c64e2929762e25d21d948126a38097ed8ccb3d1dcada5df165351551"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 71,
+          "mode": 420,
+          "sha256": "7c38675ec1ff5ee0a18976ac5b191f93706796737fa3267b5759e55af99f77fb"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 876,
+          "mode": 420,
+          "sha256": "b203915c8ae56604283bbb70f9fa61d0c6e0266352ff497692c20d83e13a0129"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 450,
+          "mode": 420,
+          "sha256": "1b47d39a01d1228be46d12b64dbf243cb764a2f083da796db66b5134b15ecf9e"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214651.274328Z-cae7b1ace90f44f798dcc6f079512e27",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214651.274328Z-cae7b1ace90f44f798dcc6f079512e27",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "a678c635d36347677dda4dc9ae6cede15dbb682f768ffe5b0427c105decbc8bf"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2367,
+          "mode": 420,
+          "sha256": "dfe432d20459063b53739061f4b541cd6e6f01b3887774e99bb6c2faa433cd57"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 942,
+          "mode": 420,
+          "sha256": "6d6288e5efe0d9c98b31bced786864f335d4a7ca818a6496280f59c2e002af14"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 16717,
+          "mode": 420,
+          "sha256": "73d4ca1420f56f7f542e0b072e4b14c0c361517171afdd48766b4cfbeaa5c144"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2456,
+          "mode": 420,
+          "sha256": "5d69fcb5ed963f70e935c34f12f818a7f46e8e4764c5851e8f8677a865fdc671"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/skills-workshop-cff63cdda9b81ef6/20261014T214651.274334Z-0b5fab69cde540ae854d47d080648809",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214651.274334Z-0b5fab69cde540ae854d47d080648809",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 469,
+          "mode": 384,
+          "sha256": "2f6120c49e77d2be3a29528d957edb189ab7c343b97f25f52f203044bb669e0e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2250,
+          "mode": 420,
+          "sha256": "b959e5360160fd8864445f86dacff0ab0352b4eb082226d705decbc2c7fbe3be"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 93,
+          "mode": 420,
+          "sha256": "0125a8e4c6721bc4fc527c21a9e221773279a84b6df4b48ca36626f1fe547745"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1623,
+          "mode": 420,
+          "sha256": "f4609d78a59aa41616a50fee910b3ebc9e60b7c8b0bbb9884d31afd8f4cb7973"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3205,
+          "mode": 420,
+          "sha256": "6f34eef520743755373c9da8f0c43b04e192d2a1ade251e4fde8b5d2c123da8a"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214716.596069Z-a039be5342bc48d2b1dd64d09ab01cb3",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214716.596069Z-a039be5342bc48d2b1dd64d09ab01cb3",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "ae3f121d800adde29d3c76a87807b1479d8d59504603d68ac523c0ca1e6d1d5a"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2345,
+          "mode": 420,
+          "sha256": "e33c2016ee53c0da636eafaaaa2c99f0f9563b51d1fd362edb09f35d193256dd"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 5665,
+          "mode": 420,
+          "sha256": "f1f01118941fe166a6aa41fc9975a2bf87ce75bfc18d027f21c1747888e08579"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1183,
+          "mode": 420,
+          "sha256": "bcbda9bf1538fc3d15f5afc8d2fcb1314967e4062c563e3245d22802093d1a6f"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214718.717628Z-9f269482f6844e08a42204ad89ed28ad",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T214718.717628Z-9f269482f6844e08a42204ad89ed28ad",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "3609dd77573e6925c387c29a685f64e897e3b6b1862e26b3612127e745e090b8"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3274,
+          "mode": 420,
+          "sha256": "76e4735df822c98354cf455e2362a53c10ddd8838f74942d0fabad78c9a28175"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2330,
+          "mode": 420,
+          "sha256": "ffcd8a6772c23fbd95000b6daaa55ae4ecb9fde7a4c344ecd59176f8a98cd58e"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2125,
+          "mode": 420,
+          "sha256": "a196f24f299c12810a056e39d89af26cbad9296233703e9b5a218a43f2c27b8c"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214728.185863Z-69ea740a4afb41c7bbad5cd21d2e71f1",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T214728.185863Z-69ea740a4afb41c7bbad5cd21d2e71f1",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "9a5083944844e19824577530c38a9982f85f7b1adfccc40f6f254a820ced8422"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4423,
+          "mode": 420,
+          "sha256": "1f75036441a529abedf00127d3100b9cfa0104672cae74a5582dccf4b7558c40"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 5461,
+          "mode": 420,
+          "sha256": "ca257954a65f493d301168069af6a2122cdd770e0b26a11bd7356318ba0b0ec9"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3277,
+          "mode": 420,
+          "sha256": "aa6d6f5a5a072bacbc694f98abc8de6c97cc6e603a5b1130baa79b16600a2fde"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214741.640861Z-2cbcfd6a303a4c2089d8439609d54d84",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T214741.640861Z-2cbcfd6a303a4c2089d8439609d54d84",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "e6968ff9b507aa3f8363b36ff6c6b75e73510af90bec00b2a1035e0146774425"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4501,
+          "mode": 420,
+          "sha256": "a26714d7b8f56355d4a2702ccbae75ffcf85140e70fa3369363d3332c9b8a3a1"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 6009,
+          "mode": 420,
+          "sha256": "8b7dd20fc697905bd0d4994060c5c0f6e25d96ac4ab79df3bd7b0c5793babd56"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1667,
+          "mode": 420,
+          "sha256": "1366b10bbb4ae9f4efdf30289d33bd1806952d5639308413eb9e29d14c6b05f9"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214744.869362Z-24ed2bf3b94e4879b8b4d45ac1133da8",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214744.869362Z-24ed2bf3b94e4879b8b4d45ac1133da8",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "17344ba0641b4ba54b7de3993c49df102cc8ef569761ec07441ea9999f4b0add"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2370,
+          "mode": 420,
+          "sha256": "220387e12368a9a77eaa77f95d8cdf184443af72fb53cd772e63909b2b66bd54"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2318,
+          "mode": 420,
+          "sha256": "e4efce9bebb1ca8c6f065dab6976a14554802d641332ebbb511215b920e30d69"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1194,
+          "mode": 420,
+          "sha256": "5ed129bc92d7f5ae3cf0a22e9e448c5f00f521d5f88e99f3202e039d4af0bee2"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214801.681185Z-69a2547530b24a6684005e97311787a0",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214801.681185Z-69a2547530b24a6684005e97311787a0",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "f3c76f963b35039c86472fab32ab056e2372636068192a1791fd3e88fd16a12a"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2559,
+          "mode": 420,
+          "sha256": "d67a71cf7defba2c098d2ed13695fd56bf41d1ed1abaec308f262616b8868cdc"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2329,
+          "mode": 420,
+          "sha256": "fd20e6aa2dab880d8d04bd9cf85d31c2686f871719ae32c4a315063c435d5d10"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2666,
+          "mode": 420,
+          "sha256": "a2d60b6a09eba6fe2ee27a2b73242e657a2b7c75c7712ab2a9a9b86001c541a1"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2544,
+          "mode": 420,
+          "sha256": "f6c851f56e927a6e9cf2e45c712b23f8442d62cb2019f1d21c8b0e24dfea308d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214824.839183Z-228225b96578495182e9d6133949f968",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T214824.839183Z-228225b96578495182e9d6133949f968",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "25db8844e96aaed45b8c14f38cbd991d8c96335a46a690020098f7736b7dbc46"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2563,
+          "mode": 420,
+          "sha256": "242af62276e9f3b1ad766a65592d35d7bd0cf45307466ed3e4b8fd2344153559"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2513,
+          "mode": 420,
+          "sha256": "ad051e976bc73b76309a55f26293c0d47c4e280886e4baac903939f4ba599646"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2656,
+          "mode": 420,
+          "sha256": "4ce2b8ad2f32c26e2fc6c38d988c85a42884a1240c9e7fedcf88f1ef8bc4b49d"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2532,
+          "mode": 420,
+          "sha256": "fd66953790771b261cac35864193103aa516d9ba6f7a3531a94a4b2eff20ceb1"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214840.364971Z-e756bba20b2641f091aec587ae1b3f7a",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T214840.364971Z-e756bba20b2641f091aec587ae1b3f7a",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c2532b419553f8e59be3ea5d947ea761ef84b068fd5511c8102f9eae29eab9bd"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4886,
+          "mode": 420,
+          "sha256": "3f33781d22b36457fd5eb8624bfc820cc845eba88585e68efe59299090c4b810"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2651,
+          "mode": 420,
+          "sha256": "defcb2e680daf7830c51985feed04f5ae0d50338365bc54356de765a696793a3"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1864,
+          "mode": 420,
+          "sha256": "44509abc21d165ba095a94a1edfe43ef3869596a8777eea8383fdad31cf7a600"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214845.829354Z-ffad117679714978baeb5c05ca24e47d",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214845.829354Z-ffad117679714978baeb5c05ca24e47d",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "6e1826e465dc9e3cce4e65b4a2498d2d6317edeb4ac438a3bc52760a85ce14b4"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2665,
+          "mode": 420,
+          "sha256": "c51c1836d50373889c1cb4334bc9216c4f53d818dce01c9b3f65dc3d3a49366e"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2329,
+          "mode": 420,
+          "sha256": "2f77e6a57710585525808465d5163a36eb0ea25f45f6c4cad6f584a6fc93d8a7"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 24130,
+          "mode": 420,
+          "sha256": "e074253871a19620bbecaf30c6e50a42ff4604d53d0c5eacc84ae6cdadeda470"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2443,
+          "mode": 420,
+          "sha256": "450206716f5ea0f55c6480e93f2c0bb3c94c8ad1fede9d52594976415fc58b8b"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214854.640190Z-7cdfbb9658b84c7da417658a89419da1",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T214854.640190Z-7cdfbb9658b84c7da417658a89419da1",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "3b165c3f38accf0b79b0026c855278f1ae8a39922f25934ce8e63f7e266ae6f1"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2647,
+          "mode": 420,
+          "sha256": "54119d1f442b1ebb2ffd98e495bc2188c6db2e69e41e67aa3eb25882489c75fd"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 4254,
+          "mode": 420,
+          "sha256": "7094c120e22b08cb7668f71da6a18c5c0b27018254c393c2dead09d269b802cc"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 17345,
+          "mode": 420,
+          "sha256": "0ccf03620c956efb0730bfa85d01efe9fcc6bf760d1ad494a6c5565391fd9228"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2622,
+          "mode": 420,
+          "sha256": "ba5183384ee1667c7bad786fe1032d435c9dac9659cf9bf826eb55d6d0ea2199"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214907.249318Z-8b6c184b05094acf80824b880be03186",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T214907.249318Z-8b6c184b05094acf80824b880be03186",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "eafcecdf87b20a6591511ccae0197883733e89e50d99e4145e873e9157face6f"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2430,
+          "mode": 420,
+          "sha256": "7d15efd3295973c3f5dd224d9ca574baf74b15f90ee77c445e491a34ab148ece"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 1011,
+          "mode": 420,
+          "sha256": "0d9899de11155464263d8528e28b96079bfc390aa444cc01a1109012a6b05898"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 83,
+          "mode": 420,
+          "sha256": "89cd7c8da235930189612d6944f63eb294218cebee083de89e545b6ac2d80582"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2712,
+          "mode": 420,
+          "sha256": "a1772e5bcf10f51364269aeef792fed0ff0083303cb5e7480e48718f0fc5e994"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T214923.863236Z-688e39f7ac344e18a4425f8aa077ea63",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T214923.863236Z-688e39f7ac344e18a4425f8aa077ea63",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "b252cc1c07207795ed772058b6749738c9e8d30f4d8d82032799e8dcd69ebafc"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2647,
+          "mode": 420,
+          "sha256": "fbc8ac01344e178416a98ce0f523fe046f74c5f07e0d8384e5330e5eae2a03da"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 797,
+          "mode": 420,
+          "sha256": "b7527e0d9b67b40d922ec4de6bd920b1bd43d065dbcb5e59f7f83e8564bd2c72"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 664,
+          "mode": 420,
+          "sha256": "8c7654a21bf299cdead0cefb8587f17b737eb875d52e41eaa33cbc89f4fa6330"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215007.239095Z-918bd29669e74636ac39fe17e63e9af5",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215007.239095Z-918bd29669e74636ac39fe17e63e9af5",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0680184ec5cab0e19a55e13705fa5668156e31680ec42fe718f5b10bcf1813c6"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2676,
+          "mode": 420,
+          "sha256": "f923c3088df2986895df8afce4494447f820388e3cce0bfbeb2959b6b6c8f0bd"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 98,
+          "mode": 420,
+          "sha256": "4319de9baea3e09236cb74b8143bf61e954495911583d6c996b7499f0ee4cc1e"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 650,
+          "mode": 420,
+          "sha256": "0c971e3e2093924a224ead8ad13f3c3c04c12e921e428de51ead4155f35a52cf"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215027.128095Z-37d06d249f4c42fd9fa059d02e59719d",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215027.128095Z-37d06d249f4c42fd9fa059d02e59719d",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "6c0268b0adef432159ad5e317a9710bca05d447baa1af0b871aaf662d486261c"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2700,
+          "mode": 420,
+          "sha256": "80d6a760716361414da3790c00a1c4674b61bccd51fc934bbd048adc4eb808fe"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2513,
+          "mode": 420,
+          "sha256": "d29438d874b2af8ab0a89fba09c5c280ccaf07bcf1c26bde15abafd7a697ad06"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 9479,
+          "mode": 420,
+          "sha256": "9b912311e2123752a751328f70424a3b9a038fb9526089de656845e17c7d1635"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2677,
+          "mode": 420,
+          "sha256": "2c975756afe347014bd8ba0cb64af38e7870fdcf89c559a086ede089faaf7a83"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215027.129143Z-c00bf6fd436748778070aef54bb73ab8",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215027.129143Z-c00bf6fd436748778070aef54bb73ab8",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "e5bbff1929a14417308624618ae207de4859f9c69265b48372348439308e6591"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2716,
+          "mode": 420,
+          "sha256": "551ddc35776fe1c4511221585ada5bbad18d10594a7e046f802a90a4dc1a6dea"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2329,
+          "mode": 420,
+          "sha256": "065b458a50b64def05f523adbc904bac2750e90c19a436450c9ba8e8c36f89ed"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 7361,
+          "mode": 420,
+          "sha256": "7de3026038c43214b12bdca2722fff5819d179b234a1562bcc6e039a5de744c6"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2691,
+          "mode": 420,
+          "sha256": "5ff2e263bb90a5286c25a0c39bdb4fbb4b82f93d7ec1d9f11cd2e2f75198401c"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215119.313142Z-3ce1d21ea0b845bb9f9ea8f7415b2679",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215119.313142Z-3ce1d21ea0b845bb9f9ea8f7415b2679",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0abe3e30c4fe3fcb05fe941275dee4a9fb3f240e229d4b64bc97ad8b0c2681a9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2393,
+          "mode": 420,
+          "sha256": "5d9e3014c8ced4ba85ab086d1af55eac4134ac63812f738fb1ed5dac627e8524"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 100,
+          "mode": 420,
+          "sha256": "63a34f6fab9d05e70bb33bd0a580fcc17093c4802c6ecea379870ad932c9efae"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2688,
+          "mode": 420,
+          "sha256": "4c4238061a1cc16346da7bf0d94bc4d8914a96f1f99f2f33b5d18f9a432fe43d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215307.537794Z-e212065722c340f0b7cb577cef6bb554",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215307.537794Z-e212065722c340f0b7cb577cef6bb554",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "64843032b5590c9735dd29bf747ba6ee978033961779128c4d98ef106e953726"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2346,
+          "mode": 420,
+          "sha256": "7d1dffdabb875e1c47ee071e52fbbd021cfb9994abb8bf03ba308deec693cdf8"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 159,
+          "mode": 420,
+          "sha256": "d923bb882b871f4d02c5aff3e1e789e318771fe93964c680a4a0930907a8beb1"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 587,
+          "mode": 420,
+          "sha256": "d0f18266dae39c7af7e376c44daf1cd9acd12104c9ddc60b28bccfcabd7579ba"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2690,
+          "mode": 420,
+          "sha256": "fe52fe2ced738f91b017c77d20f7f85d2be017d2fac219c4fa656966bc240ff7"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215334.513729Z-38cf0f6bb97e44f58a965b0cc675280e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/study-design/logs/duct/20261014T215334.513729Z-38cf0f6bb97e44f58a965b0cc675280e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "8487d3e4336db0422cedaf25dea3fcd184cb3290723aec5423198357d17e0d5e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4564,
+          "mode": 420,
+          "sha256": "d84c408915253a619da83da9a7f817ecab712fc41011e6a6844ee90915dbb548"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 811,
+          "mode": 420,
+          "sha256": "8ede2cabad8343f288e3b07c08a51265ddb5033b3cbd858e932a6e0c336796d9"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215346.281482Z-3fe93475e08641d5aca692d93909edf2",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215346.281482Z-3fe93475e08641d5aca692d93909edf2",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "8a114b6ba6de6c430a41de01e7c820f350855036867248da2780d3db4e9da541"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2718,
+          "mode": 420,
+          "sha256": "4d245055e5dc9ec13629d68f1ecb12e80438fed0bf7f5c142cdeb7d35cf27488"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2513,
+          "mode": 420,
+          "sha256": "469901d77c0c8d98469d07adace49940545caecaeb1685172ba890b8ca579e49"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 238147,
+          "mode": 420,
+          "sha256": "bd7ae277c2f42d4e0feb3703c6d23020f76b6703ed6e6e526c97f488adb111dd"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 11703,
+          "mode": 420,
+          "sha256": "be2cd1d1c76b65d1e4b1031d9faad7dbcac1822ba7a52ce031dd7663258d584d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215348.835940Z-8aa0c6ab98bf489ca0f2370ac3c66405",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215348.835940Z-8aa0c6ab98bf489ca0f2370ac3c66405",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "7eb372e48eb3c68f2a0481cb5197b9a07b9f67e6b42c88c72420a41bc414e7a9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2469,
+          "mode": 420,
+          "sha256": "ed0e05d1dc9e0f8bad275791d23b93ff037ea6afa9e0db6af59b04f9cafe063d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 674,
+          "mode": 420,
+          "sha256": "a59aedf10515203a8d845d6c62efcde77fd8e5c28b3326f7b322cbd127447224"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 534,
+          "mode": 420,
+          "sha256": "ac980b9f5d7164551e2b1043ac7531605b3d71fcff5355cbd10c7cdf898c35d0"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215349.271770Z-26befe5641e5461386717ccd9487d497",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215349.271770Z-26befe5641e5461386717ccd9487d497",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "f1e2449761c7e1f9141ac2bdd5bf1f893505b911314f6d87176357a5d38a3ee6"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2945,
+          "mode": 420,
+          "sha256": "df1a08505cc2350ccf160a104220751502c352ca00a6525fd9e717154c847b74"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1285,
+          "mode": 420,
+          "sha256": "7c3755fd905f963434c2b88415f507f64dcb48df6edf891ee3615a4c1e25f08f"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 780,
+          "mode": 420,
+          "sha256": "5de3cefb68bb852aa9b33aea110718c5a77fa316827310cb2bc1da1709916fa1"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215349.549016Z-911a70f169f34baebf086aa8f0bc4f49",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215349.549016Z-911a70f169f34baebf086aa8f0bc4f49",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "7e4e98dfc5844e01433941eceb2c4202309519d4a97cc79f06131687b6471d8a"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2608,
+          "mode": 420,
+          "sha256": "a5a579069b3f5350472d28ff69b1ad0b9d6a3b6e94a428636b11ea10305ed136"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 128,
+          "mode": 420,
+          "sha256": "da16daa01965ee2f379fa57bb7f58f3c3b094d3574fba2beeaf68f8858db226e"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215412.817196Z-41eba752b8164b6aa2205535d238e151",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215412.817196Z-41eba752b8164b6aa2205535d238e151",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "e889a544593522d54674ee7d7a3b338df425448b7299f57fbdd73a028ed7c90d"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2370,
+          "mode": 420,
+          "sha256": "9094026fe3e3916149685a7579cb37e324cb0eb34aea207b99d8bdec9d9c49fc"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 334,
+          "mode": 420,
+          "sha256": "e4218984f9b7d17cbb19df96339668e29039c5f9af48abc02551f0e081b20442"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 85,
+          "mode": 420,
+          "sha256": "7e3ff973c0fafea4bfed00f1d1af943ca914c6043660f63d64cb44f0e31da7b2"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 498,
+          "mode": 420,
+          "sha256": "297699c76f06d2fe3f9b085fb6d61107903624bd5072b9aea577a9bc27979f2b"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215413.483791Z-d43cfa34ef4d47089d3d813670611772",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215413.483791Z-d43cfa34ef4d47089d3d813670611772",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "3e7b60dbae37a2c7d81d311436211c0f507ab3b4ebcf1378631adc5d5e68530f"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2375,
+          "mode": 420,
+          "sha256": "a63b21ebaba432dedaea9e17e36f6e507b66753d7ff9980550ca4e8eb6642859"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 337,
+          "mode": 420,
+          "sha256": "28fc0b6605f75876c518997a67943c9ce657e81a264a533d0668b84ec55c3227"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 86,
+          "mode": 420,
+          "sha256": "88c28c77f0911b3f773eb259ad6f5db86043269483a1f45d451ebbc5add39305"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 499,
+          "mode": 420,
+          "sha256": "fb6b3448e7366062e2aa520b7e240d0d0ff79e2bfc1b98dcb11266149c4ddbc2"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215419.894544Z-523fd686cfd142708ecee458c3788454",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215419.894544Z-523fd686cfd142708ecee458c3788454",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "ab95a9dfe156204687d240fe190d03a1e2db53d4eb496db6a3504183a0cae5f2"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2403,
+          "mode": 420,
+          "sha256": "0f9e65bd10abe9f4bd85a3cd69113422b15879fe415fd44f354d250c395440c1"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 253,
+          "mode": 420,
+          "sha256": "cca38eec8c3abc475bd3b216ee0a5ef7de38ed5363b341088402290e8f6d3e11"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 492,
+          "mode": 420,
+          "sha256": "4e3bbad96a864d88b1eea41a5933b99749d0062ff343aa7fc6c68886f71b6277"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215429.861802Z-e192edc68adb4db0b9ca4af1549a4ea0",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T215429.861802Z-e192edc68adb4db0b9ca4af1549a4ea0",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "b11644835816d99eacb6e13cd3b7d568e086af0920914af0f97e6c40d5729560"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3085,
+          "mode": 420,
+          "sha256": "6666671711bccb23314538b3137418ea6491688ea294e6b3a75ccc77118777aa"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 151,
+          "mode": 420,
+          "sha256": "62b1b22413ff1efcf23fd8e5f8bc382d75fd4e745849bbe1bf70f531dd458e6b"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 960,
+          "mode": 420,
+          "sha256": "ee6528c6a5a6acc959d501ecab6da762712e5f107caabceeeb58426bfc213e89"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215445.523510Z-d3b4fe993200437a816d2821063db8a6",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-drafts/logs/duct/20261014T215445.523510Z-d3b4fe993200437a816d2821063db8a6",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0143b8193859c4b74d688e7130b895bc61e1f63b67b7cb4e8fcad2e2a3c5620d"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2735,
+          "mode": 420,
+          "sha256": "d770298ad751fbb962b426bb1e9b07dc78a2561321f82d0e6c985e76740bcaa7"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2881,
+          "mode": 420,
+          "sha256": "d01c03ef4b9d7917766b671dcfba18b22625dccf02046e31ee5de6921234f045"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 133794,
+          "mode": 420,
+          "sha256": "500d990b27e23050ce7c35e3dfdf7f10fb117fdb4ad5ffa7d3a98d7f2420e865"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 4484,
+          "mode": 420,
+          "sha256": "49e0be0f02571b3803225db2d271aa649020879d4a2bc8ef4d534cd86d2e03d0"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215517.482878Z-519900bce00a404383c6659ec09b8787",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/study-design/logs/duct/20261014T215517.482878Z-519900bce00a404383c6659ec09b8787",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0b354be94b4ab85556fae609c96e8fb03635ddce471a03d8b42d0c1768599632"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2375,
+          "mode": 420,
+          "sha256": "27330389cced9fe6e6ec07ec0314f0d1bd0e7b3a607caa8c1fd39e9c283f3d6b"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 510,
+          "mode": 420,
+          "sha256": "9e3e0f52062f7dfac8c73607771be82256fd3911ff1b23f57f0b282c429f198f"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 607,
+          "mode": 420,
+          "sha256": "253af202791ee5d890ecaec40202e2d2c410c70745ebddc8349b7114f93ada4a"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215519.975685Z-e52397defc054e9196739b88a18c6a34",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215519.975685Z-e52397defc054e9196739b88a18c6a34",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "dd161189f814e8ecf19ea53e56f0fd4680be120b379d58ef112f83922b663e1b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2331,
+          "mode": 420,
+          "sha256": "f61ff1ec70177a6306b3f014453fa7eb0ed0b336ccde4585597090ff1183fe93"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 98,
+          "mode": 420,
+          "sha256": "3d5320253a1dbae1a04eee51e3b87b5ddb5a6ceacb723265bd08777bdd719d72"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 180,
+          "mode": 420,
+          "sha256": "3170cecaa956e9f8e5a80af77be84d6073b7e8c56dbc1b6cc68dfb7e344e50bd"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3700,
+          "mode": 420,
+          "sha256": "000afb005f9341aa6f2de78607a24b950e603eb525c2b9edfb6118fe9bbde4f5"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215521.306077Z-f387d91e3efc45f189a381a7ade49e42",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215521.306077Z-f387d91e3efc45f189a381a7ade49e42",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "70cbfe8aa110c8678fa7922e680fe1c63cf90f0802882a71d520d4e2a1b98866"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2336,
+          "mode": 420,
+          "sha256": "c33cd468b3921677adb1b458153ab9e42da87ede4eaf5a2c6cc99be4dca1448c"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 1219,
+          "mode": 420,
+          "sha256": "6ae6474e033a82b4a23c020c865fdf229e823502ef52eb644fc98c5efe2b247f"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 658,
+          "mode": 420,
+          "sha256": "aac0c98f64c61eba9d313915a82536c21eb28b6c067470d6c745d29f88863072"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 5344,
+          "mode": 420,
+          "sha256": "48a181240a4f6623a370c4642eb21c1bccef13399d613a80ef16d7f282b5cf82"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215557.831208Z-a45a471d65b24482ae6c27939a810f1b",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T215557.831208Z-a45a471d65b24482ae6c27939a810f1b",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "7800828c5f8edf50b72e544d8da6287c6673708087779ed52502d3d082a08cff"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2252,
+          "mode": 420,
+          "sha256": "0d9bd596d8a247e8d52a72fe8aa759ffe5eb07edc3763f8f6499bfec971006a2"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 478,
+          "mode": 420,
+          "sha256": "168c7eeeecef82eab152cf822ffba027171515b2fa80512d706a3e76860a2ddf"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 550,
+          "mode": 420,
+          "sha256": "4bfad9b78ff3a316727876b0de1808dd3916252316bfd2d42ca5a6b649b64866"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215607.360733Z-e2cd6e179f894424b7c1a8d52a166499",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215607.360733Z-e2cd6e179f894424b7c1a8d52a166499",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "fab45425562b1cf011055f818b188a18ba711a2518db769692e9c7e94dec2400"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2524,
+          "mode": 420,
+          "sha256": "590230dd25b81f911eb3596be928ba62dbdf5d6fa9b9a09ee9a0ce473a1d2612"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 199,
+          "mode": 420,
+          "sha256": "dc88bd100150145f98c0b4999c3aaeefc9e9b083ce8e1bff9c68e7282be965a1"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 682,
+          "mode": 420,
+          "sha256": "2f3631e1b1c36083464a75a7a1e0e91acecdf200cfd2c17b826fd1469bbf168d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215649.914612Z-a3bda89ee4de4e03a866950770155bc3",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening/logs/duct/20261014T215649.914612Z-a3bda89ee4de4e03a866950770155bc3",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "72d194fdbdd91ad09f544bf07fc8b48365b30f19ea27ccfbf18220fed3638843"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 5429,
+          "mode": 420,
+          "sha256": "b610e130cc83fb4cd924d7c5995ca349a1ac237579c56e8fa15a066f920e5728"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1699,
+          "mode": 420,
+          "sha256": "e22b67072301f81076f16f7cb448378094be8e513b2e416919426f748fc72f17"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2146,
+          "mode": 420,
+          "sha256": "b654b7b554ef92d9197b6ec9387f8cc26c03ecaf1bc2d3bebb576f5c0f62c5d6"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215718.546701Z-d66005015dae4ae2bc391d93742c0e55",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T215718.546701Z-d66005015dae4ae2bc391d93742c0e55",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "7ae5fcd809db3e7505202c0d930515ce3a035d531639f594d5c75d92c3e0a410"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2247,
+          "mode": 420,
+          "sha256": "d390c47f98cfc6deb8044bb302d8b62180f108c35c1bd2bc5a79a90b8d8cbe13"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 174,
+          "mode": 420,
+          "sha256": "426586785dbb21b626620f208d46bfd0dd16c8f4bdec471030da5dc2bda4b32a"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 547,
+          "mode": 420,
+          "sha256": "e7e7572f28f567893f4405f1fdda8085375aa18c2ebfe88c6af1288ad8cbd14d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215753.813739Z-132b4026acd84a919e3fd104934c4acb",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/study-design/logs/duct/20261014T215753.813739Z-132b4026acd84a919e3fd104934c4acb",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "1e7aa45123009666a388ba652008711f2befb2045ae9a3f9239678d9c9245bf5"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2379,
+          "mode": 420,
+          "sha256": "f30a847fb4865f6568b390e7efa0f28cb7d3e15aaf35bf34eec9ac743f4fbfda"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 744,
+          "mode": 420,
+          "sha256": "35ccd6adfebc7a9cff675e6bb6f3a35cded4d8e03b28a2c34c92f61f2f654f0d"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 607,
+          "mode": 420,
+          "sha256": "df9dceb48e85e838791cc604ba44fc27a9f4c90671e70528f51f2ae602c242bf"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215847.227487Z-57f31b8425bd443c8c8352f344df1989",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/study-design/logs/duct/20261014T215847.227487Z-57f31b8425bd443c8c8352f344df1989",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "e2c0a4a47a414e10d71e49ee36b60f010ebf56a316199c402afc341d8698d1df"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4277,
+          "mode": 420,
+          "sha256": "afe1df7d8daf7e9398da3e102ec63aced045b9f290e2bfb05b39a05d5e8e1217"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 6389,
+          "mode": 420,
+          "sha256": "608a06dc8471afdb980adbdef7496e116ff6140690b6b27b560bf2246c893a16"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3146,
+          "mode": 420,
+          "sha256": "7874fa5f1daafab49f82fbf7f5284e58d595273360c47be9eb3792b3609796cf"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215909.594364Z-4a2da589c8084a5bb75d29bc5ea99d38",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/replacement-screening/logs/duct/20261014T215909.594364Z-4a2da589c8084a5bb75d29bc5ea99d38",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "bebe24d7e6877b2e2127a8afa002b15d2b77a3e59816831388c0b2ee2e7a0db9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2447,
+          "mode": 420,
+          "sha256": "ae1b4e8d669f349a43fd39baf90ccff1c4ed954b8eaa3c2ed940832e2e799a43"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 6631,
+          "mode": 420,
+          "sha256": "d9c2a6666f23fc9461f1a0f6d685d594ebdc7c20b749128316d1274e27640e9e"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1277,
+          "mode": 420,
+          "sha256": "950dbb05a2b54611052bad800b8afe32c4ca360094172db250c1a16b3400a84b"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215930.744619Z-40440a140dd04604af3e1fd1eccd8638",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/study-design/logs/duct/20261014T215930.744619Z-40440a140dd04604af3e1fd1eccd8638",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "55fbd55a373640e8234739fa5c6e3b191576f428d23317716f1470b69e352b9b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 6739,
+          "mode": 420,
+          "sha256": "2dc91bcc057f86d2cfb7dd5f3a7b0347fd9330b0ef8b87d11d8499dfcd3b888a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 26622,
+          "mode": 420,
+          "sha256": "c7f73285697654d1f00a741e07596ed6b67dd5b8651f00760b631af5e7cbe06c"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 5643,
+          "mode": 420,
+          "sha256": "1981fecb2bcf3281ab228abd9ba56dd17920a2fa3ac90d61bebc17ad107eefd7"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T215930.744619Z-d8e55350cfe044968829bb04a13f9c4f",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T215930.744619Z-d8e55350cfe044968829bb04a13f9c4f",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "75bb78d3f44325211d3b3cad5a2beba1bf9e6a6e4637d71cfd8767950630fb40"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2281,
+          "mode": 420,
+          "sha256": "5ee01a507ef04455fe916e32dd6673e07c57bc406e5ec67ee8aa97ba1146aa31"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 389,
+          "mode": 420,
+          "sha256": "5d51d08bde23b8eb4277eaccc1debdc14a96c6636cf4e97f78dbb2b9ad4b284b"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1072,
+          "mode": 420,
+          "sha256": "6af55239e8dad4e9add5be06a3d2543e745dc55419ade9dcbcbe278abb17d3d0"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220005.013394Z-d3aa038e0feb4ee3bddb19c01b44c62c",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/replacement-screening/logs/duct/20261014T220005.013394Z-d3aa038e0feb4ee3bddb19c01b44c62c",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "48ed0c841cde999ea0d995dff8e32405d5993ad5823da0ce73155f8857443323"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2265,
+          "mode": 420,
+          "sha256": "a474680f439fbd20ce21af9863d717910b372abf98a23664e52c0d04b96e48d7"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 14658,
+          "mode": 420,
+          "sha256": "677c9bab9bccd57db3a46884cc28573793118ff6e1d1e1cb1742e8a4c96e5cf2"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 550,
+          "mode": 420,
+          "sha256": "971dc60f7d61cd28a8ceb80ff292a90d009d18e8e4df26a9b419f530e03a38d5"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220025.687055Z-cc608ac00be94129ad64bf100a39fb31",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/replacement-screening/logs/duct/20261014T220025.687055Z-cc608ac00be94129ad64bf100a39fb31",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "8ca0b3ba67f7f68f5944cd4f9f0b7f12acc6e104ecf0913bb3a4ec5e0dde5e42"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2270,
+          "mode": 420,
+          "sha256": "960dd574cccbacde8fb983f77ee8b54e8e7cca6115e574daa7af69049ae36541"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 3274,
+          "mode": 420,
+          "sha256": "54aa6b87c63496a67218343819ab5599ce7eee7cf864b00efd35d63c98d05799"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 550,
+          "mode": 420,
+          "sha256": "9b60d161b8e14e0a05379568bddbb6e70d0be4ff2f180c04560a065e39e9187c"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220353.843264Z-afdca927b06f46e1b2c6603c413f1211",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/logs/duct/20261014T220353.843264Z-afdca927b06f46e1b2c6603c413f1211",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "49402885d604869ab53c72015db971ec598070c852aa3e72521ab7dab058009b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2396,
+          "mode": 420,
+          "sha256": "7de29902e25d0f819dd0954ee0142cd44af9e9a3782a3facfb71f07c188bd6d3"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 596,
+          "mode": 420,
+          "sha256": "0304de4d548bd5ca6ccce05a34d368a6fd31cad81597c4882a64d0761041cecf"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 615,
+          "mode": 420,
+          "sha256": "bfe6e5c8ea127357398b09d5513a311b0eca1f70b11c3ec33fd8d59e355db3d9"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220513.389769Z-63f2ae5c740c4a9c8399fea56cca490e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/logs/duct/20261014T220513.389769Z-63f2ae5c740c4a9c8399fea56cca490e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "eb8b1d4c2dee449f5911ede06f05731e9484463c245f1c2b620f428293fa282a"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2393,
+          "mode": 420,
+          "sha256": "c3bb72d4e48c2c8ce8e3e229c4eb0de3722740f6543c35e53d57a74f30075e7a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 828,
+          "mode": 420,
+          "sha256": "d1acb23c644a7c7ddb740472030d155bb1c20a67c30329bd2ef42f2b99dee4f3"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 615,
+          "mode": 420,
+          "sha256": "d7bf627c0f4737079524effe2e435279de846961719a10c9d43328a1df094238"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220822.934716Z-2da7d500a5c145c5b8531112d419cdab",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/logs/duct/20261014T220822.934716Z-2da7d500a5c145c5b8531112d419cdab",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c28c3b7f47ab3a4f262479a6cbe10e035933deca6c6466e003afa9bc2ad3fb06"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2553,
+          "mode": 420,
+          "sha256": "78e283eff7495be7415ede2dd60f168ccc56e23260d41a8375ae676280bac07c"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 1651,
+          "mode": 420,
+          "sha256": "c1b76430509e3f93503b2dfc35c7c5b91bd80297df7188b5af268c6761c936e6"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 698,
+          "mode": 420,
+          "sha256": "15df67e79441ff8222ceac2662eeceaf0ae74853c72e2729ca54444dc9abc886"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220840.464193Z-9f654cae641b4d2ca4c3d1164039de3b",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T220840.464193Z-9f654cae641b4d2ca4c3d1164039de3b",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "bfaebe9dec383ad97192104552c0a565119f83f57dc49714bfec140e6eff22c1"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2293,
+          "mode": 420,
+          "sha256": "881cbbc8e9cab6f62de208c1f7b4647bbd64716e3030e61bc58be702e0d007c5"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 647,
+          "mode": 420,
+          "sha256": "6fafd7230bfd369cb3f24eeca2d26a48da6a96bd08eb286ead9474ac078c0f51"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 3060,
+          "mode": 420,
+          "sha256": "f169363c6c850a1e0d303ff7cac747be573acf13163afde0a4aa84c4e7a80089"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 10088,
+          "mode": 420,
+          "sha256": "8678739b7e86efda42e22bec38f093dfda0ecae09b915c95cb078e07d074bbcc"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220903.774282Z-047e0f07090243ef8044a0f393392b89",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/logs/duct/20261014T220903.774282Z-047e0f07090243ef8044a0f393392b89",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "6c8e369c4c3952d21094764535b747d1a23aac7bf3cd55171a0467c69b8f9bab"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2624,
+          "mode": 420,
+          "sha256": "8f206933686f7debcb857e5be66baadf3e5d8e85025a8de6d25ab3311f75b8bb"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 196,
+          "mode": 420,
+          "sha256": "2f80064f3889437777ddc8c4b2f0414db09df889b17fbbde0736a218ed71ca28"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 728,
+          "mode": 420,
+          "sha256": "01a698f178613132b96931cdf10e5ce410d5ac1109cdaba025a53b4e9441cb92"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T220925.602834Z-0ca9adacac6048dd8f31547d9d61aadb",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/logs/duct/20261014T220925.602834Z-0ca9adacac6048dd8f31547d9d61aadb",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "5e4eddb55f5d70324ea0c6f6ab592eb35c08f635941e68148f9eb04535176cbf"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2391,
+          "mode": 420,
+          "sha256": "350103ccde50bed77ea7c47680e0f778e817b2c7e6657dcecb955158ff118745"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 828,
+          "mode": 420,
+          "sha256": "92af0e6c5b587072cd329f087b9164aaad96bbcbb5224e2f8646a8d83cb9dc1a"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 615,
+          "mode": 420,
+          "sha256": "3f8b8e496516aba61af704dd4387625b029c42160fcf06266e52b64013374259"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221058.995745Z-814b9aaa3e4840c2ad41ee82b0fbb57f",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221058.995745Z-814b9aaa3e4840c2ad41ee82b0fbb57f",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0fc09564eb60c59cb5912d1dc248496c8c6862d6d76c8f461011c157948407d9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2261,
+          "mode": 420,
+          "sha256": "89f969828bd3f4d6b11382c6af6f9f382bee1eddafe108b5bcc8149f44ad0005"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 824,
+          "mode": 420,
+          "sha256": "ac8674ed317d111b20e071ba622045a235a3287535d399e941275d349ef8cbfb"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2329,
+          "mode": 420,
+          "sha256": "364d5298f86fb7653e5c64b661f277be325bc6ff4e14b7bbefaeb5ab9b05e02c"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221121.905364Z-9bd7362e76e445679929bca3e1e31c44",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221121.905364Z-9bd7362e76e445679929bca3e1e31c44",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c2afe1ba49c84831a80595c08f561ef1961e46075f6b927cee981bd80148b362"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2320,
+          "mode": 420,
+          "sha256": "9ceacda61a63cf5a622d70646402114d856cf51ccf2b5897dfeeeb03bbceabb6"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1608,
+          "mode": 420,
+          "sha256": "da61c1cc03cbc095ceb1e00601b854b70150ec9ec37072bf78cac645d3851275"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 18024,
+          "mode": 420,
+          "sha256": "957ee9f7376acd6e09f8f39fe8e5b23957f9a2234ea200c3cf1efe8e2e873ca2"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221210.148886Z-f0115b49c0a04693a9b5619448eea81a",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221210.148886Z-f0115b49c0a04693a9b5619448eea81a",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "fe8b4f7229ddfb85558e82c6d7623f543dff71e542c07c7fa0dae8c1e663cc8c"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2322,
+          "mode": 420,
+          "sha256": "584bf0197b341079dcbca2bccc6f8727c0dcf0e8e52cd17da32d1d160ac28789"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2199,
+          "mode": 420,
+          "sha256": "9c58873073aa8c509c717880c1d985f063297a4b5670d330e7523085fdaaa6c0"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 34551,
+          "mode": 420,
+          "sha256": "d9eab63f4d47da3daff2a2f25c76dded648c320abe5c847cd27431bb97c870b4"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221236.539023Z-d137f11b31df465e9639ba0d876d2e86",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221236.539023Z-d137f11b31df465e9639ba0d876d2e86",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "8f8c43bfa5405a5b49a6b877c2e545462fd8be7f98889a6f6d25c2f4fbf51fa5"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2872,
+          "mode": 420,
+          "sha256": "dba22c7d113998663a254667f805cbe01c18913d51947249fa857b9a76383a05"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 635,
+          "mode": 420,
+          "sha256": "904d7aafd23e679c07d0d585a14b53a3fa20ae964049907fe88016b2942da5ec"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 855,
+          "mode": 420,
+          "sha256": "3dac34cecdc67b323fda116a1c8af5b1c42c9115042d3d805569cea6aa061f92"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221333.825442Z-bc760ddbbda4460d94fbf1a98d9f0eec",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221333.825442Z-bc760ddbbda4460d94fbf1a98d9f0eec",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "1be3158b51a05474ca769ad006f74854774a1ad3f1fbe62344cfd2fdc26b6063"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2310,
+          "mode": 420,
+          "sha256": "ce4cf3b02eb947282051726ac9110e6d3f33dbc7750c4c1190b2969c2bb207b3"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 553,
+          "mode": 420,
+          "sha256": "4ba4d6469b8de4af8977527ad4029b428b2a859fdfc936d4f8eca66514e61212"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 579,
+          "mode": 420,
+          "sha256": "0d5c88639c243674420716e3fa9300488f1ff8d4986e8af2bab295312c1c6640"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221405.385681Z-d59dc042316e429b84649629d6a0890e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221405.385681Z-d59dc042316e429b84649629d6a0890e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "05f65943c7d05aa9c9f871e65df75e83fe197d33c1130a5e64eed9d21665509c"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2310,
+          "mode": 420,
+          "sha256": "1c01ab8dc8387a0295c2de0ba7d312d33a8adffcb437543f4f08178c8f8e5757"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 553,
+          "mode": 420,
+          "sha256": "16ef71cfd218c35961c2de94663395659182ce3012e70638273b2811ea12d820"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 579,
+          "mode": 420,
+          "sha256": "ce41b67341bc9d6c406d52f1d7b839bef7b55a74e74d00953b91c2d21df9fab9"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221437.978103Z-b4534f2b2cbe43e2bcf15c41597b981f",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221437.978103Z-b4534f2b2cbe43e2bcf15c41597b981f",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "f0087f9dd8a4bcc9ba8078a429dd035a05b69eda5681fc898ca39206bce4dfa4"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2253,
+          "mode": 420,
+          "sha256": "27f12cc87d1944e75a667decff34390be1cf10d4c53bccbaaa74982a15af1fc9"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 708,
+          "mode": 420,
+          "sha256": "64b9442566966b3dbec16319c9452a1df1a4520f932164ed4403b9fac9a83f29"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1664,
+          "mode": 420,
+          "sha256": "3ca26116a8b20fc06b165f63b475fa9a7615da503bc0d6e6b58536b670d8cd33"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221827.712028Z-74a1429b19f94cbc930c2786ea82a12a",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221827.712028Z-74a1429b19f94cbc930c2786ea82a12a",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "47796fc5a55eb470ec23a066dd53ee2dbcc03a4e8a38572dd23c78d09a9b770e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2327,
+          "mode": 420,
+          "sha256": "ded205cb27389a37c8fac9ef2fbf0d46c3fc5e51075c08b04bcefb84b8b092b7"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 360,
+          "mode": 420,
+          "sha256": "c75d188353a101660666635274740c1a1793b7337f09e95fbf771b43135579f7"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 587,
+          "mode": 420,
+          "sha256": "a251c7014e007d0f965bf7c254edef2ab96637b774e18a5178b7efa2472cf92a"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221833.164660Z-918c3bda12dc4b0ba4b8990c193ccd91",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221833.164660Z-918c3bda12dc4b0ba4b8990c193ccd91",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "308e9ddeb33c8422b86ea0bacf0e2f645fff7dfd376ccac7d42a274347dcd8ea"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2321,
+          "mode": 420,
+          "sha256": "4209503ba3149fa8cd4f2f8906e0a71885cccccfd87c5c878ca48a995bb0cfee"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 346,
+          "mode": 420,
+          "sha256": "30bdf917ef2c7f2c26e31cfea81cd4c0b456abebcfe63c8fde50d469d54227c8"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 587,
+          "mode": 420,
+          "sha256": "23c6c1c3176c30a05ee7afffe3ed5754a09ed8bf17456d28ba3715b548e27c51"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221854.849427Z-cc652c7257a44e56bcb55102648b0836",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T221854.849427Z-cc652c7257a44e56bcb55102648b0836",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "114f22197bcb0b6fe14eecc6125b551ad29fb18958c071cfe3b4174db290341d"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2330,
+          "mode": 420,
+          "sha256": "9667221d5b44b77638fccedce577bb982b68741efb5a5ab7cff66bc362f86c7d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 346,
+          "mode": 420,
+          "sha256": "30bdf917ef2c7f2c26e31cfea81cd4c0b456abebcfe63c8fde50d469d54227c8"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 584,
+          "mode": 420,
+          "sha256": "4cc1553493a81e3d794da100f5e6394f3c588c12f2a1cd4f23b4d1f29d6aa387"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221902.000484Z-689be9216d804d46bc98842fa88d3b4d",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T221902.000484Z-689be9216d804d46bc98842fa88d3b4d",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "6043da1dd06d646044361dcab7ccb22612a6cd6a0058e8c1c9f97b842daa0b6d"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2553,
+          "mode": 420,
+          "sha256": "b9eba19920f9603f51c1ef857d44c9c5ba896b683e6d31fb1b4e5ec000da7b4d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 28,
+          "mode": 420,
+          "sha256": "49b4220306ce8831787dbbaacb47d5b64e090d466045f92a0f81cb7c8d123009"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 204,
+          "mode": 420,
+          "sha256": "d26cc96fa29970523e46f8900fef553f88804359d2f3bf717f467495dcbac385"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1985,
+          "mode": 420,
+          "sha256": "c23e74e5b7e25c91aecf8f2ed43626be966cff95a2820175107f3aa1e8d5b711"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221918.461343Z-1d91a1e391e84e0e85d89ca1b3594068",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T221918.461343Z-1d91a1e391e84e0e85d89ca1b3594068",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "285bc0542b0a8f6a4d188db820eb2b0a8fec933e62ad9f95a36fb1b97ed95d2e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2678,
+          "mode": 420,
+          "sha256": "913ddc2a306bf8ee72a8ef99290a1dac2eea31cf7a86c35cc657bdab57523d33"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 117,
+          "mode": 420,
+          "sha256": "fd235e5899efe21ac9b3d135d06ed01a3222a62e696c85570771ed10b848fbb8"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1285,
+          "mode": 420,
+          "sha256": "669214b7735ecfbcf4829de6873329a0d9c9c32887863f9ac84b92b7167c32cd"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T221933.631240Z-aeb5bbaaf45d4a28be3964978e4b74f6",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T221933.631240Z-aeb5bbaaf45d4a28be3964978e4b74f6",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "9d9a83601edd8aecb14a996c05347aeff12d0d4ef421991de3f0fc74ab6eb02b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2532,
+          "mode": 420,
+          "sha256": "7e60ece9accd72eeb540cae2d0db8d2c0d4ced22384d46f34b6e92a220ae6210"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 28,
+          "mode": 420,
+          "sha256": "ab8bc223f0ce8449f96c34bfce3bab99ec1775a96792e451830a46d92ad47b0a"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 160,
+          "mode": 420,
+          "sha256": "5674052ed4811cb08c1c488fdcca65ef8972399a3f25f5ca8533419df95d8d8e"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2038,
+          "mode": 420,
+          "sha256": "a72c24d140bff5ea781c6afbf3e5f7e5e06833def966cd9ff5b73fc21c04c9a1"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222028.633442Z-1852224d600944c887fa0de5c2e0df93",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T222028.633442Z-1852224d600944c887fa0de5c2e0df93",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "394011e275e182dcf184b216da686d87025772ea89dd61bb4cb4994931ece8f4"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3027,
+          "mode": 420,
+          "sha256": "bd5d3575c1059934edbc21f29a6b90ecfade2c72d0cf0bdf02be8a05f46ff0ec"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 277,
+          "mode": 420,
+          "sha256": "a8bf5a0a881d387186ded7fc081e4d54af51296a526626c5e65a169c2283e3f2"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2263,
+          "mode": 420,
+          "sha256": "b1313256479bc7f5075456f77764cda576f195d2826d382629744e070aea1f77"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222152.941174Z-3c493c8da17e44e68326564cfa407719",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222152.941174Z-3c493c8da17e44e68326564cfa407719",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "bc4dee1c23186e894e9d61ac6cb77c1de93b6041ee35aafb8d6ec4fbf85c427d"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2874,
+          "mode": 420,
+          "sha256": "096fa89a810136533c4711ebc4b8719e63dc743dd295a7682c7435f757396e71"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 236,
+          "mode": 420,
+          "sha256": "4c8a2096081d156afd4118ec98e9613f6c89077f5de63364e1e108dfa3de7b85"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 865,
+          "mode": 420,
+          "sha256": "e093863b46ed9e48fca3f9e191f537f0685afb55502f12795f3edb69231a4102"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222319.673290Z-0bd0df63ae7f40cf83f05b5ebc841dc1",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222319.673290Z-0bd0df63ae7f40cf83f05b5ebc841dc1",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0e731afd7b9701b8164b5bf26fcf9256fd642dfa923c466dbdf09d2f43243342"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3131,
+          "mode": 420,
+          "sha256": "44eb5681bb58b55d2522c45d204af8bec81bb8b1eeea716076ebf3d842fede1d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 453,
+          "mode": 420,
+          "sha256": "d449daf5f72417567ccc2f8f608a0072f7eac77827492da7e3203de737a3076b"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1601,
+          "mode": 420,
+          "sha256": "5ff91bd16aac63b7dd7510fb7a9004051fd89526440ea99a2f7f43c3fab245f4"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3991,
+          "mode": 420,
+          "sha256": "fa33b8869f2ed287eb48d6638774fa70f5eedba071cf3940aadca07e03e3c5eb"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222339.552780Z-77e10465aa5045cdbca96a0125cb6e71",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222339.552780Z-77e10465aa5045cdbca96a0125cb6e71",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "af5be5ffede6e58e569ae4cf852e491092dd08ff18ab59fa91ba7e2523e34906"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2470,
+          "mode": 420,
+          "sha256": "1c00ae19c82aa1cecbf5659664c4ec5760e0cc02ba6c7f55fd047511bcb9395f"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2746,
+          "mode": 420,
+          "sha256": "e26d3fa20493e6578fe26b2fea59591bf4edff39d4a79029803539d8757335ca"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 540,
+          "mode": 420,
+          "sha256": "ab9f1310abf85fc43e44df007e3215d0be51f1c7d67a3f31a29f00950ec28d7f"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222625.942566Z-529992f668cb4e64a5c6e5a23f3e9455",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222625.942566Z-529992f668cb4e64a5c6e5a23f3e9455",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "67139f853c84d5704f1400c86915cfddb7e0c7d56f51fae1d6efb549ddcd67fc"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2869,
+          "mode": 420,
+          "sha256": "921a2ffb58d8f27eb2768ec13aa3f5f74679258582d1532dc8fc4605289201a1"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 235,
+          "mode": 420,
+          "sha256": "6f785f1efece57c6779c7545ce4650154397b9194353c03cfefa82b1f2bc8e87"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 862,
+          "mode": 420,
+          "sha256": "73b188c10381b20e3ba1f74f57c9e20ee0a1a41c9860977d1ddf18b1977813d9"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222628.935062Z-f3dea142bcfc4cb4b979dc36749c49cd",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222628.935062Z-f3dea142bcfc4cb4b979dc36749c49cd",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "cbb56650ebf1107728b008ea76b449c06a1178134dc90bf3bf53db0b52a42199"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 4999,
+          "mode": 420,
+          "sha256": "47bb4d70a75f25232b1823629f96a67721e85b6e7233ff0d57a86dfa741643da"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 4556,
+          "mode": 420,
+          "sha256": "0615b38da71bb1721ff76a36f2c4aa361e91afa592d0689c0688719e9f0e5d00"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1934,
+          "mode": 420,
+          "sha256": "58048cdaeef174cfb909e8a3c4bb4e8847b419289f22650b7233df23199de8a3"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222634.462337Z-648af0074e414204a9ec59949dd41e1e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T222634.462337Z-648af0074e414204a9ec59949dd41e1e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c35dbfdbad76f2f19b08d4dd1134a7eab793d64d4b06fa9b2f1135d66eb1cd68"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2993,
+          "mode": 420,
+          "sha256": "3bb05494693ec9067ce81ba9e534da76bc00e0bec4ba36d867af3799f1552fc2"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 457,
+          "mode": 420,
+          "sha256": "55130eca235954882352d49311596598a36ba221dbc501a70cc42c46a345b0df"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 2394,
+          "mode": 420,
+          "sha256": "85248c0e471b7050fac5dda42f89218b9d70afa63cccefdf160a6be93a3a4529"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3618,
+          "mode": 420,
+          "sha256": "30870c023801d2c1c0df2398493f6843e7cc65231367f6612ab092f4e595ce0e"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T222800.745818Z-f5128eeddb154291a7a44bc3eac868c1",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T222800.745818Z-f5128eeddb154291a7a44bc3eac868c1",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "dca83a37c41c1932bddc4dae0ba5acad76aaa10ed24bb16f78dde3376e61d6a3"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 5164,
+          "mode": 420,
+          "sha256": "d37418fe994e61291a99b642b1f8121f54fa7e66cb11ae864aad8144b1c49a50"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 156,
+          "mode": 420,
+          "sha256": "2257cf2e81fa74e1f7bdd4afa4c4d489bc1818afbd85d760c260f7a453b81f0b"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223000.831948Z-de05261829d344018f88017d11020a0e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223000.831948Z-de05261829d344018f88017d11020a0e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "b85877e5699fe3f12ae768c6a1b86bec8e902d38d24a256921a4d2c575ecdb3b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2382,
+          "mode": 420,
+          "sha256": "e43f9ee2b21e359a9ff099645b27db37513c6b620ec19e58eefdb1392e447d33"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 135,
+          "mode": 420,
+          "sha256": "deba3edf1eaeae21eb8b089617a5a5020056000e85231789bf4f075091fef972"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 608,
+          "mode": 420,
+          "sha256": "b8cf29a2a1d4dd927cb19284d5a6027396934327250d3f9f2d98a28548a71fa5"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223117.441258Z-ded66dff1d414721bc2c48f8a15cfbee",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223117.441258Z-ded66dff1d414721bc2c48f8a15cfbee",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "b4c8a22674148db90608b4ce5ab0f46d70ffb712063200427873c393298e80f9"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2373,
+          "mode": 420,
+          "sha256": "65ba08eb440dcbca16512c009b63904c80e29dc9c2a7a0ac313d2e9fd7cd514a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 242,
+          "mode": 420,
+          "sha256": "80f10840af158d37d0c5e38416d5adf497385e7ebdb9b35dc43b2537d39e0156"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 605,
+          "mode": 420,
+          "sha256": "3610352dc6b10505b1673e24905ac502efe40fa2a6c6d150b4442775ade701bd"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223149.579121Z-545cb0d17e3d42d7942919f5cd3c95e8",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt/logs/duct/20261014T223149.579121Z-545cb0d17e3d42d7942919f5cd3c95e8",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "14a4b759baf2a7e2846d32d20f68193255775da9a63344119f2a01f1befb0f6e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3020,
+          "mode": 420,
+          "sha256": "aff791b876f3826a0c065f3a702a2afd79e52e18c6b4b86fdfbfeb7e136f0357"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 79,
+          "mode": 420,
+          "sha256": "236912912e44461187f3704e19ee1f9ecb723e40b2d58aa6e6a963233d41e22d"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 932,
+          "mode": 420,
+          "sha256": "f179bb819ea1f387378f85b1525b4fd89f560e293c104c768bb519deeec5ec67"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223203.054806Z-2198ac4f76ea475cbb4228cb478779f5",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223203.054806Z-2198ac4f76ea475cbb4228cb478779f5",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "775bc8edbc429b2042c988407b31036837bb80119d7c95978de376e4b1224415"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2379,
+          "mode": 420,
+          "sha256": "af16c0962c6a8ba8d9b3ea9329159b55e465a22e28d4d1fe08508868301a719d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 135,
+          "mode": 420,
+          "sha256": "deba3edf1eaeae21eb8b089617a5a5020056000e85231789bf4f075091fef972"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 607,
+          "mode": 420,
+          "sha256": "ad65ca0ab655df3608e904df236b38eb81068aca761c314fb70be0009d65c772"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223218.773611Z-e81a98d13d7546c3a773b15d675250d1",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223218.773611Z-e81a98d13d7546c3a773b15d675250d1",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "635b7dc8f65e27fd5f9b63e80ea5547b4b0de0fd0492fcf099287ece851f160b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3038,
+          "mode": 420,
+          "sha256": "7b0e614dc4f926c5222d935075e471ac5a70fc2382494fc31c5602be0c5f84b9"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 228,
+          "mode": 420,
+          "sha256": "2ef0603b3321d78a50fa9fe3de62ce22c20bc3247f35368337b668069e81ec56"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 3294,
+          "mode": 420,
+          "sha256": "a0e330986a0560deefca9ef660b609575ce613e8e1f7414cca116dd796fb730d"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223228.150728Z-5180751cd8ca41f8bdd857b79383fb3f",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223228.150728Z-5180751cd8ca41f8bdd857b79383fb3f",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "5e10c995f9182cd3347cf31de4eed047fc3d40a39e95b1b942bdfd506ada195e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3032,
+          "mode": 420,
+          "sha256": "d28fc0daa0d1ec92121ebc85accffd3c7503c537498881c71caa8a15e630d31d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 227,
+          "mode": 420,
+          "sha256": "3dbab4a7b86d530a18e9577ddb3edbd6d28ba6a94e1d420853a95e18f78f868a"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2996,
+          "mode": 420,
+          "sha256": "d246e776d55817d412b146989526772b92ebdd506bb0ae5de32f237a63daec19"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223315.450551Z-a651066ac9474054a88b2ee659d3b2b9",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T223315.450551Z-a651066ac9474054a88b2ee659d3b2b9",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "29911f85ba1e9429c6825b27ee9b5038c3dd19f4cb34ec7db35609dcef536544"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2353,
+          "mode": 420,
+          "sha256": "00312debbe65c67e8862f8eab356e8d9d5618c06deeb65a8d07a6494728ffd8a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1101,
+          "mode": 420,
+          "sha256": "8f7c96ddf84b3ac4d2058772f6cca2142de8e1227b0a1e4a411f9c544dee6036"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1176,
+          "mode": 420,
+          "sha256": "5501b3c18d8eb0094b736bad49608c04cd0c7e539f40f4831f0539be39905e23"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223340.423338Z-7c27a66d276e4fe58d07de207fd93975",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T223340.423338Z-7c27a66d276e4fe58d07de207fd93975",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "a162964e33fb99eae921e5d163603416de1c1037a745ae146058f252686e64ff"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2358,
+          "mode": 420,
+          "sha256": "945f2707dc384cf723e9d56b627a50d68f94bb3bb2d7e31c81a28d557099333b"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1764,
+          "mode": 420,
+          "sha256": "37ee3e8129720d0a143ac4a4ee220941d51bd1188551c12348cf52a005ed981d"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1176,
+          "mode": 420,
+          "sha256": "d5883ddbedc6c94da31f42f2dca93fb5c680436be53b3ff6ffd2a05a2e8807e2"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223443.903459Z-b7b712a98ffa422ab213f13a28ae398c",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223443.903459Z-b7b712a98ffa422ab213f13a28ae398c",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "e11de9580373a2e5b3e6fe32a60e804c1320bacb231c94b7ef0750223c3c6ac6"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2582,
+          "mode": 420,
+          "sha256": "68ce77510825f0a107887d9f2edc572feca272f61ba311b2443539c432d20072"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 1301,
+          "mode": 420,
+          "sha256": "369f7b9c6a6a8d9c4507015b8f6d27c9e11d9c7691a5377edaca1d164b41d096"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 242,
+          "mode": 420,
+          "sha256": "80f10840af158d37d0c5e38416d5adf497385e7ebdb9b35dc43b2537d39e0156"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 586,
+          "mode": 420,
+          "sha256": "888d423fe3471817e1f0be67ec3fa5c1035f90a6bbccff2ec69e18ab53fff402"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223451.044655Z-df479b7b020841d8bc8b07c13716785e",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T223451.044655Z-df479b7b020841d8bc8b07c13716785e",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0b5839f3255c93b11b924c3abc84bc34f0c99c1b91c1f52fd5cb3bede3c8df72"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2898,
+          "mode": 420,
+          "sha256": "096680660c397010372458b5c9f6b53285e933559c66f5104fdbbe28471273f5"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 593,
+          "mode": 420,
+          "sha256": "935f7208e2cd515ec882ea04a8e342365e2800be5f470dac5372d8b72c1ca5c8"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 869,
+          "mode": 420,
+          "sha256": "b32a12a01ce10e477ec88aef7302041141dbceb47ffbba342ee8367d867436ba"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223451.430334Z-1414ce73b17f4e80a2cae5c6ea087a7b",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt/logs/duct/20261014T223451.430334Z-1414ce73b17f4e80a2cae5c6ea087a7b",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "0bd16a4ab9d4316b9460c66c3fab112793a05d511fbdca334c8f202d61391b7f"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2780,
+          "mode": 420,
+          "sha256": "8626f01ea6d40b34d9a415655aa4e00af317405f9ac093c9a3c2a1bf626674e2"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 124,
+          "mode": 420,
+          "sha256": "b0a030197e92ddc4b52f147c165a0df447ab2dd132f742e2c6fd240dc20d4498"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 820,
+          "mode": 420,
+          "sha256": "f5cebc6e85128996caeb7e61c53d0e05da27b0d9cb144ce926485ae2dc742227"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223451.433610Z-b49d6464815c43d9bc555c006483a651",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity/logs/duct/20261014T223451.433610Z-b49d6464815c43d9bc555c006483a651",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "5680a85614935bdd1feb3c665ba8eeb5e48dfef67c77dd8db0d52b66c9322a54"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2777,
+          "mode": 420,
+          "sha256": "c2acc7113adfc7fa11df626065b8c6750e8ddce6614317d9d19858ad2c83b30a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 124,
+          "mode": 420,
+          "sha256": "5b406b7d26c06c01642872c0dc9907fa4af3cddfa035b47d8e2523b673567981"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 820,
+          "mode": 420,
+          "sha256": "03c4cbf3c5706b04d326ec79750fff47e5b4844df89c52cb39cd6b2d0de0bed7"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223455.303283Z-f5c6e73dc5c4414d83df53bed805ff22",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt/logs/duct/20261014T223455.303283Z-f5c6e73dc5c4414d83df53bed805ff22",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "f144d567da2edd9252df3a89e366ed9c83fb30e920cd32f862e7c80ddfec7ebf"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3054,
+          "mode": 420,
+          "sha256": "4ca62f952ec97aa22b7d863f7e379227f7e7ef49f6c3183496dccfa1d1375e0e"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 428,
+          "mode": 420,
+          "sha256": "d74961d278409df6e37c272c7d6d5766f72fd225b0fd995dda33e0d36d28a5db"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 949,
+          "mode": 420,
+          "sha256": "d126ff383cd530f871362307123bc7fbe1c859501c4ff21d6a69a1fdb6434729"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223631.189319Z-ade25af1722f4966bc20900f134f552b",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T223631.189319Z-ade25af1722f4966bc20900f134f552b",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "a3db0caa63eeb1e2631ff72ae8c0a506e8b1a56640f0fed9203d89bff966cf5c"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2250,
+          "mode": 420,
+          "sha256": "487098c979a8f904309fea256701ea3ec3a7a6ae377ae25898ac4f6ce2f2d24c"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 696,
+          "mode": 420,
+          "sha256": "cd1690253e2a694e935ca3c80593f911c83584073b4f54303472d694f162675f"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 547,
+          "mode": 420,
+          "sha256": "efe2e87942c4e8be461769d09e82059c9624c9747ae0a8a4ca973606df05d724"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223649.128252Z-ffbe506e1c0e419c8da408d9499f893d",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-candidates/logs/duct/20261014T223649.128252Z-ffbe506e1c0e419c8da408d9499f893d",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "7ceec494eff6ee5a7fe8b86abbdffbfa4a035a4ca3e8fb8270722a0744f15d32"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2382,
+          "mode": 420,
+          "sha256": "a7092c66e40dc10ce14fad8d0854f27153141f8e192ac099432320588ee1ca84"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 6745,
+          "mode": 420,
+          "sha256": "a7c264e3f1f0e4b9eea7adbe5b42b2735314f6030dbd62534f22959d929f12d0"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1220,
+          "mode": 420,
+          "sha256": "82093a84e759fa60ee8331016466632a88609e3a712e993454fdfe12ea377ef6"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223658.428260Z-ebd768f33408480ab00f5b413dd00795",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-candidates/logs/duct/20261014T223658.428260Z-ebd768f33408480ab00f5b413dd00795",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "ae32457feb423e9218795e2707f07dc7cc1874936a4e1f1c8dd22ddb815aadf1"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2488,
+          "mode": 420,
+          "sha256": "d79f5d33d72ec3acd5d781c63ec1fef31ae2f38ec5a07a03d6e6ef6f809e0894"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 93,
+          "mode": 420,
+          "sha256": "0125a8e4c6721bc4fc527c21a9e221773279a84b6df4b48ca36626f1fe547745"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1623,
+          "mode": 420,
+          "sha256": "f4609d78a59aa41616a50fee910b3ebc9e60b7c8b0bbb9884d31afd8f4cb7973"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 4906,
+          "mode": 420,
+          "sha256": "0be26dec25c0e03092da2e533469e6210ac26571218bfcfbe46c77c69baf59c9"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223722.275296Z-815253b31e3f4192bd8be1da39444a20",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/duct/20261014T223722.275296Z-815253b31e3f4192bd8be1da39444a20",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "507e56d765ca698ac1241dce920a72ebc20d30c63073db69012b5475631cef1e"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2262,
+          "mode": 420,
+          "sha256": "2b10424d2d53138c81cc5e8b0e494ae09c008848da79f5d1f7af239694e4357a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 137,
+          "mode": 420,
+          "sha256": "d0d9bbab9c85bfb3aa9d6e98a34f6805f4683fefc36a01e4f8e54a388601a77f"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 550,
+          "mode": 420,
+          "sha256": "e30d233f6073c80964021abd3505ad75cd56015b3ddaf628316f1aca37235e47"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223757.799871Z-de892a1479004bce9cde5fded051cb4f",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-candidates/logs/duct/20261014T223757.799871Z-de892a1479004bce9cde5fded051cb4f",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c00f3effb2f51064cc87d352db244724ba6bdea001fa05c677b5641a77d5e3f8"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2344,
+          "mode": 420,
+          "sha256": "74c311f4916ac66ceac8847b1d5dd5dd78fff4c0e5390b217eb83a36bf06434b"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 177,
+          "mode": 420,
+          "sha256": "9e20af17a5a731801e4ad967a75921d2448175bed8fcf4872e267e7cf5eda5e6"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1186,
+          "mode": 420,
+          "sha256": "53093120bbef05f50d0c06bc37b4a5fff6027dd5dc82433155e32259c218071f"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T223822.388077Z-78f4e165ab924597bcf911305cfd6c85",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/logs/duct/20261014T223822.388077Z-78f4e165ab924597bcf911305cfd6c85",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "c5de7400f3cd315e67e84a1fd8d4f2c830c636ae99508e1f605915ddd8d9b5de"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2886,
+          "mode": 420,
+          "sha256": "81072502bebc2d8a0312bf90018b5066f178e8abb468d0e4f1fdf05ea824ac5d"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 85,
+          "mode": 420,
+          "sha256": "48bf0ac2d97cfbbda1971784c4789481c7f75e0be12ab271122dbca5f31db4a6"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T224102.554730Z-df77efaef05f4524a2cb4f94b5504830",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/research/skill-candidates/logs/duct/20261014T224102.554730Z-df77efaef05f4524a2cb4f94b5504830",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 480,
+          "mode": 384,
+          "sha256": "24f0c6951553ebc49bdc6af0ffaf58698576af95f69d54687c24c9be8eb0d807"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2276,
+          "mode": 420,
+          "sha256": "0dd4be1fed8f22c62c7cc54adccf67f478ffd1acd56ecd0a56d453fb3c808056"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1320,
+          "mode": 420,
+          "sha256": "a0bdeaa78415acbf9efdcfc5aab708f64d6b5dbf6aaa625997d3eabc4b3ef069"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 550,
+          "mode": 420,
+          "sha256": "4d6f62808a9fe367a841cc52aac5deb9b81ef53ff2214043af1a4c3e49f63e4b"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/talks-6859a3cedcb3afeb/20261014T215502.693231Z-c6bb2c0c311c40da8631c5c7a5ba3e8a",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215502.693231Z-c6bb2c0c311c40da8631c5c7a5ba3e8a",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 478,
+          "mode": 384,
+          "sha256": "738b12b5474d04a74c4e7cb13447241514ab5e1228b60ed2c338ff5c69ba2462"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 6296,
+          "mode": 420,
+          "sha256": "84890c0582959bebfbc61864341e86f07a662f109240ace04aa9c33d6ce70e0a"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 1287,
+          "mode": 420,
+          "sha256": "3b6cc2d92fe156718c35bde43d6faa1c1d9c7771766f4da47c580f8d7d139ab4"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2605,
+          "mode": 420,
+          "sha256": "122482f8ee12a6f9e0af874e6d0c6da7023422e85c1dc56dcc2eef4d17aa9919"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/talks-6859a3cedcb3afeb/20261014T215548.576175Z-f84dbb6a0b444dbb808d4607589da0ba",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215548.576175Z-f84dbb6a0b444dbb808d4607589da0ba",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 478,
+          "mode": 384,
+          "sha256": "637e1ceee8c735517a4a95b7117d60c92c518e044f1ede79b42adf1079b0937b"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2313,
+          "mode": 420,
+          "sha256": "03d505756c82b66685c9730a4604f426bb6963eda81222d566c17f1739a48e15"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 2299,
+          "mode": 420,
+          "sha256": "5a1caa80cd89983c5c1e43b707c7ec8043f0c7b105db78a38cac10890d2c7201"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 0,
+          "mode": 420,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 992,
+          "mode": 420,
+          "sha256": "8346d50296565fe2c979209c6166e2325cd8cc26bfa955c728979cf58d2788ff"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/talks-6859a3cedcb3afeb/20261014T215600.050053Z-a871c62c18f945fda8a0736ab8746c22",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215600.050053Z-a871c62c18f945fda8a0736ab8746c22",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 478,
+          "mode": 384,
+          "sha256": "85c7ff79c11469ba9a573d6269c90bbcad65669fbfcee53b787eb9153f3d2931"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2453,
+          "mode": 420,
+          "sha256": "ffcc184c62aab3cab24870ddc40cd244c00a1ab6c92cde20ba6dd66715080185"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 306,
+          "mode": 420,
+          "sha256": "47aeb22a41a10a629b9932bffd3392a592b7b7a2c3fd577d36b64ed5f6be5d2b"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 374,
+          "mode": 420,
+          "sha256": "f2ae948008f423747766a498e2b8e05aefd4ba6f70e376393d3a97e066cabb19"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 1316,
+          "mode": 420,
+          "sha256": "a879abf4cb1162fe460a779ab0f917204143c4752140c54b2bb52be2e2c45ba4"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/talks-6859a3cedcb3afeb/20261014T215710.786592Z-f0805a75bd8a43469a8e246032b8a86a",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215710.786592Z-f0805a75bd8a43469a8e246032b8a86a",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 478,
+          "mode": 384,
+          "sha256": "5231b03208681d4d6fcd6fe184b102321680c086cc5200e18f037af6c9df1d7c"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 3255,
+          "mode": 420,
+          "sha256": "3379a6b0663a45231a5b587f3d8db7721698baf7e184c798ea8a07ba854e0268"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 461,
+          "mode": 420,
+          "sha256": "03ffe7030a72130563fc5ad01ee42822efa88158f5e654fd27739b94c6cbc0f3"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 1722,
+          "mode": 420,
+          "sha256": "3e348727a47f7e92824b8cf5b1aad668aed0ee2cb67a9e2c97a9d7dda5a711a2"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 2963,
+          "mode": 420,
+          "sha256": "6b4db2b2effafe3737bff142c6ca729350e384234758026ef7a65de25ff90370"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/talks-6859a3cedcb3afeb/20261014T215728.577083Z-4b96c9ba7c8346beb817448008dc7b1b",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/talks/2026-usrse/stamped-ai-study/logs/duct/20261014T215728.577083Z-4b96c9ba7c8346beb817448008dc7b1b",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "context.json",
+          "type": "file",
+          "size": 478,
+          "mode": 384,
+          "sha256": "495fb1c31c7eacc924922e9bbdfb376608ff2edcb9dcf530b45d668b2a06856f"
+        },
+        {
+          "path": "run_info.json",
+          "type": "file",
+          "size": 2779,
+          "mode": 420,
+          "sha256": "4cce75018aa336f1f3f7e454ae2c990f8db2a48b8e8f8ab9866a4b23aec6d9f3"
+        },
+        {
+          "path": "run_stderr",
+          "type": "file",
+          "size": 30,
+          "mode": 420,
+          "sha256": "7fd01856a2895082fe2e921d07a094c37038ef78b7fceff3a5cfc919850f0d16"
+        },
+        {
+          "path": "run_stdout",
+          "type": "file",
+          "size": 80,
+          "mode": 420,
+          "sha256": "7c1d95b407c43bb9fb775cf873e8ab38a2b56dd507f941edd32a65097d467246"
+        },
+        {
+          "path": "run_usage.jsonl",
+          "type": "file",
+          "size": 6193,
+          "mode": 420,
+          "sha256": "9247136e0ca20558cf43936165388d88c145c0a62ddb6307ff2043dc47f60a05"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/agents/baseline",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "codex-events.jsonl",
+          "type": "file",
+          "size": 120416,
+          "mode": 420,
+          "sha256": "cda4cce8cca0e840e4a4aad25a9d5123eecc5faf84c9b5d3fbbc5ef5c018f462"
+        },
+        {
+          "path": "codex-stderr.log",
+          "type": "file",
+          "size": 2513,
+          "mode": 420,
+          "sha256": "aece4dd0743adf0b81ecb733c03158a1e54f781be328c9696913e05d09a37670"
+        },
+        {
+          "path": "command.json",
+          "type": "file",
+          "size": 455,
+          "mode": 420,
+          "sha256": "0e23d6b8b4ddb58e464bd02f9f728cc8969a4ef5524a38050f89de14d592c34a"
+        },
+        {
+          "path": "effective-prompt.txt",
+          "type": "file",
+          "size": 8250,
+          "mode": 420,
+          "sha256": "aef84b026f9f6c12da97e842dfa8bc56b24c043483d6cd8d6d087a37a5a6b0c9"
+        },
+        {
+          "path": "evidence-links.json",
+          "type": "file",
+          "size": 364,
+          "mode": 420,
+          "sha256": "94ab08b202ed45c74c8098335077663369a2160e1de064912a458b239ac277f9"
+        },
+        {
+          "path": "final-response.txt",
+          "type": "file",
+          "size": 881,
+          "mode": 420,
+          "sha256": "cf47de756eccabafed34faf336d93aa3b491bae75671ed22cb24ec52c52a2bb5"
+        },
+        {
+          "path": "launch-record.json",
+          "type": "file",
+          "size": 17019,
+          "mode": 420,
+          "sha256": "727a1ab7379b46fbfdce398ac4a7ca013b54786cd64902f4fd5f0f7fc5abe401"
+        },
+        {
+          "path": "manifest.json",
+          "type": "file",
+          "size": 26222,
+          "mode": 420,
+          "sha256": "9d957b9f036dbcd82d08a29c2181688c3f8ecf3c2cf9981724f042fc5bdaebfc"
+        },
+        {
+          "path": "run-result.json",
+          "type": "file",
+          "size": 1289,
+          "mode": 420,
+          "sha256": "f0e657fc5e06b11716b0c26d4af31e6f5a71ce09979983a9205725c2af74ec47"
+        },
+        {
+          "path": "supervisor-stderr.log",
+          "type": "file",
+          "size": 1732,
+          "mode": 420,
+          "sha256": "726b5c9b7989ee2d2e6be6c438f4dc1594a351b65f1c576ebcd93c4ead8f4897"
+        },
+        {
+          "path": "supervisor-stdout.log",
+          "type": "file",
+          "size": 183,
+          "mode": 420,
+          "sha256": "d1c4a13dd198aa408a73c38a58c69494359ee7cdd27e844b3981b4b586c80dd6"
+        }
+      ]
+    },
+    {
+      "source": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment",
+      "destination": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/logs/agents/treatment",
+      "status": "copied_and_verified",
+      "files": [
+        {
+          "path": "codex-events.jsonl",
+          "type": "file",
+          "size": 299816,
+          "mode": 420,
+          "sha256": "1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2"
+        },
+        {
+          "path": "codex-stderr.log",
+          "type": "file",
+          "size": 2329,
+          "mode": 420,
+          "sha256": "4e5c80ed17230727fc07f5bc9258fa2e2e259068842d2f7ccef4502b7a505f1c"
+        },
+        {
+          "path": "command.json",
+          "type": "file",
+          "size": 457,
+          "mode": 420,
+          "sha256": "5349112eb69b03e81c35c621b3e08c40b8e0df0585b330ef4d1d5f5517920dc7"
+        },
+        {
+          "path": "effective-prompt.txt",
+          "type": "file",
+          "size": 8976,
+          "mode": 420,
+          "sha256": "b571b5547e5321e2c92fb4dc658be5897ac852602e5e3da9cbfaed13adaab8d1"
+        },
+        {
+          "path": "evidence-links.json",
+          "type": "file",
+          "size": 366,
+          "mode": 420,
+          "sha256": "efb7f1801a83718dc3d393e564a3e7617326e5d02c79053f1fe892ffa28bde3a"
+        },
+        {
+          "path": "final-response.txt",
+          "type": "file",
+          "size": 881,
+          "mode": 420,
+          "sha256": "934c09651cde1b5ea95bcf56ba36271bd39478485f05701611444743275f4941"
+        },
+        {
+          "path": "launch-record.json",
+          "type": "file",
+          "size": 17021,
+          "mode": 420,
+          "sha256": "7d2eda6dee3f01654891009f72d9fd1a1f6eabfb84aaebb762a6e54f7f8f52e1"
+        },
+        {
+          "path": "manifest.json",
+          "type": "file",
+          "size": 26222,
+          "mode": 420,
+          "sha256": "9d957b9f036dbcd82d08a29c2181688c3f8ecf3c2cf9981724f042fc5bdaebfc"
+        },
+        {
+          "path": "run-result.json",
+          "type": "file",
+          "size": 1289,
+          "mode": 420,
+          "sha256": "0a79022a71cadadde677bf7955736b9c56fe350db2d607b85da8385e77a0ba49"
+        },
+        {
+          "path": "supervisor-stderr.log",
+          "type": "file",
+          "size": 1741,
+          "mode": 420,
+          "sha256": "30714743e685a894063a9fc01b30d8ff045127e9393394cd68fc17f759d3054b"
+        },
+        {
+          "path": "supervisor-stdout.log",
+          "type": "file",
+          "size": 184,
+          "mode": 420,
+          "sha256": "508bc7d51791f3b95a771cf91c1102cbc366198abbf2ec31ae8e897880f82e31"
+        }
+      ]
+    }
+  ],
+  "central_sources_retained": true,
+  "commit_performed": false
+}

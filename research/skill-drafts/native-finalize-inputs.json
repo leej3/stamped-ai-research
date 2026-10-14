@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-10-14T23:13:31.754958+00:00",
+  "native_session_id": "01a13c62-f9f4-7f12-a39c-6d7884eb50fa",
+  "historical_skills_commit": "8f3acaa4a7c353b6c8ea6928c278478f95328fc5",
+  "all_six_stopped": [
+    {
+      "stage": "01",
+      "arm": "baseline",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/run-result.json",
+      "run_result_sha256": "f0e657fc5e06b11716b0c26d4af31e6f5a71ce09979983a9205725c2af74ec47",
+      "evidence_links_sha256": "94ab08b202ed45c74c8098335077663369a2160e1de064912a458b239ac277f9",
+      "finished_at": "2026-10-14T22:25:28.230258+00:00",
+      "outcome": "completed"
+    },
+    {
+      "stage": "01",
+      "arm": "treatment",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment/run-result.json",
+      "run_result_sha256": "0a79022a71cadadde677bf7955736b9c56fe350db2d607b85da8385e77a0ba49",
+      "evidence_links_sha256": "efb7f1801a83718dc3d393e564a3e7617326e5d02c79053f1fe892ffa28bde3a",
+      "finished_at": "2026-10-14T22:20:57.558550+00:00",
+      "outcome": "completed"
+    },
+    {
+      "stage": "02",
+      "arm": "baseline",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline/run-result.json",
+      "run_result_sha256": "a9d681e5f0df229b158673951e2661428fecc6015ab8bcdb4ee4f63bed46393a",
+      "evidence_links_sha256": "926eaff38b49ee8251f535cc7b0bf783020a1bc5ced0a980309a19fb695db340",
+      "finished_at": "2026-10-14T22:48:30.016523+00:00",
+      "outcome": "completed"
+    },
+    {
+      "stage": "02",
+      "arm": "treatment",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/run-result.json",
+      "run_result_sha256": "5c3fde3ed0476d838e4f41d6ab617a8450f95856c2c7054a2606a4e664285966",
+      "evidence_links_sha256": "206eb1caf1bd8e855f677c4dec6e3b0246a396b74f32d3192e544bf070c47c56",
+      "finished_at": "2026-10-14T22:42:02.393752+00:00",
+      "outcome": "completed"
+    },
+    {
+      "stage": "03",
+      "arm": "baseline",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/run-result.json",
+      "run_result_sha256": "04f083df24b7fd1083cc219d0d508b0e86d0eecdf228d672e3107653981cc4ce",
+      "evidence_links_sha256": "cbac34856dd58ef05cc152354bc930d39fa3dfc0c101b9289214ae41f0606d85",
+      "finished_at": "2026-10-14T22:59:08.366188+00:00",
+      "outcome": "completed"
+    },
+    {
+      "stage": "03",
+      "arm": "treatment",
+      "run_result_path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment/run-result.json",
+      "run_result_sha256": "1f497075148f0cfda28802e89a0f4ee075ac30cf1c3d3c341a5447aab9291dc6",
+      "evidence_links_sha256": "58217f80c83467e19f0bb83cfb20f0ed365f935911bcb381acd30c3b904d1a47",
+      "finished_at": "2026-10-14T23:07:03.281450+00:00",
+      "outcome": "completed"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "research/REPORT.md",
+      "sha256": "afd5b9bf1ade42b2523ab396ce1c5635b9c73cefdfb38105aef81c9ed3df4bc6",
+      "bytes": 22378
+    },
+    {
+      "path": "research/skill-drafts/design-and-validation.md",
+      "sha256": "f87e1bde6a399df335750c9ce8577a505cda1d77637480bfadf39e8a5399c70a",
+      "bytes": 8203
+    },
+    {
+      "path": "research/skill-candidates/REVIEW.md",
+      "sha256": "a36712e7af2ecf38372eba2400abb1ed05dd04f69b7d4810d5f6684d5603d9df",
+      "bytes": 15267
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/conventional-datalad-note.md",
+      "sha256": "ff76e5c262dbaf1b37329bf5fa270b2b043bd1aee8e8d59f5890f6077eb64a19",
+      "bytes": 5138
+    },
+    {
+      "path": "research/logs/log-export-plan-02.json",
+      "sha256": "7d23aa77215b2b005d8c83d3c21a365a46b757f7166f98773818ec44f1dbfcf2",
+      "bytes": 313782
+    },
+    {
+      "path": "research/logs/log-export-report-02.json",
+      "sha256": "b2c9a285ecb94b4c88b228822f60cb5718f0cc2d1452176fee3dc5a7615fd9ff",
+      "bytes": 252496
+    },
+    {
+      "path": ".setup/mixed-stage01-manifest.json",
+      "sha256": "9d957b9f036dbcd82d08a29c2181688c3f8ecf3c2cf9981724f042fc5bdaebfc",
+      "bytes": 26222
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "sha256": "7481c0a07ab8ee82dd13ef124666ff6deb017700887f43a977636bf6e7b5fce0",
+      "bytes": 23752
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-01/review.md",
+      "sha256": "d7a6fd24688ee58d843fc98a8ca9dca57fd0b03ae0c6a6bc8c16f78cb531829d",
+      "bytes": 3983
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-01/pair-review.json",
+      "sha256": "95cd955f3ef038fd6a188fab37bc03f41a8907b83badfb660e0ada88b879ad6f",
+      "bytes": 927
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-02/assessment.json",
+      "sha256": "be41ba2194ae4afa4ef063e9906ff1d9481d52676320605567b2f623382bb691",
+      "bytes": 24413
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-02/review.md",
+      "sha256": "dfaa55ea4fed3620d9ddb767cba49cd251e16e20a149d37a28f3c7a8666fac6b",
+      "bytes": 3521
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-02/pair-review.json",
+      "sha256": "47b7eacd5ac40970375bc4c9568e27e2583cc430869f0e202fecb082dbbb66ce",
+      "bytes": 951
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/assessment.json",
+      "sha256": "3617219d7e21ec949cabb7ee8a9e554b37df2f7972d843277b6d6e014cc0d0f5",
+      "bytes": 33318
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/review.md",
+      "sha256": "3d4f253c5585be2169c16ee9fdffadd16e5ee6a91dc83375d8db59bba2d75719",
+      "bytes": 7182
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/pair-review.json",
+      "sha256": "8fa644b275bbd1906fc823f45477fb5c09503d7a939c468a0cfdfc20ae3d63be",
+      "bytes": 1100
+    }
+  ],
+  "scientific_outcomes_not_regraded": true
+}

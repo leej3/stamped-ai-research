@@ -1,0 +1,9 @@
+copy research/mixed-gambles-design/evaluator/stage-02/source-audit.json (to con-hub...) 
+1%    31.98 KiB        61 MiB/s 0s26%   767.62 KiB        4 MiB/s 0s100%  2.92 MiB         25 MiB/s 0s                                  ok
+copy research/mixed-gambles-design/evaluator/stage-03/source-audit.json (to con-hub...) 
+1%    31.98 KiB        35 MiB/s 0s100%  4.37 MiB         87 MiB/s 0s                                  ok
+copy research/skill-candidates/sources/pr-26/changed-files.json (to con-hub...) 
+3%    31.98 KiB        49 MiB/s 0s100%  1.05 MiB        107 MiB/s 0s                                  ok
+copy research/study-design/sources/con_mechababs-head.json (to con-hub...) 
+3%    31.98 KiB        35 MiB/s 0s100%  1.02 MiB         97 MiB/s 0s                                  ok
+(recording state in git...)

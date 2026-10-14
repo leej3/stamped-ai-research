@@ -1,0 +1,94 @@
+ds000008 README This dataset was obtained from the OpenfMRI project (http://www.openfmri.org).
+Accession #: ds008
+Description: Stop-signal task with unselective and selective stopping
+
+Please cite the following references if you use these data:
+
+Aron, A.R., Behrens, T.E., Smith, S., Frank, M.J., Poldrack, R.A. (2007). Triangulating a cognitive control network using diffusion-weighted magnetic resonance imaging (MRI) and functional MRI. J Neurosci, 27(14):3743-52
+
+
+Release history:
+10/06/2011: initial release
+12/20/2012: The originally posted version of this dataset was missing some
+onsets for task002. The newly posted version contains the full set of onsets
+for all conditions.  If only the onsets and model info are needed, they can be
+obtained by downloading the updated onsets file and untarring it in the main
+ds008 directory.
+3/21/2013: Updated release with QA information
+2/19/2016: Updated orientation information in NIFTI header for better left-right determination
+3/7/2016: Remove sub008 due to ambiguously defined task onsets and missing run data
+
+This dataset is made available under the Public Domain Dedication and License 
+v1.0, whose full text can be found at 
+http://www.opendatacommons.org/licenses/pddl/1.0/. 
+We hope that all users will follow the ODC Attribution/Share-Alike 
+Community Norms (http://www.opendatacommons.org/norms/odc-by-sa/); 
+in particular, while not legally required, we hope that all users 
+of the data will acknowledge the OpenfMRI project and NSF Grant 
+OCI-1131441 (R. Poldrack, PI) in any publications.
+
+ds000008 dataset_description.json {"BIDSVersion":"1.0.0rc4","License":"This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.","Name":"Stop-signal task with unconditional and conditional stopping","ReferencesAndLinks":["Aron, A.R., Behrens, T.E., Smith, S., Frank, M.J., Poldrack, R.A. (2007). Triangulating a cognitive control network using diffusion-weighted magnetic resonance imaging (MRI) and functional MRI. J Neurosci, 27(14):3743-52"],"Authors":["Aron, A.R.","Behrens, T.E.","Frank, M.","Smith, S.","Poldrack, R.A."]}
+ds000008 participants.tsv participant_id	sex	age
+sub-01	M	37
+sub-02	M	25
+sub-03	F	31
+sub-04	M	31
+sub-05	M	22
+sub-06	F	21
+sub-07	M	24
+sub-09	F	20
+sub-10	M	23
+sub-11	M	29
+sub-12	M	21
+sub-13	M	24
+sub-14	M	22
+sub-15	F	24
+
+AUDIT ds000008 {"repository": "https://github.com/OpenNeuroDatasets/ds000008", "commit": "a65448a0f00ebf4038e134f5a956f429ec4ca1ed", "event_files": 80, "event_bytes": 465982, "rows": 10240, "column_values": {"trial_type": {"failed stop-critical": 294, "go-noncritical": 1814, "go-critical": 1793, "successful stop-critical": 314, "junk": 125, "failed stop-noncritical": 600, "n/a": 15, "go": 3957, "failed stop": 624, "successful stop": 704}, "TrialType": {"1": 2496, "0": 7488}, "Stimulus": {"1": 4992, "0": 4992}, "SSD": {"0.15": 463, "0.0": 7536, "0.1": 262, "0.2": 545, "0.25": 483, "0.05": 87, "0.3": 300, "0.35": 145, "0.4": 61, "0.45": 35, "-0.05": 29, "-0.1": 8, "0.5": 21, "0.55": 6, "0.6": 3}, "Response": {"50": 4579, "49": 4361, "0": 1044}, "CorrectGo": {"1": 8181, "0": 1803}, "SuccStop": {"0": 8984, "1": 1000}}}
+FIRST EVENT {'path': 'sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv', 'git_blob': '74527b7de94374cf7d7ac4ea5bb7ff931749f52d', 'rows': 128, 'fields': ['onset', 'duration', 'trial_type', 'TrialType', 'Stimulus', 'SSD', 'Response', 'response_time', 'CorrectGo', 'SuccStop'], 'times': {'duration': {'n_numeric': 128, 'min': 1.5, 'max': 1.5, 'invalid': {}}, 'response_time': {'n_numeric': 128, 'min': 0.0, 'max': 0.987, 'invalid': {}}}}
+ds000006 README This dataset was obtained from the OpenfMRI project (http://www.openfmri.org).
+Accession #: ds006A
+Description: Living-nonliving decision with plain or mirror-reversed text
+3/21/2013: Updated release with QA information
+2/19/2016: Updated orientation information in NIFTI header for improved left-right determination.
+
+This dataset is made available under the Public Domain Dedication and License 
+v1.0, whose full text can be found at 
+http://www.opendatacommons.org/licenses/pddl/1.0/. 
+We hope that all users will follow the ODC Attribution/Share-Alike 
+Community Norms (http://www.opendatacommons.org/norms/odc-by-sa/); 
+in particular, while not legally required, we hope that all users 
+of the data will acknowledge the OpenfMRI project and NSF Grant 
+OCI-1131441 (R. Poldrack, PI) in any publications.
+
+ds000006 dataset_description.json {"BIDSVersion":"1.0.0rc4","License":"This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.","Name":"ds000006","Authors":["K Jimura","E Stover","F Cazalis","RA Poldrack"]}
+ds000006 participants.tsv participant_id	sex	age
+sub-01	F	21
+sub-02	F	23
+sub-03	M	19
+sub-04	M	21
+sub-05	F	23
+sub-06	F	21
+sub-07	F	35
+sub-08	F	19
+sub-09	F	22
+sub-10	M	23
+sub-11	M	22
+sub-12	F	26
+sub-13	M	20
+sub-14	F	24
+
+ds000006 task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json {
+  "trial_type": {
+    "Levels": {
+      "pl_sw": "plain switch",
+      "mr_sw": "mirror switch",
+      "pl_ns": "plain nonswitch",
+      "mr_ns": "mirror nonswitch",
+      "junk": "junk"
+    }
+  }
+}
+
+AUDIT ds000006 {"repository": "https://github.com/OpenNeuroDatasets/ds000006", "commit": "dcedff1d22b7abe4e90fab8f9dff888ded0983be", "event_files": 164, "event_bytes": 177812, "rows": 10492, "column_values": {"trial_type": {"pl_ns": 3260, "junk": 1588, "mr_ns": 2747, "pl_sw": 1449, "mr_sw": 1448}}}
+FIRST EVENT {'path': 'sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv', 'git_blob': '524f44807eaf56167dc965cd15e1d129a0daff5e', 'rows': 64, 'fields': ['onset', 'duration', 'trial_type'], 'times': {'duration': {'n_numeric': 64, 'min': 3.25, 'max': 3.25, 'invalid': {}}}}

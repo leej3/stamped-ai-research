@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-10-14T21:54:20.181255+00:00",
+  "files": [
+    {
+      "path": "align-with-stamped-principles/SKILL.md",
+      "sha256": "dc6b449fe2a211502445f12baeb90c571f248e327ff4eef963c8d265ff78dd76"
+    },
+    {
+      "path": "align-with-stamped-principles/references/principles.md",
+      "sha256": "d80b0154a3ec9d5c23e21a0a91393bcbebaf8ba01d6aeb12fa8d9385307dc14b"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/SKILL.md",
+      "sha256": "edc769613d45297cf32a8d7227f06daaf6bba3eecdb415fd8b60984506e505e5"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/references/assessment-contract.md",
+      "sha256": "773f9a32aca800f8709374bd66eeacc74c5191bbe8577d832314dbc553092724"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/references/checklist-responses.md",
+      "sha256": "796227cb32dec97efa3fb55d895451c00258b237c41d50ef1a019b53cacfb9cb"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/references/principles.md",
+      "sha256": "d80b0154a3ec9d5c23e21a0a91393bcbebaf8ba01d6aeb12fa8d9385307dc14b"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/references/research-assessment.schema.json",
+      "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/scripts/export_checklist.py",
+      "sha256": "ea667090655f463cf80b80486c94a75ab14a01777682f31903bd38b52670013d"
+    },
+    {
+      "path": "assess-alignment-with-stamped-principles/scripts/validate_assessment.py",
+      "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+    },
+    {
+      "path": "create-repronim-stamped-project/SKILL.md",
+      "sha256": "8e37f565df4d32b5392a6ff13b7fb6d65b0de6bbb8faafd75e773967525cc4cd"
+    },
+    {
+      "path": "create-repronim-stamped-project/references/principles.md",
+      "sha256": "d80b0154a3ec9d5c23e21a0a91393bcbebaf8ba01d6aeb12fa8d9385307dc14b"
+    },
+    {
+      "path": "create-repronim-stamped-project/references/repronim.md",
+      "sha256": "5febf2f890520e2abc42afe4123c75ad162c31062622ea6de75b555e3f229e8f"
+    },
+    {
+      "path": "create-stamped-project/SKILL.md",
+      "sha256": "89199eab6c8692ff7a0f83c9dec4d6919e464f15b7d9e882f14512be4c688370"
+    },
+    {
+      "path": "create-stamped-project/references/principles.md",
+      "sha256": "d80b0154a3ec9d5c23e21a0a91393bcbebaf8ba01d6aeb12fa8d9385307dc14b"
+    },
+    {
+      "path": "do-full-research-loop/SKILL.md",
+      "sha256": "771d54ac0e0aff6c10ea0539eeb1aa100bf026523f4d713e39c32f84400847dc"
+    },
+    {
+      "path": "do-full-research-loop/references/assessment-contract.md",
+      "sha256": "773f9a32aca800f8709374bd66eeacc74c5191bbe8577d832314dbc553092724"
+    },
+    {
+      "path": "do-full-research-loop/references/paired-evaluation.md",
+      "sha256": "769e491a158a070e26aa0a0de1618b5731a7fe2a44b13246e26b6db065a2eff9"
+    },
+    {
+      "path": "do-full-research-loop/references/principles.md",
+      "sha256": "d80b0154a3ec9d5c23e21a0a91393bcbebaf8ba01d6aeb12fa8d9385307dc14b"
+    },
+    {
+      "path": "do-full-research-loop/references/research-assessment.schema.json",
+      "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+    },
+    {
+      "path": "do-full-research-loop/scripts/validate_assessment.py",
+      "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+    }
+  ]
+}

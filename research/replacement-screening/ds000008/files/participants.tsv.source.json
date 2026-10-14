@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/participants.tsv",
+  "retrieved_at": "2026-10-14T21:59:10.819301+00:00",
+  "status": 200,
+  "sha256": "674efd065753823747f71034ea8888401344496246193bd628dfefa73b21005d",
+  "bytes": 191,
+  "path": "ds000008/files/participants.tsv"
+}

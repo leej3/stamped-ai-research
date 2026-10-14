@@ -1,0 +1,1 @@
+PASS synthetic parser: identity, thread, post-launch interval, completed-status checks; separate command/FileChange counts; no actual arm verifier executed

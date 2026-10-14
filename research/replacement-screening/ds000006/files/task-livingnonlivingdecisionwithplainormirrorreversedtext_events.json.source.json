@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json",
+  "retrieved_at": "2026-10-14T21:59:10.918521+00:00",
+  "status": 200,
+  "sha256": "43845165dd6a7c2d4a31f2b67c949f69e9d98f756cfb2f8dc04080cdd666a826",
+  "bytes": 204,
+  "path": "ds000006/files/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json"
+}

@@ -1,0 +1,1208 @@
+{
+  "artifact": {
+    "path": "experiments/01-participant-rt/arms/treatment/worktree/derivatives/gambling-rt/trial-audit.tsv",
+    "sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4"
+  },
+  "checks": [
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 1,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 2,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 3,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 4,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 5,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 6,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 7,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 8,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 9,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 10,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 11,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 12,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 13,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 14,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 15,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 16,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 17,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 18,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 19,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 20,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 21,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 22,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 23,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 24,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 25,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 26,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 27,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 28,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 29,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 30,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 31,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 32,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 33,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 34,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 35,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 36,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 37,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 38,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 39,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 40,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 41,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 42,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 43,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 44,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 45,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 46,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 47,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 48,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 49,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 50,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 51,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 52,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 53,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 54,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 55,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 56,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 57,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 58,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 59,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 60,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 61,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 62,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 63,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 64,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 65,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 66,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 67,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 68,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 69,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 70,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 71,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 72,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 73,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 74,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 75,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 76,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 77,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 78,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 79,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 80,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 81,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 82,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 83,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 84,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 85,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 86,
+      "run": "01"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 1,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 2,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 3,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 4,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 5,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 6,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 7,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 8,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 9,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 10,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 11,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 12,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 13,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 14,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 15,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 16,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 17,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 18,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 19,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 20,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 21,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 22,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 23,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 24,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 25,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 26,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 27,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 28,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 29,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 30,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 31,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 32,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 33,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 34,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 35,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 36,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 37,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 38,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 39,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 40,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 41,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 42,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 43,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 44,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 45,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 46,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 47,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 48,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 49,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 50,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 51,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 52,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 53,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 54,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 55,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 56,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 57,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 58,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 59,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 60,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 61,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 62,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 63,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 64,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 65,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 66,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 67,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 68,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 69,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 70,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 71,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 72,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 73,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 74,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 75,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 76,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 77,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 78,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 79,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 80,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 81,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 82,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 83,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 84,
+      "run": "03"
+    },
+    {
+      "errors": [],
+      "participant": "sub-01",
+      "passed": true,
+      "row": 85,
+      "run": "03"
+    }
+  ],
+  "exact_row_keys": true,
+  "passed": true,
+  "rows": 171
+}

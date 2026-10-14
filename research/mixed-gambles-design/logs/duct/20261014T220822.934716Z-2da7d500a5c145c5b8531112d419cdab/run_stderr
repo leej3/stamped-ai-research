@@ -1,0 +1,20 @@
+fatal: cannot change to '/Users/johnlee/code/CON/stamped-ai-research/inputs/ds000005': No such file or directory
+Traceback (most recent call last):
+  File "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/evaluator/reference.py", line 184, in <module>
+    main()
+    ~~~~^^
+  File "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/evaluator/reference.py", line 172, in main
+    data, manifest, issues = load_source(args.source.resolve())
+                             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/evaluator/reference.py", line 120, in load_source
+    commit = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
+             ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 473, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', '-C', '/Users/johnlee/code/CON/stamped-ai-research/inputs/ds000005', 'rev-parse', 'HEAD']' returned non-zero exit status 128.

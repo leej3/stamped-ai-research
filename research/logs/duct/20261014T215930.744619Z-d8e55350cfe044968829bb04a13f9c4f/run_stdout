@@ -1,0 +1,2 @@
+{"output_dir": "/var/folders/dh/6x04w9891gx_4x1t649nc42w0000gn/T/tmp1s6b7iht/output", "outcome": "timeout", "native_session_ids": []}
+{"harness_sha256": "bf0dce85af971351141ff4717cc4f03dee24ba936f2fad4771b152bbbdcc00e1", "mock_only": true, "return_code": 124, "elapsed_seconds": 5.210378292016685, "child_running_after_timeout": false, "child_ps_state": "", "result_record_written": true}

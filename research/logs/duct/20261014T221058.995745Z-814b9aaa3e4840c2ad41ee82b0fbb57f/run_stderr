@@ -1,0 +1,7 @@
+Worker setup stopped: 06-entire failed with exit 1; retained logs: /Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-01-baseline
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'research/harness/prepare_worker.py', '--phase', 'prepare', '--seed', '/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt', '--workspace', '/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline', '--branch', 'codex/mixed-01-baseline']' returned non-zero exit status 2.

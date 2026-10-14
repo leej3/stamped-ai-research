@@ -1,0 +1,514 @@
+{
+  "field_sets": [
+    {
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type",
+        "TrialType",
+        "Stimulus",
+        "SSD",
+        "Response",
+        "response_time",
+        "CorrectGo",
+        "SuccStop"
+      ],
+      "files": [
+        "sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+        "sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+        "sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+        "sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+        "sub-02/func/sub-02_task-stopsignal_run-02_events.tsv",
+        "sub-02/func/sub-02_task-stopsignal_run-03_events.tsv",
+        "sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-03/func/sub-03_task-stopsignal_run-01_events.tsv",
+        "sub-03/func/sub-03_task-stopsignal_run-02_events.tsv",
+        "sub-03/func/sub-03_task-stopsignal_run-03_events.tsv",
+        "sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-04/func/sub-04_task-stopsignal_run-01_events.tsv",
+        "sub-04/func/sub-04_task-stopsignal_run-02_events.tsv",
+        "sub-04/func/sub-04_task-stopsignal_run-03_events.tsv",
+        "sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-05/func/sub-05_task-stopsignal_run-01_events.tsv",
+        "sub-05/func/sub-05_task-stopsignal_run-02_events.tsv",
+        "sub-05/func/sub-05_task-stopsignal_run-03_events.tsv",
+        "sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-06/func/sub-06_task-stopsignal_run-01_events.tsv",
+        "sub-06/func/sub-06_task-stopsignal_run-02_events.tsv",
+        "sub-06/func/sub-06_task-stopsignal_run-03_events.tsv",
+        "sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-07/func/sub-07_task-stopsignal_run-01_events.tsv",
+        "sub-07/func/sub-07_task-stopsignal_run-02_events.tsv",
+        "sub-07/func/sub-07_task-stopsignal_run-03_events.tsv",
+        "sub-09/func/sub-09_task-stopsignal_run-01_events.tsv",
+        "sub-09/func/sub-09_task-stopsignal_run-02_events.tsv",
+        "sub-09/func/sub-09_task-stopsignal_run-03_events.tsv",
+        "sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-10/func/sub-10_task-stopsignal_run-01_events.tsv",
+        "sub-10/func/sub-10_task-stopsignal_run-02_events.tsv",
+        "sub-10/func/sub-10_task-stopsignal_run-03_events.tsv",
+        "sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-11/func/sub-11_task-stopsignal_run-01_events.tsv",
+        "sub-11/func/sub-11_task-stopsignal_run-02_events.tsv",
+        "sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-12/func/sub-12_task-stopsignal_run-01_events.tsv",
+        "sub-12/func/sub-12_task-stopsignal_run-02_events.tsv",
+        "sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-13/func/sub-13_task-stopsignal_run-01_events.tsv",
+        "sub-13/func/sub-13_task-stopsignal_run-02_events.tsv",
+        "sub-13/func/sub-13_task-stopsignal_run-03_events.tsv",
+        "sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-14/func/sub-14_task-stopsignal_run-01_events.tsv",
+        "sub-14/func/sub-14_task-stopsignal_run-02_events.tsv",
+        "sub-14/func/sub-14_task-stopsignal_run-03_events.tsv",
+        "sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv",
+        "sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv",
+        "sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv",
+        "sub-15/func/sub-15_task-stopsignal_run-01_events.tsv",
+        "sub-15/func/sub-15_task-stopsignal_run-02_events.tsv",
+        "sub-15/func/sub-15_task-stopsignal_run-03_events.tsv"
+      ]
+    },
+    {
+      "fields": [
+        "onset",
+        "duration",
+        "trial_type"
+      ],
+      "files": [
+        "sub-11/func/sub-11_task-stopsignal_run-03_events.tsv",
+        "sub-12/func/sub-12_task-stopsignal_run-03_events.tsv"
+      ]
+    }
+  ],
+  "cross": [
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-critical",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 34
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-critical",
+      "CorrectGo": "1",
+      "TrialType": "1",
+      "n": 260
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-noncritical",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 51
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-noncritical",
+      "CorrectGo": "1",
+      "TrialType": "1",
+      "n": 549
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-critical",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 143
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-critical",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 1650
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-noncritical",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 141
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-noncritical",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 1673
+    },
+    {
+      "task": "conditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 37
+    },
+    {
+      "task": "conditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 8
+    },
+    {
+      "task": "conditional",
+      "trial_type": "junk",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 4
+    },
+    {
+      "task": "conditional",
+      "trial_type": "successful stop-critical",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 314
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 49
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": "1",
+      "TrialType": "1",
+      "n": 541
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": null,
+      "TrialType": null,
+      "n": 34
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 286
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 3480
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": null,
+      "TrialType": null,
+      "n": 191
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 58
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 4
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 6
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "1",
+      "TrialType": "1",
+      "n": 6
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": null,
+      "TrialType": null,
+      "n": 2
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "0",
+      "TrialType": "0",
+      "n": 2
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 1
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "1",
+      "TrialType": "0",
+      "n": 8
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "1",
+      "TrialType": "1",
+      "n": 4
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "successful stop",
+      "CorrectGo": "0",
+      "TrialType": "1",
+      "n": 675
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "successful stop",
+      "CorrectGo": null,
+      "TrialType": null,
+      "n": 29
+    }
+  ],
+  "rt_status": [
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-critical",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 34
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-critical",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 260
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-noncritical",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 51
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "failed stop-noncritical",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 549
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-critical",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 141,
+        "nonpositive": 2
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-critical",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 1650
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-noncritical",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 141
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "go-noncritical",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 1673
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 30,
+        "nonpositive": 15
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "junk",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 4
+      }
+    },
+    {
+      "task": "conditional",
+      "trial_type": "successful stop-critical",
+      "CorrectGo": "0",
+      "counts": {
+        "nonpositive": 314
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 49
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 541
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "failed stop",
+      "CorrectGo": null,
+      "counts": {
+        "missing": 34
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": "0",
+      "counts": {
+        "positive": 286
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 3480
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "go",
+      "CorrectGo": null,
+      "counts": {
+        "missing": 191
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "0",
+      "counts": {
+        "nonpositive": 36,
+        "positive": 26
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 12
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "junk",
+      "CorrectGo": null,
+      "counts": {
+        "missing": 2
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "0",
+      "counts": {
+        "nonpositive": 2,
+        "positive": 1
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "n/a",
+      "CorrectGo": "1",
+      "counts": {
+        "positive": 12
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "successful stop",
+      "CorrectGo": "0",
+      "counts": {
+        "nonpositive": 675
+      }
+    },
+    {
+      "task": "unconditional",
+      "trial_type": "successful stop",
+      "CorrectGo": null,
+      "counts": {
+        "missing": 29
+      }
+    }
+  ]
+}
+go-label correctness issues 761
+participant/task inventory {('conditional', 'sub-01'): 3, ('unconditional', 'sub-01'): 3, ('conditional', 'sub-02'): 2, ('unconditional', 'sub-02'): 3, ('conditional', 'sub-03'): 3, ('unconditional', 'sub-03'): 3, ('conditional', 'sub-04'): 3, ('unconditional', 'sub-04'): 3, ('conditional', 'sub-05'): 3, ('unconditional', 'sub-05'): 3, ('conditional', 'sub-06'): 3, ('unconditional', 'sub-06'): 3, ('conditional', 'sub-07'): 3, ('unconditional', 'sub-07'): 3, ('unconditional', 'sub-09'): 3, ('conditional', 'sub-10'): 3, ('unconditional', 'sub-10'): 3, ('conditional', 'sub-11'): 3, ('unconditional', 'sub-11'): 3, ('conditional', 'sub-12'): 3, ('unconditional', 'sub-12'): 3, ('conditional', 'sub-13'): 3, ('unconditional', 'sub-13'): 3, ('conditional', 'sub-14'): 3, ('unconditional', 'sub-14'): 3, ('conditional', 'sub-15'): 3, ('unconditional', 'sub-15'): 3}

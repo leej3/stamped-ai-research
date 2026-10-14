@@ -1,0 +1,10 @@
+test_actual_seed_input_scope (__main__.Checks.test_actual_seed_input_scope) ... ok
+test_allocation (__main__.Checks.test_allocation) ... ok
+test_frozen_build_selected_pair_and_predecessor (__main__.Checks.test_frozen_build_selected_pair_and_predecessor) ... ok
+test_gate_identity_and_integrity (__main__.Checks.test_gate_identity_and_integrity) ... ok
+test_paths_and_all_six_before_controls (__main__.Checks.test_paths_and_all_six_before_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.060s
+
+OK

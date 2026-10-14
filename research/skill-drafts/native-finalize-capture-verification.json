@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at": "2026-10-14T23:21:53.132803+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/skills",
+  "head": "d0f83b9492a697b929ddda2788da35fb3285170d",
+  "tree": "25d5166bf5ad0f62aa24c992e19d1535f0139675",
+  "native_session_id": "01a13c62-f9f4-7f12-a39c-6d7884eb50fa",
+  "started_at": "2026-10-14T23:13:46.109389+00:00",
+  "finished_at": "2026-10-14T23:21:02.499827+00:00",
+  "duct_capture": {
+    "path": "/Users/johnlee/.local/state/con-duct/projects/skills-c005cbd1b8b4aa8f/20261014T231346.013826Z-fd92024951704d379d361e974dfeb2c8",
+    "run_info_sha256": "3a1967aaf1f4271dd1de0d207698b2e3ea726b2272b36356b87a87954bf738de",
+    "context_sha256": "08c7dd4357a325f75b7a2ffb86597c99b3d883455a3990fa3efe979031131fd8",
+    "context_session_id": "01a13c61-8f14-70a2-bade-f4699090bdf7",
+    "stdout_sha256": "771c387b257a6ac0d821c9d6e0f521aed10476b349ba602b513c2a2b3983dd9c",
+    "stdout_bytes": 317941
+  },
+  "checkpoint_id": "01M4YBEX6G6R092NECKSQ8JFMC",
+  "checkpoint_session_created_at": "2026-10-14T23:20:18.807927Z",
+  "stored_transcript": {
+    "sha256": "2ce2dcab4a34a353734a3f3c59d728321da235e702702da2969d1a90b09b5a12",
+    "bytes": 1253130,
+    "identity_events": [
+      {
+        "line": 1,
+        "session_id": "01a13c62-f9f4-7f12-a39c-6d7884eb50fa",
+        "workspace": "/Users/johnlee/code/CON/stamped-ai-research/skills"
+      }
+    ],
+    "completed_commands": [
+      {
+        "line": 208,
+        "timestamp": "2026-10-14T23:13:53.802Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-8b2a7ebb-7e7c-4e5d-a697-ac6f92b2d7b2",
+        "event_sha256": "1b7e8716efc9d89af63587b5d6843f2262bb1c89c11637608399ee3297c563b9"
+      },
+      {
+        "line": 209,
+        "timestamp": "2026-10-14T23:13:53.803Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-9f6cd9f7-5e16-4db6-8120-3576e091b856",
+        "event_sha256": "8687d8f0a831bc0ecf6802bb4b5d9a9401c58f834f0f035ab64c1a9c63bffe68"
+      },
+      {
+        "line": 216,
+        "timestamp": "2026-10-14T23:14:07.699Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-0a93579d-a24f-44b3-83c9-682365a905fe",
+        "event_sha256": "645e2809082b1cfd5f12e0a20b32eddcff1fb2566b9b5895322cd88f285c162f"
+      },
+      {
+        "line": 224,
+        "timestamp": "2026-10-14T23:14:17.011Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-8a728776-7812-4a4c-9995-ea1180513567",
+        "event_sha256": "5e6ff71f436fdaba9b9468ceaa4a4272455dd1d26b00ffac65c3dc2504690080"
+      },
+      {
+        "line": 225,
+        "timestamp": "2026-10-14T23:14:17.033Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-19a61eb4-ac6d-497a-8a8e-ab0330fadbbe",
+        "event_sha256": "8d7d1e37df24c789b558782496d893ce1863fe8f8578faffef8acde169690417"
+      },
+      {
+        "line": 234,
+        "timestamp": "2026-10-14T23:14:24.731Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-f3a77815-0e63-4638-9cd4-7fd4802ec690",
+        "event_sha256": "dca85084c4a762751bf2564246ecd0857fd799c9a1f2837c7b168e144146b0b0"
+      },
+      {
+        "line": 241,
+        "timestamp": "2026-10-14T23:14:34.749Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-e9167008-e859-43ca-a209-30f242b799cb",
+        "event_sha256": "6db666b1041902a3bcd7544c5f46af5d281f87f23bc75f5e21f33580025cb616"
+      },
+      {
+        "line": 248,
+        "timestamp": "2026-10-14T23:14:53.931Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-86f4f510-cfc1-43f8-8f70-980a73dcc8bb",
+        "event_sha256": "318e10d1a88bdf205990e4b34425bc5ff0626c17e59bc3e73866f279f8326f34"
+      },
+      {
+        "line": 255,
+        "timestamp": "2026-10-14T23:15:02.147Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-9b545e4f-c892-4670-ac69-3664886b8e99",
+        "event_sha256": "f3820020615df7639c546eb1b149238e879ca2eb89a85bcad0ab3f862f8476bb"
+      },
+      {
+        "line": 262,
+        "timestamp": "2026-10-14T23:15:15.585Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-fe9fdf2c-af41-44ce-8b8b-1b06a247954a",
+        "event_sha256": "586c0788c9902f4ef38977d137210fb986773af1f49c22270c34feca48a5f1d4"
+      },
+      {
+        "line": 269,
+        "timestamp": "2026-10-14T23:15:24.350Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-10542567-788f-4b5c-ade1-9f0fde333e46",
+        "event_sha256": "2e24dcfed87a9f0d7e7eac3800975daed80de551868a824fc9fe77fad9e3ea3d"
+      },
+      {
+        "line": 280,
+        "timestamp": "2026-10-14T23:15:55.424Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c6622463-02ef-40e2-a3ab-97a31f0c6e0c",
+        "event_sha256": "2485e965c9b94e412cef30600d2bc9f0d9f823284d2bf039c66048358b5e4077"
+      },
+      {
+        "line": 289,
+        "timestamp": "2026-10-14T23:17:55.412Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-e354329a-73c7-4a6a-8bf5-773c8277b49e",
+        "event_sha256": "793a146a49d1c6e1b66b93e1ce7f36066f0f421ce5deb5a561a7c4e538fb6024"
+      },
+      {
+        "line": 309,
+        "timestamp": "2026-10-14T23:19:30.229Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-21a86fe4-c31e-4062-be57-2a9cfd68d322",
+        "event_sha256": "939b1e5117942044bc1fd3865620c33ff0f1daaaf663d77976e1d756c41916f4"
+      },
+      {
+        "line": 317,
+        "timestamp": "2026-10-14T23:19:56.470Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-01ed9796-4afb-40bd-9e54-eb939cf025b9",
+        "event_sha256": "5ff218292976087b584fc19d56b2d5f5889db65f577756548912b4e6e944e9ad"
+      },
+      {
+        "line": 324,
+        "timestamp": "2026-10-14T23:20:08.414Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-9eaef65e-6a27-438c-bda3-dcaa3255b73e",
+        "event_sha256": "6f59be1b92759f0eff4f8348989b7010da14fb52de13eb0e2341c32edf0b5ddc"
+      },
+      {
+        "line": 333,
+        "timestamp": "2026-10-14T23:20:18.834Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-bbe98967-69bd-4ce9-9179-62aedb04254c",
+        "event_sha256": "0275ff4a889aa02a2ebc465843ebec41676c8b1f43e16a74367b24988ff6f9b0"
+      },
+      {
+        "line": 340,
+        "timestamp": "2026-10-14T23:20:23.743Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-bc8dad1d-5d14-4845-886d-6df8bac9a327",
+        "event_sha256": "f24d5f3fc3309e036bc0133229bbba8d09666cc71d2fba0b6916bf3f1d11c6d9"
+      },
+      {
+        "line": 341,
+        "timestamp": "2026-10-14T23:20:23.923Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-2986e6b0-d87e-4cb0-ba93-61bd9e0b5bf6",
+        "event_sha256": "1d8b2ac437b76621d034589e42dd32645fc3bc23db3f8af8790a79d5324749c2"
+      },
+      {
+        "line": 354,
+        "timestamp": "2026-10-14T23:20:33.571Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-38e0a8de-ce09-4d06-b547-b48abe36b785",
+        "event_sha256": "930dbcd96987b81e749372e583e383406316e803d20e29fa5a094e8935fd7f1c"
+      }
+    ],
+    "completed_file_changes": [
+      {
+        "line": 287,
+        "timestamp": "2026-10-14T23:17:54.947Z",
+        "item_type": "FileChange",
+        "item_id": "exec-a21dcd20-88ca-45fe-98c4-e7443cd1de25",
+        "event_sha256": "4f59abdb5fbcee0832e21f6a589ac5f695854fa6cf42bd277281a14f72d1e0a4"
+      },
+      {
+        "line": 297,
+        "timestamp": "2026-10-14T23:19:04.978Z",
+        "item_type": "FileChange",
+        "item_id": "exec-7296ac7d-8fe3-4bd3-b991-92dd32b0cb8d",
+        "event_sha256": "f006eb075d3e4713b51e694b8efbcb571bbba5a89c3e996ab2233f0c49d1689a"
+      },
+      {
+        "line": 315,
+        "timestamp": "2026-10-14T23:19:55.945Z",
+        "item_type": "FileChange",
+        "item_id": "exec-397dc268-894a-4463-a106-71e7b4510fce",
+        "event_sha256": "8b427942e3fc0d41a56fa6de724880aa293f180fcfa4542813583b2735b464e5"
+      }
+    ],
+    "command_count": 20,
+    "file_change_count": 3,
+    "unqualified_completed_tool_events": 27,
+    "malformed_lines": 0,
+    "raw_bytes_copied": false
+  },
+  "code": {
+    "remote": "git@github.com:con/skills.git",
+    "ref": "refs/heads/codex/stamped-research-skills",
+    "local_sha": "d0f83b9492a697b929ddda2788da35fb3285170d",
+    "remote_sha": "d0f83b9492a697b929ddda2788da35fb3285170d"
+  },
+  "checkpoint": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/entire/checkpoints/MC/01M4YBEX6G6R092NECKSQ8JFMC",
+    "local_sha": "6b41e90b140761a10bbfdd10d9a30856dcd901e1",
+    "remote_sha": "6b41e90b140761a10bbfdd10d9a30856dcd901e1"
+  },
+  "dirty_status": "",
+  "interpretation": "Exact uploaded code/checkpoint refs and native completed activity during this real resumed invocation verified. Command and FileChange counts are distinct; no all-file metadata coverage, scientific assessment or absence of detached processes is asserted. Raw native records remain outside this evidence JSON."
+}

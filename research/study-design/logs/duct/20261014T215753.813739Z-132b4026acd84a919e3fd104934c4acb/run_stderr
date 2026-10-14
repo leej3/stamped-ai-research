@@ -1,0 +1,10 @@
+test_identity_order_and_wrong_direction (test_compare.ComparatorChecks.test_identity_order_and_wrong_direction) ... ok
+test_tolerance_counts_and_missingness (test_compare.ComparatorChecks.test_tolerance_counts_and_missingness) ... ok
+test_equal_participant_weight_missing_condition_and_run_pairing (test_reference.ReferenceChecks.test_equal_participant_weight_missing_condition_and_run_pairing) ... ok
+test_median_mean_and_deterministic_intervals (test_reference.ReferenceChecks.test_median_mean_and_deterministic_intervals) ... ok
+test_missingness_and_band_boundaries (test_reference.ReferenceChecks.test_missingness_and_band_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.039s
+
+OK

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<stdin>", line 16, in <module>
+  File "/Users/johnlee/code/CON/stamped-ai-research/research/harness/export_task_logs.py", line 148, in verify_destination
+    storage.append(annex_storage(destination / relative, original, project_root))
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/johnlee/code/CON/stamped-ai-research/research/harness/export_task_logs.py", line 100, in annex_storage
+    relative = path.relative_to(repository).as_posix()
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/lib/python3.13/pathlib/_local.py", line 385, in relative_to
+    raise ValueError(f"{str(self)!r} is not in the subpath of {str(other)!r}")
+ValueError: '/var/folders/dh/6x04w9891gx_4x1t649nc42w0000gn/T/annex-log-export-x0pypb3l/repo/logs/run/run_stdout' is not in the subpath of '/private/var/folders/dh/6x04w9891gx_4x1t649nc42w0000gn/T/annex-log-export-x0pypb3l/repo'

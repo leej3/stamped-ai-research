@@ -1,0 +1,42 @@
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-01-baseline",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-01-treatment",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-02-baseline",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-02-treatment",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-baseline",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-03-baseline",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}
+{
+  "phase": "prepare",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-03-treatment",
+  "output_dir": "/Users/johnlee/code/CON/stamped-ai-research/.setup/workers/mixed-03-treatment",
+  "scientific_arm_launched": false,
+  "status": "complete"
+}

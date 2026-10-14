@@ -1,0 +1,76 @@
+{
+  "template": true,
+  "format_version": "0.1.0",
+  "stage": "01",
+  "pair_id": null,
+  "protocol_sha256": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+  "common_task_sha256": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+  "assessor": {
+    "role": "agent study designer and reference implementer; did not author worker analyses",
+    "unblinded": true,
+    "independent_of_study_design": false,
+    "human_reviewed": false
+  },
+  "arms": {
+    "baseline": {
+      "run_id": null,
+      "output_commit": null,
+      "dirty_manifest": null,
+      "worker_status": "not_attempted",
+      "source_and_scope": {"status": "not_attempted", "evidence": []},
+      "counts_and_exclusions": {"status": "not_attempted", "evidence": []},
+      "numeric_comparison": {"status": "not_attempted", "evidence": []},
+      "interpretation": {"status": "not_attempted", "evidence": []},
+      "fresh_replay": {"status": "not_attempted", "evidence": [], "separate_cost": null},
+      "research_object": {
+        "Self-contained": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Trackable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Actionable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Modular": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Portable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Ephemeral": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Distributable": {"judgment": "unknown", "evidence": [], "gaps": []}
+      },
+      "formal_stamped_record_ids": [],
+      "formal_schema_validation": "not_attempted",
+      "effort": {"wall_seconds": null, "local_cpu_seconds": null, "provider_tokens": null},
+      "actual_skills_read": [],
+      "interventions": [],
+      "contamination": "not_checked",
+      "failures": [],
+      "limitations": []
+    },
+    "skills": {
+      "run_id": null,
+      "output_commit": null,
+      "dirty_manifest": null,
+      "worker_status": "not_attempted",
+      "source_and_scope": {"status": "not_attempted", "evidence": []},
+      "counts_and_exclusions": {"status": "not_attempted", "evidence": []},
+      "numeric_comparison": {"status": "not_attempted", "evidence": []},
+      "interpretation": {"status": "not_attempted", "evidence": []},
+      "fresh_replay": {"status": "not_attempted", "evidence": [], "separate_cost": null},
+      "research_object": {
+        "Self-contained": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Trackable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Actionable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Modular": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Portable": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Ephemeral": {"judgment": "unknown", "evidence": [], "gaps": []},
+        "Distributable": {"judgment": "unknown", "evidence": [], "gaps": []}
+      },
+      "formal_stamped_record_ids": [],
+      "formal_schema_validation": "not_attempted",
+      "effort": {"wall_seconds": null, "local_cpu_seconds": null, "provider_tokens": null},
+      "actual_skills_read": [],
+      "interventions": [],
+      "contamination": "not_checked",
+      "failures": [],
+      "limitations": []
+    }
+  },
+  "shared_setup_cost": null,
+  "pair_claim": null,
+  "escalation": {"prior_pair_stopped": false, "failures_preserved": false, "evaluation_accounted_for": false, "at_least_one_correct_result_and_replay": false},
+  "limitations": ["Exploratory pair of one task; no general efficacy inference", "Shared account infrastructure and logical isolation", "Unblinded assessment by study designer"]
+}

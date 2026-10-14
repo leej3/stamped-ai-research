@@ -1,0 +1,154 @@
+{
+  "absolute_tolerance_ms": 1e-06,
+  "checks": [
+    {
+      "path": "$.stage",
+      "status": "passed"
+    },
+    {
+      "path": "$.source_commit",
+      "status": "passed"
+    },
+    {
+      "path": "$.units",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].flag_counts.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].n_excluded_union",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].n_presented",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].n_retained",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].participant_id",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].rt_ms",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[0].run",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.absent_response",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.invalid_numeric_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.missing_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.nonfinite_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.nonpositive_rt",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.response_code_pair_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.response_presence_disagreement",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].flag_counts.unexpected_response_code",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].n_excluded_union",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].n_presented",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].n_retained",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].participant_id",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].rt_ms",
+      "status": "passed"
+    },
+    {
+      "path": "$.run_summaries[1].run",
+      "status": "passed"
+    },
+    {
+      "path": "$.eligible_participants[0]",
+      "status": "passed"
+    },
+    {
+      "path": "$.participant_changes_ms.sub-01",
+      "status": "passed"
+    }
+  ],
+  "comparator": {
+    "path": "research/mixed-gambles-design/evaluator/compare.py",
+    "sha256": "d3c706b25e414cfe2cb9c215b7e11a764b8fa7493e000325af68d6d585f4fc83"
+  },
+  "extraction_map": {
+    "path": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-extraction-map.json",
+    "sha256": "735e30b8d99eb07aff1fef25f9966025b1cd27c17368c3d2a932f5b4417778fd"
+  },
+  "numeric_status": "passed",
+  "reference": {
+    "path": "research/mixed-gambles-design/evaluator/reference-results.json",
+    "sha256": "39e6cb0af0461a1cd3ae2ae563dcc1390024d71bf27a1483433fee9faacb6db3"
+  },
+  "submission": {
+    "path": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-normalized.json",
+    "sha256": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81"
+  }
+}

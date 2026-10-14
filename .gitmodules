@@ -1,0 +1,25 @@
+[submodule "skills"]
+	path = skills
+	url = https://github.com/con/skills.git
+[submodule "talks"]
+	path = talks
+	url = https://github.com/con/talks.git
+[submodule "inputs/ds000102"]
+	path = inputs/ds000102
+	url = https://github.com/OpenNeuroDatasets/ds000102.git
+[submodule "experiments/00-flanker-screening"]
+	path = experiments/00-flanker-screening
+	url = https://github.com/leej3/stamped-ai-research.git
+	branch = codex/screening-flanker
+[submodule "experiments/01-participant-rt"]
+	path = experiments/01-participant-rt
+	url = https://github.com/leej3/stamped-ai-research.git
+	branch = codex/mixed-01-participant-rt-source
+[submodule "experiments/02-cohort-rt"]
+	path = experiments/02-cohort-rt
+	url = https://github.com/leej3/stamped-ai-research.git
+	branch = codex/mixed-02-cohort-rt-source
+[submodule "experiments/03-rt-sensitivity"]
+	path = experiments/03-rt-sensitivity
+	url = https://github.com/leej3/stamped-ai-research.git
+	branch = codex/mixed-03-rt-sensitivity-source

@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+  "retrieved_at": "2026-10-14T21:59:14.566273+00:00",
+  "status": 200,
+  "sha256": "458a70eb30950af2d7ab6752afc6c9fd97f17232dd057c6c64de100d936bd0e1",
+  "bytes": 1091,
+  "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv"
+}

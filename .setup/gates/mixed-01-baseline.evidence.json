@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-14T22:12:44.340206+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "head": "e6c907d585ecce83dfe4899a712d91ab6e731261",
+  "tree": "2f7b04dd8382986c1d671bbbe342d3a67110047d",
+  "native_session_id": "01a13c79-14b4-7d50-888a-1224403c3a6b",
+  "checkpoint_id": "01M4Y7JRC1QXXQXPB5VXE6ANMW",
+  "session_index": 0,
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "probe": {
+    "path": ".setup/native-capture-probe.txt",
+    "sha256": "bc789e10b13d697ddbb8e11b034eba6884e893d68a11f9929a87e9afcd0d298e",
+    "checkpoint_files_touched": true,
+    "session_files_touched": true,
+    "completed_native_file_event": true
+  },
+  "stored_transcript": {
+    "sha256": "626bdab227a193ec0cc9f870652faaaad6178e3d05fca1604676be57ce987c31",
+    "bytes": 113125,
+    "malformed_lines": 0,
+    "identity_events": [
+      {
+        "line": 1,
+        "id": "01a13c79-14b4-7d50-888a-1224403c3a6b",
+        "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline"
+      }
+    ],
+    "probe_events": [
+      {
+        "line": 20,
+        "event_type": "event_msg",
+        "item_type": "FileChange",
+        "status": "completed",
+        "item_id": "exec-873cf056-9b4e-45e6-8212-8975d34cac80",
+        "probe": ".setup/native-capture-probe.txt",
+        "event_sha256": "0496e939b2420ccfe984e31ad0182b436bf5e18d60067eeaaddd6ade25e6b867"
+      }
+    ],
+    "raw_bytes_copied": false
+  },
+  "code": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/heads/codex/mixed-01-baseline",
+    "local_sha": "e6c907d585ecce83dfe4899a712d91ab6e731261",
+    "remote_sha": "e6c907d585ecce83dfe4899a712d91ab6e731261"
+  },
+  "checkpoint": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/entire/checkpoints/MW/01M4Y7JRC1QXXQXPB5VXE6ANMW",
+    "local_sha": "7780d8fa34f6b312121ede7a9f991d45543a72c9",
+    "remote_sha": "7780d8fa34f6b312121ede7a9f991d45543a72c9"
+  },
+  "method": "Read-only inspection of existing native checkpoint/session and exact SSH uploaded refs; no simulated/imported/adopted events"
+}

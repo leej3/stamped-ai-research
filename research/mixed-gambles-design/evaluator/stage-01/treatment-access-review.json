@@ -1,0 +1,17 @@
+{
+  "completed_commands": 21,
+  "conclusion": "No observed other-arm/oracle access in reviewed command paths; cannot prove absence of all indirect reads.",
+  "hits": [],
+  "literal_marker_checks": [
+    ".runs/mixed-01-baseline",
+    "reference-results.json",
+    "/research/mixed-gambles-design",
+    "/experiments/01-participant-rt/arms/"
+  ],
+  "method": "Manual command-path review plus literal marker scan, not an OS access audit.",
+  "native_events": {
+    "path": ".runs/evidence/mixed-01-treatment/codex-events.jsonl",
+    "sha256": "1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2"
+  },
+  "shared_controls": "Baseline used DataLad, duct, commit provenance and Workshop controls; read only its newly created feedback record, not prior recall."
+}

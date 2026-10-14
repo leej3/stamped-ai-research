@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "passed": true,
+    "failed_checks": []
+  },
+  "treatment": {
+    "passed": false,
+    "failed_checks": [
+      {
+        "path": "missing_upper.primary.flags.missing_rt",
+        "status": "failed",
+        "expected": true,
+        "observed": false
+      },
+      {
+        "path": "missing_upper.primary.flags.invalid_numeric_rt",
+        "status": "failed",
+        "expected": false,
+        "observed": true
+      },
+      {
+        "path": "missing_upper.band.flags.missing_rt",
+        "status": "failed",
+        "expected": true,
+        "observed": false
+      },
+      {
+        "path": "missing_upper.band.flags.invalid_numeric_rt",
+        "status": "failed",
+        "expected": false,
+        "observed": true
+      },
+      {
+        "path": "missing_mixed.primary.flags.missing_rt",
+        "status": "failed",
+        "expected": true,
+        "observed": false
+      },
+      {
+        "path": "missing_mixed.primary.flags.invalid_numeric_rt",
+        "status": "failed",
+        "expected": false,
+        "observed": true
+      },
+      {
+        "path": "missing_mixed.band.flags.missing_rt",
+        "status": "failed",
+        "expected": true,
+        "observed": false
+      },
+      {
+        "path": "missing_mixed.band.flags.invalid_numeric_rt",
+        "status": "failed",
+        "expected": false,
+        "observed": true
+      }
+    ]
+  }
+}

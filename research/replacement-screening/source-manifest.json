@@ -1,0 +1,2300 @@
+{
+  "purpose": "Source screening only; ds000006 and ds000008 not selected by coordinator",
+  "source_records": [
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000006/commits/HEAD",
+      "retrieved_at": "2026-10-14T21:59:10.149375+00:00",
+      "status": 200,
+      "sha256": "8dbee1a7f265659f04b482ffa99da046c0a1d9d5e0384745fc5631f1cb6d4de8",
+      "bytes": 3457,
+      "path": "ds000006/commit.json",
+      "metadata_path": "ds000006/commit.json.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/README",
+      "retrieved_at": "2026-10-14T21:59:10.896120+00:00",
+      "status": 200,
+      "sha256": "928d949e114fd53fb6b53f7d6df1574a69e473b8a42392d42aeff1fff46cd097",
+      "bytes": 808,
+      "path": "ds000006/files/README",
+      "metadata_path": "ds000006/files/README.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/dataset_description.json",
+      "retrieved_at": "2026-10-14T21:59:10.899806+00:00",
+      "status": 200,
+      "sha256": "bf6f51fcbb49f9c1a7cab731c20b6b1efea7e39c300d8a37d3a5d8c6edd69d10",
+      "bytes": 612,
+      "path": "ds000006/files/dataset_description.json",
+      "metadata_path": "ds000006/files/dataset_description.json.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/participants.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.909864+00:00",
+      "status": 200,
+      "sha256": "d643f4a1704f27e7bf45a48c6d5e86f8e3729dac111c0d08f781c96967d3dd6c",
+      "bytes": 191,
+      "path": "ds000006/files/participants.tsv",
+      "metadata_path": "ds000006/files/participants.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.899042+00:00",
+      "status": 200,
+      "sha256": "2edb41e094bd175b45abb576c3f6b308497cdf662a1b52b81ed4dcee3482604e",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.902009+00:00",
+      "status": 200,
+      "sha256": "b0266f53ae93659f63d924f3617fdce0ad2a930f9a54864bc06ea3ed1118ed4c",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.913250+00:00",
+      "status": 200,
+      "sha256": "2f3b800f0a29e984503b84ca6f4061f2deda618c9f3176fcef859da932a0024a",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.909754+00:00",
+      "status": 200,
+      "sha256": "577854b8e72ab27ff764fb8c46f8e1cf7513ea81150acee17ae2b2c3f19c9e6d",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.168466+00:00",
+      "status": 200,
+      "sha256": "bd4c20e0c31af736d50311ad821d439c34158827241fc33bc8796b14cb228ecf",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.174393+00:00",
+      "status": 200,
+      "sha256": "4fe2a6b4a283c927cd36f70f262f8ccf8449d2760b39557df0a5ab0bd22bc2ec",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-retest/func/sub-01_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.195863+00:00",
+      "status": 200,
+      "sha256": "83f2dda64c32e14720a106c14b31c4dee7a917149cb4e1eb6f46bf2518f500dd",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.178868+00:00",
+      "status": 200,
+      "sha256": "31c4a782289d5d2ffc99decd816802a15dd9bebeacc3e274ed9a3bb604e9fa33",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.258706+00:00",
+      "status": 200,
+      "sha256": "e26cc107247a753259df2433deb784d3880a3f6a1643d4f57dc2f99fb4a5f100",
+      "bytes": 1065,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.261616+00:00",
+      "status": 200,
+      "sha256": "4b30407d5025ec252a4f908cf2fdfef22b2023c148368fd8d57aa1e817086f9a",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.222365+00:00",
+      "status": 200,
+      "sha256": "dbd74134f325ec846730632a550444b90b81a50f858c11cedb7068fd0431f645",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.256137+00:00",
+      "status": 200,
+      "sha256": "d46b439595f8b721c91b73e9dda2eac53ccd74efa56a5912159b541faa0bdaf6",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-01/ses-test/func/sub-01_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.429937+00:00",
+      "status": 200,
+      "sha256": "4fa62c16b2edcce221ddd82783f307fd4b636948b776b87d36584ab4a45825e3",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.475626+00:00",
+      "status": 200,
+      "sha256": "f2ca56f6a305c2c85cb47bb13638c141c19661ccdd3e4a9795c0868fb8a99d6f",
+      "bytes": 1094,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.427025+00:00",
+      "status": 200,
+      "sha256": "d4b3c78de964f3d306ca8bdadef5ac8f051654f8afcfef202e4f5df11e9b3c71",
+      "bytes": 1095,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.456859+00:00",
+      "status": 200,
+      "sha256": "f7df49ab7e36565bb68526a6adcf430913ae3fe177d4c961491faf02180973ed",
+      "bytes": 1031,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.527113+00:00",
+      "status": 200,
+      "sha256": "db5dfb088155af3fc4edb45c64a05b854eed1c03a7a10b9f8afed7bfd6082834",
+      "bytes": 1095,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.540758+00:00",
+      "status": 200,
+      "sha256": "23639870c1da0804d10aec6764e9f563d6b250c463b19b021704cc0c01056a1e",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-retest/func/sub-02_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.531976+00:00",
+      "status": 200,
+      "sha256": "4f7d8df9670c72b532a680aecf3484c626554d991bb5daf825515f19559657f5",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.500307+00:00",
+      "status": 200,
+      "sha256": "b9819302f413cb6826eeba557de93f7daced86c1fd71b04f47171bd9c22a93a0",
+      "bytes": 1093,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.698952+00:00",
+      "status": 200,
+      "sha256": "46ac67765f22b77e256cd76fa12e7aa39b39c5ec8415ad26d2cd3ecb2b20bb1d",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.692137+00:00",
+      "status": 200,
+      "sha256": "675bbdf76a13127982070f6dea1915c04e73bfa45e971718791b0caeb3e98e94",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.718117+00:00",
+      "status": 200,
+      "sha256": "c8370df9002b825a6b9c9aa9ed35106fa4b6c82636d1d50186864a192335f584",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.740965+00:00",
+      "status": 200,
+      "sha256": "e8570e4a309028a979f75101a661c84261c1cb6f8b5e631b45cff9681dc6b57e",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-02/ses-test/func/sub-02_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.757332+00:00",
+      "status": 200,
+      "sha256": "c92612cc24e445aea583049d05ea9d80313de118b79b2aab1fbd667a86976562",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.770067+00:00",
+      "status": 200,
+      "sha256": "123f64e8ef5f73dadadb32c7d0b164d678a0d3901f393db514e5a52c5b78d7c6",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.793819+00:00",
+      "status": 200,
+      "sha256": "24d3788ec942f99f7a9d3c2939ac4aafee1f0ca04dedf78274a9d4405e5a4c22",
+      "bytes": 1093,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.790049+00:00",
+      "status": 200,
+      "sha256": "b2d2917022749c3fb98430cea7e73928450ad117bd96c6e84b4d2fa4cfb4aade",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.991022+00:00",
+      "status": 200,
+      "sha256": "da5ed4753accbd3539d0d2c69164a18702d809d84f6f2ad3724ed885f25ad66a",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.971289+00:00",
+      "status": 200,
+      "sha256": "45ce6a618b04402532cb9b04d266da94dafc97520eaad116fa8fb7ae97f032dd",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-retest/func/sub-03_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.994135+00:00",
+      "status": 200,
+      "sha256": "c4fb2c83cfcbba89bd783f1545cc41ab7f5b540c37993c791ddddf355736cecb",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.979233+00:00",
+      "status": 200,
+      "sha256": "3c06d470e462afecbe5e3b7d63275c621b6aeea6d9209506b8896e714ef2ac4c",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.026320+00:00",
+      "status": 200,
+      "sha256": "52303c7012fac0e3796809a0607d36973428f5ab70d23f1bcc13a6d269cd9ee8",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.008289+00:00",
+      "status": 200,
+      "sha256": "e4c87bf0b3490c6071dcf4bff46d48ae22dd268f8e5ffd5257b721e748a8032f",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.027924+00:00",
+      "status": 200,
+      "sha256": "5103a5d62a67b22c2b3c388544ee93ea258693028063bbcc9cbaf777978ca581",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-03/ses-test/func/sub-03_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.035380+00:00",
+      "status": 200,
+      "sha256": "3977cb4526d1fcaa43862e3ebef7fd47cececa903e3dc1d7e214a60e04fd8de1",
+      "bytes": 1073,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.243139+00:00",
+      "status": 200,
+      "sha256": "7f6733208dd9b8d057e2667f3f7846034c6d24fa5954465054250e7dcebf7d79",
+      "bytes": 1077,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.236071+00:00",
+      "status": 200,
+      "sha256": "a8dd120ecae09236682fb7ff12147d6f294682930cf499a3148f95feabc63c27",
+      "bytes": 1069,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.273407+00:00",
+      "status": 200,
+      "sha256": "ee800fcf3663a04844f0bc870d3f8294985a7220f291c058c03dce9271f0a66e",
+      "bytes": 1076,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.238194+00:00",
+      "status": 200,
+      "sha256": "b98e1485d43c05095f65b74c2d5543d21a9fdc29533cb3c5a3bf79c57abcdbde",
+      "bytes": 1073,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.263390+00:00",
+      "status": 200,
+      "sha256": "aa0c184c6da356118dba5dd9d605201609d176ceb6d6bcd9f9ec9eed36f5550c",
+      "bytes": 1074,
+      "path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-retest/func/sub-04_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.281434+00:00",
+      "status": 200,
+      "sha256": "d9638da3a48b8cce67183e7acf89fd2cf06d23fd9c59b0630f59ba639469442a",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.266377+00:00",
+      "status": 200,
+      "sha256": "4ae4a77019481bdd4ede567f621a0019685d875ca0558efb085b99f35011bfb5",
+      "bytes": 1071,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.315979+00:00",
+      "status": 200,
+      "sha256": "380cfb5e4da27528f58da13b40a5f12616d92906451abdb03bc172a2350bc09e",
+      "bytes": 1071,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.482093+00:00",
+      "status": 200,
+      "sha256": "1955bb99506a0981e0827a02ffaaecff67383e8374e8ca2fd9f07eb6190e2e4a",
+      "bytes": 1073,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.511307+00:00",
+      "status": 200,
+      "sha256": "2984cadf75eca9dad3aeaa1131a16c8619526f90f1f61c249722cb9c2b6c663a",
+      "bytes": 1058,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.511216+00:00",
+      "status": 200,
+      "sha256": "e15929eb4b40450c259f6c708280d50eed2dc438e3d87089b90f289295db0d52",
+      "bytes": 1071,
+      "path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-04/ses-test/func/sub-04_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.524225+00:00",
+      "status": 200,
+      "sha256": "788fbc9816d927feb48758bfceb2aaa0da3dd8fe85713aebf51a4ef250b10be2",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.504093+00:00",
+      "status": 200,
+      "sha256": "01b86c95100a40ed0071218d8b5880af2c516340e7a6edd5f2bc9529b267959b",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.552085+00:00",
+      "status": 200,
+      "sha256": "103b06ed5a590e60090c128192670c84b2587d5f82b3b2459f40fe5f925589d9",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.549391+00:00",
+      "status": 200,
+      "sha256": "b75373ccbc63da11fe7161c5fb60061665ebfaf7ca10cda3718beccd255c2f45",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.585455+00:00",
+      "status": 200,
+      "sha256": "e7f88a7da0ca8da7da523ecc3da6126f8007a95a3ed6f46be68325d8972d9a64",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.767312+00:00",
+      "status": 200,
+      "sha256": "c44d2be76190779109c64019c1b640492238691b4ecf74b84980dc1e3e3669b1",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-retest/func/sub-05_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.745324+00:00",
+      "status": 200,
+      "sha256": "8c6a2fdc42783c00b1d6f87047c54b88bf0dc0f2c43f63deeb593de43d61fe0e",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.829934+00:00",
+      "status": 200,
+      "sha256": "1659eff31fa7df49702e9fa46f8f344e49a2ee0f559c4eaa48c262d26ef45acf",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.755037+00:00",
+      "status": 200,
+      "sha256": "5b91bf69db2ace49a8a433db1d859398f0a78e47b73031410126f036b18ee05d",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.864305+00:00",
+      "status": 200,
+      "sha256": "6dbe16b53d50e98b435245da9fc548a369de16078f3f37f22318b6c2b4551037",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.783743+00:00",
+      "status": 200,
+      "sha256": "9328d3b89f7d078096b4bfa921949af28a0a2cf00699a9e32002223b4f81359c",
+      "bytes": 1077,
+      "path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-05/ses-test/func/sub-05_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.861820+00:00",
+      "status": 200,
+      "sha256": "5bf12e6e27806146e95c7d13772b6cb7741c9120281f95eccc184f826538031d",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.829445+00:00",
+      "status": 200,
+      "sha256": "e7c495ab71aefcf0ed96998051c06c7260f81fed988956a7104ffdccadd132a0",
+      "bytes": 1068,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.005005+00:00",
+      "status": 200,
+      "sha256": "f613d3e73752b4c2d5ee23b6a68810f92f8edade53b169896780f5365fd9b6ac",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.005768+00:00",
+      "status": 200,
+      "sha256": "d20a9bfb941bd864efec4fa6ac0c015de32866e9a470d258f2ed5ff8515ef327",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.013076+00:00",
+      "status": 200,
+      "sha256": "c3ed27b78fb2cc8c4dc80510b7295fc840ad449f486763a91caf101fe6fa4acd",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.025031+00:00",
+      "status": 200,
+      "sha256": "75cadf765ba9c920411bbc10dae47f18cc878a3ddfd6b1ed40b6c34f1d4af8ff",
+      "bytes": 1076,
+      "path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-retest/func/sub-06_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.088880+00:00",
+      "status": 200,
+      "sha256": "ceab8af5f7cec0a017f3ae4b5df0ef6a50393522add1ec13b08df36b0d828270",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.078236+00:00",
+      "status": 200,
+      "sha256": "8ef836ee256fbfb080c7264ce525842a16093843c4879c82765625b9a1c9af10",
+      "bytes": 1068,
+      "path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.103969+00:00",
+      "status": 200,
+      "sha256": "3e423d7abf522154d6d86f23a1b22a52f79e05ea675a89879ac3d7f84dede88a",
+      "bytes": 1064,
+      "path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.111098+00:00",
+      "status": 200,
+      "sha256": "347d75db2fd5a427d2bfd5bc95fdefe2bf8712324336dafd62545627b1324e99",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.259761+00:00",
+      "status": 200,
+      "sha256": "8ad512fbcec57718ec1df3d5ae8f24ea78a9e6217e3c05ada0f6da294b6f6106",
+      "bytes": 1082,
+      "path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-06/ses-test/func/sub-06_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.242503+00:00",
+      "status": 200,
+      "sha256": "b5163a2e594b130d37ac18a009565a3798c0b79a4f0ae6a6b0a39afdf1119311",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.248374+00:00",
+      "status": 200,
+      "sha256": "204c6b1865170e94b2645db4a234905165d1c7e7dae397084d55957cda99055e",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.328036+00:00",
+      "status": 200,
+      "sha256": "271a9bed6a6307980b0a47057e5d760d176df9cfda142c3f97cff1cbacc9a8d9",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.340230+00:00",
+      "status": 200,
+      "sha256": "9b656e20eb81dc5149d1f1d24dcd7917461898ac02e476a49f1bb374da3d650b",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.349426+00:00",
+      "status": 200,
+      "sha256": "b25b8f25bcf10fdd10c490268b2c2856bbc61fc69877d9c41ee99fbbbdae2e98",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.344156+00:00",
+      "status": 200,
+      "sha256": "a30d0506ff9250c2d2b8dc106598ee1039310f7f7404d6353f3625883b438bcd",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-retest/func/sub-07_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.349618+00:00",
+      "status": 200,
+      "sha256": "e912b5c2694ca5c363c68ab79bf5a035bbf4532b353081f19b16720c1712cafe",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.540938+00:00",
+      "status": 200,
+      "sha256": "0118f59af89e8bd64ba4efa59d2c3be590a364e9bf610abc5dcea6591698cf05",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.497976+00:00",
+      "status": 200,
+      "sha256": "82226da00f74c07e38df9e6212cb1ecd7a9b88106ffa45e307f75a542e58a7b1",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.524287+00:00",
+      "status": 200,
+      "sha256": "06a34b8d19a80a9f18292e537f01274123e7ed9cdb1debd8ba7d526fd6060112",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.564725+00:00",
+      "status": 200,
+      "sha256": "fee75e675f3631ede7bea68b7290c0132200dd7b7ba63c27d109ac14f683bde5",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-07/ses-test/func/sub-07_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.591418+00:00",
+      "status": 200,
+      "sha256": "c628922bb075b9f845d42f45c0484ee4ef95fed21f2517c9196188d400946d9b",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.614126+00:00",
+      "status": 200,
+      "sha256": "c1118af9cf13dd1ace5e0abd6fdc2181b9ebad436f779c728f264632aaafe4d2",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.628154+00:00",
+      "status": 200,
+      "sha256": "5ee52312eae73b66437090f8614c36c524121435e1023bcbfb98314550dd802b",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.614908+00:00",
+      "status": 200,
+      "sha256": "11fcfbf2e3b2714b1ecfcb5f3a99f6779068dfff272d3f36be1f6cfdc7f38557",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.765259+00:00",
+      "status": 200,
+      "sha256": "4546392fa1c39eba43223b15d6755899812193af82a4534593ad3b525bc565d5",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.765980+00:00",
+      "status": 200,
+      "sha256": "038dad7c395819ddd247c6a28af037989d4a2e4d9a16a906ed13d66650230884",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-retest/func/sub-08_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.813698+00:00",
+      "status": 200,
+      "sha256": "2d3a2a37d17b7d149124345c7fbfa37b6c8edd216dc57d4ff7981c3cf020d4d9",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.813594+00:00",
+      "status": 200,
+      "sha256": "effba5e530e2fa61a5ab0f8c5a7804b8e4d7438fded90dc2c2502900d8f31ccb",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.848070+00:00",
+      "status": 200,
+      "sha256": "ddaad9ad50f19a75bc577c0a3e6a7ae9baa14239920386bea88eef54119388df",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.865343+00:00",
+      "status": 200,
+      "sha256": "e690f3c8fc532f9e1096a270c58c0af2bc38f8790e819bad194a687ac29e6500",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.877957+00:00",
+      "status": 200,
+      "sha256": "c45f9ca59771dba3a99d218cb14b3039c8ef170810ff37e7ed4041955532054a",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.885101+00:00",
+      "status": 200,
+      "sha256": "fa4db5cf26edf1b6a22584732255a46f8ecda4798fb13e2056de1f894dc59dae",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-08/ses-test/func/sub-08_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.008295+00:00",
+      "status": 200,
+      "sha256": "c0fcaab99cbbab6c28c717d516a2a3c02430be75431229091ea572cc099ac227",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.008893+00:00",
+      "status": 200,
+      "sha256": "caa978d12d9dafacd7d20baecf72ee987a032c4426e9b61aed529777285301a2",
+      "bytes": 1080,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.089776+00:00",
+      "status": 200,
+      "sha256": "49a98e7c4882a7b8771104a2b2eeec1fdf1718c8ff172bf2ed5b9b9e7ea5e8b6",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.059287+00:00",
+      "status": 200,
+      "sha256": "f9a32cb63874616ad4b5f2426fdaa2ebc5a3e5e7b6ba61457db80525ff2d45a2",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.094185+00:00",
+      "status": 200,
+      "sha256": "f770d47eef603fb1e1a3ea1d42696c60e2d35cfa56ca8d978ed06832c696a905",
+      "bytes": 1076,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.123090+00:00",
+      "status": 200,
+      "sha256": "91796d8c638fe7c430d339428c2e28698af7a0ed86eeba46aa11b61813964c64",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-retest/func/sub-09_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.163142+00:00",
+      "status": 200,
+      "sha256": "4dc777741147a8c3be7e76d4b16692a4a5a95bf115c660053c5866c129227a8b",
+      "bytes": 1080,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.137284+00:00",
+      "status": 200,
+      "sha256": "cf62fe4d7cad02dc8a46286cc745dbe99a11191ea458a98c3b1d5895247c58c9",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.249558+00:00",
+      "status": 200,
+      "sha256": "40231b3974c73496e6aace0b12e1d9fd1dd866826d022b773a465ce1f3b236af",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.276303+00:00",
+      "status": 200,
+      "sha256": "b133a2ecfde092a7286e6f69dde5f4bdb4348c4fad41b4b3551acd5401c3238a",
+      "bytes": 1073,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.324668+00:00",
+      "status": 200,
+      "sha256": "698e9ed503e29ee94781199e203268bd5b6d114b26900914fd716ccf913ce0d0",
+      "bytes": 1070,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.323427+00:00",
+      "status": 200,
+      "sha256": "11e2ff924f36712d5949772dfdfad18f2166938d4fd6880eb4aa8d2b8d425962",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-09/ses-test/func/sub-09_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.354739+00:00",
+      "status": 200,
+      "sha256": "7becd3cc060f0951a30cb8c40964c2be21fb13b830a6e25a2feb9e066687bab2",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.391280+00:00",
+      "status": 200,
+      "sha256": "a4731acb5f3172b2fa286dd9a80f51fd4db9e9071efcfd21000e135088b52267",
+      "bytes": 1093,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.397673+00:00",
+      "status": 200,
+      "sha256": "324d3adbb311b07854486f9368b29161addc95d43cd4c37adeab9c06167f48d3",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.426369+00:00",
+      "status": 200,
+      "sha256": "6ec33b49b2835f0ddc59ed472204777610198c9b3dbc2cfcf6847a459d07d798",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.540878+00:00",
+      "status": 200,
+      "sha256": "4e70f1791bd38d037aab6ead0e38ca3ff8861ca7de8f3480fcdc0d3365d6dae6",
+      "bytes": 1094,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.512341+00:00",
+      "status": 200,
+      "sha256": "734fdc45a33f40cc13736ee36f97742a7be1dd5c543e2eeb75c8e26a4791a2a7",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-retest/func/sub-10_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.566273+00:00",
+      "status": 200,
+      "sha256": "458a70eb30950af2d7ab6752afc6c9fd97f17232dd057c6c64de100d936bd0e1",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.563217+00:00",
+      "status": 200,
+      "sha256": "05806911fe4798fdcf6868bb2603b56f1a237e38c09e3f0f208108dcd9da2009",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.619160+00:00",
+      "status": 200,
+      "sha256": "1eadbd9746131c9516e2445b3252ca677aa596236a1956bf55e9f84356accbf6",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.630051+00:00",
+      "status": 200,
+      "sha256": "792c3bf8d2400fc0c189cffb41786de21eb090939d048a8b9a2685ca1b5019e4",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.664133+00:00",
+      "status": 200,
+      "sha256": "4e05c207027cebe2b8f245d0b0a91988b60408394084902f41574143cd5b1505",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.669069+00:00",
+      "status": 200,
+      "sha256": "afe784f152d2815f0fc7bff122377722db18daa026279f868706fa2a34c2d12e",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-10/ses-test/func/sub-10_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.803462+00:00",
+      "status": 200,
+      "sha256": "309fa3cabbaf5e9148b38b5a90b7d889923d8568c337a9f1d7d6a3b013aacf5b",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.806449+00:00",
+      "status": 200,
+      "sha256": "5a02d2322305b66e0c64d1482418416827df1b989d2278176f59e9f1ecf21a4d",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.819744+00:00",
+      "status": 200,
+      "sha256": "5d76012a4a23563364be879048842dcb91cef5fc8d2e6af917bc544cf73d7879",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.813250+00:00",
+      "status": 200,
+      "sha256": "25736422ebd4b5f84ac69b7b9b83da3c07ee138b3a7f9105fc312912390ab0b8",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.897147+00:00",
+      "status": 200,
+      "sha256": "12a6d0b200fa7639489039d8068dcfab8a7ffea6a79fbc7fab26dd2e6103b059",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.874900+00:00",
+      "status": 200,
+      "sha256": "1b3c724b509e8128b47644566743695aa579530e2159e9121e0554b0d567b6c5",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-retest/func/sub-11_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.911457+00:00",
+      "status": 200,
+      "sha256": "5ace68c6f7e90bc96b98834ab8d159062d386926e7dd119a129a800252763683",
+      "bytes": 1084,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:14.950580+00:00",
+      "status": 200,
+      "sha256": "cfb29754ad64f2e67d2bd0cd6109ebffd59e8d22e605ec241317ef8dd720aca2",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.063966+00:00",
+      "status": 200,
+      "sha256": "5d200b8c59b5e1db752c920cfc6c8b95168610a85d7e0e2b758db8c1e60f26b4",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.051282+00:00",
+      "status": 200,
+      "sha256": "079c4766d187eeca2294523149301505533ac288f178d28bd5590a6400562d4d",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.055951+00:00",
+      "status": 200,
+      "sha256": "9cbb01515a224933e3bc511baa3fd8e46f654c5d219be29297a40334baeeec74",
+      "bytes": 1082,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.076001+00:00",
+      "status": 200,
+      "sha256": "fe36d2217f231c5ebeb7cb02618842d57bc7904fef8b88a6d7ddf1fbd8c925c8",
+      "bytes": 1079,
+      "path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-11/ses-test/func/sub-11_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.142099+00:00",
+      "status": 200,
+      "sha256": "01ca09701d3a8c8ba571ba743e08040cca8be1b88ff24cbfdb4fef4b38fce20b",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.159775+00:00",
+      "status": 200,
+      "sha256": "9c1ae6f008a94edac727d67bb3b0f3027cccf03112081104ff960aeb746a8634",
+      "bytes": 1080,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.160557+00:00",
+      "status": 200,
+      "sha256": "ec8ba009c607dbe217810bc74a5056f1f116d3d9d1bca7bbc6e09240b3865848",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.190166+00:00",
+      "status": 200,
+      "sha256": "dac40078523f80d365740b01c0cb5eb325676a0cd5e2fd760627b343be787e31",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.304851+00:00",
+      "status": 200,
+      "sha256": "3a2ab325bbde2e2d5f797593040ef12c6eca91591eb58aefeaaf88050427e191",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.334107+00:00",
+      "status": 200,
+      "sha256": "492ba60e2ae063f14feed3bd8bcd3b45d32e3a70400700a7dcd21fcd674f72c5",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-retest/func/sub-12_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.303168+00:00",
+      "status": 200,
+      "sha256": "dd22eb51a6145de4123f7bb9ec1717624631f8cb858c2a33ee33c51341cbb131",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.326442+00:00",
+      "status": 200,
+      "sha256": "81c90e5a5a3f8151ed8826596bcbe2d4081fe7e9271864e6dca908ca3ffbac16",
+      "bytes": 1077,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.384622+00:00",
+      "status": 200,
+      "sha256": "7b6bbb8ef0cf03bcf9c66b1af6b17f3a9132b74d73a07e6d570e4089faae18e6",
+      "bytes": 1077,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.417338+00:00",
+      "status": 200,
+      "sha256": "0a6447bcaaca734a33248dc1a1c2cee4ae26adf9e3fea8a102b4cb05a3913821",
+      "bytes": 1079,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.399111+00:00",
+      "status": 200,
+      "sha256": "e2e808b056e78a4b8a514cc0e06edc9bd3b3db29ad15ceb856e81929fd1ea122",
+      "bytes": 1078,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.443097+00:00",
+      "status": 200,
+      "sha256": "af694f321d2e6b7e1affb176890e8e21b90bd322ca2c44743b866346580c1307",
+      "bytes": 1079,
+      "path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-12/ses-test/func/sub-12_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.542066+00:00",
+      "status": 200,
+      "sha256": "0864b1707496bc229cd9a8ac17cbc72b825ff3e96b69cb303ae13eb7679c7846",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.573668+00:00",
+      "status": 200,
+      "sha256": "ca63565ea638d7f53dec65cb37d661a17a76398d9eb473bed1e3800104806d8c",
+      "bytes": 1094,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.595076+00:00",
+      "status": 200,
+      "sha256": "41603be6991f2844d8876918aa80e0e5915412475c38b2f521853acfe502437b",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.592587+00:00",
+      "status": 200,
+      "sha256": "39359db2e99033ed10b4db4abbca060574d04cec9a6d66454bf50859d7a6d630",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.672095+00:00",
+      "status": 200,
+      "sha256": "9dcf9c0498c65ab71def3a7f9c31e87cdeef00719f5fd2b50a2dc38585d8a031",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.654174+00:00",
+      "status": 200,
+      "sha256": "8430e08ea4069171e498964f49e580e5cdb8fb02392a3af1617622b65dddc5e8",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-retest/func/sub-13_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.666194+00:00",
+      "status": 200,
+      "sha256": "d8f4c8e4b900ee7d45f627375e7a50622e514b115c3a64d7fc86dd1d76b51818",
+      "bytes": 1086,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.688644+00:00",
+      "status": 200,
+      "sha256": "1a23a3093290f92e68928fde4e451f8379e533dab5b5d8ffda4380806e7d031c",
+      "bytes": 1083,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.814964+00:00",
+      "status": 200,
+      "sha256": "3fc2b486c128fb022c97545f53fbbf5dd8f2012f2521fbe72eb56322919c4e4c",
+      "bytes": 1085,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.805080+00:00",
+      "status": 200,
+      "sha256": "e1ee1b85adde52679a0dd8e5e764cadeca0b8ecbf3766f3f4849eeca7d41d903",
+      "bytes": 1081,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.826069+00:00",
+      "status": 200,
+      "sha256": "1fd821ab64e715d2caa77d7ad38d4017470953d3233e7ba5f06fcb35938fffe9",
+      "bytes": 1082,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.830066+00:00",
+      "status": 200,
+      "sha256": "ca8e486242351011ef6ce2252e3456b7db5aa5b506cd83b43adf87383cf3b6c5",
+      "bytes": 1082,
+      "path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-13/ses-test/func/sub-13_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.884099+00:00",
+      "status": 200,
+      "sha256": "8b22f0b6c3e0eb423ea467df1d94a3ecb78730532362a33245b014834b453ccf",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.892991+00:00",
+      "status": 200,
+      "sha256": "3185a10f4ba8784c60185ae9790ac0eadcb00e93adcf746fc336307782a09923",
+      "bytes": 1091,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.901031+00:00",
+      "status": 200,
+      "sha256": "bedf369450a134a0e419ed936076541642814d3bfee8d684b665b79051572552",
+      "bytes": 1094,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:15.946195+00:00",
+      "status": 200,
+      "sha256": "0de6d9a67acfbd3e666f5911392b956149ce835213385e8e1e6b83b7e541691f",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.063968+00:00",
+      "status": 200,
+      "sha256": "eef442a262863534825fb2046bfa5a3226339e10538fee3a3fb75e2e7d7da06d",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.064353+00:00",
+      "status": 200,
+      "sha256": "af72a80355cd40dd340f1ada26b4b881499311e8372e325d9203cfe88fb877c4",
+      "bytes": 1090,
+      "path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-retest/func/sub-14_ses-retest_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.104991+00:00",
+      "status": 200,
+      "sha256": "4b0fc442c47a284ab029d96b124ebd77d432066683ad639d5993f8d2d2feead8",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.059503+00:00",
+      "status": 200,
+      "sha256": "f93329948d964b630b954731450960ce33d1a36738c41eb0a9ce9089821d036a",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.125219+00:00",
+      "status": 200,
+      "sha256": "cdddd677019ad3b65f1e4ce0393e3973ccfec7743765928500b9fa0eeccedc94",
+      "bytes": 1087,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.168933+00:00",
+      "status": 200,
+      "sha256": "eb66e360477f4d970b5229aa92370368a8d2759b992f6c6ae738d2594f349829",
+      "bytes": 1092,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-04_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.161018+00:00",
+      "status": 200,
+      "sha256": "105d8898dddbf71f1de3ee84bb9597f338846fc31f75cebec76e3cbd4f59ad90",
+      "bytes": 1088,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-05_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:16.208028+00:00",
+      "status": 200,
+      "sha256": "52cf9b75eb6468b2a96565436cee63f9e894d58446dabcf26aa45145d2fa7172",
+      "bytes": 1089,
+      "path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv",
+      "metadata_path": "ds000006/files/sub-14/ses-test/func/sub-14_ses-test_task-livingnonlivingdecisionwithplainormirrorreversedtext_run-06_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000006/dcedff1d22b7abe4e90fab8f9dff888ded0983be/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json",
+      "retrieved_at": "2026-10-14T21:59:10.918521+00:00",
+      "status": 200,
+      "sha256": "43845165dd6a7c2d4a31f2b67c949f69e9d98f756cfb2f8dc04080cdd666a826",
+      "bytes": 204,
+      "path": "ds000006/files/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json",
+      "metadata_path": "ds000006/files/task-livingnonlivingdecisionwithplainormirrorreversedtext_events.json.source.json"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000006/git/trees/dcedff1d22b7abe4e90fab8f9dff888ded0983be?recursive=1",
+      "retrieved_at": "2026-10-14T21:59:10.627776+00:00",
+      "status": 200,
+      "sha256": "edcd4add7c600570947b5aaf4b826aed55b735f98d97fa232e3e57d044c83dba",
+      "bytes": 147803,
+      "path": "ds000006/tree.json",
+      "metadata_path": "ds000006/tree.json.source.json"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000008/commits/HEAD",
+      "retrieved_at": "2026-10-14T21:59:10.150331+00:00",
+      "status": 200,
+      "sha256": "65d143f07184bad421a152777fc00dc048ddf51e0220dbb4547ff934d89be928",
+      "bytes": 4056,
+      "path": "ds000008/commit.json",
+      "metadata_path": "ds000008/commit.json.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/README",
+      "retrieved_at": "2026-10-14T21:59:10.833779+00:00",
+      "status": 200,
+      "sha256": "1dfc9db3cf7c890a2e551627c07dd8230dba01c4cd7dd7c33ca3b118adb0c0f7",
+      "bytes": 1539,
+      "path": "ds000008/files/README",
+      "metadata_path": "ds000008/files/README.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/dataset_description.json",
+      "retrieved_at": "2026-10-14T21:59:10.837750+00:00",
+      "status": 200,
+      "sha256": "a77a7cefe0b628fada5d47666fe1b057f8ab96d93342a592f97a82541cd5613e",
+      "bytes": 932,
+      "path": "ds000008/files/dataset_description.json",
+      "metadata_path": "ds000008/files/dataset_description.json.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/participants.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.819301+00:00",
+      "status": 200,
+      "sha256": "674efd065753823747f71034ea8888401344496246193bd628dfefa73b21005d",
+      "bytes": 191,
+      "path": "ds000008/files/participants.tsv",
+      "metadata_path": "ds000008/files/participants.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.840951+00:00",
+      "status": 200,
+      "sha256": "4c5f4c7b3e52ee97e34ad35dd059143131c37c1f7003f7daac1157bab1c82514",
+      "bytes": 6550,
+      "path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.826933+00:00",
+      "status": 200,
+      "sha256": "dc05a42c5fb304f6c497475c9e2254c7b63a137ccd360708fbc35c7961f819eb",
+      "bytes": 6633,
+      "path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.831182+00:00",
+      "status": 200,
+      "sha256": "00cdaca641572ffb6612f338b341189446b3df12767e07cdd83b7cba1b97d365",
+      "bytes": 6577,
+      "path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.848808+00:00",
+      "status": 200,
+      "sha256": "34bf9e1f29683b108bec25deffe2f7475c1efb1809328b2db06523fabbdd4892",
+      "bytes": 5274,
+      "path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:10.840846+00:00",
+      "status": 200,
+      "sha256": "d3c2c04652cd44165795f238fc6c6901eb4548d430430be52d8ec32f342127b6",
+      "bytes": 5299,
+      "path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.110486+00:00",
+      "status": 200,
+      "sha256": "985be264c51317f1ea263e8f7bad9eed1597067187bd0003e7b52a05e6103dae",
+      "bytes": 5281,
+      "path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.110329+00:00",
+      "status": 200,
+      "sha256": "3594d9f76042eb60a6e7cdfbb92b2793c0d444a78696d6d84ecb31695afc5194",
+      "bytes": 6536,
+      "path": "ds000008/files/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.103541+00:00",
+      "status": 200,
+      "sha256": "04b1665b5162677f0b16797acc4fa36422fd17d2fff065ed0821777834539ee4",
+      "bytes": 6582,
+      "path": "ds000008/files/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.132959+00:00",
+      "status": 200,
+      "sha256": "00f7a9e0b64ae6ab6f20fb07b2e4a377a2906ffbc86a83fe4d1701ca22ec02ac",
+      "bytes": 5260,
+      "path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.103508+00:00",
+      "status": 200,
+      "sha256": "923a57eb87daf34bdfb56f4a3d6d030e519e0428b00cf521c955b8b3d3e7a3df",
+      "bytes": 5313,
+      "path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.100677+00:00",
+      "status": 200,
+      "sha256": "6bd01906937a4c38e53be4612c411c020c8f350afcedb73c6791dea036a0cad6",
+      "bytes": 5278,
+      "path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.108226+00:00",
+      "status": 200,
+      "sha256": "23b65f243c6cfce9a28cb6ed2a5b99d99f29bb2b89b8187e653b9bbeb5c0390d",
+      "bytes": 6655,
+      "path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.212777+00:00",
+      "status": 200,
+      "sha256": "dfcaa9823f56c07958c5ccec3ca614ac50cab3478404bcdc855ded14bf0e6068",
+      "bytes": 6713,
+      "path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.343154+00:00",
+      "status": 200,
+      "sha256": "318cb2e697fbd040e6a220e856c1b03d0004704b1f594968b6d5cc0a2a102304",
+      "bytes": 6635,
+      "path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.364013+00:00",
+      "status": 200,
+      "sha256": "ebc691366deecc87df24223c080486a112d08b09ca05ca42edd4f08a9279deb7",
+      "bytes": 5140,
+      "path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.364949+00:00",
+      "status": 200,
+      "sha256": "d0f4e4435f2ea831b8c0bee241a00b9850c593c1be7004a01fbf519c77fc598c",
+      "bytes": 5303,
+      "path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-03/func/sub-03_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.362166+00:00",
+      "status": 200,
+      "sha256": "a1eb80764065c2e8abd402ecb58c5b571979d5ca0f035368b461d3813c7963db",
+      "bytes": 5153,
+      "path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-03/func/sub-03_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.365199+00:00",
+      "status": 200,
+      "sha256": "bcf2c46a461a44e3b10b3b9feff541e2679c85d03dc2ab2ae4aa6270d8641f4d",
+      "bytes": 6574,
+      "path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.373041+00:00",
+      "status": 200,
+      "sha256": "9c224da34a5658da4a7105d8017c1b2628f18600e0764ee705523c25328efadd",
+      "bytes": 6624,
+      "path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.420102+00:00",
+      "status": 200,
+      "sha256": "fad4a520e1acba255dd0e61bdf139f54436794a124e4db3817d55fa8c948cdbf",
+      "bytes": 6658,
+      "path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.456231+00:00",
+      "status": 200,
+      "sha256": "2c43f58f1cc1c067fb088036dc59fc744694fa35e03247efa1b3a88addeaeee2",
+      "bytes": 5163,
+      "path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.593001+00:00",
+      "status": 200,
+      "sha256": "0579e3f3fa11b08b71277b8e2b919953fd75acff714c9f9ed02c6a3ab72f74fc",
+      "bytes": 5126,
+      "path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-04/func/sub-04_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.629006+00:00",
+      "status": 200,
+      "sha256": "8156118864589874eb4c9446c04f6c8f6ea9f389f8fa732ea00fb8672cb9ba9b",
+      "bytes": 5286,
+      "path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-04/func/sub-04_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.607114+00:00",
+      "status": 200,
+      "sha256": "4e1db50f50e9f3325cc6783cdd2c7804989833ac60aa692f271aeb0cfca966f5",
+      "bytes": 6642,
+      "path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.633751+00:00",
+      "status": 200,
+      "sha256": "5c4959584f2b843f729792ba77af97da094d9f3b8262f912079b6ebfb3c68679",
+      "bytes": 6630,
+      "path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.632011+00:00",
+      "status": 200,
+      "sha256": "c07c98d31177d14db47b367d06c7a6142d8c21abee1392280ace35db0bd79487",
+      "bytes": 6566,
+      "path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.619881+00:00",
+      "status": 200,
+      "sha256": "10e97a72bc6d917d1064d1db890ce616e38e2f09ddc1b166544b031bbbb510af",
+      "bytes": 5250,
+      "path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.685050+00:00",
+      "status": 200,
+      "sha256": "f368b5e4d4ceaf847570fa7d79f05d3d747fd54e6019cc15eed825cf4ae045ed",
+      "bytes": 5391,
+      "path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-05/func/sub-05_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.736874+00:00",
+      "status": 200,
+      "sha256": "c4f167b213e56a5b55648624ff0cb893e7d321913f7e2e433457e41f62093f9c",
+      "bytes": 5368,
+      "path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-05/func/sub-05_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.840147+00:00",
+      "status": 200,
+      "sha256": "7aeef39fd72f7e852eec2c88789bc007e9f735477641fc27a180d57e2193be88",
+      "bytes": 6595,
+      "path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.872701+00:00",
+      "status": 200,
+      "sha256": "5ec0ef7bdcddc6cf2dc61609c498f3996b217a431b7444cdd21c9f11a9f09f31",
+      "bytes": 6625,
+      "path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.864827+00:00",
+      "status": 200,
+      "sha256": "63da771524d2abe7dc2d856624f5c84da877671be0142a8bc4c208cf58667533",
+      "bytes": 6552,
+      "path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.885490+00:00",
+      "status": 200,
+      "sha256": "13f62d9607279027c5f6d431eced5755ee9883b5ef202187bc760fd4d253c69d",
+      "bytes": 5173,
+      "path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.917122+00:00",
+      "status": 200,
+      "sha256": "0622b45d05833b68f87845f017a13106fc7307fafb7c351c7e8595bb4caff229",
+      "bytes": 5237,
+      "path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-06/func/sub-06_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.872571+00:00",
+      "status": 200,
+      "sha256": "bb6fb1194fcc2a229b2a78d9df4a26246f909ca91bc897a68206c1db9a973c1b",
+      "bytes": 5416,
+      "path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-06/func/sub-06_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:11.939020+00:00",
+      "status": 200,
+      "sha256": "8f51306f02fa0c6a8d72c2b2d91709a6f361010b7f983752073a12486b44ad3f",
+      "bytes": 6659,
+      "path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.011203+00:00",
+      "status": 200,
+      "sha256": "5dd165be4347a1bf569f3370b0f0bba9b28588f4aaeeb52d125a1d4e132b9b2d",
+      "bytes": 6627,
+      "path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.115264+00:00",
+      "status": 200,
+      "sha256": "7c89f19201fd419e826cd33a220608348cc3987c7682c145e7bb7d75a7ce052c",
+      "bytes": 6623,
+      "path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.127880+00:00",
+      "status": 200,
+      "sha256": "03db3e1834faeb52a041b850d1d0e605191624158716cbf42cd625cd1635299c",
+      "bytes": 5443,
+      "path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.117782+00:00",
+      "status": 200,
+      "sha256": "a3aab53f2281188cf0c8547c244fea759545422506b0ced68fec3853445ed3ec",
+      "bytes": 5300,
+      "path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-07/func/sub-07_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.132084+00:00",
+      "status": 200,
+      "sha256": "635bd5eb5acb2450d621c360f97313a276e1702da604f05fdba643818397710a",
+      "bytes": 5275,
+      "path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-07/func/sub-07_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-09/func/sub-09_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.165641+00:00",
+      "status": 200,
+      "sha256": "3e4591776c7ad08d33b145071f76d0243adb5b8d558130d69df3a488fa41704b",
+      "bytes": 5301,
+      "path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-09/func/sub-09_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.155919+00:00",
+      "status": 200,
+      "sha256": "55c28a0666ca4ecb15832698cd3703cd17e812eac036bf1ef75e49ecfe0520bf",
+      "bytes": 5229,
+      "path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-09/func/sub-09_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.218212+00:00",
+      "status": 200,
+      "sha256": "e432f384715498a42291f74377d45374eb10e253994a7136aee60840aa894531",
+      "bytes": 5318,
+      "path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-09/func/sub-09_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.280138+00:00",
+      "status": 200,
+      "sha256": "537dfb0b2049c34fa45fc7757b8616c20cb388de72a2f4eee8caadab3972053b",
+      "bytes": 6641,
+      "path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.379938+00:00",
+      "status": 200,
+      "sha256": "d442dbeb1db58e96d5be4a190a39cb7c4c87fc7283c0ec93f01cbb5cf89b7510",
+      "bytes": 6624,
+      "path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.366675+00:00",
+      "status": 200,
+      "sha256": "c86321dd725af5675879de0b7fc253bc6b4369d63d30c2de61e52355096f1712",
+      "bytes": 6677,
+      "path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.383400+00:00",
+      "status": 200,
+      "sha256": "1e5ff3f1d5589877ba6586d71996e403cc48affa81c1dc752c2fa526f94bfb8e",
+      "bytes": 5258,
+      "path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.414418+00:00",
+      "status": 200,
+      "sha256": "298278185a0308fd8e4df6afde5fd44249c566afacbec2d1f275649439fb337b",
+      "bytes": 5149,
+      "path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-10/func/sub-10_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.420063+00:00",
+      "status": 200,
+      "sha256": "4fb833061e801b567b2222e183653ee41bc1af92a52f17fe6959ca21a6814ddb",
+      "bytes": 5232,
+      "path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-10/func/sub-10_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.425972+00:00",
+      "status": 200,
+      "sha256": "42efe2d5f2e499dd40902cd14c86054d27a8b4b2892c8512e6d3824036837357",
+      "bytes": 6762,
+      "path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.487910+00:00",
+      "status": 200,
+      "sha256": "24a9611f6d2e9021ab95af83de9abbdee234c2e78cc8769b46c51bdad677a5e0",
+      "bytes": 6674,
+      "path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.534522+00:00",
+      "status": 200,
+      "sha256": "6c44f495f8ac7cf6b4c9c34c71cf8ad95a78745170d3b0f5f9788d1a45ba8afb",
+      "bytes": 6608,
+      "path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.606318+00:00",
+      "status": 200,
+      "sha256": "3643d072bbfc2488bee7f946217d2e5d8190bc6c148e7b53b249e416a695ad2a",
+      "bytes": 5222,
+      "path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.627339+00:00",
+      "status": 200,
+      "sha256": "87674d66d91e28c74606753d5e61d99b2decb497f255b0cccfa9fdc74f40b7de",
+      "bytes": 5283,
+      "path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-11/func/sub-11_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.614438+00:00",
+      "status": 200,
+      "sha256": "6dd0be944aab5788018dd018626c6ad834b0d0f8f98e34c2559500ddf7e35852",
+      "bytes": 2140,
+      "path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-11/func/sub-11_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.672035+00:00",
+      "status": 200,
+      "sha256": "f550c8d0d457ddb0937fc46e29ef7d1d1421e4e55a2ab0aa502d121c310432d8",
+      "bytes": 6607,
+      "path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.659078+00:00",
+      "status": 200,
+      "sha256": "bb80cfbd568097f4c50b425e719f0d11a5a9d1229df389a5ae0ba91af6d45aa4",
+      "bytes": 6544,
+      "path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.672787+00:00",
+      "status": 200,
+      "sha256": "24627dac85f1509a378362108658a82e469866b9a365945dd3a2fc937b084b09",
+      "bytes": 6656,
+      "path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.723980+00:00",
+      "status": 200,
+      "sha256": "3c387d365db88773e05fbae3408990b8b577b7103997879e4e2c026d20baea5c",
+      "bytes": 5302,
+      "path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.780931+00:00",
+      "status": 200,
+      "sha256": "0ad427d68deaaf6a3bcb1171bc39bdc2953792411ccb469fed765318d7d83f13",
+      "bytes": 5190,
+      "path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-12/func/sub-12_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.841091+00:00",
+      "status": 200,
+      "sha256": "77de755b18f7393f3f57fcf616e4aad74084f37391bfda90bfb7d61903c11021",
+      "bytes": 2151,
+      "path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-12/func/sub-12_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.871055+00:00",
+      "status": 200,
+      "sha256": "1aaf2f95f61eb66ef9d2130697d6c4e2afa6d8161e1f620ab98198e5536063e3",
+      "bytes": 6612,
+      "path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.887995+00:00",
+      "status": 200,
+      "sha256": "853d8a2a26deba0b38d9ca590e4caa4c8ad6dfb8af9603dc2d9325a3952e78e7",
+      "bytes": 6681,
+      "path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.921107+00:00",
+      "status": 200,
+      "sha256": "8024a0a1967875ba7ccf184f647b9d0d385e3d9a53b6202bc03b47dd541bb297",
+      "bytes": 6606,
+      "path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.925037+00:00",
+      "status": 200,
+      "sha256": "9fbd9b3b00e7a2c908b28c2079d74f8747d8d6125fc7676235dca5a3d30ded53",
+      "bytes": 5285,
+      "path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.925815+00:00",
+      "status": 200,
+      "sha256": "9f50ddf37c7b24a2403acdf5b9747f537aebfb3b5915767fd52eaf080055618a",
+      "bytes": 5192,
+      "path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-13/func/sub-13_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:12.977140+00:00",
+      "status": 200,
+      "sha256": "a64417d547c2346b9559058c680096022963cc8669ee1540c8e284ff35787272",
+      "bytes": 5303,
+      "path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-13/func/sub-13_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.044994+00:00",
+      "status": 200,
+      "sha256": "f34fd20c96f80b2a87381359b23d4f44b80b26c5c24c4e396df9111eadaa6ca5",
+      "bytes": 6556,
+      "path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.118973+00:00",
+      "status": 200,
+      "sha256": "b8601f38b3a2d89c6bc42239196586c127f4294037a412fef5315d3adc5e759d",
+      "bytes": 6749,
+      "path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.137979+00:00",
+      "status": 200,
+      "sha256": "ef11d32a5fa0f7b3228fb3b7753dd034e6ae0f0b5becc82779dfd7d43e27e83e",
+      "bytes": 6470,
+      "path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.133100+00:00",
+      "status": 200,
+      "sha256": "205d34fcc9fb78d89e1369246c8a3143b6cd836c97fa3651caa68751edea82d4",
+      "bytes": 5260,
+      "path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.156163+00:00",
+      "status": 200,
+      "sha256": "3d1a71bead346383c3efc13af6d080303a750db1650d4f20582fa6458888cc85",
+      "bytes": 5184,
+      "path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-14/func/sub-14_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.198072+00:00",
+      "status": 200,
+      "sha256": "57f1d3b4b3692b5ca420c95741e5696c23becc044de4ceaa4208808ac80a2afa",
+      "bytes": 5265,
+      "path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-14/func/sub-14_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.178555+00:00",
+      "status": 200,
+      "sha256": "3a7cb610ac3ab640e54c699959694365cf35fba65d0e8cb4179cbbefcac1e7c0",
+      "bytes": 6507,
+      "path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.221700+00:00",
+      "status": 200,
+      "sha256": "42537c9a6cf54a3093cd39f6a99efc5ab68c02d75b8806c80710413a8b3829ee",
+      "bytes": 6659,
+      "path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.288577+00:00",
+      "status": 200,
+      "sha256": "743a8313a511492c50ae7aef3846850be01e3338c07f96c4575f0af91dc7b46d",
+      "bytes": 6615,
+      "path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-stopsignal_run-01_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.390262+00:00",
+      "status": 200,
+      "sha256": "c7d35d1e31fc2615ad0d744c5b858053e74bf969cbb1315a37638b46f9af97b6",
+      "bytes": 5094,
+      "path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-01_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-01_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-stopsignal_run-02_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.369496+00:00",
+      "status": 200,
+      "sha256": "2c263c6840bc849370cde5ed594f9d53a26ea3c071fecf3504496b76f3c11554",
+      "bytes": 5233,
+      "path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-02_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-02_events.tsv.source.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/sub-15/func/sub-15_task-stopsignal_run-03_events.tsv",
+      "retrieved_at": "2026-10-14T21:59:13.399942+00:00",
+      "status": 200,
+      "sha256": "53a0958443b36b706e526cf9f2bea5030532e0ffc0ed2856ab4dc9036b27421f",
+      "bytes": 5158,
+      "path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-03_events.tsv",
+      "metadata_path": "ds000008/files/sub-15/func/sub-15_task-stopsignal_run-03_events.tsv.source.json"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds000008/git/trees/a65448a0f00ebf4038e134f5a956f429ec4ca1ed?recursive=1",
+      "retrieved_at": "2026-10-14T21:59:10.557110+00:00",
+      "status": 200,
+      "sha256": "0d78cc85172d1b80b64123834a053a74cdb14f3baad61ceb0516ba7c150076e5",
+      "bytes": 62035,
+      "path": "ds000008/tree.json",
+      "metadata_path": "ds000008/tree.json.source.json"
+    }
+  ]
+}

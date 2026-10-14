@@ -1,0 +1,90 @@
+{
+  "captures": 133,
+  "kinds": {
+    "duct": 122,
+    "agent_operational": 4,
+    "worker_setup": 7
+  },
+  "counts": {
+    "files": 925,
+    "bytes": 2759110
+  },
+  "new": {
+    "captures": 30,
+    "files": 398,
+    "bytes": 1028481
+  },
+  "owners": {
+    "experiments/01-participant-rt": {
+      "captures": 20,
+      "files": 200,
+      "bytes": 691642,
+      "new_captures": 3
+    },
+    "experiments/02-cohort-rt": {
+      "captures": 20,
+      "files": 186,
+      "bytes": 903922,
+      "new_captures": 17
+    },
+    "research/skill-drafts": {
+      "captures": 17,
+      "files": 85,
+      "bytes": 287383,
+      "new_captures": 0
+    },
+    "talks/2026-usrse/stamped-ai-study": {
+      "captures": 21,
+      "files": 105,
+      "bytes": 405404,
+      "new_captures": 5
+    },
+    "experiments/00-flanker-screening": {
+      "captures": 12,
+      "files": 60,
+      "bytes": 92827,
+      "new_captures": 0
+    },
+    "research/study-design": {
+      "captures": 5,
+      "files": 25,
+      "bytes": 67813,
+      "new_captures": 0
+    },
+    "research": {
+      "captures": 20,
+      "files": 100,
+      "bytes": 154550,
+      "new_captures": 0
+    },
+    "research/replacement-screening": {
+      "captures": 3,
+      "files": 15,
+      "bytes": 35362,
+      "new_captures": 0
+    },
+    "research/mixed-gambles-design": {
+      "captures": 5,
+      "files": 25,
+      "bytes": 22127,
+      "new_captures": 0
+    },
+    "experiments/03-rt-sensitivity": {
+      "captures": 5,
+      "files": 99,
+      "bytes": 63928,
+      "new_captures": 4
+    },
+    "research/skill-candidates": {
+      "captures": 5,
+      "files": 25,
+      "bytes": 34152,
+      "new_captures": 1
+    }
+  },
+  "missing_named_outputs": [],
+  "skipped": [],
+  "scan_findings": 0,
+  "plan_sha256": "7d23aa77215b2b005d8c83d3c21a365a46b757f7166f98773818ec44f1dbfcf2",
+  "report_sha256": "b2c9a285ecb94b4c88b228822f60cb5718f0cc2d1452176fee3dc5a7615fd9ff"
+}

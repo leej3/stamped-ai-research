@@ -1,0 +1,45 @@
+{
+  "23": {
+    "head": "15da761f63a5a45c507e6596a549720bd43a1e84",
+    "tree_truncated": false,
+    "downloaded_source_files": 4,
+    "hash_failures": [],
+    "stamped_entrypoints": [
+      "align-stamped/SKILL.md",
+      "assess-stamped/SKILL.md"
+    ],
+    "create_templates": [],
+    "apm_manifests": [],
+    "upstream_code_executed": false
+  },
+  "24": {
+    "head": "99e8240fdf49b6184b23dc64e3e911376ea3eb3c",
+    "tree_truncated": false,
+    "downloaded_source_files": 5,
+    "hash_failures": [],
+    "stamped_entrypoints": [],
+    "create_templates": [],
+    "apm_manifests": [],
+    "upstream_code_executed": false
+  },
+  "26": {
+    "head": "664d48bafca7e05d942707713bd896f95932b3a4",
+    "tree_truncated": false,
+    "downloaded_source_files": 97,
+    "hash_failures": [],
+    "stamped_entrypoints": [
+      "align-with-stamped-principles/SKILL.md",
+      "assess-alignment-with-stamped-principles/SKILL.md",
+      "create-stamped-project/SKILL.md",
+      "do-full-research-loop/SKILL.md",
+      "stamped-conventions/SKILL.md"
+    ],
+    "create_templates": [
+      "create-stamped-project/templates/pre-commit-run-guard",
+      "create-stamped-project/templates/preflight.sh",
+      "create-stamped-project/templates/run-recorded.sh"
+    ],
+    "apm_manifests": [],
+    "upstream_code_executed": false
+  }
+}

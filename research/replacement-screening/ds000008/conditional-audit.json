@@ -1,0 +1,157 @@
+{
+  "selection": "conditional task only; trial_type go-critical/go-noncritical; CorrectGo1; finite positive RT",
+  "participants": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15"
+  ],
+  "participant_count": 13,
+  "files": 38,
+  "run_counts": {
+    "sub-01": 3,
+    "sub-02": 2,
+    "sub-03": 3,
+    "sub-04": 3,
+    "sub-05": 3,
+    "sub-06": 3,
+    "sub-07": 3,
+    "sub-10": 3,
+    "sub-11": 3,
+    "sub-12": 3,
+    "sub-13": 3,
+    "sub-14": 3,
+    "sub-15": 3
+  },
+  "included_rt_count": 3323,
+  "minimum_cell_count": 44,
+  "empty_requested_cells": [
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-01_events.tsv",
+      "condition": "go-critical"
+    },
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-01_events.tsv",
+      "condition": "go-noncritical"
+    },
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-02_events.tsv",
+      "condition": "go-critical"
+    },
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-02_events.tsv",
+      "condition": "go-noncritical"
+    },
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-03_events.tsv",
+      "condition": "go-critical"
+    },
+    {
+      "participant": "sub-06",
+      "file": "sub-06_task-conditionalstopsignal_run-03_events.tsv",
+      "condition": "go-noncritical"
+    }
+  ],
+  "semantic_anomalies": [],
+  "nonincreasing_onsets": [],
+  "label_stimulus_type_crosstab": [
+    {
+      "label": "failed stop-critical",
+      "stimulus": "0",
+      "trial_type_code": "1",
+      "n": 120
+    },
+    {
+      "label": "failed stop-critical",
+      "stimulus": "1",
+      "trial_type_code": "1",
+      "n": 174
+    },
+    {
+      "label": "failed stop-noncritical",
+      "stimulus": "0",
+      "trial_type_code": "1",
+      "n": 362
+    },
+    {
+      "label": "failed stop-noncritical",
+      "stimulus": "1",
+      "trial_type_code": "1",
+      "n": 238
+    },
+    {
+      "label": "go-critical",
+      "stimulus": "0",
+      "trial_type_code": "0",
+      "n": 701
+    },
+    {
+      "label": "go-critical",
+      "stimulus": "1",
+      "trial_type_code": "0",
+      "n": 1092
+    },
+    {
+      "label": "go-noncritical",
+      "stimulus": "0",
+      "trial_type_code": "0",
+      "n": 1096
+    },
+    {
+      "label": "go-noncritical",
+      "stimulus": "1",
+      "trial_type_code": "0",
+      "n": 718
+    },
+    {
+      "label": "junk",
+      "stimulus": "0",
+      "trial_type_code": "0",
+      "n": 27
+    },
+    {
+      "label": "junk",
+      "stimulus": "0",
+      "trial_type_code": "1",
+      "n": 6
+    },
+    {
+      "label": "junk",
+      "stimulus": "1",
+      "trial_type_code": "0",
+      "n": 14
+    },
+    {
+      "label": "junk",
+      "stimulus": "1",
+      "trial_type_code": "1",
+      "n": 2
+    },
+    {
+      "label": "successful stop-critical",
+      "stimulus": "0",
+      "trial_type_code": "1",
+      "n": 120
+    },
+    {
+      "label": "successful stop-critical",
+      "stimulus": "1",
+      "trial_type_code": "1",
+      "n": 194
+    }
+  ]
+}

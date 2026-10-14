@@ -1,0 +1,53 @@
+{
+  "code_and_lock_unchanged": true,
+  "documented_command_exit_zero": true,
+  "environment_differences": null,
+  "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+  "outputs": [
+    {
+      "identical": true,
+      "original_sha256": "fd079da05cd8ed638a3cbbfd36c51b699ea1ea6d4bb665aa8cbc5cd11222c651",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/median_rt.svg",
+      "replay_sha256": "fd079da05cd8ed638a3cbbfd36c51b699ea1ea6d4bb665aa8cbc5cd11222c651"
+    },
+    {
+      "identical": true,
+      "original_sha256": "0f8b4551f753dcbfeb3d8baef8f254cd966cf7d8b4b7b24997db3063da82e8c8",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/results.json",
+      "replay_sha256": "0f8b4551f753dcbfeb3d8baef8f254cd966cf7d8b4b7b24997db3063da82e8c8"
+    },
+    {
+      "identical": true,
+      "original_sha256": "12f4430d538418af043716b9d5d14de26c7aeed8f4d21c2484821625c0a95db5",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/run_summary.tsv",
+      "replay_sha256": "12f4430d538418af043716b9d5d14de26c7aeed8f4d21c2484821625c0a95db5"
+    },
+    {
+      "identical": true,
+      "original_sha256": "a02362610d4370f3d7997be8bb5c60d758386560dd3518c3cf5e403e77232e4c",
+      "parent_record_matches": true,
+      "path": "derivatives/gambling-rt/trial_audit.tsv",
+      "replay_sha256": "a02362610d4370f3d7997be8bb5c60d758386560dd3518c3cf5e403e77232e4c"
+    }
+  ],
+  "parent_record": {
+    "path": "experiments/01-participant-rt/replay/baseline.json",
+    "sha256": "aecbf1b6e314dc8e24b70b19d5c0589246459211c26e5c431897c574df513dfb"
+  },
+  "passed": true,
+  "phase_timings_seconds": {
+    "checkout": 0.010038083011750132,
+    "clone": 0.03479862498352304,
+    "documented_replay": 4.958616417017765,
+    "environment": 1.8849304590257816,
+    "inputs": 0.7251157920109108
+  },
+  "preexisting_scientific_outputs_removed": true,
+  "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+  "source_head_matches": true,
+  "source_input_clean": true,
+  "source_input_head_matches": true
+}

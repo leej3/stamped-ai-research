@@ -1,0 +1,90 @@
+{
+  "arm": "baseline",
+  "attempt": {
+    "path": ".runs/evidence/mixed-03-baseline/run-result.json",
+    "sha256": "04f083df24b7fd1083cc219d0d508b0e86d0eecdf228d672e3107653981cc4ce"
+  },
+  "evaluator_findings": [],
+  "failure_evidence": {
+    "path": "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+    "sha256": "5d801cf48b4d033babc9e46b2c3713a402a5dbb03898b89dc8e17060b62958ca"
+  },
+  "failures": [
+    {
+      "evidence": "reports/verification.json",
+      "exit_code": 1,
+      "reason": "Incorrect assertion interpreted 86 as the cohort absent-response count; direct source recount found 154 overall and 65 of 86 trials absent in sub-05/run-01.",
+      "status": "resolved",
+      "step": "initial focused check"
+    },
+    {
+      "exit_code": 1,
+      "reason": "Host Python lacked jsonschema; reused the existing Workshop Python environment without installation.",
+      "status": "resolved",
+      "step": "feedback recorder with host Python"
+    }
+  ],
+  "interpretation": {
+    "evidence": {
+      "path": "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/report.md",
+      "sha256": "7c86c6d78b86a678d4c86dd027ddfdcabc468ec04642d60cd94d64c10f0f4152"
+    },
+    "finding": "All four declared variants reported; observed-response estimand, differential missingness and noncausal interpretation explicit; run02 descriptive only. No outcome-based preferred variant.",
+    "status": "passed_manual_read"
+  },
+  "output_commit": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+  "provider_turn_usage": [
+    {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 976000,
+      "input_tokens": 1025737,
+      "output_tokens": 18687,
+      "reasoning_output_tokens": 4535
+    }
+  ],
+  "replay_byte_identical": true,
+  "replay_identity_and_command_passed": true,
+  "replay_passed": true,
+  "science_passed": true,
+  "science_passed_scope": "Observed pinned dataset results, rows and interpretation; generalized screening-contract probes are reported separately.",
+  "screening_contract_evidence": {
+    "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-screening-probes.json",
+    "sha256": "fbe60031ebbd94657a59d26603ec54545e0af0ea1c274203aef37fd1b47c7ee2"
+  },
+  "screening_contract_passed": true,
+  "snapshot_clean": true,
+  "snapshot_identity_passed": true,
+  "source_manifest": {
+    "all_check_results_sha256": "70956a101c80a56ec1d85cf036f6425b7ce130431f28aa4752789d5148829d2e",
+    "check_count": 48,
+    "failed_checks": [],
+    "passed": true,
+    "passed_count": 48,
+    "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads."
+  },
+  "versions": {
+    "original": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "reference_passed": true,
+      "rows_per_mode": {
+        "band": 4096,
+        "primary": 4096
+      },
+      "scalar_checks": 2042
+    },
+    "replay": {
+      "audit_passed": true,
+      "consistency_passed": true,
+      "reference_passed": true,
+      "rows_per_mode": {
+        "band": 4096,
+        "primary": 4096
+      },
+      "scalar_checks": 2042
+    }
+  },
+  "wall_seconds": 382.97944491694216,
+  "worker_outcome": "completed",
+  "worker_stopped": true
+}

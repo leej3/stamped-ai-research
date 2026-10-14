@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/stamped_collect_snapshot_check.py", line 61, in <module>
+    assert any(x['path'] == str(op / 'codex-events.jsonl') and x['copied'] is False for x in data['operational_files'])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,3 @@
+{"output_dir": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/harness-smoke-lpszc8_g/success", "outcome": "completed", "native_session_ids": ["FAKE-SMOKE-ONLY"]}
+{"output_dir": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/harness-smoke-lpszc8_g/timeout", "outcome": "timeout", "native_session_ids": ["FAKE-TIMEOUT-ONLY"]}
+Fake-CLI completion, usage extraction, partial output preservation and timeout verified. No model or research arm launched.

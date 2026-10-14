@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds000008/a65448a0f00ebf4038e134f5a956f429ec4ca1ed/dataset_description.json",
+  "retrieved_at": "2026-10-14T21:59:10.837750+00:00",
+  "status": 200,
+  "sha256": "a77a7cefe0b628fada5d47666fe1b057f8ab96d93342a592f97a82541cd5613e",
+  "bytes": 932,
+  "path": "ds000008/files/dataset_description.json"
+}

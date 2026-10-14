@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:stamped-ai-research:exploratory-run:0.1.0",
+  "title": "Exploratory STAMPED skill study run metadata",
+  "type": "object",
+  "required": ["run_id", "pair_id", "stage", "arm", "status", "source_commit", "common_prompt_sha256", "model", "reasoning_effort", "wall_budget_seconds", "capture", "interventions", "scientific_correctness", "replay", "assessment_ids", "limitations"],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1},
+    "pair_id": {"type": "string", "minLength": 1},
+    "stage": {"enum": ["01", "02", "03"]},
+    "arm": {"enum": ["baseline", "skills"]},
+    "status": {"enum": ["prepared", "running", "completed", "partial", "failed", "timeout", "blocked"]},
+    "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "common_prompt_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "stage_prompt_sha256": {"type": ["string", "null"]},
+    "starting_scaffold_commit": {"type": ["string", "null"]},
+    "source_manifest_sha256": {"type": ["string", "null"]},
+    "environment_lock_sha256": {"type": ["string", "null"]},
+    "skill_bundle_commit": {"type": ["string", "null"]},
+    "skill_bundle_sha256": {"type": ["string", "null"]},
+    "skills_read": {"type": "array", "items": {"type": "string"}},
+    "common_instruction_inventory": {"type": "array", "items": {"type": "string"}},
+    "model": {"type": "string"},
+    "reasoning_effort": {"type": "string"},
+    "runtime_version": {"type": ["string", "null"]},
+    "wall_budget_seconds": {"const": 480},
+    "actual_wall_seconds": {"type": ["number", "null"], "minimum": 0},
+    "token_usage": {"type": ["object", "null"]},
+    "arm_order": {"type": ["integer", "null"], "minimum": 1},
+    "capture": {
+      "type": "object", "required": ["agent_history", "entire_checkpoint", "duct_runs", "datalad_run_commits"],
+      "properties": {
+        "agent_history": {"type": ["string", "null"]},
+        "entire_checkpoint": {"type": ["string", "null"]},
+        "capture_verified_before_launch": {"type": "boolean"},
+        "duct_runs": {"type": "array", "items": {"type": "string"}},
+        "datalad_run_commits": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "interventions": {"type": "array", "items": {"type": "object", "required": ["time", "actor", "action", "reason"], "properties": {"time": {"type": "string"}, "actor": {"type": "string"}, "action": {"type": "string"}, "reason": {"type": "string"}}}},
+    "scientific_correctness": {"$ref": "#/$defs/check"},
+    "replay": {"$ref": "#/$defs/check"},
+    "assessment_ids": {"type": "array", "items": {"type": "string"}},
+    "contamination": {"enum": ["not_checked", "not_observed", "observed"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "check": {"type": "object", "required": ["status", "evidence"], "properties": {"status": {"enum": ["not_attempted", "blocked", "failed", "passed"]}, "evidence": {"type": "array", "items": {"type": "string"}}, "assessor": {"type": ["string", "null"]}}}
+  }
+}

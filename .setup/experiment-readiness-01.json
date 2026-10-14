@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "applied": false,
+  "inspection_only": true,
+  "stages": [
+    {
+      "stage": "01",
+      "module": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+      "head": "8777706d546d968d1a7427ab9efc710fcdd47523",
+      "branch": "codex/mixed-01-participant-rt-source",
+      "intended_branch": "codex/mixed-01-participant-rt-source",
+      "branch_matches": true,
+      "origin": "git@github.com:leej3/stamped-ai-research.git",
+      "head_tree": "99cc38a06ab577903b72f7610741a8847382c202",
+      "source_gitlink": "160000 commit b094fc2f41487f92d382a1a432165ae58caae386\tinputs/ds000005",
+      "status_counts": {
+        "??": 300
+      },
+      "dirty_path_count": 300,
+      "annex_find_returncode": 0,
+      "annex_present_file_count": 0,
+      "annex_files": [],
+      "tracked_or_nonignored_symlinks": [],
+      "broken_symlinks": [],
+      "regular_files_over_one_megabyte": [],
+      "storage_policy": "* annex.largefiles=(largerthan=1mb)\n.datalad/** annex.largefiles=nothing\n*.md annex.largefiles=nothing\n*.py annex.largefiles=nothing\n*.json annex.largefiles=nothing\n*.toml annex.largefiles=nothing\npixi.lock annex.largefiles=nothing\n",
+      "limits": "Read-only local readiness inventory. No remote availability, annex upload, fsck, commit or publication claim."
+    },
+    {
+      "stage": "02",
+      "module": "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt",
+      "head": "24e4de3820271869ff03cf0dd38b4faaa48b1dd1",
+      "branch": "codex/mixed-02-cohort-rt-source",
+      "intended_branch": "codex/mixed-02-cohort-rt-source",
+      "branch_matches": true,
+      "origin": "git@github.com:leej3/stamped-ai-research.git",
+      "head_tree": "7ed9393bc457c1fa4957064a3d83acc8378d412d",
+      "source_gitlink": "160000 commit b094fc2f41487f92d382a1a432165ae58caae386\tinputs/ds000005",
+      "status_counts": {
+        "??": 273
+      },
+      "dirty_path_count": 273,
+      "annex_find_returncode": 0,
+      "annex_present_file_count": 0,
+      "annex_files": [],
+      "tracked_or_nonignored_symlinks": [],
+      "broken_symlinks": [],
+      "regular_files_over_one_megabyte": [],
+      "storage_policy": "* annex.largefiles=(largerthan=1mb)\n.datalad/** annex.largefiles=nothing\n*.md annex.largefiles=nothing\n*.py annex.largefiles=nothing\n*.json annex.largefiles=nothing\n*.toml annex.largefiles=nothing\npixi.lock annex.largefiles=nothing\n",
+      "limits": "Read-only local readiness inventory. No remote availability, annex upload, fsck, commit or publication claim."
+    },
+    {
+      "stage": "03",
+      "module": "/Users/johnlee/code/CON/stamped-ai-research/experiments/03-rt-sensitivity",
+      "head": "e5fed631034d20634fcb37fff7f3760d633b40ef",
+      "branch": "codex/mixed-03-rt-sensitivity-source",
+      "intended_branch": "codex/mixed-03-rt-sensitivity-source",
+      "branch_matches": true,
+      "origin": "git@github.com:leej3/stamped-ai-research.git",
+      "head_tree": "2e4b117487c23ef47ea31cf40992da7a265aea8f",
+      "source_gitlink": "160000 commit b094fc2f41487f92d382a1a432165ae58caae386\tinputs/ds000005",
+      "status_counts": {
+        "??": 99
+      },
+      "dirty_path_count": 99,
+      "annex_find_returncode": 0,
+      "annex_present_file_count": 0,
+      "annex_files": [],
+      "tracked_or_nonignored_symlinks": [],
+      "broken_symlinks": [],
+      "regular_files_over_one_megabyte": [],
+      "storage_policy": "* annex.largefiles=(largerthan=1mb)\n.datalad/** annex.largefiles=nothing\n*.md annex.largefiles=nothing\n*.py annex.largefiles=nothing\n*.json annex.largefiles=nothing\n*.toml annex.largefiles=nothing\npixi.lock annex.largefiles=nothing\n",
+      "limits": "Read-only local readiness inventory. No remote availability, annex upload, fsck, commit or publication claim."
+    }
+  ]
+}

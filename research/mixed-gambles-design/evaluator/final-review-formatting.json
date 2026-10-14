@@ -1,0 +1,44 @@
+{
+  "scope": "Only coordinator-authored review prose formatted; frozen science/tasks/reference, captured worker files and JSON gates unchanged.",
+  "protected_before": {
+    "research/mixed-gambles-design/evaluator/stage-01/pair-review.json": "95cd955f3ef038fd6a188fab37bc03f41a8907b83badfb660e0ada88b879ad6f",
+    "research/mixed-gambles-design/evaluator/stage-02/pair-review.json": "47b7eacd5ac40970375bc4c9568e27e2583cc430869f0e202fecb082dbbb66ce",
+    "research/mixed-gambles-design/evaluator/stage-03/pair-review.json": "8fa644b275bbd1906fc823f45477fb5c09503d7a939c468a0cfdfc20ae3d63be",
+    "research/mixed-gambles-design/evaluator/reference-results.json": "39e6cb0af0461a1cd3ae2ae563dcc1390024d71bf27a1483433fee9faacb6db3",
+    "research/mixed-gambles-design/protocol.json": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+    "research/mixed-gambles-design/protocol.md": "14868b73d94465a5818bd4a9b24fb370b8044fa8c77e8d8e65da431343e82ead",
+    "research/mixed-gambles-design/task-common.md": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+    "research/mixed-gambles-design/task-01.md": "194f5f3a71b916b6732438d9ad0325d98578bf04f89563a57f94edd9ebdf2767",
+    "research/mixed-gambles-design/task-02.md": "bde648e3cd2386a557202764a27ac26d1df87df75f0f0255e31aabbf7b1eeec7",
+    "research/mixed-gambles-design/task-03.md": "1b36092beb17ca09f32c516c38ee71cc83c5db5d3ea42d9ddd02c96b4a6bf555"
+  },
+  "protected_after": {
+    "research/mixed-gambles-design/evaluator/stage-01/pair-review.json": "95cd955f3ef038fd6a188fab37bc03f41a8907b83badfb660e0ada88b879ad6f",
+    "research/mixed-gambles-design/evaluator/stage-02/pair-review.json": "47b7eacd5ac40970375bc4c9568e27e2583cc430869f0e202fecb082dbbb66ce",
+    "research/mixed-gambles-design/evaluator/stage-03/pair-review.json": "8fa644b275bbd1906fc823f45477fb5c09503d7a939c468a0cfdfc20ae3d63be",
+    "research/mixed-gambles-design/evaluator/reference-results.json": "39e6cb0af0461a1cd3ae2ae563dcc1390024d71bf27a1483433fee9faacb6db3",
+    "research/mixed-gambles-design/protocol.json": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+    "research/mixed-gambles-design/protocol.md": "14868b73d94465a5818bd4a9b24fb370b8044fa8c77e8d8e65da431343e82ead",
+    "research/mixed-gambles-design/task-common.md": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+    "research/mixed-gambles-design/task-01.md": "194f5f3a71b916b6732438d9ad0325d98578bf04f89563a57f94edd9ebdf2767",
+    "research/mixed-gambles-design/task-02.md": "bde648e3cd2386a557202764a27ac26d1df87df75f0f0255e31aabbf7b1eeec7",
+    "research/mixed-gambles-design/task-03.md": "1b36092beb17ca09f32c516c38ee71cc83c5db5d3ea42d9ddd02c96b4a6bf555"
+  },
+  "protected_unchanged": true,
+  "review_before": {
+    "research/mixed-gambles-design/evaluator/stage-01/review.md": "3f33524f67ddd0bc4402df93ab4972e8c2de8f22faffadb3b91c0f093276a461",
+    "research/mixed-gambles-design/evaluator/stage-02/review.md": "5b8095bccee0a5f79846b3b75c417b758220820c58d642f5629d0313aa0a5055",
+    "research/mixed-gambles-design/evaluator/stage-03/review.md": "89d6cec9db7e58cd5533568b5297cac21870fb0813fda6c95a146490fabee4f9",
+    "research/mixed-gambles-design/evaluator/conventional-datalad-note.md": "52fc00c0e1200d73ab6b1a3b99c0ea0aeb6be72daa0e5b1399d97bac970e7233",
+    "research/mixed-gambles-design/evaluator/stage23-workflow.md": "82d8a70fa99934468b880ad893dd54032bf3133638af4376d4a1fbb77de300c5"
+  },
+  "review_after": {
+    "research/mixed-gambles-design/evaluator/stage-01/review.md": "d7a6fd24688ee58d843fc98a8ca9dca57fd0b03ae0c6a6bc8c16f78cb531829d",
+    "research/mixed-gambles-design/evaluator/stage-02/review.md": "dfaa55ea4fed3620d9ddb767cba49cd251e16e20a149d37a28f3c7a8666fac6b",
+    "research/mixed-gambles-design/evaluator/stage-03/review.md": "3d4f253c5585be2169c16ee9fdffadd16e5ee6a91dc83375d8db59bba2d75719",
+    "research/mixed-gambles-design/evaluator/conventional-datalad-note.md": "ff76e5c262dbaf1b37329bf5fa270b2b043bd1aee8e8d59f5890f6077eb64a19",
+    "research/mixed-gambles-design/evaluator/stage23-workflow.md": "8e0d30a5fa95383388ddfd99e89d0d50f182791a2cdf8a5e1c6a91bba7bafcc7"
+  },
+  "formatter_version": "snapper 0.10.0",
+  "check_passed": true
+}

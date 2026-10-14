@@ -1,0 +1,662 @@
+{
+  "arms": {
+    "baseline": {
+      "actual_skills_read": [],
+      "actual_skills_read_scope": "Five experimental skills only; shared control guidance was available and used.",
+      "contamination": "No observed other-arm/oracle/prior-arm access in reviewed command paths; common-account permissions do not enforce isolation",
+      "counts_and_exclusions": {
+        "evidence": [
+          "baseline-original-audit-checks.json"
+        ],
+        "finding": "4,096 raw rows checked in each retention mode: primary 3,942 retained / 154 unique excluded; band 3,904 / 192. Eight base flags plus band flag independently checked. All 192 variant/run summaries independently recomputed.",
+        "status": "passed"
+      },
+      "dirty_manifest": {
+        "path": "experiments/03-rt-sensitivity/arms/baseline/snapshot.json",
+        "sha256": "49eb75092ef39caef0a6076f71ebec7d862f554f39d66f4625dab529c09d4151"
+      },
+      "dirty_paths": [],
+      "effort": {
+        "interpretation": "Provider-reported totals include cached input; not monetary cost or complete remote compute accounting.",
+        "local_cpu_seconds": null,
+        "provider_tokens": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 976000,
+            "input_tokens": 1025737,
+            "output_tokens": 18687,
+            "reasoning_output_tokens": 4535
+          }
+        ],
+        "wall_seconds": 382.97944491694216
+      },
+      "failures": [
+        {
+          "evidence": "reports/verification.json",
+          "exit_code": 1,
+          "reason": "Incorrect assertion interpreted 86 as the cohort absent-response count; direct source recount found 154 overall and 65 of 86 trials absent in sub-05/run-01.",
+          "status": "resolved",
+          "step": "initial focused check"
+        },
+        {
+          "exit_code": 1,
+          "reason": "Host Python lacked jsonschema; reused the existing Workshop Python environment without installation.",
+          "status": "resolved",
+          "step": "feedback recorder with host Python"
+        }
+      ],
+      "formal_schema_validation": "not_attempted",
+      "formal_stamped_record_ids": [],
+      "fresh_replay": {
+        "evidence": [
+          "baseline-replay-verification.json",
+          "baseline-replay-comparison.json",
+          "baseline-replay-audit-checks.json"
+        ],
+        "finding": "7 scientific derivative files byte-identical; source/code/lock identities verified; fresh Git checkout and locked environment prefix. Post-stop coordinator execution. Software metadata differs only in the expected absolute interpreter prefix.",
+        "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+        "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+        "separate_cost": {
+          "checkout": 0.012972333002835512,
+          "clone": 0.05321275000460446,
+          "documented_replay": 4.8665546249831095,
+          "environment": 1.7834340409608558,
+          "inputs": 0.7871333749499172
+        },
+        "status": "passed"
+      },
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/report.md",
+          "sha256": "7c86c6d78b86a678d4c86dd027ddfdcabc468ec04642d60cd94d64c10f0f4152"
+        },
+        "finding": "All four declared variants reported; observed-response estimand, differential missingness and noncausal interpretation explicit; run02 descriptive only. No outcome-based preferred variant.",
+        "status": "passed_manual_read"
+      },
+      "interventions": [
+        "No worker repair or extra worker time after stop; collection, fresh replay, independent evaluation and later log exports are coordinator curation."
+      ],
+      "limitations": [
+        "Preconfigured source/environment/capture seed",
+        "Full from-empty creation and ReproNim adaptation untested",
+        "Same host and caches; cross-platform/offline dependency closure untested",
+        "Source PDDL does not establish an explicit license for new code",
+        "No general skill-efficacy inference from one exploratory pair"
+      ],
+      "native_datalad": {
+        "evidence": [
+          "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/datalad-provenance.json",
+          "baseline-datalad-parser-review.json"
+        ],
+        "finding": "DataLad executed a declared transformation; Conventional Commit normalization breaks native run-record recognition. Direct command replay is independently successful.",
+        "status": "record_retained_native_parser_gap"
+      },
+      "numeric_comparison": {
+        "evidence": [
+          "baseline-original-comparison.json",
+          "baseline-original-internal-consistency.json"
+        ],
+        "finding": "2,042 frozen-reference scalar checks plus independent source/within-submission consistency. All 16 participants in each variant; all four estimates and intervals match within 1e-6 ms.",
+        "status": "passed"
+      },
+      "output_commit": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+      "presentation": {
+        "evidence": [
+          {
+            "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-figure-review.png",
+            "sha256": "37ac517013507cd204487f5ba389a38359ff01f14341e425cad94949f1a5e598"
+          }
+        ],
+        "finding": "All four estimates, confidence intervals, variant names and units visible and match checked results; no outcome-driven preferred variant.",
+        "status": "passed_manual_render_review"
+      },
+      "research_object": {
+        "Actionable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Documented scientific entry point reproduced checked results in a fresh checkout.",
+          "gaps": [
+            "Native DataLad replay is distinct from direct command replay",
+            "Complete report/assessment reconstruction not established solely by scientific replay"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Distributable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Public source identity, original attribution, inspectable code and results retained.",
+          "gaps": [
+            "New-code licensing unresolved",
+            "Independent recipient delivery and persistent publication untested"
+          ],
+          "judgment": "partial"
+        },
+        "Ephemeral": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Scientific results regenerate after derivative removal; coordinator independently rebuilds a disposable checkout.",
+          "gaps": [
+            "Coordinator reconstruction is additional evidence, not a worker-produced achievement",
+            "Complete OS/cache independence untested"
+          ],
+          "judgment": "partial"
+        },
+        "Modular": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Immutable input subdataset, analysis, derivatives, reports and validation have explicit interfaces.",
+          "gaps": [
+            "Alternative inputs/component replacement were not tested"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Portable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Relative inputs and locked osx-arm64 environment survived a new checkout/environment prefix.",
+          "gaps": [
+            "Same physical host and caches; other platforms untested"
+          ],
+          "judgment": "partial"
+        },
+        "Self-contained": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Source identities, code, derivative tables, narrative and locked environment are present.",
+          "gaps": [
+            "No complete offline dependency bundle",
+            "Host Snapper formatting dependency is outside the supplied Pixi lock"
+          ],
+          "judgment": "partial"
+        },
+        "Trackable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "File-level hashes, full row audits, Git commits and recorded execution/failure evidence connect inputs and outputs.",
+          "gaps": [
+            "Native capture completeness is independently verified later by coordinator",
+            "Conventional Commit normalization leaves the preserved DataLad record unrecognized by native rerun"
+          ],
+          "judgment": "partial"
+        }
+      },
+      "run_id": "mixed-03-baseline",
+      "screening_contract": {
+        "evidence": {
+          "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-screening-probes.json",
+          "sha256": "fbe60031ebbd94657a59d26603ec54545e0af0ea1c274203aef37fd1b47c7ee2"
+        },
+        "findings": [],
+        "scope": "Separate from correctness on the actual pinned dataset; no worker repair.",
+        "status": "passed_probes"
+      },
+      "source_and_scope": {
+        "evidence": [
+          "baseline-evaluation.json"
+        ],
+        "finding": "Exact source pin and all 48 event hashes; four predeclared first-to-third variants and separate all-three-run primary-median context.",
+        "status": "passed"
+      },
+      "worker_status": "completed; clean Git"
+    },
+    "treatment": {
+      "actual_skills_read": [
+        {
+          "application": "Baseline gaps -> explicit interface/manifests/replay -> evidence-based reassessment.",
+          "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+          "entrypoint_sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+          "observed_exposure": "All five entrypoints read in completed native item_3; additional sources subsequently read/executed; recorded truncation caveat retained.",
+          "skill": "align-with-stamped-principles",
+          "tree_files": [
+            {
+              "path": "SKILL.md",
+              "read_in_this_turn": true,
+              "sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289"
+            },
+            {
+              "path": "references/principles.md",
+              "read_in_this_turn": true,
+              "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+            }
+          ],
+          "version": "0.1.0"
+        },
+        {
+          "application": "Seven-property evidence, source-version conflict, portable assessment, complete checklist side product.",
+          "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+          "entrypoint_sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+          "observed_exposure": "All five entrypoints read in completed native item_3; additional sources subsequently read/executed; recorded truncation caveat retained.",
+          "skill": "assess-alignment-with-stamped-principles",
+          "tree_files": [
+            {
+              "path": "SKILL.md",
+              "read_in_this_turn": true,
+              "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb"
+            },
+            {
+              "path": "references/assessment-contract.md",
+              "read_in_this_turn": true,
+              "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+            },
+            {
+              "path": "references/checklist-responses.md",
+              "read_in_this_turn": true,
+              "sha256": "29919f38338c935530e9f1781976a02afd7447b6607e5e915f570549d3f68635"
+            },
+            {
+              "path": "references/principles.md",
+              "read_in_this_turn": true,
+              "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+            },
+            {
+              "path": "references/research-assessment.schema.json",
+              "read_in_this_turn": true,
+              "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+            },
+            {
+              "executed_in_this_turn": true,
+              "path": "scripts/export_checklist.py",
+              "read_in_this_turn": false,
+              "sha256": "ea667090655f463cf80b80486c94a75ab14a01777682f31903bd38b52670013d"
+            },
+            {
+              "executed_in_this_turn": true,
+              "path": "scripts/validate_assessment.py",
+              "read_in_this_turn": false,
+              "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+            }
+          ],
+          "version": "0.1.0"
+        },
+        {
+          "application": "Raw BIDS revision and attribution preserved; derivatives separated; DataLad transformation; no imaging pipeline.",
+          "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+          "entrypoint_sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+          "observed_exposure": "All five entrypoints read in completed native item_3; additional sources subsequently read/executed; recorded truncation caveat retained.",
+          "skill": "create-repronim-stamped-project",
+          "tree_files": [
+            {
+              "path": "SKILL.md",
+              "read_in_this_turn": true,
+              "sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5"
+            },
+            {
+              "path": "references/principles.md",
+              "read_in_this_turn": true,
+              "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+            },
+            {
+              "path": "references/repronim.md",
+              "read_in_this_turn": true,
+              "sha256": "f976644b0d926ca455ded85dd0617915c2295d41d3a637ff8f3d62a6a833a358"
+            }
+          ],
+          "version": "0.1.0"
+        },
+        {
+          "application": "Boundary, component identities, code/environment interface, executable local research object.",
+          "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+          "entrypoint_sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+          "observed_exposure": "All five entrypoints read in completed native item_3; additional sources subsequently read/executed; recorded truncation caveat retained.",
+          "skill": "create-stamped-project",
+          "tree_files": [
+            {
+              "path": "SKILL.md",
+              "read_in_this_turn": true,
+              "sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373"
+            },
+            {
+              "path": "references/principles.md",
+              "read_in_this_turn": true,
+              "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+            }
+          ],
+          "version": "0.1.0"
+        },
+        {
+          "application": "Pre-analysis protocol, complete endpoints, independent checks, disposable replay, explicit scientific limits.",
+          "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+          "entrypoint_sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+          "observed_exposure": "All five entrypoints read in completed native item_3; additional sources subsequently read/executed; recorded truncation caveat retained.",
+          "skill": "do-full-research-loop",
+          "tree_files": [
+            {
+              "path": "SKILL.md",
+              "read_in_this_turn": true,
+              "sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9"
+            },
+            {
+              "path": "references/assessment-contract.md",
+              "read_in_this_turn": false,
+              "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+            },
+            {
+              "path": "references/paired-evaluation.md",
+              "read_in_this_turn": true,
+              "sha256": "8c9ac59c52823e26fd889ff7a07c3cdd7208cca25669e34f335fa7a3d2c32a35"
+            },
+            {
+              "path": "references/principles.md",
+              "read_in_this_turn": true,
+              "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+            },
+            {
+              "path": "references/research-assessment.schema.json",
+              "read_in_this_turn": false,
+              "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+            },
+            {
+              "path": "scripts/validate_assessment.py",
+              "read_in_this_turn": false,
+              "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+            }
+          ],
+          "version": "0.1.0"
+        }
+      ],
+      "actual_skills_read_scope": "Read exposure and reported scoped application are distinct from full-workflow validation; see separate treatment supplement.",
+      "contamination": "No observed other-arm/oracle/prior-arm access in reviewed command paths; common-account permissions do not enforce isolation",
+      "counts_and_exclusions": {
+        "evidence": [
+          "treatment-original-audit-checks.json"
+        ],
+        "finding": "4,096 raw rows checked in each retention mode: primary 3,942 retained / 154 unique excluded; band 3,904 / 192. Eight base flags plus band flag independently checked. All 192 variant/run summaries independently recomputed.",
+        "status": "passed"
+      },
+      "dirty_manifest": {
+        "path": "experiments/03-rt-sensitivity/arms/treatment/snapshot.json",
+        "sha256": "d5fd69ff9d136da06139d5085a5f020d6dcad4532d718431d9a9c6c75672d59e"
+      },
+      "dirty_paths": [],
+      "effort": {
+        "interpretation": "Provider-reported totals include cached input; not monetary cost or complete remote compute accounting.",
+        "local_cpu_seconds": null,
+        "provider_tokens": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 1093632,
+            "input_tokens": 1165190,
+            "output_tokens": 23269,
+            "reasoning_output_tokens": 4701
+          }
+        ],
+        "wall_seconds": 474.4654870419763
+      },
+      "failures": [
+        {
+          "check": "Workshop helper with system Python",
+          "error": "ModuleNotFoundError: jsonschema",
+          "recovery": "Use preinstalled Workshop Pixi Python.",
+          "status": "failed_then_recovered"
+        },
+        {
+          "check": "jsonschema import in project Python",
+          "error": "ModuleNotFoundError: jsonschema",
+          "recovery": "Use preinstalled Workshop Pixi Python for schema validator.",
+          "status": "failed_then_recovered"
+        },
+        {
+          "check": "Native DataLad rerun discovery with Conventional subject",
+          "evidence": "Installed get_run_info uses re.match against leading [DATALAD RUNCMD]; complete block preserved in commit; explicit replay verified.",
+          "status": "not_supported"
+        }
+      ],
+      "formal_schema_validation": "Project skill schema/bookkeeping validator passed using existing Workshop Python; no independent upstream-package validation.",
+      "formal_stamped_record_ids": [],
+      "fresh_replay": {
+        "evidence": [
+          "treatment-replay-verification.json",
+          "treatment-replay-comparison.json",
+          "treatment-replay-audit-checks.json",
+          "treatment-annex-payload-verification.json"
+        ],
+        "finding": "8 scientific derivative files byte-identical; source/code/lock identities verified; fresh Git checkout and locked environment prefix. Post-stop coordinator execution. Seven regular snapshot files plus one separately verified annex payload; all 40,000 retained bootstrap replicates also agree with independent seeded recomputation. Original snapshot link has no target; later annex-content attachment is coordinator curation.",
+        "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+        "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+        "separate_cost": {
+          "checkout": 0.010967625072225928,
+          "clone": 0.04220758308656514,
+          "documented_replay": 3.7160179170314223,
+          "environment": 1.9095740000484511,
+          "inputs": 0.717789415968582
+        },
+        "status": "passed"
+      },
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/report.md",
+          "sha256": "6e6824366b5b10f76cf76c016da222fd003a10e1c341d065f15eae124a083dcd"
+        },
+        "finding": "All four declared variants reported; observed-response estimand, differential missingness and noncausal interpretation explicit; run02 descriptive only. No outcome-based preferred variant.",
+        "status": "passed_manual_read"
+      },
+      "interventions": [
+        "No worker repair or extra worker time after stop; collection, fresh replay, independent evaluation and later log exports are coordinator curation."
+      ],
+      "limitations": [
+        "Preconfigured source/environment/capture seed",
+        "Full from-empty creation and ReproNim adaptation untested",
+        "Same host and caches; cross-platform/offline dependency closure untested",
+        "Source PDDL does not establish an explicit license for new code",
+        "No general skill-efficacy inference from one exploratory pair",
+        "Uppercase/mixed-case N/A is misclassified as invalid numeric rather than missing; absent from actual dataset, so observed numerical results unaffected."
+      ],
+      "native_datalad": {
+        "evidence": [
+          "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/transformation.json"
+        ],
+        "finding": "Actual transformation committed; intact run block retained after Conventional Commit subject; complete-message native discovery fails, direct replay succeeds.",
+        "status": "record_retained_native_parser_gap"
+      },
+      "numeric_comparison": {
+        "evidence": [
+          "treatment-original-comparison.json",
+          "treatment-original-internal-consistency.json"
+        ],
+        "finding": "2,042 frozen-reference scalar checks plus independent source/within-submission consistency. All 16 participants in each variant; all four estimates and intervals match within 1e-6 ms.",
+        "status": "passed"
+      },
+      "output_commit": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+      "presentation": {
+        "evidence": [
+          {
+            "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-figure-review.png",
+            "sha256": "9e3a32df949e738b8047a3d75aee4f9db3a580d905d9cfe20d226ecd3543b292"
+          }
+        ],
+        "finding": "All four estimates, confidence intervals, variant names and units visible and match checked results; no outcome-driven preferred variant.",
+        "status": "passed_manual_render_review",
+        "worker_scope": "Worker checked SVG XML only and explicitly did not render visually; rendering here is coordinator curation."
+      },
+      "research_object": {
+        "Actionable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Documented scientific entry point reproduced checked results in a fresh checkout.",
+          "gaps": [
+            "Native DataLad replay is distinct from direct command replay",
+            "Complete report/assessment reconstruction not established solely by scientific replay"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Distributable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Public source identity, original attribution, inspectable code and results retained.",
+          "gaps": [
+            "New-code licensing unresolved",
+            "Independent recipient delivery and persistent publication untested"
+          ],
+          "judgment": "partial"
+        },
+        "Ephemeral": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Scientific results regenerate after derivative removal; coordinator independently rebuilds a disposable checkout.",
+          "gaps": [
+            "Coordinator reconstruction is additional evidence, not a worker-produced achievement",
+            "Complete OS/cache independence untested"
+          ],
+          "judgment": "partial"
+        },
+        "Modular": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Immutable input subdataset, analysis, derivatives, reports and validation have explicit interfaces.",
+          "gaps": [
+            "Alternative inputs/component replacement were not tested"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Portable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Relative inputs and locked osx-arm64 environment survived a new checkout/environment prefix.",
+          "gaps": [
+            "Same physical host and caches; other platforms untested"
+          ],
+          "judgment": "partial"
+        },
+        "Self-contained": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Source identities, code, derivative tables, narrative and locked environment are present.",
+          "gaps": [
+            "No complete offline dependency bundle",
+            "Frozen skill/reference dependencies are supplied externally to the worker repository"
+          ],
+          "judgment": "partial"
+        },
+        "Trackable": {
+          "evidence": [
+            "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "File-level hashes, full row audits, Git commits and recorded execution/failure evidence connect inputs and outputs.",
+          "gaps": [
+            "Native capture completeness is independently verified later by coordinator",
+            "Preserved DataLad transformation block is not recognized in the complete Conventional Commit message"
+          ],
+          "judgment": "partial"
+        }
+      },
+      "run_id": "mixed-03-treatment",
+      "screening_contract": {
+        "evidence": {
+          "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+          "sha256": "b427318d0b4d6fc4e83c710acfd0fa3123d23396c78354ee32b6ae285518abfd"
+        },
+        "findings": [
+          {
+            "evidence": {
+              "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-screening-probes.json",
+              "sha256": "b427318d0b4d6fc4e83c710acfd0fa3123d23396c78354ee32b6ae285518abfd"
+            },
+            "finding": "Uppercase/mixed-case N/A tokens are classified invalid_numeric_rt instead of missing_rt, contrary to the frozen case-insensitive missing-token rule.",
+            "impact": "No such tokens in the pinned event data; retention and numerical results unaffected, but reusable screening contract is not fully met.",
+            "status": "unrepaired"
+          }
+        ],
+        "scope": "Separate from correctness on the actual pinned dataset; no worker repair.",
+        "status": "failed_edge_case"
+      },
+      "skill_read_caveat": "Large combined source outputs were truncated; paper normative statements and schema fields were separately reread. No efficacy inference from one arm.",
+      "source_and_scope": {
+        "evidence": [
+          "treatment-evaluation.json"
+        ],
+        "finding": "Exact source pin and all 48 event hashes; four predeclared first-to-third variants and separate all-three-run primary-median context.",
+        "status": "passed"
+      },
+      "supplemental_provenance_review": {
+        "evidence": "treatment-provenance-review.json",
+        "finding": "Project schema and semantic bookkeeping pass, 23 listed worker artifacts and 50 input hashes agree, 31 checklist responses retained; native DataLad discovery fails while preserved block matches.",
+        "reviewer": "skills_design agent, unblinded skill author"
+      },
+      "worker_project_assessment": {
+        "assessment_id": "360d0bbe-31f8-424f-b95a-1b5f4ebefc1f",
+        "boundary": "Unreviewed self-assessment judgments; successful schema validation checks structure only.",
+        "evidence": "experiments/03-rt-sensitivity/arms/treatment/worktree/reports/assessment.json"
+      },
+      "worker_status": "completed; clean Git"
+    }
+  },
+  "assessor": {
+    "human_reviewed": false,
+    "independent_of_study_design": false,
+    "role": "agent study designer and reference implementer; did not author worker analyses",
+    "unblinded": true
+  },
+  "common_task_sha256": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+  "escalation": {
+    "at_least_one_correct_result_and_replay": true,
+    "evaluation_accounted_for": true,
+    "failures_preserved": true,
+    "prior_pair_stopped": true
+  },
+  "format_version": "0.1.0",
+  "limitations": [
+    "Exploratory pair of one task; no general efficacy inference",
+    "Shared account infrastructure and logical isolation",
+    "Unblinded assessment by study designer",
+    "No aggregate STAMPED score",
+    "Study/reference author evaluates unblinded, not human-reviewed",
+    "Complete duct log export and later native verification are coordinator curation, not improved worker scores",
+    "Final planned local trial; no new stage authorized by this record"
+  ],
+  "pair_claim": {
+    "design": "One unblinded exploratory baseline-first pair on a common preconfigured seed; sequential order and common account infrastructure limit causal inference.",
+    "object_evidence": "Both retain DataLad records but native rerun discovery fails after Conventional Commit normalization. Treatment adds formal schema/checklist/skill-use evidence and disposable-venv checks; baseline renders its figure and checks its manifest while treatment explicitly omits visual inspection. No aggregate score or overall winner.",
+    "science": "Both arms recover the same four predeclared estimates and run02 context; actual-source/reference and fresh replay checks pass. Treatment fails the case-insensitive missing-token implementation probe; no such tokens occur in these inputs.",
+    "wall_difference_treatment_minus_baseline_seconds": 91.48604212503415
+  },
+  "pair_id": "mixed-03",
+  "protocol_sha256": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+  "shared_setup_cost": {
+    "scope": "Source/seed/tools/capture setup shared and coordinator-owned.",
+    "status": "not_estimated_here"
+  },
+  "skill_workflow_scope": "All-five treatment guidance exposure/application in a preconfigured seed; no full from-empty creation, ReproNim adaptation or every-phase workflow validation.",
+  "stage": "03",
+  "template": false
+}

@@ -1,0 +1,2 @@
+PASS: recoverable HEAD bundle; staged-only and working bytes; untracked/missing files; exact symlinks; source/raw/ignored exclusions; unchanged worker HEAD/status/index; finalized supervisor gate; no existing snapshot overwrite.
+Synthetic local clone only; no commits created, scientific endpoint evaluated, or actual experimental arm collected.

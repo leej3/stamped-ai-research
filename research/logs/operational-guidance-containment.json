@@ -1,0 +1,359 @@
+{
+  "checked_at": "2026-10-14T23:21:39.350168+00:00",
+  "classification": "Complete private user-level Workshop transport guidance embedded in six operational event streams. This receipt contains no private guidance text or credential values.",
+  "evidence_audit": "research/mixed-gambles-design/evaluator/private-guidance-exposure-audit.json",
+  "exposure_summary": {
+    "events": [
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/codex-events.jsonl",
+        "sha256": "cda4cce8cca0e840e4a4aad25a9d5123eecc5faf84c9b5d3fbbc5ef5c018f462",
+        "occurrences": [
+          {
+            "line": 10,
+            "event_id": "item_4",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              10204,
+              14853
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              7179,
+              22638
+            ],
+            "matched_raw_byte_spans": [
+              [
+                17873,
+                22597
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-treatment/codex-events.jsonl",
+        "sha256": "1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2",
+        "occurrences": [
+          {
+            "line": 10,
+            "event_id": "item_4",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              10204,
+              14853
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              25694,
+              41153
+            ],
+            "matched_raw_byte_spans": [
+              [
+                36388,
+                41112
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-baseline/codex-events.jsonl",
+        "sha256": "37a271c0f38f2c64b2e4046196bfeae604584e55045a15f50f2fa00cb14c912a",
+        "occurrences": [
+          {
+            "line": 13,
+            "event_id": "item_6",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              10204,
+              14853
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              16338,
+              31811
+            ],
+            "matched_raw_byte_spans": [
+              [
+                27046,
+                31770
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/codex-events.jsonl",
+        "sha256": "99fd1352fc5182b64e2643b1d96c63c5e1e9da37df32e8b20c8840fcf9904881",
+        "occurrences": [
+          {
+            "line": 10,
+            "event_id": "item_4",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              15132,
+              19781
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              25707,
+              46146
+            ],
+            "matched_raw_byte_spans": [
+              [
+                41381,
+                46105
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-baseline/codex-events.jsonl",
+        "sha256": "ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+        "occurrences": [
+          {
+            "line": 8,
+            "event_id": "item_3",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              15132,
+              19781
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              5771,
+              26220
+            ],
+            "matched_raw_byte_spans": [
+              [
+                21455,
+                26179
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-03-treatment/codex-events.jsonl",
+        "sha256": "64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+        "occurrences": [
+          {
+            "line": 10,
+            "event_id": "item_4",
+            "field": "$.item.aggregated_output",
+            "classification": "complete_skill_body",
+            "decoded_char_span": [
+              15132,
+              19781
+            ],
+            "private_source_char_span": [
+              0,
+              4649
+            ],
+            "matched_characters": 4649,
+            "matched_sha256": "9a42c2722387568fc5c5e681b5dab9a2ca9de4193ef329f20abafed2e5bef1fa",
+            "event_byte_span": [
+              21855,
+              42294
+            ],
+            "matched_raw_byte_spans": [
+              [
+                37529,
+                42253
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "configured_secret_values_checked": 3,
+    "exact_configured_secret_match_files": 0,
+    "obvious_credential_pattern_match_files": 0,
+    "outer_captures_with_private_markers": 0
+  },
+  "branches": [
+    {
+      "stage": "01",
+      "branch": "codex/mixed-01-participant-rt-source",
+      "old_published_tip": "ab60452f5e411e42c1171d3a1bf54cdf2bc25a0d",
+      "replacement_tip": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb",
+      "local_head": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb",
+      "remote_head": "5d53a9f27195a21bc3e77ce7619ccc3eabc292bb",
+      "replacement_verified": true,
+      "stage03_scope": null,
+      "old_tip_is_ancestor_of_replacement": false,
+      "ancestry_query_returncode": 1
+    },
+    {
+      "stage": "02",
+      "branch": "codex/mixed-02-cohort-rt-source",
+      "old_published_tip": "cbf2020bc41833b00280f4af4d8a7598d4ba9217",
+      "replacement_tip": "395d6c460434773281f6e7989a8530139b01be8a",
+      "local_head": "395d6c460434773281f6e7989a8530139b01be8a",
+      "remote_head": "395d6c460434773281f6e7989a8530139b01be8a",
+      "replacement_verified": true,
+      "stage03_scope": null,
+      "old_tip_is_ancestor_of_replacement": false,
+      "ancestry_query_returncode": 1
+    },
+    {
+      "stage": "03",
+      "branch": "codex/mixed-03-rt-sensitivity-source",
+      "old_published_tip": null,
+      "replacement_tip": null,
+      "local_head": "7c8f95372efadea53bddf4da15bfdf55c51dffec",
+      "remote_head": "7c8f95372efadea53bddf4da15bfdf55c51dffec",
+      "replacement_verified": false,
+      "stage03_scope": "No amended published curation tip claimed; inspect staged pointer state"
+    }
+  ],
+  "event_files": [
+    {
+      "stage": "01",
+      "arm": "baseline",
+      "canonical_path": "experiments/01-participant-rt/logs/agents/baseline/codex-events.jsonl",
+      "annex_key": "SHA256E-s120416--cda4cce8cca0e840e4a4aad25a9d5123eecc5faf84c9b5d3fbbc5ef5c018f462",
+      "HEAD_entry": "120000 blob 168c5071b77df44bc8daa4b553ad3a84d6b08c53\tlogs/agents/baseline/codex-events.jsonl",
+      "index_entry": "120000 168c5071b77df44bc8daa4b553ad3a84d6b08c53 0\tlogs/agents/baseline/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "cda4cce8cca0e840e4a4aad25a9d5123eecc5faf84c9b5d3fbbc5ef5c018f462",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    },
+    {
+      "stage": "01",
+      "arm": "treatment",
+      "canonical_path": "experiments/01-participant-rt/logs/agents/treatment/codex-events.jsonl",
+      "annex_key": "SHA256E-s299816--1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2",
+      "HEAD_entry": "120000 blob 73dae46bf89bc213ecb7d43145d7c4bf7ca36c18\tlogs/agents/treatment/codex-events.jsonl",
+      "index_entry": "120000 73dae46bf89bc213ecb7d43145d7c4bf7ca36c18 0\tlogs/agents/treatment/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "1a409a369d8526fe38206ba3592d035d0c75c45f8e3c83f83623c763bc1499c2",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    },
+    {
+      "stage": "02",
+      "arm": "baseline",
+      "canonical_path": "experiments/02-cohort-rt/logs/agents/baseline/codex-events.jsonl",
+      "annex_key": "SHA256E-s203873--37a271c0f38f2c64b2e4046196bfeae604584e55045a15f50f2fa00cb14c912a",
+      "HEAD_entry": "120000 blob c7a6764f165c0a7f0d2e98cd4a23f6571bdc7999\tlogs/agents/baseline/codex-events.jsonl",
+      "index_entry": "120000 c7a6764f165c0a7f0d2e98cd4a23f6571bdc7999 0\tlogs/agents/baseline/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "37a271c0f38f2c64b2e4046196bfeae604584e55045a15f50f2fa00cb14c912a",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    },
+    {
+      "stage": "02",
+      "arm": "treatment",
+      "canonical_path": "experiments/02-cohort-rt/logs/agents/treatment/codex-events.jsonl",
+      "annex_key": "SHA256E-s412712--99fd1352fc5182b64e2643b1d96c63c5e1e9da37df32e8b20c8840fcf9904881",
+      "HEAD_entry": "120000 blob ff1e8cc34cb634c3d88f0ae0edfcffa555fff891\tlogs/agents/treatment/codex-events.jsonl",
+      "index_entry": "120000 ff1e8cc34cb634c3d88f0ae0edfcffa555fff891 0\tlogs/agents/treatment/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "99fd1352fc5182b64e2643b1d96c63c5e1e9da37df32e8b20c8840fcf9904881",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    },
+    {
+      "stage": "03",
+      "arm": "baseline",
+      "canonical_path": "experiments/03-rt-sensitivity/logs/agents/baseline/codex-events.jsonl",
+      "annex_key": "SHA256E-s202168--ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "HEAD_entry": "120000 blob 8a17063ed47f984eb41fe874c23af9b74131b926\tlogs/agents/baseline/codex-events.jsonl",
+      "index_entry": "120000 8a17063ed47f984eb41fe874c23af9b74131b926 0\tlogs/agents/baseline/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "ffa2a215658083cc4130257c87dbcb445e31a9107b99465eb91b411cd502a1e6",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    },
+    {
+      "stage": "03",
+      "arm": "treatment",
+      "canonical_path": "experiments/03-rt-sensitivity/logs/agents/treatment/codex-events.jsonl",
+      "annex_key": "SHA256E-s333705--64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+      "HEAD_entry": "120000 blob 05d7633d35f8a904003334f1c540cc1a886609cf\tlogs/agents/treatment/codex-events.jsonl",
+      "index_entry": "120000 05d7633d35f8a904003334f1c540cc1a886609cf 0\tlogs/agents/treatment/codex-events.jsonl",
+      "HEAD_is_pointer": true,
+      "index_is_pointer": true,
+      "local_payload_matches_original": true,
+      "payload_sha256": "64623959dda77aed3bfbddfa19298cee9a11b299ad6c832355591f363117c4a1",
+      "local_registered_urls": [],
+      "published_metadata_matching_paths": [],
+      "published_web_url_records": [],
+      "no_registered_public_url_observed": true
+    }
+  ],
+  "published_annex_metadata_oid_checked": "6db70f7a2646b23d51b53cf58870380916e48fe3",
+  "containment_scope": "Current public research branch trees and replacement branch ancestry only. Full original event bytes remain locally available through annex; no event payload upload or URL registration is authorized by this correction. Public scientific outputs and nonsensitive computational logs remain separate.",
+  "coordinator_reported_actions": [
+    "Root retained original canonical01/02 tips only in local backup refs.",
+    "Root replaced its own new curation tips using exact old-OID force-with-lease; no shared human commits were rewritten."
+  ],
+  "verified_results": {
+    "replacement01_and02_remote_refs_match": true,
+    "all_six_index_entries_are_annex_pointers": true,
+    "all_six_local_complete_payloads_match_originals": true,
+    "no_public_event_urls_observed": true,
+    "replaced_old_tips_not_ancestors_of_replacements": true
+  },
+  "limitations": [
+    "No claim that historical orphan blobs, caches, third-party copies or prior downloads have been erased or are inaccessible.",
+    "No claim that every possible credential format was ruled out; scans covered three configured token values and bounded obvious formats.",
+    "Native Entire uploaded history is separately authorized and outside this correction/audit scope.",
+    "Stage03 curation was not yet published at initial containment request; its staged raw-event pointers are checked separately."
+  ],
+  "audit_tool_side_effect": "git-annex whereis emitted automatic origin annex-ignore configuration notices for GitHub remotes. This ancillary local transport setting is separate from scientific files, branch commits and public refs; the audit performed no content replacement or push."
+}

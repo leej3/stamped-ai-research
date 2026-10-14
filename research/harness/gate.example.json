@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "workspace": "/ABSOLUTE/PATH/.runs/01-baseline",
+  "head": "REPLACE_FULL_HEAD_COMMIT",
+  "tree": "REPLACE_FULL_HEAD_TREE",
+  "native_session_id": "REPLACE_SETUP_PROBE_NATIVE_SESSION_UUID",
+  "checkpoint_id": "REPLACE_ENTIRE_CHECKPOINT_ID",
+  "verified_at": "REPLACE_UTC",
+  "native_capture_verified": false,
+  "uploaded_refs_verified": false,
+  "code": {"remote": "git@github.com:leej3/stamped-ai-research.git", "ref": "refs/heads/codex/01-baseline", "local_sha": "REPLACE", "remote_sha": "REPLACE"},
+  "checkpoint": {"remote": "git@github.com:leej3/stamped-ai-research.git", "ref": "refs/entire/checkpoints/REPLACE_SUFFIX/REPLACE_CHECKPOINT_ID", "local_sha": "REPLACE", "remote_sha": "REPLACE"},
+  "evidence": [{"path": "/ABSOLUTE/PRIVATE/PATH/retained-gate-check.json", "sha256": "REPLACE"}]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "bounded_amendment_written",
+  "output": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-gambles-freeze-amended.json",
+    "mode": "sha256",
+    "sha256": "9b8d1bc5e8b49ae937e33d8cbe122cb8c0bd9eba92f204e3ed1495e9e131941b"
+  },
+  "changed_defaults": {
+    "model": {
+      "original": "gpt-6-astra",
+      "current": "gpt-5.6-luna"
+    },
+    "model_reasoning_effort": {
+      "original": "ultra",
+      "current": "medium"
+    }
+  },
+  "original_freeze_modified": false,
+  "live_configuration_modified": false,
+  "experimental_overrides_changed": false
+}
