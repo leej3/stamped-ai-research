@@ -1,0 +1,25 @@
+{"annex_pre_commit_paths": ["./.codex", "./.datalad", "./.entire", "./.gitattributes", "./.gitignore", "./.gitmodules", "./.pre-commit-config.yaml", "./README.md", "./SOURCE.json", "./TASK.md", "./annex-content", "./capture", "./evaluation", "./inputs", "./logs", "./packaging", "./pixi.lock", "./pixi.toml", "./references", "./replay", "./study-records"], "immutable_exclusion": "arms/"}
+{
+  "tree": "index",
+  "arms": {
+    "baseline": {
+      "snapshot_sha256": "49eb75092ef39caef0a6076f71ebec7d862f554f39d66f4625dab529c09d4151",
+      "worker_head": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+      "regular": 31,
+      "symlink": 0,
+      "absent": 0,
+      "bundle_sha256_matches": true
+    },
+    "treatment": {
+      "snapshot_sha256": "d5fd69ff9d136da06139d5085a5f020d6dcad4532d718431d9a9c6c75672d59e",
+      "worker_head": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+      "regular": 40,
+      "symlink": 1,
+      "absent": 0,
+      "bundle_sha256_matches": true
+    }
+  },
+  "failures": [],
+  "passed": true
+}
+Format coordinator README with Snapper...............(no files to check)Skipped

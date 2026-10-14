@@ -1,0 +1,17 @@
+[codex/mixed-03-rt-sensitivity-source 3b0c36c] fix(provenance): scope annex checks around immutable arm snapshots
+ 16 files changed, 399 insertions(+), 1 deletion(-)
+ create mode 100644 logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/context.json
+ create mode 100644 logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_info.json
+ create mode 100644 logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stderr
+ create mode 100644 logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stdout
+ create mode 100644 logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_usage.jsonl
+ create mode 100644 logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/context.json
+ create mode 100644 logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_info.json
+ create mode 100644 logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stderr
+ create mode 100644 logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stdout
+ create mode 100644 logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_usage.jsonl
+ create mode 100644 packaging/README.md
+ create mode 100644 packaging/duct-manifest.json
+ create mode 100644 packaging/pre-commit.legacy
+ create mode 100644 packaging/scoped_annex_pre_commit.py
+ create mode 100644 packaging/verification.json
