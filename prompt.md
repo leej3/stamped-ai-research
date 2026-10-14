@@ -1,17 +1,3 @@
-Start a fresh STAMPED research attempt in this dataset.
-Execute the research work below.
-
-Setup is already installed.
-Read `START-HERE.md` and run `pixi run bootstrap preflight` once.
-The project has native Entire hooks, a public GitHub SSH remote, and a CON Hub annex remote.
-Approve the exact project and its seven hooks in Codex's Hooks view if prompted; use Reload hooks/configuration, then continue in this chat. Do not reinstall working hooks, import historical sessions, or restart setup discovery. Use `$entire-setup` at `.agents/skills/entireio-setup/SKILL.md` only for a failed check. Before research, make one small real setup edit and a normal attributed Conventional Commit, then run `pixi run bootstrap verify --session ACTUAL_CHAT_ID --push`. This checks native capture for this chat and exact uploaded code/checkpoint refs on GitHub.
-These two checks are the required Entire acceptance gate.
-Entire login and hosted API/dashboard ingestion are optional additional checks, not prerequisites for starting research.
-Do not request an Entire login unless I explicitly ask for hosted verification.
-Publication of new session checkpoints to public `leej3/stamped-ai-research` is authorized.
-Use the configured CON Hub remote for annex content.
-The older attempts are background, not captured research runs for this dataset.
-After it passes, complete all the work below rather than stopping at a plan or scaffold.
 
 Part of this work is to create some skills for stamped.
 The task is summarize here:[https://github.com/stamped-principles/stamped-agent-skills/issues/3](https://github.com/stamped-principles/stamped-agent-skills/issues/3) and the repo is where these skills will eventually go (although they will first go in con/skills while we iterate and decide what is appropriate to share under the stamped org).
@@ -47,7 +33,8 @@ More recent context including the reviewers feedback: codex://threads/01a0ab7a-b
 If you happen to need to offload to an annex remote we can use the con hub (don't use the datalad hub).
 I believe you have access: codex://threads/01a1335e-3947-7ae2-8201-778f679bf2c0
 
-While i've made efforts at reproducibility previously, I'd obviously love to be able to do analysis  more easily by giving the agent a skill so that the research object is valuable to the scientific community [https://github.com/leej3/basic_mri_analysis_in_r/blob/hcp_analysis/basic_analysis.pdf](https://github.com/leej3/basic_mri_analysis_in_r/blob/hcp_analysis/basic_analysis.pdf) [https://github.com/STAMPED-dl-morphometrics-biases/STAMPED-dl_morphometrics_biases](https://github.com/STAMPED-dl-morphometrics-biases/STAMPED-dl_morphometrics_biases)
+While i've made efforts at reproducibility previously, I'd obviously love to be able to do analysis  more easily by giving the agent a skill so that the research object is valuable to the scientific community [https://github.com/leej3/basic_mri_analysis_in_r/blob/hcp_analysis/basic_analysis.pdf](https://github.com/leej3/basic_mri_analysis_in_r/blob/hcp_analysis/basic_analysis.pdf) [https://github.com/STAMPED-dl-morphometrics-biases/STAMPED-dl_morphometrics_biases](https://github.com/STAMPED-dl-morphometrics-biases/STAMPED-dl_morphometrics_biases) I'm not saying i want these reproduced... simply that when performing such analyses and trying to make them reproducible it can be very challenging to tick all the boxes.
+The STAMPED principles allow the trade-offs to be reasoned about explicitly.
 
 Efforts to make ai better at science include: [https://www.tbench.ai/news/tbsci-contribution-call](https://www.tbench.ai/news/tbsci-contribution-call) [https://brain-researcher.com](https://brain-researcher.com)
 
