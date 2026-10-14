@@ -1,0 +1,203 @@
+{
+  "capture": "Native capture left enabled; no native history or outer duct record inspected; no per-computation duct claim.",
+  "records": [
+    {
+      "actual_reads": [
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/references/principles.md"
+      ],
+      "application": "Baseline gaps documented before calculation; added source inventory, replay, and reassessment.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+      "entrypoint_sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+      "evidence": [
+        "reports/protocol.md",
+        "reports/report.md",
+        "reports/verification.json",
+        "reports/assessment.json"
+      ],
+      "read_timing": "Before implementation except validator helper read during evidence setup.",
+      "skill": "align-with-stamped-principles",
+      "tree_files": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+          "sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/references/principles.md",
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        }
+      ],
+      "tree_manifest_sha256": "15240f18a35135463534ad694da5faf8e7cb221df8f798591b93fb938d436383",
+      "version": "0.1.0"
+    },
+    {
+      "actual_reads": [
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/principles.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/assessment-contract.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/checklist-responses.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/research-assessment.schema.json",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/scripts/validate_assessment.py"
+      ],
+      "application": "Separate criterion judgments, full checklist item coverage, pinned reference conflicts, no aggregate score.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "entrypoint_sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+      "evidence": [
+        "reports/protocol.md",
+        "reports/report.md",
+        "reports/verification.json",
+        "reports/assessment.json"
+      ],
+      "read_timing": "Before implementation except validator helper read during evidence setup.",
+      "skill": "assess-alignment-with-stamped-principles",
+      "tree_files": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+          "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/assessment-contract.md",
+          "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/checklist-responses.md",
+          "sha256": "29919f38338c935530e9f1781976a02afd7447b6607e5e915f570549d3f68635"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/principles.md",
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/references/research-assessment.schema.json",
+          "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/scripts/export_checklist.py",
+          "sha256": "ea667090655f463cf80b80486c94a75ab14a01777682f31903bd38b52670013d"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/scripts/validate_assessment.py",
+          "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+        }
+      ],
+      "tree_manifest_sha256": "9631bab08bfd63d7905c5f1b9998109346897867bb366defe40b940f9366f0c2",
+      "version": "0.1.0"
+    },
+    {
+      "actual_reads": [
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/references/principles.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/references/repronim.md"
+      ],
+      "application": "Preserved source subdataset, PDDL and declared BIDS version; isolated tabular derivative; used supplied Pixi.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+      "entrypoint_sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+      "evidence": [
+        "reports/protocol.md",
+        "reports/report.md",
+        "reports/verification.json",
+        "reports/assessment.json"
+      ],
+      "read_timing": "Before implementation except validator helper read during evidence setup.",
+      "skill": "create-repronim-stamped-project",
+      "tree_files": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+          "sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/references/principles.md",
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/references/repronim.md",
+          "sha256": "f976644b0d926ca455ded85dd0617915c2295d41d3a637ff8f3d62a6a833a358"
+        }
+      ],
+      "tree_manifest_sha256": "9a95e54e10de7db9c1abd8ed8193db7d9ae6b5c5136800ac3b244f0fbf14f4c1",
+      "version": "0.1.0"
+    },
+    {
+      "actual_reads": [
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/references/principles.md"
+      ],
+      "application": "Explicit boundary, creation brief, input identity, module interfaces, and executable entry point.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+      "entrypoint_sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+      "evidence": [
+        "reports/protocol.md",
+        "reports/report.md",
+        "reports/verification.json",
+        "reports/assessment.json"
+      ],
+      "read_timing": "Before implementation except validator helper read during evidence setup.",
+      "skill": "create-stamped-project",
+      "tree_files": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+          "sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/references/principles.md",
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        }
+      ],
+      "tree_manifest_sha256": "24c78bdc392767a8e932ef4cc9954d5903f4909bcea4d72dc66751da74ea818d",
+      "version": "0.1.0"
+    },
+    {
+      "actual_reads": [
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/principles.md",
+        "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/paired-evaluation.md"
+      ],
+      "application": "Protocol before summaries, scoped execution, independent Decimal check and disposable-directory replay.",
+      "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+      "entrypoint_sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+      "evidence": [
+        "reports/protocol.md",
+        "reports/report.md",
+        "reports/verification.json",
+        "reports/assessment.json"
+      ],
+      "read_timing": "Before implementation except validator helper read during evidence setup.",
+      "skill": "do-full-research-loop",
+      "tree_files": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+          "sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/assessment-contract.md",
+          "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/paired-evaluation.md",
+          "sha256": "8c9ac59c52823e26fd889ff7a07c3cdd7208cca25669e34f335fa7a3d2c32a35"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/principles.md",
+          "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/references/research-assessment.schema.json",
+          "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+        },
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/scripts/validate_assessment.py",
+          "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+        }
+      ],
+      "tree_manifest_sha256": "063bac5772e2c6ac003699e0c7791e71c0a397abc14ddf277dbe789cf2160d7f",
+      "version": "0.1.0"
+    }
+  ],
+  "run_id": "mixed-01-treatment",
+  "scope": "Frozen read-only treatment references; not installed through APM; no recall/history used.",
+  "shared_controls": [
+    "DataLad/Pixi",
+    "commit-provenance for local commits",
+    "outer duct supplied by runner"
+  ]
+}

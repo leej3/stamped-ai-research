@@ -1,0 +1,20 @@
+Completed Stage 01.
+
+| Run | Presented | Retained | Excluded | Median RT |
+|---|---:|---:|---:|---:|
+| 01 | 86 | 85 | 1 | 1,272 ms |
+| 03 | 85 | 85 | 0 | 1,261 ms |
+
+**Run-03 minus run-01: −11 ms.** This is descriptive for one participant, with no causal or population inference.
+
+Run 01’s excluded row had both nonpositive RT and absent-response flags. All other exclusion and onset flags were zero.
+
+[Report](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/reports/report.md) · [Machine-readable run record](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline/reports/run.json)
+
+Replay:
+
+```sh
+pixi run --as-is bash code/replay.sh
+```
+
+Passed 17 synthetic checks, independent median calculations, and byte-identical local replay. BIDS validation and clean-environment/platform replay remain unattempted. Saved locally in commit `18bbaca`.

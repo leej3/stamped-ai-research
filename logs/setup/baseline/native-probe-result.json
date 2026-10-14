@@ -1,0 +1,20 @@
+{
+  "finished_at": "2026-10-14T22:12:37.312758+00:00",
+  "returncode": 0,
+  "timed_out": false,
+  "elapsed_seconds": 26.910758375015575,
+  "native_session_ids": [
+    "01a13c79-14b4-7d50-888a-1224403c3a6b"
+  ],
+  "turn_usage": [
+    {
+      "input_tokens": 84639,
+      "cached_input_tokens": 75136,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 747,
+      "reasoning_output_tokens": 303
+    }
+  ],
+  "turn_completed": true,
+  "scientific_analysis_performed": false
+}

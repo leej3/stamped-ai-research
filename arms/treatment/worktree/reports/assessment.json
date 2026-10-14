@@ -1,0 +1,552 @@
+{
+  "assessment_id": "mixed-01-treatment-final",
+  "assessor": {
+    "kind": "agent",
+    "name": "Codex worker"
+  },
+  "conditions": {
+    "access_context": "Supplied local input files; no retrieval needed",
+    "assistance": "No agents or human contact",
+    "budget": "480 seconds for this one attempt",
+    "collection_coverage": "Native tool outputs; outer duct supplied, not inspected; local transformation metadata separate.",
+    "environment": "Existing supplied Pixi osx-arm64 environment",
+    "permissions": [
+      "local read/write",
+      "scoped local commits",
+      "no network"
+    ],
+    "tools": [
+      "Python standard library",
+      "Git",
+      "Pixi",
+      "DataLad"
+    ]
+  },
+  "created_at": "2026-10-14T22:19:44.939121+00:00",
+  "instrument": {
+    "name": "assess-alignment-with-stamped-principles",
+    "source": {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "role": "frozen skill",
+      "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+      "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md"
+    },
+    "version": "0.1.0"
+  },
+  "interventions": [
+    {
+      "actor": "Codex worker",
+      "description": "Implemented analysis, trial audit, replay and reporting after baseline.",
+      "evidence": [
+        {
+          "path": "reports/protocol.md",
+          "role": "baseline",
+          "sha256": "68335ab7bd76f776157c2cb8cb824de0594b9ca89de66c9809618952d6dd1479",
+          "uri": "reports/protocol.md"
+        }
+      ],
+      "timing": "This attempt after protocol, before final assessment"
+    }
+  ],
+  "limitations": [
+    "Single-person descriptive temporal association; no population interval or generalization.",
+    "Run position is not randomized and task composition may differ; no causal practice, fatigue, learning, loss-aversion or choice-preference inference.",
+    "Estimand concerns observed valid responses, not every offered decision. No correctness or acceptance meaning is inferred from numeric codes.",
+    "Task-supplied broader source audit reports 65 of 86 absent-code rows in sub-05/run-01. This is a material differential-missingness warning, not recomputed here; only sub-01 runs 01 and 03 were analyzed.",
+    "Task-supplied positive-RT absent-code row in sub-15/run-03 was not inspected; the general rule excludes such contradictions.",
+    "Source declares BIDS 1.0.0rc4; current BIDS validation was not attempted.",
+    "Fresh external retrieval, fresh software construction, cross-platform replay and independent reproduction were not attempted.",
+    "New analysis code/prose license and persistent distribution route remain unresolved.",
+    "Native capture and one outer duct wrapper were supplied; their records were not inspected. Computation outputs are captured in native CLI outputs, not separate duct runs.",
+    "Assessment schema validation was attempted but unavailable because jsonschema is absent in the project and system Python; no dependency installation was allowed.",
+    "Workshop recorder failed on the same missing dependency; local skill-use evidence is retained, not queued or published.",
+    "Assessment is an unreviewed agent self-assessment, not certification or evidence of treatment efficacy."
+  ],
+  "metrics": [],
+  "object": {
+    "boundary": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+    "components": [
+      {
+        "path": "README.md",
+        "role": "component",
+        "sha256": "0f3d16f1c6640d50b3e2afb58e969fe88db0495c48df53b24d17f6dd01c92590",
+        "uri": "README.md"
+      },
+      {
+        "path": "code/analyze_rt.py",
+        "role": "component",
+        "sha256": "088328a6e62ec58b0a9a9039762c87f1f4562de77b5d6d13ff541fa23374c538",
+        "uri": "code/analyze_rt.py"
+      },
+      {
+        "path": "code/build_report.py",
+        "role": "component",
+        "sha256": "eb26deaa286a1b75db1aba5ded081df8520e4e8296d1762ef05de381c0817a6a",
+        "uri": "code/build_report.py"
+      },
+      {
+        "path": "code/verify_rt.py",
+        "role": "component",
+        "sha256": "1c4cc97e19a28cdf54f74f1b6dc8ce5080e3f340e83fddb9a3c48689aa783907",
+        "uri": "code/verify_rt.py"
+      },
+      {
+        "path": "derivatives/gambling-rt/environment.json",
+        "role": "component",
+        "sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176",
+        "uri": "derivatives/gambling-rt/environment.json"
+      },
+      {
+        "path": "derivatives/gambling-rt/median-rt.svg",
+        "role": "component",
+        "sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62",
+        "uri": "derivatives/gambling-rt/median-rt.svg"
+      },
+      {
+        "path": "derivatives/gambling-rt/results.json",
+        "role": "component",
+        "sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424",
+        "uri": "derivatives/gambling-rt/results.json"
+      },
+      {
+        "path": "derivatives/gambling-rt/run-summary.tsv",
+        "role": "component",
+        "sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719",
+        "uri": "derivatives/gambling-rt/run-summary.tsv"
+      },
+      {
+        "path": "derivatives/gambling-rt/trial-audit.tsv",
+        "role": "component",
+        "sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4",
+        "uri": "derivatives/gambling-rt/trial-audit.tsv"
+      },
+      {
+        "path": "pixi.lock",
+        "role": "component",
+        "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3",
+        "uri": "pixi.lock"
+      },
+      {
+        "path": "pixi.toml",
+        "role": "component",
+        "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9",
+        "uri": "pixi.toml"
+      },
+      {
+        "path": "reports/protocol.md",
+        "role": "component",
+        "sha256": "68335ab7bd76f776157c2cb8cb824de0594b9ca89de66c9809618952d6dd1479",
+        "uri": "reports/protocol.md"
+      },
+      {
+        "path": "reports/skill-use.json",
+        "role": "component",
+        "sha256": "5d5ba27e6beeba71b60b55dbf6d21bebf67efe875b72b2c5d2f7a7674200b8ea",
+        "uri": "reports/skill-use.json"
+      },
+      {
+        "path": "reports/verification.json",
+        "role": "component",
+        "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120",
+        "uri": "reports/verification.json"
+      }
+    ],
+    "dirty_snapshot": {
+      "path": "reports/object-manifest.json",
+      "role": "retained component digest inventory",
+      "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+      "uri": "reports/object-manifest.json"
+    },
+    "snapshot": {
+      "revision": "dfc1a8b46bd6d1b6e16f2ff85b47598ecfafa279",
+      "role": "base code snapshot",
+      "uri": "."
+    }
+  },
+  "outcome": "completed",
+  "references": [
+    {
+      "path": "references/stamped/paper/main.tex",
+      "revision": "310eefa1bd756a04d69161c216d93af4d354dd05",
+      "role": "pinned offline reference",
+      "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611",
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-paper/310eefa1bd756a04d69161c216d93af4d354dd05/main.tex"
+    },
+    {
+      "path": "references/stamped/principles/stamped-principles.json",
+      "revision": "929e87db4e1248aa6b3b32c368da9e825137175e",
+      "role": "pinned offline reference",
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580",
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-principles-schema/929e87db4e1248aa6b3b32c368da9e825137175e/stamped-principles.json"
+    },
+    {
+      "path": "references/stamped/checklist/stamped-checklist.json",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "role": "pinned offline reference",
+      "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba",
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist.json"
+    },
+    {
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "role": "pinned offline reference",
+      "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e",
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist-schema.yaml"
+    }
+  ],
+  "research_object": {
+    "A": [
+      {
+        "direction": "maximize",
+        "id": "A",
+        "judgment": "demonstrated",
+        "observations": [
+          {
+            "activity": "execute",
+            "description": "Analysis and verification commands executed; five output digests matched in a fresh local working directory.",
+            "evidence": [
+              {
+                "description": "Analysis and verification commands executed; five output digests matched in a fresh local working directory.",
+                "id": "A-e-execute",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "evidence",
+                  "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "A-execute",
+            "status": "completed"
+          },
+          {
+            "activity": "compare",
+            "description": "Analysis and verification commands executed; five output digests matched in a fresh local working directory.",
+            "evidence": [
+              {
+                "description": "Analysis and verification commands executed; five output digests matched in a fresh local working directory.",
+                "id": "A-e-compare",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "evidence",
+                  "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "A-compare",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "Only the named same-host, existing-interpreter replay is established. Test a fresh environment when authorized.",
+        "required_activities": [
+          "execute",
+          "compare"
+        ],
+        "target": "Actionability"
+      }
+    ],
+    "D": [
+      {
+        "direction": "maximize",
+        "id": "D",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Source retrieval URL, exact revision and source PDDL terms retained; outputs prepared locally.",
+            "evidence": [
+              {
+                "description": "Source retrieval URL, exact revision and source PDDL terms retained; outputs prepared locally.",
+                "id": "D-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "D-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "No external retrieval or publication; new code license unresolved. Resolve component licenses and verify recipient retrieval when authorized.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Distributability"
+      }
+    ],
+    "E": [
+      {
+        "direction": "maximize",
+        "id": "E",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Temporary replay directory was removed after comparison; durable results and checks retained.",
+            "evidence": [
+              {
+                "description": "Temporary replay directory was removed after comparison; durable results and checks retained.",
+                "id": "E-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "E-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "Software interpreter was reused, not reconstructed in a fresh environment. Run in a newly constructed disposable software environment.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Ephemerality"
+      }
+    ],
+    "M": [
+      {
+        "direction": "maximize",
+        "id": "M",
+        "judgment": "demonstrated",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Separate input subdataset, code, derivative outputs and reports; CLI accepts input/output paths.",
+            "evidence": [
+              {
+                "description": "Separate input subdataset, code, derivative outputs and reports; CLI accepts input/output paths.",
+                "id": "M-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "M-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "Independent component updates have not been tested. Test another explicitly selected input revision separately.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Modularity"
+      }
+    ],
+    "P": [
+      {
+        "direction": "maximize",
+        "id": "P",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Relative analysis paths, standard library code, pinned Pixi environment; observed macOS arm64 runtime.",
+            "evidence": [
+              {
+                "description": "Relative analysis paths, standard library code, pinned Pixi environment; observed macOS arm64 runtime.",
+                "id": "P-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "P-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "No cross-platform or freshly constructed environment test. Rebuild on another authorized host.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Portability"
+      }
+    ],
+    "S": [
+      {
+        "direction": "maximize",
+        "id": "S",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Selected input bytes, code, reports and Pixi definitions are within this root.",
+            "evidence": [
+              {
+                "description": "Selected input bytes, code, reports and Pixi definitions are within this root.",
+                "id": "S-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "S-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "Software is preinstalled; new code license unresolved. Assign code license and test clean software restoration.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Self-containment"
+      }
+    ],
+    "T": [
+      {
+        "direction": "maximize",
+        "id": "T",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Pinned source commit, SHA-256 inventories, code/environment identity and local transformation records.",
+            "evidence": [
+              {
+                "description": "Pinned source commit, SHA-256 inventories, code/environment identity and local transformation records.",
+                "id": "T-e-inspect",
+                "kind": "tool_record",
+                "producer": "Codex worker",
+                "source": {
+                  "path": "reports/object-manifest.json",
+                  "role": "evidence",
+                  "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a",
+                  "uri": "reports/object-manifest.json"
+                }
+              }
+            ],
+            "id": "T-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+        "rationale": "Native/outer duct artifacts are not inspected or independently linked by path. Audit the retained capture streams with authorization.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Trackability"
+      }
+    ]
+  },
+  "review_records": [],
+  "rubric": {
+    "path": "reports/protocol.md",
+    "role": "pre-analysis criteria",
+    "sha256": "68335ab7bd76f776157c2cb8cb824de0594b9ca89de66c9809618952d6dd1479",
+    "uri": "reports/protocol.md"
+  },
+  "run_id": "mixed-01-treatment",
+  "schema_version": "0.1.0",
+  "science": [
+    {
+      "direction": "maximize",
+      "id": "science-01",
+      "judgment": "demonstrated",
+      "observations": [
+        {
+          "activity": "execute",
+          "description": "Independent Decimal summaries, synthetic flag tests and denominators passed.",
+          "evidence": [
+            {
+              "description": "Independent Decimal summaries, synthetic flag tests and denominators passed.",
+              "id": "science-01-e-execute",
+              "kind": "tool_record",
+              "producer": "Codex worker",
+              "source": {
+                "path": "reports/verification.json",
+                "role": "evidence",
+                "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120",
+                "uri": "reports/verification.json"
+              }
+            }
+          ],
+          "id": "science-01-execute",
+          "status": "completed"
+        },
+        {
+          "activity": "compare",
+          "description": "Independent Decimal summaries, synthetic flag tests and denominators passed.",
+          "evidence": [
+            {
+              "description": "Independent Decimal summaries, synthetic flag tests and denominators passed.",
+              "id": "science-01-e-compare",
+              "kind": "tool_record",
+              "producer": "Codex worker",
+              "source": {
+                "path": "reports/verification.json",
+                "role": "evidence",
+                "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120",
+                "uri": "reports/verification.json"
+              }
+            }
+          ],
+          "id": "science-01-compare",
+          "status": "completed"
+        }
+      ],
+      "priority": "essential",
+      "priority_rationale": "Scoped descriptive result and inspectable replay evidence.",
+      "rationale": "No population or causal inference.",
+      "required_activities": [
+        "execute",
+        "compare"
+      ],
+      "target": "Correct scoped summaries and exclusion counts"
+    }
+  ],
+  "status": "finalized",
+  "task": {
+    "assumptions": [
+      "Source units and response-presence semantics are supplied by the task."
+    ],
+    "audience": "Research auditors",
+    "question": "Sub-01 run-03 minus run-01 median valid decision RT",
+    "source": {
+      "path": "TASK.md",
+      "role": "task",
+      "sha256": "a02ba8757a2c2bea715431cf3a38371de920e9d2aac0dc529519e1e8a4500ef5",
+      "uri": "TASK.md"
+    }
+  }
+}

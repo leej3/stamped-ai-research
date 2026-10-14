@@ -1,0 +1,3 @@
+Created the probe with native `apply_patch`, verified its exact bytes, and committed only that file with fresh provenance trailers. Existing hooks were preserved; no push occurred.
+
+Commit: `e6c907d585ecce83dfe4899a712d91ab6e731261`

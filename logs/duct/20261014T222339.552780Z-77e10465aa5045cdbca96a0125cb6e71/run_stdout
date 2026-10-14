@@ -1,0 +1,63 @@
+{
+  "datalad_version": "1.7.1",
+  "python_executable": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/bin/python",
+  "commit": "8bac3a2aa1ae82847aca64267704294c106c45f2",
+  "commit_message_sha256": "b807003b396d5ecd895ed771bd21eac8711d3866fbc2f12cd834e2e0f7ea41df",
+  "marker_byte_offset": 55,
+  "actual_message_parser_result": [
+    null,
+    null
+  ],
+  "body_only_parser_recovers_saved_transformation": true,
+  "saved_original_message_parser_recovers_transformation": true,
+  "conventional_prefix_parser_result": [
+    null,
+    null
+  ],
+  "trailing_attribution_preserves_parser": true,
+  "cmd": "python code/analyze_rt.py && python code/verify_rt.py && python code/build_report.py",
+  "inputs_count": 9,
+  "output_paths": [
+    "derivatives/gambling-rt",
+    "reports"
+  ],
+  "worker_head_status_index_unchanged": true,
+  "rerun_or_scientific_command_executed": false,
+  "sources": [
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py",
+      "sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3",
+      "bytes": 32422
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/lib/python3.13/site-packages/datalad/core/local/run.py",
+      "sha256": "98d7636836f7e32ca84bf7d58bf440f97b9c68ee4b84c64ca8cc4babcb278626",
+      "bytes": 53495
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/tests/test_rerun.py",
+      "sha256": "8c72554da4541392dc77c0caa58a32a2a9fa5e70a372ac734fc305273a0487ee",
+      "bytes": 40765
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/lib/python3.13/site-packages/datalad-1.7.1.dist-info/METADATA",
+      "sha256": "344bb9d5bcbebb3df5952762bd02b6824ae8e71762852611d85ea0f376651d2e",
+      "bytes": 33924
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/pixi.lock",
+      "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3",
+      "bytes": 39557
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/reports/datalad-run-message.txt",
+      "sha256": "ffcba6117c37fb6799907aa245a3e4524a319da49604b775c665ba8b05068198",
+      "bytes": 955
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/reports/datalad-transformation.json",
+      "sha256": "b68f8a1257d6b654c7f14bf553548eacbc47521287188684f3fd259e9425484a",
+      "bytes": 652
+    }
+  ]
+}

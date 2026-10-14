@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/scripts/sync.py",
+    "--worktree",
+    "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+    "--source",
+    "/Users/johnlee/code/CON/stamped-ai-research/.codex/hooks.json"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research",
+  "started_at": "2026-10-14T22:11:25.780876+00:00"
+}

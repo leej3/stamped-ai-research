@@ -1,0 +1,42 @@
+{
+  "native_session_ids": [
+    "01a13c81-213f-7541-aa36-fcad874a8642"
+  ],
+  "turn_usage": [
+    {
+      "input_tokens": 655959,
+      "cached_input_tokens": 599040,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 13710,
+      "reasoning_output_tokens": 3896
+    }
+  ],
+  "token_usage_status": "reported_by_provider",
+  "turn_completed": true,
+  "failure_events": [],
+  "non_json_output_lines": 0,
+  "finished_at": "2026-10-14T22:25:28.230258+00:00",
+  "elapsed_seconds": 270.2424976249458,
+  "timeout_seconds": 480,
+  "termination_grace_seconds": 5,
+  "timed_out": false,
+  "process_returncode": 0,
+  "removed_inherited_session_environment_keys": [
+    "CODEX_THREAD_ID",
+    "CODEX_SESSION_ID"
+  ],
+  "final_response_present": true,
+  "outcome": "completed",
+  "research_outputs_retained": true,
+  "automatic_retry": false,
+  "native_history": {
+    "storage": "inherited CODEX_HOME native store",
+    "copied": false
+  },
+  "datalad_provenance": {
+    "status": "inspect worker dataset independently; no automatic claim"
+  },
+  "isolation": "fresh_context_instructional_filesystem_boundaries",
+  "network_enforcement": "instructional only",
+  "detached_descendant_limit": "Processes that escape the dedicated group are not forcibly contained; task forbids detached work"
+}

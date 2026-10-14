@@ -1,0 +1,9 @@
+{
+  "command": [
+    "pixi",
+    "install",
+    "--locked"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "started_at": "2026-10-14T22:11:00.148926+00:00"
+}

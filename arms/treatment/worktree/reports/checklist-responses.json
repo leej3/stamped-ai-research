@@ -1,0 +1,130 @@
+{
+  "format": 3,
+  "checklist_version": "0.3.1",
+  "responses": {
+    "stamped-checklist:must/001": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/002": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/003": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:must/004": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:must/005": {
+      "value": null,
+      "reason": "not_applicable: Scoped scientific object uses ordinary Git TSVs and small text/SVG outputs; imaging binaries were not used."
+    },
+    "stamped-checklist:must/006": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:must/007": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/008": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/009": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/010": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:must/011": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:must/012": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:must/013": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:must/014": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:must/015": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:must/016": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:must/017": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:should/001": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:should/002": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:should/003": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:should/009": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:should/004": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:should/005": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:should/006": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:should/007": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:should/008": {
+      "value": null,
+      "reason": "unknown: Not separately established in this bounded offline assessment; see reports/assessment.json."
+    },
+    "stamped-checklist:may/001": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:may/002": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:may/003": {
+      "value": null,
+      "reason": "partial: Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted."
+    },
+    "stamped-checklist:may/004": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    },
+    "stamped-checklist:may/005": {
+      "value": "yes",
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "synthetic_cases": 17,
+  "synthetic_rule_checks": "passed",
+  "independent_decimal_medians_and_change": "passed",
+  "local_replay": "passed",
+  "replayed_identical_files": [
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summary.tsv",
+    "derivatives/gambling-rt/trial_audit.tsv",
+    "derivatives/gambling-rt/median_rt.svg"
+  ],
+  "source_hashes_unchanged": "passed",
+  "cross_platform_replay": "unattempted",
+  "clean_environment_build": "unattempted",
+  "datalad_rerun": "unattempted"
+}

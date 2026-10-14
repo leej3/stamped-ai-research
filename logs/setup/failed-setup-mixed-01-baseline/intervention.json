@@ -1,0 +1,6 @@
+{
+  "stage": "setup_only_before_any_native_probe_or_scientific_arm",
+  "failure": "Entire rejects simultaneous checkpoint-push-remote and checkpoint-remote",
+  "correction": "Removed optional checkpoint-push-remote; fresh clone preparation follows, original retained",
+  "time": "2026-10-14T22:11:21.866488+00:00"
+}

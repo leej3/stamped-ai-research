@@ -1,0 +1,251 @@
+{
+  "checks": {
+    "checks": [
+      {
+        "check": "independent Decimal median and denominator run 01",
+        "median_ms": "1272.000",
+        "status": "passed"
+      },
+      {
+        "check": "independent Decimal median and denominator run 03",
+        "median_ms": "1261.000",
+        "status": "passed"
+      },
+      {
+        "check": "15 synthetic flag cases including overlapping exclusions",
+        "status": "passed"
+      },
+      {
+        "check": "all four source file hashes match analysis and pinned Git bytes",
+        "status": "passed"
+      },
+      {
+        "check": "fresh working-directory local clone replay",
+        "compared_outputs": [
+          {
+            "path": "results.json",
+            "sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424"
+          },
+          {
+            "path": "run-summary.tsv",
+            "sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719"
+          },
+          {
+            "path": "trial-audit.tsv",
+            "sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4"
+          },
+          {
+            "path": "median-rt.svg",
+            "sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62"
+          },
+          {
+            "path": "environment.json",
+            "sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176"
+          }
+        ],
+        "exit_code": 0,
+        "scope": "Same host and existing Python interpreter; not fresh software environment or external retrieval.",
+        "status": "passed"
+      }
+    ],
+    "failures": [],
+    "replay_directory_removed": true,
+    "unattempted": [
+      "BIDS validation",
+      "fresh environment construction",
+      "external retrieval",
+      "cross-platform replay",
+      "independent reproduction"
+    ]
+  },
+  "evidence_streams": {
+    "datalad": "local explicit run transformation; inspect resulting commit, separate from logs",
+    "duct": "one outer wrapper supplied; no nested or per-computation duct",
+    "native": "enabled by runner; not inspected",
+    "run_id": "mixed-01-treatment"
+  },
+  "failures": [
+    {
+      "check": "assessment schema validation in project Pixi environment",
+      "effect": "Assessment schema validation unavailable; scientific verification passed.",
+      "error": "jsonschema>=4,<5 not installed",
+      "exit_code": 2,
+      "status": "failed"
+    },
+    {
+      "check": "offline alternate system-Python validator prerequisite",
+      "effect": "No dependencies installed; no further validator retry.",
+      "error": "ModuleNotFoundError: No module named 'jsonschema'",
+      "exit_code": 1,
+      "status": "failed"
+    },
+    {
+      "check": "Workshop feedback recorder prerequisite",
+      "effect": "Local task skill-use record retained; Workshop queue/publication not performed; network forbidden.",
+      "error": "ModuleNotFoundError: No module named 'jsonschema'",
+      "exit_code": 1,
+      "status": "failed"
+    }
+  ],
+  "input_files": [
+    {
+      "path": "inputs/ds000005/README",
+      "role": "source documentation",
+      "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+    },
+    {
+      "path": "inputs/ds000005/dataset_description.json",
+      "role": "source documentation",
+      "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "role": "analyzed events",
+      "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "role": "analyzed events",
+      "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+    }
+  ],
+  "limitations": [
+    "Single-person descriptive temporal association; no population interval or generalization.",
+    "Run position is not randomized and task composition may differ; no causal practice, fatigue, learning, loss-aversion or choice-preference inference.",
+    "Estimand concerns observed valid responses, not every offered decision. No correctness or acceptance meaning is inferred from numeric codes.",
+    "Task-supplied broader source audit reports 65 of 86 absent-code rows in sub-05/run-01. This is a material differential-missingness warning, not recomputed here; only sub-01 runs 01 and 03 were analyzed.",
+    "Task-supplied positive-RT absent-code row in sub-15/run-03 was not inspected; the general rule excludes such contradictions.",
+    "Source declares BIDS 1.0.0rc4; current BIDS validation was not attempted.",
+    "Fresh external retrieval, fresh software construction, cross-platform replay and independent reproduction were not attempted.",
+    "New analysis code/prose license and persistent distribution route remain unresolved.",
+    "Native capture and one outer duct wrapper were supplied; their records were not inspected. Computation outputs are captured in native CLI outputs, not separate duct runs.",
+    "Assessment schema validation was attempted but unavailable because jsonschema is absent in the project and system Python; no dependency installation was allowed.",
+    "Workshop recorder failed on the same missing dependency; local skill-use evidence is retained, not queued or published.",
+    "Assessment is an unreviewed agent self-assessment, not certification or evidence of treatment efficacy.",
+    "The automatic DataLad commit subject was normalized to Conventional Commits. The original DataLad message and parsed transformation remain in reports/datalad-run-message.txt and reports/datalad-transformation.json. Native datalad rerun requires its leading subject marker and is not the replay entry point for this normalized commit; use the tested executable replay commands."
+  ],
+  "outputs": [
+    {
+      "path": "derivatives/gambling-rt/environment.json",
+      "sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176"
+    },
+    {
+      "path": "derivatives/gambling-rt/median-rt.svg",
+      "sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62"
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424"
+    },
+    {
+      "path": "derivatives/gambling-rt/run-summary.tsv",
+      "sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719"
+    },
+    {
+      "path": "derivatives/gambling-rt/trial-audit.tsv",
+      "sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4"
+    },
+    {
+      "path": "reports/assessment.json",
+      "sha256": "5f4fddc2b573592f0b3be35b27281d935b54bcb4878a8d023e0fa5353f0439a5"
+    },
+    {
+      "path": "reports/checklist-answers.json",
+      "sha256": "03d989bc8530d5f3da26ce9c34225f1204f66e974aefa8629a1c7cfbf62f3acb"
+    },
+    {
+      "path": "reports/checklist-responses.json",
+      "sha256": "4c383b07795edb6a16b5e1ca175209753d0649d96944716bb351f8ba44bb3003"
+    },
+    {
+      "path": "reports/failures.json",
+      "sha256": "6bd4a424d43509b6a8814eb42d1f9e5fb7fbe27007dd56492e632b0cf8a202a8"
+    },
+    {
+      "path": "reports/object-manifest.json",
+      "sha256": "cf608b9acc2ea19f120b5250a4108a97c6a826edf986f6c6c5eaaa0eaa35176a"
+    },
+    {
+      "path": "reports/protocol.md",
+      "sha256": "68335ab7bd76f776157c2cb8cb824de0594b9ca89de66c9809618952d6dd1479"
+    },
+    {
+      "path": "reports/report.md",
+      "sha256": "02a1b0373996a03d5904433cc40cefef0d3f2859da66855a0d963b0b2b95dd25"
+    },
+    {
+      "path": "reports/skill-use.json",
+      "sha256": "5d5ba27e6beeba71b60b55dbf6d21bebf67efe875b72b2c5d2f7a7674200b8ea"
+    },
+    {
+      "path": "reports/verification.json",
+      "sha256": "c6bf9760db20e7188921a2e175af7baf914cd79cf2c347f68df3f95da1c64120"
+    },
+    {
+      "path": "reports/datalad-transformation.json",
+      "sha256": "b68f8a1257d6b654c7f14bf553548eacbc47521287188684f3fd259e9425484a"
+    },
+    {
+      "path": "reports/datalad-run-message.txt",
+      "sha256": "ffcba6117c37fb6799907aa245a3e4524a319da49604b775c665ba8b05068198"
+    }
+  ],
+  "replay_command": "pixi run --frozen python code/analyze_rt.py && pixi run --frozen python code/verify_rt.py",
+  "research_object_evidence": {
+    "Actionability": {
+      "evidence": "Analysis and verification commands executed; five output digests matched in a fresh local working directory.",
+      "judgment": "demonstrated",
+      "next_step": "Test a fresh environment when authorized.",
+      "uncertainty": "Only the named same-host, existing-interpreter replay is established."
+    },
+    "Distributability": {
+      "evidence": "Source retrieval URL, exact revision and source PDDL terms retained; outputs prepared locally.",
+      "judgment": "partial",
+      "next_step": "Resolve component licenses and verify recipient retrieval when authorized.",
+      "uncertainty": "No external retrieval or publication; new code license unresolved."
+    },
+    "Ephemerality": {
+      "evidence": "Temporary replay directory was removed after comparison; durable results and checks retained.",
+      "judgment": "partial",
+      "next_step": "Run in a newly constructed disposable software environment.",
+      "uncertainty": "Software interpreter was reused, not reconstructed in a fresh environment."
+    },
+    "Modularity": {
+      "evidence": "Separate input subdataset, code, derivative outputs and reports; CLI accepts input/output paths.",
+      "judgment": "demonstrated",
+      "next_step": "Test another explicitly selected input revision separately.",
+      "uncertainty": "Independent component updates have not been tested."
+    },
+    "Portability": {
+      "evidence": "Relative analysis paths, standard library code, pinned Pixi environment; observed macOS arm64 runtime.",
+      "judgment": "partial",
+      "next_step": "Rebuild on another authorized host.",
+      "uncertainty": "No cross-platform or freshly constructed environment test."
+    },
+    "Self-containment": {
+      "evidence": "Selected input bytes, code, reports and Pixi definitions are within this root.",
+      "judgment": "partial",
+      "next_step": "Assign code license and test clean software restoration.",
+      "uncertainty": "Software is preinstalled; new code license unresolved."
+    },
+    "Trackability": {
+      "evidence": "Pinned source commit, SHA-256 inventories, code/environment identity and local transformation records.",
+      "judgment": "partial",
+      "next_step": "Audit the retained capture streams with authorization.",
+      "uncertainty": "Native/outer duct artifacts are not inspected or independently linked by path."
+    }
+  },
+  "scientific_conclusion": "Sub-01 median valid decision RT changed from 1272 ms in run 01 to 1261 ms in run 03 (run 03 minus run 01: -11 ms). This is a descriptive temporal association in one person.",
+  "software_versions": {
+    "datalad": "1.7.1",
+    "git_annex": "10.20260901-g29d2c4f5723a6bc5dc380b5fd75b4e60aad6e4e1",
+    "python_environment": "derivatives/gambling-rt/environment.json"
+  },
+  "source_attribution": "OpenfMRI ds005; Tom et al. (2007), Science 315(5811):515\u2013518; NSF OCI-1131441",
+  "source_bids_version": "1.0.0rc4",
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "source_license": "PDDL v1.0",
+  "stage": "01-participant-rt",
+  "status": "completed",
+  "stopping_condition": "Stage 01 analysis, verification and report complete; unattempted checks explicitly listed."
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "entire",
+    "enable",
+    "--agent",
+    "codex",
+    "--no-init-repo",
+    "--local",
+    "--checkpoint-backend",
+    "refs",
+    "--checkpoint-remote",
+    "github:leej3/stamped-ai-research",
+    "--skip-push-sessions=false",
+    "--telemetry=false",
+    "--absolute-git-hook-path"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "started_at": "2026-10-14T22:11:24.343508+00:00"
+}

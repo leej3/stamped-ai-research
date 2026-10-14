@@ -1,0 +1,10 @@
+{
+  "duct_run_directories": [
+    "/Users/johnlee/.local/state/con-duct/projects/mixed-01-baseline-f2ee0ef2f2c6e4de/20261014T222057.863403Z-7dc02ef6149e492da62ab566b20fa679"
+  ],
+  "native": [
+    "01a13c81-213f-7541-aa36-fcad874a8642"
+  ],
+  "datalad_dataset": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "supervisor_returncode": 0
+}

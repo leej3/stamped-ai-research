@@ -1,0 +1,3 @@
+participant	run	presented_trials	retained_rt_count	excluded_row_union	median_rt_ms	units	missing_rt	invalid_numeric_rt	nonfinite_rt	nonpositive_rt	absent_response	unexpected_response_code	response_code_pair_disagreement	response_presence_disagreement	duplicate_onset	nonmonotonic_onset	invalid_onset
+sub-01	01	86	85	1	1272.0	milliseconds	0	0	0	1	1	0	0	0	0	0	0
+sub-01	03	85	85	0	1261.0	milliseconds	0	0	0	0	0	0	0	0	0	0	0

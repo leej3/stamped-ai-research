@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "remote",
+    "set-url",
+    "origin",
+    "git@github.com:leej3/stamped-ai-research.git"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "started_at": "2026-10-14T22:11:22.123232+00:00"
+}

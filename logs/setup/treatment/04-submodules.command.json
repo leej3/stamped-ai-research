@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "submodule",
+    "update",
+    "--init",
+    "--",
+    "inputs/ds000005"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+  "started_at": "2026-10-14T22:11:25.974134+00:00"
+}

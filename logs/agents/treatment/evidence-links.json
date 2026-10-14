@@ -1,0 +1,10 @@
+{
+  "duct_run_directories": [
+    "/Users/johnlee/.local/state/con-duct/projects/mixed-01-treatment-004a17a6d2ae695b/20261014T221458.875731Z-5f0c3994818d4241a81ceabe927d0e83"
+  ],
+  "native": [
+    "01a13c7b-a74a-7fc1-a920-d48d135aaeb9"
+  ],
+  "datalad_dataset": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+  "supervisor_returncode": 0
+}

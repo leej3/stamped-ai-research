@@ -1,0 +1,23 @@
+[
+  {
+    "check": "assessment schema validation in project Pixi environment",
+    "status": "failed",
+    "exit_code": 2,
+    "error": "jsonschema>=4,<5 not installed",
+    "effect": "Assessment schema validation unavailable; scientific verification passed."
+  },
+  {
+    "check": "offline alternate system-Python validator prerequisite",
+    "status": "failed",
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: No module named 'jsonschema'",
+    "effect": "No dependencies installed; no further validator retry."
+  },
+  {
+    "check": "Workshop feedback recorder prerequisite",
+    "status": "failed",
+    "exit_code": 1,
+    "error": "ModuleNotFoundError: No module named 'jsonschema'",
+    "effect": "Local task skill-use record retained; Workshop queue/publication not performed; network forbidden."
+  }
+]

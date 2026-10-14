@@ -1,0 +1,23 @@
+{
+  "chain": [],
+  "cmd": "python code/analyze_rt.py && python code/verify_rt.py && python code/build_report.py",
+  "dsid": "918077bd-b7cd-460b-8a0d-d0a47dd774f1",
+  "exit": 0,
+  "extra_inputs": [],
+  "inputs": [
+    "code/analyze_rt.py",
+    "code/verify_rt.py",
+    "code/build_report.py",
+    "pixi.toml",
+    "pixi.lock",
+    "inputs/ds000005/README",
+    "inputs/ds000005/dataset_description.json",
+    "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+    "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv"
+  ],
+  "outputs": [
+    "derivatives/gambling-rt",
+    "reports"
+  ],
+  "pwd": "."
+}

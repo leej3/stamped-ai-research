@@ -1,0 +1,25 @@
+{
+  "arm": "baseline",
+  "mappings": {
+    "eligible_participants": "derived from arm's own participant ID and nonempty summaries for both declared runs; no expected numeric value supplied",
+    "excluded_participants": "complement of own declared single participant",
+    "flag_counts": "baseline flat run flags with unexpected_response_code_value renamed; treatment nested flag_counts; onset diagnostics assessed separately",
+    "participant_changes_ms": "results.change.value_ms baseline or .value treatment, keyed by own participant ID",
+    "run_summaries": "results.runs: participant->participant_id, presented_trials->n_presented, retained_rt_count->n_retained, excluded_row_union->n_excluded_union, median_rt_ms->rt_ms",
+    "source_commit": "results.source_commit; baseline reports/run.json source_commit",
+    "stage": "results.stage normalized from 01-participant-rt to 01",
+    "units": "ms/milliseconds both mean milliseconds; no numeric conversion"
+  },
+  "phase": "replay",
+  "reviewer": "study_design agent; design/reference author; unblinded; did not author worker analyses",
+  "sources": [
+    {
+      "path": ".runs/replay-mixed-01-baseline/derivatives/gambling-rt/results.json",
+      "sha256": "0f8b4551f753dcbfeb3d8baef8f254cd966cf7d8b4b7b24997db3063da82e8c8"
+    },
+    {
+      "path": ".runs/replay-mixed-01-baseline/reports/run.json",
+      "sha256": "be830961b2ba7ffea8840db858ab049f59f22bf82e347e00e198436af3891015"
+    }
+  ]
+}

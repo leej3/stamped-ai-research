@@ -1,0 +1,14 @@
+test_canonical_order_and_wrong_sign (test_compare.ComparisonChecks.test_canonical_order_and_wrong_sign) ... ok
+test_counts_tolerance_and_missing_fields (test_compare.ComparisonChecks.test_counts_tolerance_and_missing_fields) ... ok
+test_decimal_presence_band_and_invalid_code (test_extended_checks.ExtendedChecks.test_decimal_presence_band_and_invalid_code) ... ok
+test_row_audit_catches_missing_duplicate_and_wrong_flags (test_extended_checks.ExtendedChecks.test_row_audit_catches_missing_duplicate_and_wrong_flags) ... ok
+test_submitted_relations_both_stages_and_detect_changed_group_value (test_extended_checks.ExtendedChecks.test_submitted_relations_both_stages_and_detect_changed_group_value) ... ok
+test_nonexclusive_flags_and_union (test_reference.IndependentReferenceChecks.test_nonexclusive_flags_and_union) ... ok
+test_pair_disagreement_and_rt_edge_cases (test_reference.IndependentReferenceChecks.test_pair_disagreement_and_rt_edge_cases) ... ok
+test_paired_equal_weight_not_pooled (test_reference.IndependentReferenceChecks.test_paired_equal_weight_not_pooled) ... ok
+test_summary_variants_and_bootstrap (test_reference.IndependentReferenceChecks.test_summary_variants_and_bootstrap) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.250s
+
+OK

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-14T22:23:19.923456+00:00",
+  "source_workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+  "source_head": "8bac3a2aa1ae82847aca64267704294c106c45f2",
+  "source_status": "",
+  "replay_workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment",
+  "reviewed_command": "pixi run --frozen python code/analyze_rt.py && pixi run --frozen python code/verify_rt.py",
+  "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+  "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+  "phases": [
+    {
+      "phase": "clone",
+      "command": [
+        "git",
+        "clone",
+        "--no-hardlinks",
+        "--no-checkout",
+        "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+        "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs",
+      "returncode": 0,
+      "elapsed_seconds": 0.05902641703141853
+    },
+    {
+      "phase": "checkout",
+      "command": [
+        "git",
+        "checkout",
+        "--detach",
+        "8bac3a2aa1ae82847aca64267704294c106c45f2"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment",
+      "returncode": 0,
+      "elapsed_seconds": 0.011478457949124277
+    },
+    {
+      "phase": "inputs",
+      "command": [
+        "git",
+        "submodule",
+        "update",
+        "--init"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment",
+      "returncode": 0,
+      "elapsed_seconds": 0.7477177919936366
+    },
+    {
+      "phase": "environment",
+      "command": [
+        "pixi",
+        "install",
+        "--locked"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment",
+      "returncode": 0,
+      "elapsed_seconds": 2.392172167019453
+    },
+    {
+      "phase": "documented_replay",
+      "command": [
+        "bash",
+        "-o",
+        "pipefail",
+        "-c",
+        "pixi run --frozen python code/analyze_rt.py && pixi run --frozen python code/verify_rt.py"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-01-treatment",
+      "returncode": 0,
+      "elapsed_seconds": 3.5440872920444235
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "derivatives/gambling-rt/environment.json",
+      "original_sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176",
+      "replay_sha256": "ebb2a3d54da3a424cb302598b04137dbcef39de3c4b3f229933ca5ac7e9840fd",
+      "identical": false
+    },
+    {
+      "path": "derivatives/gambling-rt/median-rt.svg",
+      "original_sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62",
+      "replay_sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "original_sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424",
+      "replay_sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/run-summary.tsv",
+      "original_sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719",
+      "replay_sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/trial-audit.tsv",
+      "original_sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4",
+      "replay_sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4",
+      "identical": true
+    }
+  ],
+  "outcome": "command_succeeded_pending_independent_scientific_review",
+  "preexisting_scientific_outputs_removed": true,
+  "finished_at": "2026-10-14T22:23:26.679900+00:00",
+  "source_unchanged": true
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+<rect width="600" height="300" fill="white"/>
+<g font-family="sans-serif" fill="#172b4d">
+<text x="30" y="28" font-size="18">sub-01: observed valid decision RT</text>
+<text x="30" y="51" font-size="12">Median (ms); descriptive single-person comparison</text>
+<path d="M80 75V235H550" stroke="#555" fill="none"/>
+<text x="60" y="240" font-size="12">0</text>
+<rect x="160" y="110.000" width="80" height="125.000" fill="#287e8d"/>
+<text x="200" y="100.000" text-anchor="middle">1272.0 ms</text>
+<text x="200" y="258" text-anchor="middle">Run 01</text>
+<rect x="400" y="111.081" width="80" height="123.919" fill="#287e8d"/>
+<text x="440" y="101.081" text-anchor="middle">1261.0 ms</text>
+<text x="440" y="258" text-anchor="middle">Run 03</text>
+<text x="300" y="286" text-anchor="middle">Run 03 − run 01: -11.0 ms</text>
+</g></svg>

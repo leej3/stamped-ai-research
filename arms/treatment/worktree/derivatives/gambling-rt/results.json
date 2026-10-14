@@ -1,0 +1,81 @@
+{
+  "change": {
+    "definition": "run-03 median minus run-01 median",
+    "units": "milliseconds",
+    "value": -11.0
+  },
+  "input_files": [
+    {
+      "path": "inputs/ds000005/README",
+      "role": "source documentation",
+      "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+    },
+    {
+      "path": "inputs/ds000005/dataset_description.json",
+      "role": "source documentation",
+      "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "role": "analyzed events",
+      "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "role": "analyzed events",
+      "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+    }
+  ],
+  "interval": null,
+  "interval_reason": "Descriptive single-person stage; no population inference.",
+  "participant": "sub-01",
+  "rt_band": null,
+  "runs": [
+    {
+      "excluded_row_union": 1,
+      "flag_counts": {
+        "absent_response": 1,
+        "duplicate_onset": 0,
+        "invalid_numeric_rt": 0,
+        "invalid_onset": 0,
+        "missing_rt": 0,
+        "nonfinite_rt": 0,
+        "nonmonotonic_onset": 0,
+        "nonpositive_rt": 1,
+        "response_code_pair_disagreement": 0,
+        "response_presence_disagreement": 0,
+        "unexpected_response_code": 0
+      },
+      "median_rt_ms": 1272.0,
+      "participant": "sub-01",
+      "presented_trials": 86,
+      "retained_rt_count": 85,
+      "run": "01",
+      "units": "milliseconds"
+    },
+    {
+      "excluded_row_union": 0,
+      "flag_counts": {
+        "absent_response": 0,
+        "duplicate_onset": 0,
+        "invalid_numeric_rt": 0,
+        "invalid_onset": 0,
+        "missing_rt": 0,
+        "nonfinite_rt": 0,
+        "nonmonotonic_onset": 0,
+        "nonpositive_rt": 0,
+        "response_code_pair_disagreement": 0,
+        "response_presence_disagreement": 0,
+        "unexpected_response_code": 0
+      },
+      "median_rt_ms": 1261.0,
+      "participant": "sub-01",
+      "presented_trials": 85,
+      "retained_rt_count": 85,
+      "run": "03",
+      "units": "milliseconds"
+    }
+  ],
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "stage": "01-participant-rt"
+}

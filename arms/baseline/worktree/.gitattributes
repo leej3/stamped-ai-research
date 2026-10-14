@@ -1,0 +1,7 @@
+* annex.largefiles=(largerthan=1mb)
+.datalad/** annex.largefiles=nothing
+*.md annex.largefiles=nothing
+*.py annex.largefiles=nothing
+*.json annex.largefiles=nothing
+*.toml annex.largefiles=nothing
+pixi.lock annex.largefiles=nothing

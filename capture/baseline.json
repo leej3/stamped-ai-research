@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at": "2026-10-14T22:32:32.202492+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "head": "18bbaca0a42823b3b59de7c53cfb535a488a4faa",
+  "tree": "1fe240b0243cdbf1620b80df568423d4d3395b57",
+  "native_session_id": "01a13c81-213f-7541-aa36-fcad874a8642",
+  "checkpoint_id": "01M4Y89PGDRSQCY8SDD0036HV8",
+  "checkpoint_session_created_at": "2026-10-14T22:25:02.256782Z",
+  "launch_record": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/launch-record.json",
+    "sha256": "727a1ab7379b46fbfdce398ac4a7ca013b54786cd64902f4fd5f0f7fc5abe401"
+  },
+  "run_result": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-01-baseline/run-result.json",
+    "sha256": "f0e657fc5e06b11716b0c26d4af31e6f5a71ce09979983a9205725c2af74ec47"
+  },
+  "started_at": "2026-10-14T22:20:57.830209+00:00",
+  "finished_at": "2026-10-14T22:25:28.230258+00:00",
+  "stored_transcript": {
+    "sha256": "11167bb76cd109bebe6e7372f2f2c97e40413352358da7fba46c82be71c320d8",
+    "bytes": 446862,
+    "identity_events": [
+      {
+        "line": 1,
+        "session_id": "01a13c81-213f-7541-aa36-fcad874a8642",
+        "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline"
+      }
+    ],
+    "completed_commands": [
+      {
+        "line": 16,
+        "timestamp": "2026-10-14T22:21:06.636Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-32081491-61bf-4214-a150-3c51cc6336a0",
+        "event_sha256": "5456b86c8410c72cf6ef2e7ac9370e30a8bc4c6980c0c218239a2b2a86b296f3"
+      },
+      {
+        "line": 17,
+        "timestamp": "2026-10-14T22:21:06.758Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-6ab9ec51-dcbd-4463-936a-f91293275875",
+        "event_sha256": "7302e1884d7c18e8beddfdb90e123b1086094b18311f23bd533637ef4bc97fd2"
+      },
+      {
+        "line": 18,
+        "timestamp": "2026-10-14T22:21:06.867Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c087ca41-1c1e-46cc-8210-089fe16be6d1",
+        "event_sha256": "8ffaccfd645e5a22f4f9d4fee6fef5a9c49d45fa850a565ab6fa7e4aff090a62"
+      },
+      {
+        "line": 27,
+        "timestamp": "2026-10-14T22:21:15.831Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-7c37b172-8c57-4650-a805-be8fc7162e9c",
+        "event_sha256": "2f149d2ca1ff93f927a318a4a9db5359bed1cff348b7d0416747729b2e617203"
+      },
+      {
+        "line": 28,
+        "timestamp": "2026-10-14T22:21:15.832Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-6e8d90c2-9655-4a6b-8555-fa8b1204846c",
+        "event_sha256": "67b78234b410fa2e57424ce9349005e53a02600e5a4a2a26be33ecda72842479"
+      },
+      {
+        "line": 35,
+        "timestamp": "2026-10-14T22:21:30.103Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-91b80438-3a6a-4fb4-9b6b-bbcfd6c26c49",
+        "event_sha256": "ebe95042abc47aaaedabdbcb4091da476103fb76d8c30ef8af78c357a638232c"
+      },
+      {
+        "line": 36,
+        "timestamp": "2026-10-14T22:21:30.108Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-f23b06a4-9c64-4f3d-880c-9f5735091a0b",
+        "event_sha256": "42f6645f5fcb5ffc58d9a2b054acb4566c183470d68cea5ed18c0ae65eecfceb"
+      },
+      {
+        "line": 43,
+        "timestamp": "2026-10-14T22:21:34.290Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-9d2ba1e0-91b5-41b1-810a-098bd38bd94c",
+        "event_sha256": "591c89f90223fd72434352810bd2569f7013156d9a32a3b1015ce1a17a1a3ba4"
+      },
+      {
+        "line": 61,
+        "timestamp": "2026-10-14T22:23:27.029Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c927974f-7ffc-49b2-b407-80481907a94b",
+        "event_sha256": "15c41205de73d3c5c247ee014419ce14c7a02b0a04749c0fa95b3bf9006aecd0"
+      },
+      {
+        "line": 69,
+        "timestamp": "2026-10-14T22:23:43.762Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-e1e120a6-1e27-4f74-b262-566bcc53fa26",
+        "event_sha256": "62ba1e3b26f6aa5942e2170c5993be37aeef977d7f4faf6600ba30f8d547d070"
+      },
+      {
+        "line": 77,
+        "timestamp": "2026-10-14T22:24:00.505Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-bcdbc1a1-27ed-4e50-8a36-4280edf0059d",
+        "event_sha256": "0849bb9db52c0310a4d413bf959462922df2e59c1847157f7d05d0b9ea3eca89"
+      },
+      {
+        "line": 78,
+        "timestamp": "2026-10-14T22:24:00.731Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-84569631-ba6e-4457-aa64-41fd3a6b064f",
+        "event_sha256": "5c48f6b45529fd8937148ae8ffa93d00bbccfce6dad04e320ad0aab60aaf2111"
+      },
+      {
+        "line": 87,
+        "timestamp": "2026-10-14T22:24:18.667Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-aa788642-2ce1-480b-b613-62bac77d7c9b",
+        "event_sha256": "af5f28cf272550f66880149b84fa9d60a84e0d7513d82e06818bb01d1fa3b6fb"
+      },
+      {
+        "line": 88,
+        "timestamp": "2026-10-14T22:24:18.951Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-81515245-8cc9-437d-86f5-99d7491f95b8",
+        "event_sha256": "5acbc750f6f225f3ff98c77c310464ab730f71f9e69191808bba4109f02223f5"
+      },
+      {
+        "line": 95,
+        "timestamp": "2026-10-14T22:24:27.300Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-abedae37-de89-46be-b987-ec5a7b695797",
+        "event_sha256": "35fcf89f93a798d6d6cb629c015353ddeb53b1d2bea403534063dbe3a33c81e1"
+      },
+      {
+        "line": 96,
+        "timestamp": "2026-10-14T22:24:27.446Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c3803e99-c040-4fda-ba9c-4e5d5078d45f",
+        "event_sha256": "3fb65fb0decc6144e1cb2069157f27c96e181f9c72c286e0b31270edfe93ae74"
+      },
+      {
+        "line": 104,
+        "timestamp": "2026-10-14T22:24:49.795Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-4d01294d-5acb-4768-bf19-6d6563feb60a",
+        "event_sha256": "3e90dc437ab15b7415620713831f6b68a74629d963e426b70dc622542f896a30"
+      },
+      {
+        "line": 113,
+        "timestamp": "2026-10-14T22:25:00.715Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c5bf626e-1c57-4490-b549-1e5a11438a0b",
+        "event_sha256": "305687c11b4f37ac6f07cdbb833daeb01fe5fbefb462aaedfda74720f32ff974"
+      },
+      {
+        "line": 116,
+        "timestamp": "2026-10-14T22:25:02.396Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-ef1667e0-71db-449b-9fff-47b8e8c21583",
+        "event_sha256": "85c0a04de2a6f3cd612a4841e5b0e7fca5f8272173288bda887db0e8f83c968e"
+      },
+      {
+        "line": 121,
+        "timestamp": "2026-10-14T22:25:04.177Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-27a68705-2fa1-48f6-8ca0-7eb0e5c5a1c0",
+        "event_sha256": "4663bbacc9ad2b1228b406478953bd334cbef04100863543b6fc3a36d3ec5161"
+      },
+      {
+        "line": 128,
+        "timestamp": "2026-10-14T22:25:11.773Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-b276d5de-2b70-471a-9f08-0814793d2a25",
+        "event_sha256": "9e6a433d61e8e5fe115edd51daefd545e55a9256c71a22b1b1b4d3884f45d945"
+      }
+    ],
+    "completed_file_changes": [
+      {
+        "line": 51,
+        "timestamp": "2026-10-14T22:23:21.521Z",
+        "item_type": "FileChange",
+        "item_id": "exec-95d98a66-ccf2-49f5-b6b5-94c0a6c4ad00",
+        "event_sha256": "a14f79dc27e817e856667179df5814020fc644f05d901e094b96a5f8a1327aa5"
+      },
+      {
+        "line": 75,
+        "timestamp": "2026-10-14T22:24:00.154Z",
+        "item_type": "FileChange",
+        "item_id": "exec-b57c8b60-ec5f-4f74-92ef-5cabd43789d8",
+        "event_sha256": "9c7cba3a2af7680ccb6b2f2adcae13061b6917835e19ed81b789525456bd5438"
+      },
+      {
+        "line": 102,
+        "timestamp": "2026-10-14T22:24:49.269Z",
+        "item_type": "FileChange",
+        "item_id": "exec-8dd60d5a-6669-433c-8aee-e8b13e9e2846",
+        "event_sha256": "e47760c11446a58d1179ee4b16bd0209b5200416bbe9cb0823dbe26bb064ec9d"
+      }
+    ],
+    "command_count": 21,
+    "file_change_count": 3,
+    "unqualified_completed_tool_events": 0,
+    "malformed_lines": 0,
+    "raw_bytes_copied": false
+  },
+  "code": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/heads/codex/mixed-01-baseline",
+    "local_sha": "18bbaca0a42823b3b59de7c53cfb535a488a4faa",
+    "remote_sha": "18bbaca0a42823b3b59de7c53cfb535a488a4faa"
+  },
+  "checkpoint": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/entire/checkpoints/V8/01M4Y89PGDRSQCY8SDD0036HV8",
+    "local_sha": "8654582e6cc17feac6c486e95b991e9ed0a19e56",
+    "remote_sha": "8654582e6cc17feac6c486e95b991e9ed0a19e56"
+  },
+  "dirty_status": "",
+  "interpretation": "Uploaded committed HEAD/checkpoint and post-launch native activity verified. Checkpoint creation time is not session start. Command events do not prove FileChange coverage for shell-written files; transcript completeness, scientific correctness and detached-process absence are not asserted."
+}

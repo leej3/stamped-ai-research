@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "prepared",
+  "prepared_at": "2026-10-14T22:11:25.872837+00:00",
+  "seed": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+  "seed_head": "8777706d546d968d1a7427ab9efc710fcdd47523",
+  "source_tree": "99cc38a06ab577903b72f7610741a8847382c202",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-baseline",
+  "branch": "codex/mixed-01-baseline",
+  "origin": "git@github.com:leej3/stamped-ai-research.git",
+  "sources": [
+    {
+      "path": "inputs/ds000005",
+      "commit": "b094fc2f41487f92d382a1a432165ae58caae386"
+    }
+  ],
+  "provenance_hook_sha256_before_entire": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55",
+  "codex_path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+  "codex_sha256": "50ab38ba21d0d9f8346f32f41848382f15b556190f3c7a07e885a4fb73e379c8",
+  "setup_probe_not_yet_run": true,
+  "scientific_analysis_performed": false
+}

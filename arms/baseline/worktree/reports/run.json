@@ -1,0 +1,175 @@
+{
+  "stage": "01-participant-rt",
+  "status": "completed",
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "input_files": [
+    {
+      "path": "inputs/ds000005/README",
+      "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988"
+    },
+    {
+      "path": "inputs/ds000005/dataset_description.json",
+      "sha256": "4f4d40c342b398d473b7b15f2d5580d7d77724ff7aabd1f07a9b68fb40b38018"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+      "sha256": "85341ae5b94ee00d8e348191b66c7d36dacedc6c0558723ae09dc5a1a4e1a956"
+    },
+    {
+      "path": "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv",
+      "sha256": "f870aed1c52c21516dcb9aee706677f887a52cd17dbe1b13ec9bf3ca821a1113"
+    }
+  ],
+  "replay_command": "pixi run --as-is bash code/replay.sh",
+  "outputs": [
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summary.tsv",
+    "derivatives/gambling-rt/trial_audit.tsv",
+    "derivatives/gambling-rt/median_rt.svg",
+    "reports/report.md",
+    "reports/run.json",
+    "reports/verification.json"
+  ],
+  "failures": [],
+  "limitations": [
+    "Single participant and two runs only; no population interval, hypothesis test, or generalization.",
+    "Run position was not randomized and task composition may differ; no causal practice, fatigue, learning, loss-aversion, or preference claim.",
+    "Estimand concerns observed valid responses, not every offered decision. No meaning or correctness inferred from choice codes.",
+    "Task-supplied source audit reports 65 of 86 absent-code rows in sub-05/run-01. This differential missingness is a material dataset-level selection limitation; it was not independently re-audited in this sub-01-only stage.",
+    "Task-supplied positive-RT absent-code case in sub-15/run-03 is outside this stage; the general rule excludes such contradictions without repair.",
+    "Current BIDS validation, remote retrieval, clean-environment rebuild, alternate-platform replay, and DataLad run/rerun are unattempted. Local artifact saving is not a DataLad transformation record.",
+    "No imaging data, downloads, dependency installation, containers, external services, or remote jobs used."
+  ],
+  "scientific_conclusion": "For sub-01, run-03 minus run-01 median decision RT was -11.000 ms among observed valid responses. This is a descriptive temporal association for one participant; no population inference or causal interpretation is supported.",
+  "research_object_evidence": {
+    "self_containment": {
+      "demonstrated": "Local event inputs, source metadata, code, tables, report and environment specification are reachable from this working dataset.",
+      "untested": "Fresh acquisition and full offline environment reconstruction."
+    },
+    "trackability": {
+      "demonstrated": "Pinned input revision and byte equality to Git blobs; SHA-256 input/component/output manifests and row-level audit.",
+      "untested": "No complete lifetime provenance claim; any local DataLad transformation record must be inspected separately."
+    },
+    "actionability": {
+      "demonstrated": "Executable replay command provided; verification results recorded separately. Local scientific outputs replayed byte-for-byte and independent Decimal summaries agreed.",
+      "untested": "Another user's independent replay."
+    },
+    "modularity": {
+      "demonstrated": "Input subdataset, code, derivatives and reports are separate components.",
+      "untested": "Reuse in another pipeline."
+    },
+    "portability": {
+      "demonstrated": "Standard-library Python analysis, relative project paths and supplied Pixi manifest/lock; versions recorded.",
+      "untested": "Other platforms and fresh builds; the supplied Pixi environment targets osx-arm64."
+    },
+    "ephemerality": {
+      "demonstrated": "Verification uses a temporary output directory when run.",
+      "untested": "Disposable execution environment or clean-machine execution; existing local environment reused."
+    },
+    "distributability": {
+      "demonstrated": "Source declares PDDL v1.0 and attribution is preserved; portable text/vector outputs produced locally.",
+      "untested": "Persistent third-party retrieval, publication, and independent availability."
+    }
+  },
+  "source_bids_version": "1.0.0rc4",
+  "current_bids_validation": "unattempted",
+  "software_versions": {
+    "python": "3.13.16",
+    "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "git": "git version 2.56.0",
+    "pixi": "pixi 0.81.0",
+    "git_annex_runtime": "git-annex version: 10.20260901-g29d2c4f5723a6bc5dc380b5fd75b4e60aad6e4e1",
+    "datalad_distribution": "1.7.1",
+    "git-annex_distribution": "10.20260901.post1"
+  },
+  "checks": {
+    "pinned_input_bytes": "passed",
+    "verification": {
+      "status": "passed",
+      "synthetic_cases": 17,
+      "synthetic_rule_checks": "passed",
+      "independent_decimal_medians_and_change": "passed",
+      "local_replay": "passed",
+      "replayed_identical_files": [
+        "derivatives/gambling-rt/results.json",
+        "derivatives/gambling-rt/run_summary.tsv",
+        "derivatives/gambling-rt/trial_audit.tsv",
+        "derivatives/gambling-rt/median_rt.svg"
+      ],
+      "source_hashes_unchanged": "passed",
+      "cross_platform_replay": "unattempted",
+      "clean_environment_build": "unattempted",
+      "datalad_rerun": "unattempted"
+    }
+  },
+  "evidence_streams": {
+    "native_capture": "Left enabled; individual commands appear in native tool output. Capture completeness not independently inspected.",
+    "duct": "Runner declares one outer duct capture for the whole attempt; no nested captures and no claim of per-computation duct records. Outer record not inspected.",
+    "datalad": "Input subdataset revision verified; DataLad run/rerun unattempted. Local artifact save commits are not transformation records."
+  },
+  "control_events": [
+    {
+      "operation": "Workshop feedback CLI help using system Python",
+      "status": "recovered",
+      "error": "ModuleNotFoundError: No module named jsonschema",
+      "resolution": "Used the existing Workshop Pixi environment without installing dependencies."
+    }
+  ],
+  "component_hashes": [
+    {
+      "path": "code/analyze_rt.py",
+      "sha256": "1f89ce9baf89e99153fae8d2042897815671bab765c603a2dfd4221317b060a8"
+    },
+    {
+      "path": "code/verify_rt.py",
+      "sha256": "66442f79a967135503642e78a87dade5b00f899b47aedfd6c91c61b307e6c863"
+    },
+    {
+      "path": "code/replay.sh",
+      "sha256": "e38442fbeee4740479fbe5e02e33979500fc975d9fee11372fc0bd17896ce5fb"
+    },
+    {
+      "path": "pixi.toml",
+      "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+    },
+    {
+      "path": "pixi.lock",
+      "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+    },
+    {
+      "path": "SOURCE.json",
+      "sha256": "b57159d43ba30876d8b97f1d4ad109fd962b2da3ebc767e514ba2e69ee565564"
+    },
+    {
+      "path": "references/stamped/principles/stamped-principles.json",
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+    }
+  ],
+  "stopping_condition": "Completed Stage 01 analysis, 17 synthetic checks, independent Decimal summaries, and byte-identical local replay; stopped within the single attempt.",
+  "output_hashes": [
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "sha256": "0f8b4551f753dcbfeb3d8baef8f254cd966cf7d8b4b7b24997db3063da82e8c8"
+    },
+    {
+      "path": "derivatives/gambling-rt/run_summary.tsv",
+      "sha256": "12f4430d538418af043716b9d5d14de26c7aeed8f4d21c2484821625c0a95db5"
+    },
+    {
+      "path": "derivatives/gambling-rt/trial_audit.tsv",
+      "sha256": "a02362610d4370f3d7997be8bb5c60d758386560dd3518c3cf5e403e77232e4c"
+    },
+    {
+      "path": "derivatives/gambling-rt/median_rt.svg",
+      "sha256": "fd079da05cd8ed638a3cbbfd36c51b699ea1ea6d4bb665aa8cbc5cd11222c651"
+    },
+    {
+      "path": "reports/report.md",
+      "sha256": "9a2a78e96e5f679c360c9574b0a803112021526abd1b1c7318ef4eefa605a822"
+    },
+    {
+      "path": "reports/verification.json",
+      "sha256": "e3424fb07cfe1343ef0b80578c0f2274f7e7647fd7ffbd7eef2142894dba9f7b"
+    }
+  ]
+}

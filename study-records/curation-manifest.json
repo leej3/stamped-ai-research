@@ -1,0 +1,213 @@
+{
+  "stage": "01",
+  "module": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt",
+  "files": [
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "destination": "evaluation/assessment.json",
+      "sha256": "7481c0a07ab8ee82dd13ef124666ff6deb017700887f43a977636bf6e7b5fce0",
+      "size": 23752
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-access-review.json",
+      "destination": "evaluation/baseline-access-review.json",
+      "sha256": "c5e95328fd3962183cd578b48848fe162e5e2cb3a0b4819d63c8abfc541ac79b",
+      "size": 994
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-original-audit-checks.json",
+      "destination": "evaluation/baseline-original-audit-checks.json",
+      "sha256": "cd071770a352d983dd9697b41c80ead2b3b3456caabbefe1205c5060daf49b36",
+      "size": 20963
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-original-comparison.json",
+      "destination": "evaluation/baseline-original-comparison.json",
+      "sha256": "67579299df7a733efad459c96fc53d81c0227aa328b620a64358914a159f62be",
+      "size": 3932
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-original-extraction-map.json",
+      "destination": "evaluation/baseline-original-extraction-map.json",
+      "sha256": "a24b3368b5bfd7fa9f0dbf2289da5f516481a75ecf9ebb3ec2d0b2fe96dd2d01",
+      "size": 1502
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-original-normalized.json",
+      "destination": "evaluation/baseline-original-normalized.json",
+      "sha256": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81",
+      "size": 1210
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-audit-checks.json",
+      "destination": "evaluation/baseline-replay-audit-checks.json",
+      "sha256": "6600c22845aab4ee7cbc9ca5809d60b07917a33e2b487331d2c405272f1f7ee5",
+      "size": 20941
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-comparison.json",
+      "destination": "evaluation/baseline-replay-comparison.json",
+      "sha256": "bc6ced9c5238d1aaa8b7c24bac808aae58070cfb97c6f1576a8ed15782a0f57b",
+      "size": 3928
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-extraction-map.json",
+      "destination": "evaluation/baseline-replay-extraction-map.json",
+      "sha256": "735e30b8d99eb07aff1fef25f9966025b1cd27c17368c3d2a932f5b4417778fd",
+      "size": 1456
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-normalized.json",
+      "destination": "evaluation/baseline-replay-normalized.json",
+      "sha256": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81",
+      "size": 1210
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/baseline-replay-verification.json",
+      "destination": "evaluation/baseline-replay-verification.json",
+      "sha256": "980463d75d46c7f14f2007da12b7aa280754f2d126c4637bc03c095127d0a65c",
+      "size": 2196
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/evidence-checks.json",
+      "destination": "evaluation/evidence-checks.json",
+      "sha256": "8cbf9336011bd10dcb125f5d0ceee7721af02d938aa4e177527aaba191aa6825",
+      "size": 14883
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/pair-review.json",
+      "destination": "evaluation/pair-review.json",
+      "sha256": "95cd955f3ef038fd6a188fab37bc03f41a8907b83badfb660e0ada88b879ad6f",
+      "size": 927
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/review.md",
+      "destination": "evaluation/review.md",
+      "sha256": "d7a6fd24688ee58d843fc98a8ca9dca57fd0b03ae0c6a6bc8c16f78cb531829d",
+      "size": 3983
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-access-review.json",
+      "destination": "evaluation/treatment-access-review.json",
+      "sha256": "b062175482a1e9669158fcf58de238a839ea0911d2c9fb3fdd891caa66449fbf",
+      "size": 771
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-original-audit-checks.json",
+      "destination": "evaluation/treatment-original-audit-checks.json",
+      "sha256": "9bf4aaa845adf1e5cbc7aab6583eb431a948ebef04042c920253ad350c6da810",
+      "size": 20964
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-original-comparison.json",
+      "destination": "evaluation/treatment-original-comparison.json",
+      "sha256": "bdc6713b404c950aa533b5215b74ba87400a43961d60307d86fa5d4d08125522",
+      "size": 3934
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-original-extraction-map.json",
+      "destination": "evaluation/treatment-original-extraction-map.json",
+      "sha256": "a5fceaea39227de27cf7cae522275db186a48686f042ed500cbf2480d0756de8",
+      "size": 1505
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-original-normalized.json",
+      "destination": "evaluation/treatment-original-normalized.json",
+      "sha256": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81",
+      "size": 1210
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-replay-audit-checks.json",
+      "destination": "evaluation/treatment-replay-audit-checks.json",
+      "sha256": "3bc2f0d0cb93fda06bea6f6928d5360dca1b6ccd97e7eea247110ca4810bab7c",
+      "size": 20942
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-replay-comparison.json",
+      "destination": "evaluation/treatment-replay-comparison.json",
+      "sha256": "614df45fd2f14aec5ee2d84ff7c8b0e06f9b24407918047159d493dae0d8bbf0",
+      "size": 3930
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-replay-extraction-map.json",
+      "destination": "evaluation/treatment-replay-extraction-map.json",
+      "sha256": "53fdb4628a42f5e5cf882af752d1a227e607bc5f40a5b44dc769f9b8714aa05c",
+      "size": 1459
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-replay-normalized.json",
+      "destination": "evaluation/treatment-replay-normalized.json",
+      "sha256": "8018742de7c0e382a0f7529be54669638da3401c92d4743512f21a75b2be1a81",
+      "size": 1210
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/stage-01/treatment-replay-verification.json",
+      "destination": "evaluation/treatment-replay-verification.json",
+      "sha256": "3c783a56e9de7f71cf2884c82b065e759ec98f653157a15fab56345b88d7301a",
+      "size": 2792
+    },
+    {
+      "source": "research/mixed-gambles-design/protocol.json",
+      "destination": "study-records/protocol.json",
+      "sha256": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+      "size": 4063
+    },
+    {
+      "source": "research/mixed-gambles-design/protocol.md",
+      "destination": "study-records/protocol.md",
+      "sha256": "14868b73d94465a5818bd4a9b24fb370b8044fa8c77e8d8e65da431343e82ead",
+      "size": 3821
+    },
+    {
+      "source": "research/mixed-gambles-design/task-common.md",
+      "destination": "study-records/task-common.md",
+      "sha256": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+      "size": 5511
+    },
+    {
+      "source": "research/mixed-gambles-design/task-01.md",
+      "destination": "study-records/task-01.md",
+      "sha256": "194f5f3a71b916b6732438d9ad0325d98578bf04f89563a57f94edd9ebdf2767",
+      "size": 565
+    },
+    {
+      "source": ".setup/mixed-stage01-manifest.json",
+      "destination": "study-records/mixed-stage01-manifest.json",
+      "sha256": "9d957b9f036dbcd82d08a29c2181688c3f8ecf3c2cf9981724f042fc5bdaebfc",
+      "size": 26222
+    },
+    {
+      "source": "experiments/01-participant-rt/TASK.md",
+      "destination": "study-records/TASK.md",
+      "sha256": "a02ba8757a2c2bea715431cf3a38371de920e9d2aac0dc529519e1e8a4500ef5",
+      "size": 6258
+    },
+    {
+      "source": ".setup/mixed-gambles-freeze.json",
+      "destination": "study-records/mixed-gambles-freeze.json",
+      "sha256": "0fb7e23164c45059f3ed25cd43e542a029af4a4be40d26fa3d36b2268431ece0",
+      "size": 69252
+    },
+    {
+      "source": "research/harness/allocation.json",
+      "destination": "study-records/allocation.json",
+      "sha256": "566123e2cd5c89c28118989bfc8de7e34c39bdeecd3512c6a3d32f9f47ce88ca",
+      "size": 591
+    },
+    {
+      "source": "research/mixed-gambles-design/evaluator/correctness-rubric.md",
+      "destination": "study-records/correctness-rubric.md",
+      "sha256": "2d89069787643529dd6912f14afb4189086ff152737225eb293ba47cf4ab1b99",
+      "size": 2620
+    }
+  ],
+  "write_scope": [
+    "README.md",
+    "evaluation/",
+    "study-records/"
+  ],
+  "worker_repositories_modified": false,
+  "git_mutations": false,
+  "readme_sha256": "8a519d3421cacf1cac967b122d5e71bc931a59a4227f2a404e51f7c9df433c5c",
+  "curated_at": "2026-10-14T23:13:55.741754+00:00"
+}

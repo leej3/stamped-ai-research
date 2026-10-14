@@ -1,0 +1,11 @@
+{
+  "dataset": "ds000005",
+  "url": "https://github.com/OpenNeuroDatasets/ds000005.git",
+  "commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "license_declared_by_source": "Public Domain Dedication and License v1.0 (PDDL)",
+  "source_bids_version": "1.0.0rc4",
+  "source_rt_unit": "seconds",
+  "data_scope": "ordinary Git event TSVs only; imaging payloads not acquired",
+  "source_attribution": "OpenfMRI ds000005, Tom et al. (2007); see input README and dataset_description.json",
+  "stage": "01-participant-rt"
+}

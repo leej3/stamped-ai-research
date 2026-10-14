@@ -1,0 +1,254 @@
+{
+  "line_count": 133,
+  "type_counts": [
+    {
+      "kind": [
+        "session_meta",
+        "None",
+        "None"
+      ],
+      "count": 1
+    },
+    {
+      "kind": [
+        "event_msg",
+        "task_started",
+        "None"
+      ],
+      "count": 1
+    },
+    {
+      "kind": [
+        "response_item",
+        "message",
+        "None"
+      ],
+      "count": 13
+    },
+    {
+      "kind": [
+        "world_state",
+        "None",
+        "None"
+      ],
+      "count": 1
+    },
+    {
+      "kind": [
+        "turn_context",
+        "None",
+        "None"
+      ],
+      "count": 1
+    },
+    {
+      "kind": [
+        "event_msg",
+        "item_completed",
+        "UserMessage"
+      ],
+      "count": 1
+    },
+    {
+      "kind": [
+        "event_msg",
+        "item_completed",
+        "AgentMessage"
+      ],
+      "count": 6
+    },
+    {
+      "kind": [
+        "response_item",
+        "custom_tool_call",
+        "None"
+      ],
+      "count": 14
+    },
+    {
+      "kind": [
+        "token_usage_record",
+        "None",
+        "None"
+      ],
+      "count": 15
+    },
+    {
+      "kind": [
+        "event_msg",
+        "item_completed",
+        "CommandExecution"
+      ],
+      "count": 21
+    },
+    {
+      "kind": [
+        "response_item",
+        "custom_tool_call_output",
+        "None"
+      ],
+      "count": 14
+    },
+    {
+      "kind": [
+        "event_msg",
+        "token_count",
+        "None"
+      ],
+      "count": 15
+    },
+    {
+      "kind": [
+        "event_msg",
+        "item_completed",
+        "Reasoning"
+      ],
+      "count": 15
+    },
+    {
+      "kind": [
+        "response_item",
+        "reasoning",
+        "None"
+      ],
+      "count": 15
+    }
+  ],
+  "identity_schema": [
+    {
+      "event_keys": [
+        "timestamp",
+        "ordinal",
+        "type",
+        "payload"
+      ],
+      "payload_keys": [
+        "creator_user_id",
+        "creator_account_id",
+        "session_id",
+        "id",
+        "timestamp",
+        "cwd",
+        "runtime_workspace_roots",
+        "originator",
+        "cli_version",
+        "source",
+        "thread_source",
+        "model_provider",
+        "base_instructions",
+        "history_mode",
+        "context_window",
+        "git"
+      ],
+      "id": "01a13c7b-a74a-7fc1-a920-d48d135aaeb9",
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment",
+      "timestamp": "2026-10-14T22:14:59.280Z"
+    }
+  ],
+  "completed_item_schemas": {
+    "UserMessage": {
+      "event_keys": [
+        "timestamp",
+        "ordinal",
+        "type",
+        "payload"
+      ],
+      "payload_keys": [
+        "type",
+        "thread_id",
+        "turn_id",
+        "item",
+        "started_at_ms",
+        "completed_at_ms"
+      ],
+      "item_keys": [
+        "type",
+        "id",
+        "content"
+      ],
+      "timestamp": "2026-10-14T22:15:01.231Z",
+      "item_status": null
+    },
+    "AgentMessage": {
+      "event_keys": [
+        "timestamp",
+        "ordinal",
+        "type",
+        "payload"
+      ],
+      "payload_keys": [
+        "type",
+        "thread_id",
+        "turn_id",
+        "item",
+        "started_at_ms",
+        "completed_at_ms"
+      ],
+      "item_keys": [
+        "type",
+        "id",
+        "content",
+        "phase"
+      ],
+      "timestamp": "2026-10-14T22:15:03.995Z",
+      "item_status": null
+    },
+    "CommandExecution": {
+      "event_keys": [
+        "timestamp",
+        "ordinal",
+        "type",
+        "payload"
+      ],
+      "payload_keys": [
+        "type",
+        "thread_id",
+        "turn_id",
+        "item",
+        "started_at_ms",
+        "completed_at_ms"
+      ],
+      "item_keys": [
+        "type",
+        "id",
+        "process_id",
+        "command",
+        "cwd",
+        "parsed_cmd",
+        "source",
+        "status",
+        "aggregated_output",
+        "exit_code",
+        "duration"
+      ],
+      "timestamp": "2026-10-14T22:15:08.960Z",
+      "item_status": "completed"
+    },
+    "Reasoning": {
+      "event_keys": [
+        "timestamp",
+        "ordinal",
+        "type",
+        "payload"
+      ],
+      "payload_keys": [
+        "type",
+        "thread_id",
+        "turn_id",
+        "item",
+        "started_at_ms",
+        "completed_at_ms"
+      ],
+      "item_keys": [
+        "type",
+        "id",
+        "summary_text",
+        "raw_content"
+      ],
+      "timestamp": "2026-10-14T22:15:11.836Z",
+      "item_status": null
+    }
+  },
+  "first_timestamp": "2026-10-14T22:14:59.280Z",
+  "last_timestamp": "2026-10-14T22:20:54.019Z"
+}

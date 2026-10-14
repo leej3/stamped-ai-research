@@ -1,0 +1,74 @@
+Submodule path 'inputs/ds000005': checked out 'b094fc2f41487f92d382a1a432165ae58caae386'
+{
+  "stage": "01-participant-rt",
+  "participant": "sub-01",
+  "units": "ms",
+  "runs": [
+    {
+      "participant": "sub-01",
+      "run": "01",
+      "units": "ms",
+      "presented_trials": 86,
+      "retained_rt_count": 85,
+      "excluded_row_union": 1,
+      "median_rt_ms": 1272.0,
+      "missing_rt": 0,
+      "invalid_numeric_rt": 0,
+      "nonfinite_rt": 0,
+      "nonpositive_rt": 1,
+      "absent_response": 1,
+      "unexpected_response_code_value": 0,
+      "response_code_pair_disagreement": 0,
+      "response_presence_disagreement": 0,
+      "duplicate_onset": 0,
+      "nonmonotonic_onset": 0,
+      "invalid_onset": 0
+    },
+    {
+      "participant": "sub-01",
+      "run": "03",
+      "units": "ms",
+      "presented_trials": 85,
+      "retained_rt_count": 85,
+      "excluded_row_union": 0,
+      "median_rt_ms": 1261.0,
+      "missing_rt": 0,
+      "invalid_numeric_rt": 0,
+      "nonfinite_rt": 0,
+      "nonpositive_rt": 0,
+      "absent_response": 0,
+      "unexpected_response_code_value": 0,
+      "response_code_pair_disagreement": 0,
+      "response_presence_disagreement": 0,
+      "duplicate_onset": 0,
+      "nonmonotonic_onset": 0,
+      "invalid_onset": 0
+    }
+  ],
+  "change": {
+    "definition": "median(run-03) minus median(run-01)",
+    "value_ms": -11.0
+  },
+  "population_interval": null,
+  "population_interval_reason": "Descriptive single-person stage; no population interval requested or justified.",
+  "rt_band": null,
+  "rt_band_reason": "No RT-band variant requested; only finite positive RT required."
+}
+{
+  "status": "passed",
+  "synthetic_cases": 17,
+  "synthetic_rule_checks": "passed",
+  "independent_decimal_medians_and_change": "passed",
+  "local_replay": "passed",
+  "replayed_identical_files": [
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summary.tsv",
+    "derivatives/gambling-rt/trial_audit.tsv",
+    "derivatives/gambling-rt/median_rt.svg"
+  ],
+  "source_hashes_unchanged": "passed",
+  "cross_platform_replay": "unattempted",
+  "clean_environment_build": "unattempted",
+  "datalad_rerun": "unattempted"
+}
+{"record": "/Users/johnlee/code/CON/stamped-ai-research/experiments/01-participant-rt/replay/baseline.json", "outcome": "command_succeeded_pending_independent_scientific_review", "source_unchanged": true}

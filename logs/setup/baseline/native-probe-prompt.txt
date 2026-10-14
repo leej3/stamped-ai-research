@@ -1,0 +1,19 @@
+This is a narrowly bounded SETUP-ONLY native-capture probe, not scientific work.
+Do not read TASK.md, scientific inputs, parent research, other worker directories,
+or prior conversations. Do not analyze data, plan research, run scientific tests,
+spawn agents, retrieve datasets, or perform Workshop feedback. The coordinator
+handles task-level bookkeeping. The outer process already uses duct; do not nest it.
+Use the native apply_patch tool to create exactly .setup/native-capture-probe.txt with these exact bytes:
+Native capture setup probe. No scientific analysis.
+
+The file ends with one newline. Do not create any other file or modify setup,
+hooks, trust, or credentials. This real native file-change event is required;
+do not substitute a shell write, import/adopt a session, or simulate hook events.
+Read and apply the commit-provenance skill at /Users/johnlee/.agents/skills/commit-provenance/SKILL.md.
+Immediately before the one local commit, resolve this active turn's exact
+provenance using that skill. Only current-turn metadata necessary for provenance
+may be inspected; no older conversation content. Stage only .setup/native-capture-probe.txt and commit
+with subject 'chore: verify native capture setup' and the freshly resolved required
+trailers. Preserve the existing hooks. No push or other remote operation.
+If native patching, provenance, or the commit fails, report the failure and stop;
+do not retry or broaden scope. Finish within 180 seconds and report the commit ID.

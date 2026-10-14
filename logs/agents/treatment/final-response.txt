@@ -1,0 +1,21 @@
+Completed stage 01.
+
+| sub-01 run | Presented | Retained | Excluded | Median RT |
+|---|---:|---:|---:|---:|
+| 01 | 86 | 85 | 1 | 1,272 ms |
+| 03 | 85 | 85 | 0 | 1,261 ms |
+
+**Run 03 − run 01: −11 ms.** This is a descriptive single-person temporal association.
+
+The excluded trial has both nonpositive-RT and absent-response flags. All other requested flag counts are zero.
+
+Independent calculations and same-host replay passed. Assessment schema validation and Workshop recording failed because `jsonschema` was unavailable; those failures are retained.
+
+[Report](reports/report.md) · [Machine-readable results](derivatives/gambling-rt/results.json) · [Run manifest](reports/run.json) · [Editable figure](derivatives/gambling-rt/median-rt.svg)
+
+Replay from the workspace root:
+
+```sh
+pixi run --frozen python code/analyze_rt.py
+pixi run --frozen python code/verify_rt.py
+```
