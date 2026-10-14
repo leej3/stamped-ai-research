@@ -5,6 +5,7 @@
   "branch": "codex/mixed-03-baseline",
   "checkpoints_count": 1,
   "files_touched": [
+    "code/analyze_rt.py",
     "derivatives/gambling-rt/missingness_by_run.tsv",
     "derivatives/gambling-rt/participant_changes.tsv",
     "derivatives/gambling-rt/results.json",
@@ -13,6 +14,7 @@
     "derivatives/gambling-rt/software.json",
     "derivatives/gambling-rt/source_hashes.json",
     "derivatives/gambling-rt/trial_audit.tsv",
+    "reports/datalad-provenance.json",
     "reports/report.md",
     "reports/run.json",
     "reports/verification.json"
@@ -27,10 +29,10 @@
     }
   ],
   "token_usage": {
-    "input_tokens": 3252,
+    "input_tokens": 10562,
     "cache_creation_tokens": 0,
-    "cache_read_tokens": 94720,
-    "output_tokens": 1794,
-    "api_call_count": 2
+    "cache_read_tokens": 379136,
+    "output_tokens": 4104,
+    "api_call_count": 7
   }
 }
