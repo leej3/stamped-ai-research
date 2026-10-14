@@ -1,0 +1,50 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4YBEX6G6R092NECKSQ8JFMC",
+  "session_id": "01a13c62-f9f4-7f12-a39c-6d7884eb50fa",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-14T23:20:18.807927Z",
+  "branch": "codex/stamped-research-skills",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md",
+    "docs/stamped-study/README.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "b5ef501d9873",
+  "checkpoint_transcript_start": 195,
+  "transcript_lines_at_start": 195,
+  "compact_transcript_start": 23,
+  "token_usage": {
+    "input_tokens": 72858,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 1486464,
+    "output_tokens": 15465,
+    "api_call_count": 16
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-14T23:20:18.778641Z",
+    "agent_lines": 159,
+    "agent_removed": 19,
+    "human_added": 2165,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 2324,
+    "total_lines_changed": 2343,
+    "agent_percentage": 7.597097737942808,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
