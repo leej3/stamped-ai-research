@@ -1,0 +1,573 @@
+{
+  "assessment_id": "360d0bbe-31f8-424f-b95a-1b5f4ebefc1f",
+  "assessor": {
+    "kind": "agent",
+    "model": "gpt-6-astra",
+    "name": "Codex current worker",
+    "reasoning_effort": "ultra",
+    "runtime": "codex-cli 0.162.0-alpha.17.2"
+  },
+  "conditions": {
+    "access_context": "Supplied local Git event TSVs only",
+    "assistance": "One worker, no agents or external contact",
+    "budget": "480-second wall cap; no extension",
+    "collection_coverage": "Native and outer duct runner-owned; no history inspected; local outputs and run record retained",
+    "environment": "macOS ARM64, Python 3.13.16, existing Pixi and fresh venv",
+    "permissions": [
+      "offline local analysis and scoped commits"
+    ],
+    "tools": [
+      "Python stdlib",
+      "installed Pixi",
+      "Git",
+      "DataLad",
+      "Workshop validator"
+    ]
+  },
+  "created_at": "2026-10-14T23:05:12.962720+00:00",
+  "instrument": {
+    "name": "assess-alignment-with-stamped-principles",
+    "source": {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "role": "frozen treatment",
+      "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+      "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md"
+    },
+    "version": "0.1.0"
+  },
+  "interventions": [
+    {
+      "actor": "current worker",
+      "description": "Baseline gaps -> explicit interface/manifests/replay -> evidence-based reassessment.",
+      "evidence": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+          "role": "frozen skill",
+          "sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+          "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md"
+        }
+      ],
+      "timing": "before/during analysis in this attempt"
+    },
+    {
+      "actor": "current worker",
+      "description": "Seven-property evidence, source-version conflict, portable assessment, complete checklist side product.",
+      "evidence": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+          "role": "frozen skill",
+          "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+          "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md"
+        }
+      ],
+      "timing": "before/during analysis in this attempt"
+    },
+    {
+      "actor": "current worker",
+      "description": "Raw BIDS revision and attribution preserved; derivatives separated; DataLad transformation; no imaging pipeline.",
+      "evidence": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+          "role": "frozen skill",
+          "sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+          "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md"
+        }
+      ],
+      "timing": "before/during analysis in this attempt"
+    },
+    {
+      "actor": "current worker",
+      "description": "Boundary, component identities, code/environment interface, executable local research object.",
+      "evidence": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+          "role": "frozen skill",
+          "sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+          "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md"
+        }
+      ],
+      "timing": "before/during analysis in this attempt"
+    },
+    {
+      "actor": "current worker",
+      "description": "Pre-analysis protocol, complete endpoints, independent checks, disposable replay, explicit scientific limits.",
+      "evidence": [
+        {
+          "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+          "role": "frozen skill",
+          "sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+          "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md"
+        }
+      ],
+      "timing": "before/during analysis in this attempt"
+    }
+  ],
+  "limitations": [
+    "Temporal association only: run position was not randomized and task composition may differ.",
+    "Observed valid responses are the estimand; differential missingness can select the sample.",
+    "The 0.2\u20133.0 s band is a declared sensitivity choice, not a documented response deadline.",
+    "Current BIDS validation, remote retrieval, full Pixi environment rebuild, alternate-platform execution and independent investigator reproduction were not attempted.",
+    "Local fresh-directory replay uses a venv without pip and the existing base Python interpreter.",
+    "Analysis-module licensing and a durable distribution route have not been established.",
+    "Native capture and outer duct capture are runner-owned; their contents were not inspected and no per-computation duct logs are claimed.",
+    "Native DataLad rerun detection requires its fixed commit-subject prefix; the final Conventional Commit subject retains the run block but uses the verified explicit replay command.",
+    "Paper licensing additions and T.4 versus checklist T.5 are source-qualified; no silent remapping."
+  ],
+  "metrics": [],
+  "object": {
+    "boundary": "Scientific computation module under this root; exact listed components in artifact manifest; assessment is metadata about that snapshot.",
+    "components": [
+      {
+        "path": "reports/artifact-manifest.json",
+        "role": "component digest manifest",
+        "sha256": "f68f7dae50c81fcf20da51e36c95bd9d012553cb41014faec06d23fc5180bf3f",
+        "uri": "reports/artifact-manifest.json"
+      },
+      {
+        "path": "code/input-manifest.json",
+        "role": "inputs",
+        "sha256": "d9414ea0912068bffed4ccfe00947446b75251f35de8e782c42a1815ea51de93",
+        "uri": "code/input-manifest.json"
+      }
+    ],
+    "dirty_snapshot": null,
+    "snapshot": {
+      "revision": "71691d184afe15c4ee1a911c2a6eaccd16e9097b",
+      "role": "results commit",
+      "uri": "."
+    }
+  },
+  "outcome": "completed",
+  "references": [
+    {
+      "path": "references/stamped/paper/main.tex",
+      "role": "paper",
+      "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611",
+      "uri": "references/stamped/paper/main.tex"
+    },
+    {
+      "path": "references/stamped/principles/stamped-principles.json",
+      "role": "principles 0.2.0",
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580",
+      "uri": "references/stamped/principles/stamped-principles.json"
+    }
+  ],
+  "research_object": {
+    "A": [
+      {
+        "direction": "maximize",
+        "id": "A-local-study",
+        "judgment": "demonstrated",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+            "evidence": [
+              {
+                "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+                "id": "A-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "A-inspect",
+            "status": "completed"
+          },
+          {
+            "activity": "execute",
+            "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+            "evidence": [
+              {
+                "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+                "id": "A-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "A-execute",
+            "status": "completed"
+          },
+          {
+            "activity": "compare",
+            "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+            "evidence": [
+              {
+                "description": "Executable analysis and verification ran; eight numerical/artifact files matched exactly in disposable replay.",
+                "id": "A-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "A-compare",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Evidence is for this host and selected scientific outputs, not automatic narrative regeneration. Next: Have another investigator execute code/replay.sh on the pinned object.",
+        "required_activities": [
+          "inspect",
+          "execute",
+          "compare"
+        ],
+        "target": "Actionability for this offline RT research object"
+      }
+    ],
+    "D": [
+      {
+        "direction": "maximize",
+        "id": "D-local-study",
+        "judgment": "unknown",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Source URL, revision, source PDDL terms and requested attribution preserved.",
+            "evidence": [
+              {
+                "description": "Source URL, revision, source PDDL terms and requested attribution preserved.",
+                "id": "D-evidence",
+                "kind": "agent_assertion",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "SOURCE.json",
+                  "role": "observed artifact",
+                  "sha256": "ab09572896f8cbb0f89996d7766ad868ffce4f90ebaa233a9e9088c36333d500",
+                  "uri": "SOURCE.json"
+                }
+              }
+            ],
+            "id": "D-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Offline scope leaves persistent third-party retrieval and analysis licensing untested. Next: Establish license and archive, then test recipient retrieval.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Distributability for this offline RT research object"
+      }
+    ],
+    "E": [
+      {
+        "direction": "maximize",
+        "id": "E-local-study",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+            "evidence": [
+              {
+                "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+                "id": "E-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "E-inspect",
+            "status": "completed"
+          },
+          {
+            "activity": "execute",
+            "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+            "evidence": [
+              {
+                "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+                "id": "E-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "E-execute",
+            "status": "completed"
+          },
+          {
+            "activity": "compare",
+            "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+            "evidence": [
+              {
+                "description": "Fresh temporary directory and venv without pip generated identical outputs; evidence retained before deletion.",
+                "id": "E-evidence",
+                "kind": "tool_record",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "reports/verification.json",
+                  "role": "observed artifact",
+                  "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                  "uri": "reports/verification.json"
+                }
+              }
+            ],
+            "id": "E-compare",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Existing base interpreter reused; host and full tool environment not rebuilt. Next: Rebuild the declared runtime in a fresh environment under future authorization.",
+        "required_activities": [
+          "inspect",
+          "execute",
+          "compare"
+        ],
+        "target": "Ephemerality for this offline RT research object"
+      }
+    ],
+    "M": [
+      {
+        "direction": "maximize",
+        "id": "M-local-study",
+        "judgment": "demonstrated",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Immutable upstream subdataset, code with explicit input/output interface, derivatives and reports are separate.",
+            "evidence": [
+              {
+                "description": "Immutable upstream subdataset, code with explicit input/output interface, derivatives and reports are separate.",
+                "id": "M-evidence",
+                "kind": "agent_assertion",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "code/README.md",
+                  "role": "observed artifact",
+                  "sha256": "9ccb5f71a2e5be0b5a2750b52fa9b396fe541b64be49cdd67e96fcb93fc1ab62",
+                  "uri": "code/README.md"
+                }
+              }
+            ],
+            "id": "M-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Independent module replacement was not tested. Next: Retest interface when deliberately updating inputs.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Modularity for this offline RT research object"
+      }
+    ],
+    "P": [
+      {
+        "direction": "maximize",
+        "id": "P-local-study",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Relative analysis paths, Python standard library, Pixi files and observed software/host versions retained.",
+            "evidence": [
+              {
+                "description": "Relative analysis paths, Python standard library, Pixi files and observed software/host versions retained.",
+                "id": "P-evidence",
+                "kind": "agent_assertion",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "derivatives/gambling-rt/software.json",
+                  "role": "observed artifact",
+                  "sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90",
+                  "uri": "derivatives/gambling-rt/software.json"
+                }
+              }
+            ],
+            "id": "P-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "important",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Only macOS 27.0.1 ARM64 tested; full locked environment reconstruction unattempted. Next: Test declared runtime on an additional platform when authorized.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Portability for this offline RT research object"
+      }
+    ],
+    "S": [
+      {
+        "direction": "maximize",
+        "id": "S-local-study",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Source events/metadata, code, input manifest, outputs and environment files are present locally.",
+            "evidence": [
+              {
+                "description": "Source events/metadata, code, input manifest, outputs and environment files are present locally.",
+                "id": "S-evidence",
+                "kind": "agent_assertion",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "code/input-manifest.json",
+                  "role": "observed artifact",
+                  "sha256": "d9414ea0912068bffed4ccfe00947446b75251f35de8e782c42a1815ea51de93",
+                  "uri": "code/input-manifest.json"
+                }
+              }
+            ],
+            "id": "S-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Module licenses and external environment artifacts are not all bundled. Next: Clarify code licensing and verify archived environment retrieval.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Self-containment for this offline RT research object"
+      }
+    ],
+    "T": [
+      {
+        "direction": "maximize",
+        "id": "T-local-study",
+        "judgment": "partial",
+        "observations": [
+          {
+            "activity": "inspect",
+            "description": "Input hashes, code commit, result commit, DataLad run block, software versions and output hashes retained.",
+            "evidence": [
+              {
+                "description": "Input hashes, code commit, result commit, DataLad run block, software versions and output hashes retained.",
+                "id": "T-evidence",
+                "kind": "agent_assertion",
+                "producer": "current worker and local tools",
+                "source": {
+                  "path": "derivatives/gambling-rt/output_hashes.json",
+                  "role": "observed artifact",
+                  "sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf",
+                  "uri": "derivatives/gambling-rt/output_hashes.json"
+                }
+              }
+            ],
+            "id": "T-inspect",
+            "status": "completed"
+          }
+        ],
+        "priority": "essential",
+        "priority_rationale": "Proportionate to local reproducible tabular analysis.",
+        "rationale": "Native/outer capture content uninspected; DataLad subject convention limits automatic discovery. Next: Preserve runner capture links and use explicit replay; resolve commit convention for future DataLad rerun.",
+        "required_activities": [
+          "inspect"
+        ],
+        "target": "Trackability for this offline RT research object"
+      }
+    ]
+  },
+  "review_records": [],
+  "rubric": {
+    "path": "references/stamped/checklist/stamped-checklist.json",
+    "role": "checklist 0.3.1",
+    "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba",
+    "uri": "references/stamped/checklist/stamped-checklist.json"
+  },
+  "run_id": "mixed-03-treatment",
+  "schema_version": "0.1.0",
+  "science": [
+    {
+      "direction": "maximize",
+      "id": "science-requested-estimators",
+      "judgment": "demonstrated",
+      "observations": [
+        {
+          "activity": "execute",
+          "description": "Completed numerical analysis and independent Decimal/bootstrap comparisons.",
+          "evidence": [
+            {
+              "description": "Passing independent local checks and exact replay",
+              "id": "science-verification",
+              "kind": "tool_record",
+              "producer": "code/verify_replay.py",
+              "source": {
+                "path": "reports/verification.json",
+                "role": "verification",
+                "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                "uri": "reports/verification.json"
+              }
+            }
+          ],
+          "id": "science-execute",
+          "status": "completed"
+        },
+        {
+          "activity": "compare",
+          "description": "Completed numerical analysis and independent Decimal/bootstrap comparisons.",
+          "evidence": [
+            {
+              "description": "Passing independent local checks and exact replay",
+              "id": "science-verification",
+              "kind": "tool_record",
+              "producer": "code/verify_replay.py",
+              "source": {
+                "path": "reports/verification.json",
+                "role": "verification",
+                "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0",
+                "uri": "reports/verification.json"
+              }
+            }
+          ],
+          "id": "science-compare",
+          "status": "completed"
+        }
+      ],
+      "priority": "essential",
+      "priority_rationale": "Required scientific task",
+      "rationale": "Specified estimators locally verified; generalizability and causal validity are not established.",
+      "required_activities": [
+        "execute",
+        "compare"
+      ],
+      "target": "Implement declared screen, paired endpoints, uncertainty and context"
+    }
+  ],
+  "status": "finalized",
+  "task": {
+    "assumptions": [
+      "Task choices fixed before endpoint computation."
+    ],
+    "audience": "Researchers inspecting the local study",
+    "question": "Sensitivity of first-to-third decision RT change to summary and band",
+    "source": {
+      "path": "TASK.md",
+      "role": "task",
+      "sha256": "417c2b7e22ca5e12debbacda817b8d9d9c616b936ccd6cca4f69fef70c8f42af",
+      "uri": "TASK.md"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "checklist_version": "0.3.1",
+  "items": {
+    "stamped-checklist:may/001": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/002": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/003": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:may/004": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/005": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/001": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/002": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/003": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/004": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/005": {
+      "reason": "Selected scientific computation uses small text/vector inputs; no large imaging payload required.",
+      "status": "not_applicable"
+    },
+    "stamped-checklist:must/006": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/007": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/008": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/009": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/010": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/011": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/012": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/013": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/014": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/015": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/016": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/017": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/001": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/002": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/003": {
+      "reason": "Local selected-file evidence: code/README.md, manifests, reports/verification.json; see assessment.json.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:should/004": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/005": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/006": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/007": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/008": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/009": {
+      "reason": "Scope/gap retained in assessment.json; no remote retrieval, independent platform, or full environment rebuild checked.",
+      "status": "unknown"
+    }
+  }
+}

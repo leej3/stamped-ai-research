@@ -1,0 +1,94 @@
+[
+  {
+    "path": "SOURCE.json",
+    "sha256": "ab09572896f8cbb0f89996d7766ad868ffce4f90ebaa233a9e9088c36333d500"
+  },
+  {
+    "path": "code/README.md",
+    "sha256": "9ccb5f71a2e5be0b5a2750b52fa9b396fe541b64be49cdd67e96fcb93fc1ab62"
+  },
+  {
+    "path": "code/analyze_rt.py",
+    "sha256": "7ab788d35b60e1958b247255524b3960b7f6aeea13ed0ae5c00dac38459e7bee"
+  },
+  {
+    "path": "code/input-manifest.json",
+    "sha256": "d9414ea0912068bffed4ccfe00947446b75251f35de8e782c42a1815ea51de93"
+  },
+  {
+    "path": "code/replay.sh",
+    "sha256": "4d4fb02c4f1ddca96041b072942599540ab073de5278c4e324ec267ca8edd013"
+  },
+  {
+    "path": "code/verify_replay.py",
+    "sha256": "884b3ddf897e19f31319c5214bc11ce7db8434bcaa630b394170d37f91e5be8a"
+  },
+  {
+    "path": "derivatives/gambling-rt/bootstrap_replicates.tsv",
+    "sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af"
+  },
+  {
+    "path": "derivatives/gambling-rt/output_hashes.json",
+    "sha256": "a0e61fea5d0b34771b307424c007fe540aac0da2b78a1d7f56b3bff0576673bf"
+  },
+  {
+    "path": "derivatives/gambling-rt/participant_changes.tsv",
+    "sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015"
+  },
+  {
+    "path": "derivatives/gambling-rt/results.json",
+    "sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925"
+  },
+  {
+    "path": "derivatives/gambling-rt/run_summaries.tsv",
+    "sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85"
+  },
+  {
+    "path": "derivatives/gambling-rt/sensitivity.svg",
+    "sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71"
+  },
+  {
+    "path": "derivatives/gambling-rt/software.json",
+    "sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90"
+  },
+  {
+    "path": "derivatives/gambling-rt/trial_audit.tsv",
+    "sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd"
+  },
+  {
+    "path": "pixi.lock",
+    "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+  },
+  {
+    "path": "pixi.toml",
+    "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+  },
+  {
+    "path": "references/stamped/SOURCES.json",
+    "sha256": "de8af39062c423e4401def1ab53788b6b580e7231ad63d639f639bb784103013"
+  },
+  {
+    "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+    "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e"
+  },
+  {
+    "path": "references/stamped/checklist/stamped-checklist.json",
+    "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba"
+  },
+  {
+    "path": "references/stamped/paper/main.tex",
+    "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611"
+  },
+  {
+    "path": "references/stamped/principles/stamped-principles.json",
+    "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+  },
+  {
+    "path": "reports/protocol.md",
+    "sha256": "30a1e43dbf4418d8747f6ad8887f52306628f4189090eb3ef226051542e3aa67"
+  },
+  {
+    "path": "reports/verification.json",
+    "sha256": "585fbfe5f2c95634d3b4eefcdc74e3a1c438646bbec9399387f800e60249adf0"
+  }
+]
