@@ -1,0 +1,32 @@
+{
+  "execution_exit_code": 0,
+  "execution_record": {
+    "chain": [],
+    "cmd": "python code/analyze_rt.py && python code/check_rt.py && python code/verify_replay.py",
+    "dsid": "18c86d31-4f04-41bc-9813-9607402837cd",
+    "exit": 0,
+    "extra_inputs": [],
+    "inputs": [
+      "code",
+      "pixi.toml",
+      "pixi.lock",
+      "inputs/ds000005/README",
+      "inputs/ds000005/dataset_description.json",
+      "inputs/ds000005/sub-*/func/*_events.tsv",
+      "references/stamped/principles/stamped-principles.json",
+      "references/stamped/SOURCES.json"
+    ],
+    "outputs": [
+      "derivatives/gambling-rt",
+      "reports"
+    ],
+    "pwd": "."
+  },
+  "feedback": "Two shared-control baseline records validated and queued locally; no publication attempted.",
+  "figure_visual_check": "SVG rendered with rsvg-convert and visually inspected; no clipping or overlapping labels observed.",
+  "final_subject": "feat: record mixed-gambles RT sensitivity results",
+  "generated_subject": "[DATALAD RUNCMD] feat: record mixed-gambles RT sensitivity results",
+  "limitation": "Conventional Commit subject normalization removes the DataLad parser prefix. Direct replay is verified; native datalad rerun recognition is unavailable for this normalized commit.",
+  "native_record_parsed_before_subject_normalization": true,
+  "snapper": "Existing CLI formats the final report; version recorded. Initial template-only formatting failed its check and was corrected. No hooks or configuration files changed."
+}

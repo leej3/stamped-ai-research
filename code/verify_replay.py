@@ -20,6 +20,7 @@ evidence = {'status':'passed', 'same_environment_replay':'byte-identical for all
             'command': 'pixi run --frozen python code/verify_replay.py',
             'output_sha256': after, 'focused_checks': check.stdout.strip(),
             'svg_xml':'parsed successfully',
+            'snapper_check':'Initial template-only formatting left fused generated sentences; formatting the final report resolves this.',
             'failure_history':[{'step':'initial check_rt.py', 'exit_code':1,
                                 'exception':'AssertionError: cohort absent_response == 86',
                                 'resolution':'Independent source recount: cohort 154; sub-05/run-01 65 absent of 86 trials. Corrected the test and report denominator.'},
@@ -29,7 +30,7 @@ evidence = {'status':'passed', 'same_environment_replay':'byte-identical for all
             'unattempted':['fresh environment rebuild','remote retrieval','cross-platform replay','current BIDS validation','DataLad rerun command'],
             'native_capture':'left enabled; transcript completeness not inspected',
             'outer_duct':'runner-provided ongoing capture; no nested capture or individual stream record',
-            'datalad':'See local transformation commit; distinct from native and outer duct records.'}
+            'datalad':'Execution JSON retained in reports/datalad-provenance.json. Native rerun recognition unavailable after Conventional Commit subject normalization; direct replay verified.'}
 Path('reports/verification.json').write_text(json.dumps(evidence, indent=2, sort_keys=True)+'\n')
 print(check.stdout.strip())
 print('PASS: same-environment replay is byte-identical; SVG XML is valid')

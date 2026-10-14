@@ -1,0 +1,44 @@
+{
+  "command": "pixi run --frozen python code/verify_replay.py",
+  "datalad": "Execution JSON retained in reports/datalad-provenance.json. Native rerun recognition unavailable after Conventional Commit subject normalization; direct replay verified.",
+  "failure_history": [
+    {
+      "exception": "AssertionError: cohort absent_response == 86",
+      "exit_code": 1,
+      "resolution": "Independent source recount: cohort 154; sub-05/run-01 65 absent of 86 trials. Corrected the test and report denominator.",
+      "step": "initial check_rt.py"
+    },
+    {
+      "exception": "ModuleNotFoundError: jsonschema",
+      "exit_code": 1,
+      "resolution": "Used preinstalled Workshop environment.",
+      "step": "Workshop recorder with host Python"
+    }
+  ],
+  "focused_checks": "PASS: edge flags, inclusive band, source missingness, independent four-estimator recomputation, and all manifest hashes",
+  "native_capture": "left enabled; transcript completeness not inspected",
+  "outer_duct": "runner-provided ongoing capture; no nested capture or individual stream record",
+  "output_sha256": {
+    "derivatives/gambling-rt/missingness_by_run.tsv": "272f7b7060ffca4ce0e4149ee9bf80427cfef1128cece2797dbd7f16dc4c08c7",
+    "derivatives/gambling-rt/participant_changes.tsv": "d462c22d7498d4face4f5abff21b3f003bab076bacf82f25c28f0ef998455967",
+    "derivatives/gambling-rt/results.json": "25a9548035354bc13e235382b22b1a3f6e86cea48a4a32f277d6d54ed7c80680",
+    "derivatives/gambling-rt/run_summaries.tsv": "3592100fb8267e75cc7c3fd73e2a9fba972d183c807f3cc10a12aa92762d44e8",
+    "derivatives/gambling-rt/sensitivity.svg": "3bae29b54df59e5a59281105e1adb7d82a3158df5a4771bf80813850c39597a6",
+    "derivatives/gambling-rt/software.json": "c519e863db1feef7f6dc076e5af556ebf4e5d344fb22a22679ba2228a7a995fa",
+    "derivatives/gambling-rt/source_hashes.json": "f3b3f9b41449f9ea39011c6e3114435f4a9df38229646a8b6ef1938f09083e84",
+    "derivatives/gambling-rt/trial_audit.tsv": "e8a1895346254bd2da67ba66812bba3b7d811d5fbb7b5e5a145e55158b945c99",
+    "reports/report.md": "7c86c6d78b86a678d4c86dd027ddfdcabc468ec04642d60cd94d64c10f0f4152",
+    "reports/run.json": "5d801cf48b4d033babc9e46b2c3713a402a5dbb03898b89dc8e17060b62958ca"
+  },
+  "same_environment_replay": "byte-identical for all analysis outputs and run manifest",
+  "snapper_check": "Initial template-only formatting left fused generated sentences; formatting the final report resolves this.",
+  "status": "passed",
+  "svg_xml": "parsed successfully",
+  "unattempted": [
+    "fresh environment rebuild",
+    "remote retrieval",
+    "cross-platform replay",
+    "current BIDS validation",
+    "DataLad rerun command"
+  ]
+}

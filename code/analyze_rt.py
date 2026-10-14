@@ -244,6 +244,7 @@ def main():
     software = {'python': sys.version, 'python_executable': sys.executable,
                 'platform': platform.platform(), 'git': subprocess.check_output(['git','--version'],text=True).strip(),
                 'datalad': importlib.metadata.version('datalad'),
+                'snapper': subprocess.check_output(['snapper','--version'],text=True).strip(),
                 'git_annex': subprocess.check_output(['git','annex','version'],text=True).splitlines()[0]}
     write_json(out/'software.json', software)
     means = [e['mean_change_ms'] for e in estimates.values()]
@@ -256,7 +257,9 @@ def main():
                    'The inclusive 0.2–3.0 second band is a declared sensitivity choice, not a documented response deadline.',
                    'No current BIDS validation, remote retrieval, fresh environment rebuild, cross-platform replay, or imaging analysis was attempted.',
                    'The outer duct capture is runner-provided and ongoing; it has not been independently inspected or split into computation-level records.',
-                   'Native capture, outer duct, and local DataLad provenance are distinct evidence streams.']
+                   'Native capture, outer duct, and local DataLad provenance are distinct evidence streams.',
+                   'Snapper is a preinstalled host formatting dependency outside the supplied Pixi lock; fresh installation is untested.',
+                   'The native DataLad commit prefix was normalized to obey Conventional Commits; execution JSON is preserved in reports/datalad-provenance.json, but native datalad rerun recognition is unavailable.']
     evidence = {
         'self_containment': {'demonstrated': 'Local event TSVs, source metadata, code, tables, report, figure, Pixi manifest and lock are reachable here.', 'untested': 'Fresh retrieval and an independent reconstruction of the whole object.'},
         'trackability': {'demonstrated': 'Pinned input Git revision; each consumed source file verified byte-for-byte against it and hashed; code and environment hashes recorded.', 'untested': 'Completeness of native capture and the ongoing outer duct capture.'},
@@ -275,35 +278,65 @@ Stage 03 completed locally. {conclusion}
 
 ## Data and screening
 
-Source: OpenfMRI ds005 / OpenNeuro ds000005 at `{PIN}`. All 48 local event TSVs and the README and dataset description were verified against that revision. Source declares BIDS {description['BIDSVersion']}; current BIDS validation was not attempted. Raw inputs were unchanged. Only event RT and response-presence codes determine retention; numeric codes are not interpreted as correctness or acceptance.
+Source: OpenfMRI ds005 / OpenNeuro ds000005 at `{PIN}`.
+All 48 local event TSVs and the README and dataset description were verified against that revision.
+Source declares BIDS {description['BIDSVersion']}; current BIDS validation was not attempted.
+Raw inputs were unchanged.
+Only event RT and response-presence codes determine retention; numeric codes are not interpreted as correctness or acceptance.
 
-RT is read from `response_time` in seconds and reported in milliseconds. Primary retention requires positive finite RT and a pair in (1,1), (2,1), (3,0), (4,0). The inclusive 0.2–3.0 s band adds an RT filter and is not a documented deadline. Independent flags may overlap; counts below cannot be summed to obtain exclusions. Missing tokens are empty or case-insensitive n/a; parsing failure after removing those tokens is invalid numeric RT. Unexpected codes include nonintegers, parsing failures, or out-of-domain values. Pair disagreement is any pair outside the five permitted pairs including (0,-1). Presence disagreement is the XOR of positive finite RT and a recorded-response pair. Onset duplicates mean repeated values after their first occurrence; decreases are separately flagged and do not exclude RTs.
+RT is read from `response_time` in seconds and reported in milliseconds.
+Primary retention requires positive finite RT and a pair in (1,1), (2,1), (3,0), (4,0).
+The inclusive 0.2–3.0 s band adds an RT filter and is not a documented deadline.
+Independent flags may overlap; counts below cannot be summed to obtain exclusions.
+Missing tokens are empty or case-insensitive n/a; parsing failure after removing those tokens is invalid numeric RT.
+Unexpected codes include nonintegers, parsing failures, or out-of-domain values.
+Pair disagreement is any pair outside the five permitted pairs including (0,-1).
+Presence disagreement is the XOR of positive finite RT and a recorded-response pair.
+Onset duplicates mean repeated values after their first occurrence; decreases are separately flagged and do not exclude RTs.
 
 ## Paired first-to-third endpoint
 
-Each usable run has at least one retained RT. Within each variant, per-participant change is run 03 minus run 01; the group estimate is the equal-weight mean of those paired changes. Trials are never treated as independent participants. Bootstrap: 10,000 paired participant replicates in lexical ID order, `random.Random(20261014)` restarted per variant, n draws with `randrange(n)` per replicate, and percentile interpolation at (9999 × p). No hypothesis test was performed.
+Each usable run has at least one retained RT.
+Within each variant, per-participant change is run 03 minus run 01; the group estimate is the equal-weight mean of those paired changes.
+Trials are never treated as independent participants.
+Bootstrap: 10,000 paired participant replicates in lexical ID order, `random.Random(20261014)` restarted per variant, n draws with `randrange(n)` per replicate, and percentile interpolation at (9999 × p).
+No hypothesis test was performed.
 
 | Variant | Participants | Change (ms) | 95% percentile interval (ms) | Retained trials, all runs | Unique excluded, all runs |
 | --- | ---: | ---: | --- | ---: | ---: |
 {table}
 
-Eligible IDs: {', '.join(common)}. Eligible sets {'differ' if full['eligible_sets_differ'] else 'are identical across all four variants'}. Common-intersection estimates are explicitly included in `results.json`. Per-person run summaries, changes, and run-specific exclusion counts are in the TSV files. All four point estimates are positive (longer observed RT in run 03), with appreciable magnitude sensitivity: the range is 11.16–58.70 ms. Band filtering reduces the estimate for both summary statistics; mean-based estimates exceed median-based estimates here. Every interval includes zero, so these intervals do not isolate a direction. These are declared sensitivity variants; no variant is selected as preferable based on its numerical outcome.
+Eligible IDs: {', '.join(common)}.
+Eligible sets {'differ' if full['eligible_sets_differ'] else 'are identical across all four variants'}.
+Common-intersection estimates are explicitly included in `results.json`.
+Per-person run summaries, changes, and run-specific exclusion counts are in the TSV files.
+All four point estimates are positive (longer observed RT in run 03), with appreciable magnitude sensitivity: the range is 11.16–58.70 ms.
+Band filtering reduces the estimate for both summary statistics; mean-based estimates exceed median-based estimates here.
+Every interval includes zero, so these intervals do not isolate a direction.
+These are declared sensitivity variants; no variant is selected as preferable based on its numerical outcome.
 
 ![Editable sensitivity figure](../derivatives/gambling-rt/sensitivity.svg)
 
 ## Intermediate-run context (separate from paired endpoint)
 
-On the {len(all3)} participants with all three usable primary runs ({', '.join(all3)}), equal-participant means of individual run medians are: {context_text}. These contextual values have no additional confidence interval and are not a trial-pooled endpoint.
+On the {len(all3)} participants with all three usable primary runs ({', '.join(all3)}), equal-participant means of individual run medians are: {context_text}.
+These contextual values have no additional confidence interval and are not a trial-pooled endpoint.
 
 ## Trial audit and missing-response selection
 
-{len(trials)} total rows across {len(files)} event files. All independent flags, including diagnostic band flags on primary rows:
+{len(trials)} total rows across {len(files)} event files.
+All independent flags, including diagnostic band flags on primary rows:
 
 | Flag | Rows |
 | --- | ---: |
 {flags_table}
 
-The first data row in sub-15/run-03 has positive RT and (0,-1) codes; it is excluded by the general rule, and its absence and presence-disagreement flags both remain visible. sub-05/run-01 has 65 absent-code rows among its 86 trials (75.6%); all runs together contain 154 absent-code rows. The supplied 65-of-86 audit statement is interpreted with 86 as the run trial denominator, not the cohort absent-row total. This concentration makes response selection a material limitation, especially for its first-run summary. `missingness_by_run.tsv` gives all numerators and trial denominators. The estimand is for observed valid responses, not every offered decision. Run position is not randomized and task composition may differ; neither direction nor magnitude supports a causal practice, fatigue, learning, loss-aversion, or preference conclusion.
+The first data row in sub-15/run-03 has positive RT and (0,-1) codes; it is excluded by the general rule, and its absence and presence-disagreement flags both remain visible. sub-05/run-01 has 65 absent-code rows among its 86 trials (75.6%); all runs together contain 154 absent-code rows.
+The supplied 65-of-86 audit statement is interpreted with 86 as the run trial denominator, not the cohort absent-row total.
+This concentration makes response selection a material limitation, especially for its first-run summary.
+`missingness_by_run.tsv` gives all numerators and trial denominators.
+The estimand is for observed valid responses, not every offered decision.
+Run position is not randomized and task composition may differ; neither direction nor magnitude supports a causal practice, fatigue, learning, loss-aversion, or preference conclusion.
 
 ## Replay and evidence boundaries
 
@@ -315,9 +348,21 @@ pixi run --frozen python code/check_rt.py
 pixi run --frozen python code/verify_replay.py
 ```
 
-Analysis is standard-library Python; DataLad supplies version metadata. Software versions are in `software.json`; source hashes are in `source_hashes.json` and `reports/run.json`. No dependency installation or fresh environment build was attempted. No imaging data, containers, BIDS Apps, remote jobs, network retrieval, or external publication were used. Native capture, the runner's outer duct record, and any local DataLad transformation commit are separate streams; no individual computation duct record is claimed. The ongoing outer capture is not exported here.
+Analysis uses standard-library Python; DataLad supplies version metadata and the preinstalled host Snapper CLI formats the report. Snapper is an explicit host dependency outside the supplied Pixi lock; its version is recorded, and no fresh installation was tested.
+Software versions are in `software.json`; source hashes are in `source_hashes.json` and `reports/run.json`.
+No dependency installation or fresh environment build was attempted.
+No imaging data, containers, BIDS Apps, remote jobs, network retrieval, or external publication were used.
+Native capture, the runner's outer duct record, and any local DataLad transformation commit are separate streams; no individual computation duct record is claimed.
+The ongoing outer capture is not exported here.
 
-Focused screening checks, an independent four-estimator recomputation, manifest hash verification, and a byte-identical repeat in the existing environment are documented in `verification.json`. An initial check failed because it incorrectly treated 86 as the cohort absent-response count; the source recount resolved this denominator error. A missing jsonschema module in host Python was bypassed using the preinstalled Workshop environment. Neither issue required source modification. A local DataLad transformation commit records the command and declared inputs/outputs; the DataLad rerun command itself remains unattempted.
+Focused screening checks, an independent four-estimator recomputation, manifest hash verification, and a byte-identical repeat in the existing environment are documented in `verification.json`.
+An initial check failed because it incorrectly treated 86 as the cohort absent-response count; the source recount resolved this denominator error.
+A missing jsonschema module in host Python was bypassed using the preinstalled Workshop environment.
+Neither issue required source modification.
+DataLad executed the analysis with exit 0 and recorded the command and declared inputs/outputs.
+Its execution record is preserved in `datalad-provenance.json`.
+The commit subject was normalized to obey Conventional Commits; this removes the native DataLad parser prefix, so native `datalad rerun` recognition is unavailable.
+The direct replay above is verified.
 
 The following are bounded research-object observations, separate from scientific results, using the supplied offline STAMPED principles:
 
@@ -325,13 +370,24 @@ The following are bounded research-object observations, separate from scientific
 
 ## Attribution
 
-Tom, S.M., Fox, C.R., Trepel, C., Poldrack, R.A. (2007). The neural basis of loss aversion in decision-making under risk. *Science*, 315(5811):515–518. Data obtained from the OpenfMRI project, accession ds005; acknowledge OpenfMRI and NSF Grant OCI-1131441 (R. Poldrack, PI), as requested by the source. Dataset source: https://github.com/OpenNeuroDatasets/ds000005. Source declares Public Domain Dedication and License v1.0 (PDDL). These source declarations are preserved without a new legal or BIDS conformance assessment.
+Tom, S.M., Fox, C.R., Trepel, C., Poldrack, R.A.
+(2007).
+The neural basis of loss aversion in decision-making under risk.
+*Science*, 315(5811):515–518.
+Data obtained from the OpenfMRI project, accession ds005; acknowledge OpenfMRI and NSF Grant OCI-1131441 (R. Poldrack, PI), as requested by the source.
+Dataset source: https://github.com/OpenNeuroDatasets/ds000005.
+Source declares Public Domain Dedication and License v1.0 (PDDL).
+These source declarations are preserved without a new legal or BIDS conformance assessment.
 '''
+    report = subprocess.run(['snapper','--config','/dev/null','--format','markdown'], input=report, text=True, capture_output=True, check=True).stdout
     (reports/'report.md').write_text(report)
     manifest = {'stage':'03-rt-sensitivity', 'status':'completed', 'source_commit':commit,
                 'input_files':source_hashes, 'replay_command':REPLAY,
                 'outputs':[{'path':p.as_posix(),'sha256':sha(p)} for p in sorted(out.iterdir()) if p.is_file()] +
-                          [{'path':(reports/'report.md').as_posix(),'sha256':sha(reports/'report.md')}],
+                          [{'path':(reports/'report.md').as_posix(),'sha256':sha(reports/'report.md')},
+                           {'path':(reports/'run.json').as_posix(),'note':'This manifest; self-hash omitted.'},
+                           {'path':(reports/'verification.json').as_posix(),'note':'Generated by code/verify_replay.py after this manifest.'},
+                           {'path':(reports/'datalad-provenance.json').as_posix(),'sha256':sha(reports/'datalad-provenance.json')}],
                 'failures':[{'step':'initial focused check', 'status':'resolved', 'exit_code':1, 'reason':'Incorrect assertion interpreted 86 as the cohort absent-response count; direct source recount found 154 overall and 65 of 86 trials absent in sub-05/run-01.', 'evidence':'reports/verification.json'}, {'step':'feedback recorder with host Python', 'status':'resolved', 'exit_code':1, 'reason':'Host Python lacked jsonschema; reused the existing Workshop Python environment without installation.'}], 'limitations':limitations, 'scientific_conclusion':conclusion,
                 'research_object_evidence':evidence, 'software':software,
                 'analysis_components':[{'path':p.as_posix(),'sha256':sha(p)} for p in

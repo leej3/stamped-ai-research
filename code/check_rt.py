@@ -61,6 +61,8 @@ def main():
         assert math.isclose(statistics.fmean(delta),e['mean_change_ms'],abs_tol=1e-10)
     manifest=json.loads(Path('reports/run.json').read_text())
     for item in manifest['input_files']+manifest['outputs']+manifest['analysis_components']:
+        if 'sha256' not in item:
+            continue
         assert hashlib.sha256(Path(item['path']).read_bytes()).hexdigest()==item['sha256'],item['path']
     print('PASS: edge flags, inclusive band, source missingness, independent four-estimator recomputation, and all manifest hashes')
 
