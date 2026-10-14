@@ -3,7 +3,7 @@
   "checkpoint_id": "01M4Y803CJ6KPFXYX02ECM6867",
   "session_id": "01a13c7b-a74a-7fc1-a920-d48d135aaeb9",
   "strategy": "manual-commit",
-  "created_at": "2026-10-14T22:19:47.847203Z",
+  "created_at": "2026-10-14T22:20:44.895859Z",
   "branch": "codex/mixed-01-treatment",
   "checkpoints_count": 1,
   "files_touched": [
@@ -15,6 +15,8 @@
     "reports/assessment.json",
     "reports/checklist-answers.json",
     "reports/checklist-responses.json",
+    "reports/datalad-run-message.txt",
+    "reports/datalad-transformation.json",
     "reports/object-manifest.json",
     "reports/report.md",
     "reports/run.json",
@@ -27,15 +29,22 @@
   "checkpoint_transcript_start": 92,
   "transcript_lines_at_start": 92,
   "compact_transcript_start": 11,
+  "token_usage": {
+    "input_tokens": 6554,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 280576,
+    "output_tokens": 2323,
+    "api_call_count": 4
+  },
   "initial_attribution": {
-    "calculated_at": "2026-10-14T22:19:47.834677Z",
-    "agent_lines": 1765,
-    "agent_removed": 0,
+    "calculated_at": "2026-10-14T22:20:44.881014Z",
+    "agent_lines": 69,
+    "agent_removed": 2,
     "human_added": 0,
     "human_modified": 0,
     "human_removed": 0,
-    "total_committed": 1765,
-    "total_lines_changed": 1765,
+    "total_committed": 69,
+    "total_lines_changed": 71,
     "agent_percentage": 100,
     "metric_version": 2
   }

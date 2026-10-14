@@ -13,6 +13,8 @@
     "reports/assessment.json",
     "reports/checklist-answers.json",
     "reports/checklist-responses.json",
+    "reports/datalad-run-message.txt",
+    "reports/datalad-transformation.json",
     "reports/object-manifest.json",
     "reports/report.md",
     "reports/run.json",
@@ -27,5 +29,12 @@
       "content_hash": "/0/content_hash.txt",
       "prompt": ""
     }
-  ]
+  ],
+  "token_usage": {
+    "input_tokens": 6554,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 280576,
+    "output_tokens": 2323,
+    "api_call_count": 4
+  }
 }
