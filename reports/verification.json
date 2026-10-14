@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "check": "independent Decimal median and denominator run 01",
+      "median_ms": "1272.000",
+      "status": "passed"
+    },
+    {
+      "check": "independent Decimal median and denominator run 03",
+      "median_ms": "1261.000",
+      "status": "passed"
+    },
+    {
+      "check": "15 synthetic flag cases including overlapping exclusions",
+      "status": "passed"
+    },
+    {
+      "check": "all four source file hashes match analysis and pinned Git bytes",
+      "status": "passed"
+    },
+    {
+      "check": "fresh working-directory local clone replay",
+      "compared_outputs": [
+        {
+          "path": "results.json",
+          "sha256": "52979a5a9a8f87d291eac645d3ed764ae9b4e636ebcb72c2066c37c502f27424"
+        },
+        {
+          "path": "run-summary.tsv",
+          "sha256": "8c99e7d499756895fe652921b6a7ad742c0d0a1ba3715a24627fc75097cbe719"
+        },
+        {
+          "path": "trial-audit.tsv",
+          "sha256": "15e6d7d7616d5621674721c40c6f2bf806375dc50bf87d1e176f9a7a99098dd4"
+        },
+        {
+          "path": "median-rt.svg",
+          "sha256": "4c4ffa313861e6db455bcd26e1ae36702da84e51040f6426e47cdf8722135e62"
+        },
+        {
+          "path": "environment.json",
+          "sha256": "c466482e38b2b6923b13dbfe86b4bd34ed981aa2fb0f67307af2db0d93bb8176"
+        }
+      ],
+      "exit_code": 0,
+      "scope": "Same host and existing Python interpreter; not fresh software environment or external retrieval.",
+      "status": "passed"
+    }
+  ],
+  "failures": [],
+  "replay_directory_removed": true,
+  "unattempted": [
+    "BIDS validation",
+    "fresh environment construction",
+    "external retrieval",
+    "cross-platform replay",
+    "independent reproduction"
+  ]
+}

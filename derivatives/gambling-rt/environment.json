@@ -1,0 +1,12 @@
+{
+  "analysis_dependencies": "Python standard library and Git",
+  "code_sha256": "088328a6e62ec58b0a9a9039762c87f1f4562de77b5d6d13ff541fa23374c538",
+  "environment_files": {
+    "pixi.lock": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3",
+    "pixi.toml": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+  },
+  "git": "git version 2.56.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.16 | packaged by conda-forge | (main, Oct  7 2026, 00:20:42) [Clang 21.1.8 ]",
+  "python_executable": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-01-treatment/.pixi/envs/default/bin/python"
+}

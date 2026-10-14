@@ -1,0 +1,129 @@
+{
+  "checklist_version": "0.3.1",
+  "items": {
+    "stamped-checklist:may/001": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/002": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/003": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:may/004": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:may/005": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/001": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/002": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/003": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/004": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/005": {
+      "reason": "Scoped scientific object uses ordinary Git TSVs and small text/SVG outputs; imaging binaries were not used.",
+      "status": "not_applicable"
+    },
+    "stamped-checklist:must/006": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/007": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/008": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/009": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/010": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/011": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/012": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:must/013": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/014": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/015": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:must/016": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:must/017": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/001": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/002": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/003": {
+      "reason": "Directly inspected local boundary, README, executable analysis interfaces and supplied input subdataset; see reports/report.md.",
+      "status": "demonstrated"
+    },
+    "stamped-checklist:should/004": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/005": {
+      "reason": "Local implementation and environment recorded; fresh environment, external retrieval and independent update tests are unattempted.",
+      "status": "partial"
+    },
+    "stamped-checklist:should/006": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/007": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/008": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    },
+    "stamped-checklist:should/009": {
+      "reason": "Not separately established in this bounded offline assessment; see reports/assessment.json.",
+      "status": "unknown"
+    }
+  }
+}

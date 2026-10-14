@@ -1,0 +1,33 @@
+[DATALAD RUNCMD] feat: record stage 01 RT analysis and verified replay
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python code/analyze_rt.py && python code/verify_rt.py && python code/build_report.py",
+ "dsid": "918077bd-b7cd-460b-8a0d-d0a47dd774f1",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "code/analyze_rt.py",
+  "code/verify_rt.py",
+  "code/build_report.py",
+  "pixi.toml",
+  "pixi.lock",
+  "inputs/ds000005/README",
+  "inputs/ds000005/dataset_description.json",
+  "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv",
+  "inputs/ds000005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv"
+ ],
+ "outputs": [
+  "derivatives/gambling-rt",
+  "reports"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Entire-Checkpoint: 01M4Y803CJ6KPFXYX02ECM6867
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
