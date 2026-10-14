@@ -1,0 +1,65 @@
+{
+  "complete_run_directories": true,
+  "entries": [
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/context.json",
+      "path": "logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/context.json",
+      "bytes": 480,
+      "sha256": "fa043ca6968fc1e62ad43ad4b57a242aaf5867316053acd85395c605f12851aa"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_info.json",
+      "path": "logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_info.json",
+      "bytes": 3124,
+      "sha256": "f7993fbec2e1bef2459225e8703c95904d06f16ddc98919c3b4e0432e6871555"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stderr",
+      "path": "logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stdout",
+      "path": "logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_stdout",
+      "bytes": 1022,
+      "sha256": "1a17ee95487e0d54fe5ca26bc99d478a1107a76b07a7e309308f09813bb40f20"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_usage.jsonl",
+      "path": "logs/duct/20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64/run_usage.jsonl",
+      "bytes": 1977,
+      "sha256": "89909ddd29cdd88fa6362f6b61b0a93038000c73b495c335b9f05acfeb5ff6e2"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/context.json",
+      "path": "logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/context.json",
+      "bytes": 480,
+      "sha256": "94bd7c492bcc6162d119e01c51c74ac04c2e918d1b6d71f2a929582bf0ed64cc"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_info.json",
+      "path": "logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_info.json",
+      "bytes": 2351,
+      "sha256": "84cc1b1b47fd65d71c7b20ea6a542fb406c1fab8dca84780c04e9beddecd4c76"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stderr",
+      "path": "logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stdout",
+      "path": "logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_stdout",
+      "bytes": 419,
+      "sha256": "d38bacf955f520e49b99ed44af2ee89a8f18df50f93da3d4a6205fecccf81e74"
+    },
+    {
+      "source": "/Users/johnlee/.local/state/con-duct/projects/stamped-ai-research-1a4f32cddd534402/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_usage.jsonl",
+      "path": "logs/duct/20261014T232704.401776Z-4f6af19d0311465faa8a3c49d3226b24/run_usage.jsonl",
+      "bytes": 1188,
+      "sha256": "329b92a36cd828ec52a6f958276301ef58426da7ae2cb0631c2b3303bd8c8f67"
+    }
+  ]
+}

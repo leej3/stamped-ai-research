@@ -1,0 +1,3 @@
+#!/bin/sh
+# Captured worker links retain their original repository-relative bytes.
+exec python3 "$(git rev-parse --show-toplevel)/packaging/scoped_annex_pre_commit.py"

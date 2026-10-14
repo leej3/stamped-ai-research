@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "stages": {
+    "01-participant-rt": {
+      "baseline": 26,
+      "treatment": 37
+    },
+    "02-cohort-rt": {
+      "baseline": 31,
+      "treatment": 48
+    },
+    "03-rt-sensitivity": {
+      "baseline": 31,
+      "treatment": 41
+    }
+  },
+  "restored_git_entry": "120000 072a6429827b93ae1bf3cced8affeeef632bd7fb 0\tarms/treatment/worktree/derivatives/gambling-rt/bootstrap_replicates.tsv"
+}

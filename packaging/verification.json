@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-14T23:27:05.728125+00:00",
+  "scope": "Coordinator packaging only; original workers, snapshot manifests, scientific outputs, and replay evidence were not edited.",
+  "previous_local_head": "5e6f420a7c627498494c5567736144a334a2863a",
+  "previous_remote_head": "7c8f95372efadea53bddf4da15bfdf55c51dffec",
+  "restored_capture": {
+    "path": "arms/treatment/worktree/derivatives/gambling-rt/bootstrap_replicates.tsv",
+    "git_blob": "072a6429827b93ae1bf3cced8affeeef632bd7fb",
+    "git_mode": "120000",
+    "target_sha256": "19ae7fc6b29e9f50a66c6b2873397d419b9b1f96274b2335ae9cdef72953b0a5"
+  },
+  "legacy_hook_backup": {
+    "path": ".git/hooks/pre-commit.legacy.original-git-annex",
+    "sha256": "1e80b98d7e60026bc4d79f0423639c48ee7a1361f86cfd78a0cbc06aca4bdf38"
+  },
+  "scoped_annex_pre_commit": {
+    "supported_interface": "git annex pre-commit [PATH ...]",
+    "included_paths": [
+      "./.codex",
+      "./.datalad",
+      "./.entire",
+      "./.gitattributes",
+      "./.gitignore",
+      "./.gitmodules",
+      "./.pre-commit-config.yaml",
+      "./README.md",
+      "./SOURCE.json",
+      "./TASK.md",
+      "./annex-content",
+      "./capture",
+      "./evaluation",
+      "./inputs",
+      "./logs",
+      "./packaging",
+      "./pixi.lock",
+      "./pixi.toml",
+      "./references",
+      "./replay",
+      "./study-records"
+    ],
+    "excluded_path": "arms/",
+    "executed_exit_code": 0,
+    "duct_run": "20261014T232635.334931Z-7beec938478446d0bb15e005f9695b64"
+  },
+  "all_six_captured_worktrees": {
+    "01-participant-rt": {
+      "tree": "index",
+      "arms": {
+        "baseline": {
+          "snapshot_sha256": "7cfa584c1785d7401a9e60c3c680ac78920d0f7604ee45045305d5724e81bc02",
+          "worker_head": "18bbaca0a42823b3b59de7c53cfb535a488a4faa",
+          "regular": 26,
+          "symlink": 0,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        },
+        "treatment": {
+          "snapshot_sha256": "9adbb39a791481afcbdaf2b4d154a9f59f011683fb8dd1d7a894eff4d7c1cf95",
+          "worker_head": "8bac3a2aa1ae82847aca64267704294c106c45f2",
+          "regular": 37,
+          "symlink": 0,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        }
+      },
+      "failures": [],
+      "passed": true
+    },
+    "02-cohort-rt": {
+      "tree": "index",
+      "arms": {
+        "baseline": {
+          "snapshot_sha256": "2e5b43c939123acef72caab89fa1aec4c7b140a0d15d69b564c74cb1b11d6266",
+          "worker_head": "f8df3fef0c46ac4ab0f01015b3a906966c7dad27",
+          "regular": 31,
+          "symlink": 0,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        },
+        "treatment": {
+          "snapshot_sha256": "255cf252c7011cf59583feba1f67ccb4957c07decce700860074b91b7e2ebe92",
+          "worker_head": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9",
+          "regular": 48,
+          "symlink": 0,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        }
+      },
+      "failures": [],
+      "passed": true
+    },
+    "03-rt-sensitivity": {
+      "tree": "index",
+      "arms": {
+        "baseline": {
+          "snapshot_sha256": "49eb75092ef39caef0a6076f71ebec7d862f554f39d66f4625dab529c09d4151",
+          "worker_head": "1f5a0092dab69412f2e83adecc9e7f85cf2ee4fb",
+          "regular": 31,
+          "symlink": 0,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        },
+        "treatment": {
+          "snapshot_sha256": "d5fd69ff9d136da06139d5085a5f020d6dcad4532d718431d9a9c6c75672d59e",
+          "worker_head": "c9cd03c5b6da2106a59d843141da74f347d15d4b",
+          "regular": 40,
+          "symlink": 1,
+          "absent": 0,
+          "bundle_sha256_matches": true
+        }
+      },
+      "failures": [],
+      "passed": true
+    }
+  },
+  "raw_operational_payload_uploaded": false
+}
