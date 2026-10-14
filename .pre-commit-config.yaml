@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: snapper
+        name: Format coordinator README with Snapper
+        entry: snapper --in-place
+        language: system
+        types: [markdown]
+        # All captured evidence, worker snapshots and protocols keep exact bytes.
+        files: ^README\.md$

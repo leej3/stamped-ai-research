@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "task_id": null,
+  "project_id": "00-flanker-screening-34b2574cc825b6c4",
+  "project_root": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening",
+  "working_directory": "/Users/johnlee/code/CON/stamped-ai-research/experiments/00-flanker-screening",
+  "started_at": "2026-10-14T23:06:35.624496+00:00",
+  "git_commit": "a265d5bd3d5e6ca1a94c0b2d5c88b3439442f53a",
+  "git_dirty": true,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

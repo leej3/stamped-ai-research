@@ -1,0 +1,12 @@
+Switched to a new branch 'codex/study-01-baseline'
+Submodule 'inputs/ds000102' (https://github.com/OpenNeuroDatasets/ds000102.git) registered for path 'inputs/ds000102'
+Cloning into '/Users/johnlee/code/CON/stamped-ai-research/.runs/01-baseline/inputs/ds000102'...
+ WARN Using local manifest /Users/johnlee/code/CON/stamped-ai-research/.runs/01-baseline/pixi.toml rather than /Users/johnlee/code/CON/stamped-ai-research/pixi.toml from environment variable `PIXI_PROJECT_MANIFEST`
+✔ The default environment has been installed.
+[entire] Backed up existing prepare-commit-msg to prepare-commit-msg.pre-entire
+Switched to a new branch 'codex/study-01-treatment'
+Submodule 'inputs/ds000102' (https://github.com/OpenNeuroDatasets/ds000102.git) registered for path 'inputs/ds000102'
+Cloning into '/Users/johnlee/code/CON/stamped-ai-research/.runs/01-treatment/inputs/ds000102'...
+ WARN Using local manifest /Users/johnlee/code/CON/stamped-ai-research/.runs/01-treatment/pixi.toml rather than /Users/johnlee/code/CON/stamped-ai-research/pixi.toml from environment variable `PIXI_PROJECT_MANIFEST`
+✔ The default environment has been installed.
+[entire] Backed up existing prepare-commit-msg to prepare-commit-msg.pre-entire

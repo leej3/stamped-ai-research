@@ -1,0 +1,12 @@
+[codex/study-01-source 43c26c4] chore: freeze stage 01 scientific inputs and task
+ 10 files changed, 1125 insertions(+), 2 deletions(-)
+ create mode 100644 .codex/hooks.json
+ create mode 100644 .entire/.gitignore
+ create mode 100644 .gitignore
+ create mode 100644 .gitmodules
+ create mode 100644 SOURCE.json
+ create mode 100644 TASK.md
+ create mode 160000 inputs/ds000102
+ create mode 100644 pixi.lock
+ create mode 100644 pixi.toml
+{"stage": "01-single-participant", "source_commit": "43c26c45c1e098db8e3bd3798b9eaecb1de33706", "source_tree": "d9b97846b85d8b4bd705ccd6ad8f58c1e42d531e"}

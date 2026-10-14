@@ -1,0 +1,14 @@
+[INFO] Attempting a clone into /Users/johnlee/code/CON/stamped-ai-research/inputs/ds000102 
+[INFO] Attempting to clone from https://github.com/OpenNeuroDatasets/ds000102.git to /Users/johnlee/code/CON/stamped-ai-research/inputs/ds000102 
+[INFO] Start enumerating objects 
+[INFO] Start counting objects 
+[INFO] Start compressing objects 
+[INFO] Start receiving objects 
+[INFO] Start resolving deltas 
+[INFO] Completed clone attempts for Dataset(/Users/johnlee/code/CON/stamped-ai-research/inputs/ds000102) 
+[INFO] Remote origin not usable by git-annex; setting annex-ignore 
+[INFO] https://github.com/OpenNeuroDatasets/ds000102.git/config download failed: Not Found 
+[INFO] Remote origin not usable by git-annex; setting annex-ignore 
+[INFO] https://github.com/OpenNeuroDatasets/ds000102.git/config download failed: Not Found 
+[INFO] access to 1 dataset sibling s3-PRIVATE not auto-enabled, enable with:
+| 		datalad siblings -d "/Users/johnlee/code/CON/stamped-ai-research/inputs/ds000102" enable -s s3-PRIVATE 
