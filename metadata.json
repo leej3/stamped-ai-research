@@ -1,0 +1,28 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4YAP5VQCVR7DXD3NYWHG6PP",
+  "strategy": "manual-commit",
+  "branch": "codex/mixed-03-treatment",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "reports/feedback-collection.json",
+    "reports/report.md",
+    "reports/run.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 1588,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 77184,
+    "output_tokens": 1017,
+    "api_call_count": 1
+  }
+}
