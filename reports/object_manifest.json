@@ -1,0 +1,75 @@
+{
+  "base_commit": "2fb54fdea52a24b3a458111d734e8d0fd9749da8",
+  "files": [
+    {
+      "path": "code/analyze.py",
+      "sha256": "cc05ffc826fa2f9d4a722badbe5ea8866398e52a78d975a2553023af1a4e6c8b"
+    },
+    {
+      "path": "code/build_reports.py",
+      "sha256": "588c4bc44a3a2f0c20bbb850d698a6e68bf8bee9455f5a1b7a4e3d9ee5d3c131"
+    },
+    {
+      "path": "code/replay.sh",
+      "sha256": "7c2af0233a7a635b88144f45705e0c0ca0cf517b56df347fea060f8c95ab608a"
+    },
+    {
+      "path": "code/source_manifest.json",
+      "sha256": "a45c14cb3b6f14a047b397b08690a646633761e62b85480e7c32a6aa16b8ed39"
+    },
+    {
+      "path": "code/verify.py",
+      "sha256": "5a9fec051430c47b6e5444a65d1e6b648c33a6527a11a0d46296c4a9464f02b1"
+    },
+    {
+      "path": "derivatives/gambling-rt/inventory.json",
+      "sha256": "534a1bdd0773594a1c9ef982553ca9a3f981d780f8ec7dbbb3f5e5627b6a2a8b"
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.svg",
+      "sha256": "de3466df6df1db2b83613a8e6a130339df43a2cc5d63d1d59740571ce641f0b5"
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.tsv",
+      "sha256": "e6e1fac95a9ddbd5f77eefceb9144ab39d5bbfbbbb528b38e8184be3765e510f"
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "sha256": "90f6b2b87dd579796f4608f87060636c5d6b1fe038031625d76a816e9200a48b"
+    },
+    {
+      "path": "derivatives/gambling-rt/run_summary.tsv",
+      "sha256": "7d1e2a5fcd10ae1e769327781f064d65b80a3d2c4de59f6231444ad74119b974"
+    },
+    {
+      "path": "derivatives/gambling-rt/trial_flags.tsv",
+      "sha256": "3eecc5fa87613948737acc7d252f0f1d35e44b5a2ebd3940b8e78c0896b08a6d"
+    },
+    {
+      "path": "pixi.lock",
+      "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+    },
+    {
+      "path": "pixi.toml",
+      "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+    },
+    {
+      "path": "reports/environment.json",
+      "sha256": "484db82737a584d345b3e68b91c039b1ef1aa5a95383d9c66e18e7cf3a03a481"
+    },
+    {
+      "path": "reports/protocol.md",
+      "sha256": "7847f85d4bc2497cdbace2953882a51d2e08e873d3c7670d755743b7509b61a4"
+    },
+    {
+      "path": "reports/skill_use.json",
+      "sha256": "ab467de9658b8492b5df92c7ae4d0a70ff52ddce30e17dab4d454ee74f41077c"
+    },
+    {
+      "path": "reports/verification.json",
+      "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2"
+    }
+  ],
+  "source_manifest": "code/source_manifest.json",
+  "scope": "Retained working files at assessment time, prior to optional final local commit; no claim that base commit contains new files."
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "aad3a711-0ed1-473e-b2a9-b1f462ffed4c",
+  "recorded_at": "2026-10-14T22:40:46.941770+00:00",
+  "kind": "usage",
+  "skill": "assess-alignment-with-stamped-principles",
+  "task": "mixed-gambles-stage02-frozen-treatment",
+  "outcome": "success",
+  "task_outcome": "success",
+  "duration_seconds": null,
+  "duration_scope": null,
+  "skill_digest": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+  "model": null,
+  "measurement": "agent-reported",
+  "unit": "skill-task",
+  "visibility": "shareable"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    "11 synthetic screening cases passed; overlapping conditions retained",
+    "Independent Decimal summaries and weighted-index bootstrap endpoints agree within 1e-9 ms",
+    "Every exclusion equals the unique flag union; sub-15/run-03 first data row excluded",
+    "Fresh copied workspace and offline venv replay: all six derivative artifacts match SHA-256 exactly",
+    "All source hashes unchanged after analysis and replay"
+  ],
+  "comparisons": [
+    {
+      "path": "derivatives/gambling-rt/inventory.json",
+      "sha256": "534a1bdd0773594a1c9ef982553ca9a3f981d780f8ec7dbbb3f5e5627b6a2a8b",
+      "exact_match": true
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.svg",
+      "sha256": "de3466df6df1db2b83613a8e6a130339df43a2cc5d63d1d59740571ce641f0b5",
+      "exact_match": true
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.tsv",
+      "sha256": "e6e1fac95a9ddbd5f77eefceb9144ab39d5bbfbbbb528b38e8184be3765e510f",
+      "exact_match": true
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "sha256": "90f6b2b87dd579796f4608f87060636c5d6b1fe038031625d76a816e9200a48b",
+      "exact_match": true
+    },
+    {
+      "path": "derivatives/gambling-rt/run_summary.tsv",
+      "sha256": "7d1e2a5fcd10ae1e769327781f064d65b80a3d2c4de59f6231444ad74119b974",
+      "exact_match": true
+    },
+    {
+      "path": "derivatives/gambling-rt/trial_flags.tsv",
+      "sha256": "3eecc5fa87613948737acc7d252f0f1d35e44b5a2ebd3940b8e78c0896b08a6d",
+      "exact_match": true
+    }
+  ],
+  "scope": "Fresh local directory and venv using the same installed base Python; no retrieval, installation, independent research replication, or cross-platform test. Temporary workspace removed after digest comparison.",
+  "replay_exit_code": 0,
+  "synthetic_cases": 11,
+  "numeric_tolerance_ms": 1e-09
+}

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="610" viewBox="0 0 900 610">
+<rect width="900" height="610" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#172638">
+<text x="30" y="30" font-size="20">Decision RT: participant run 03 − run 01 median</text>
+<line x1="430.00" x2="430.00" y1="55" y2="535" stroke="#aaaaaa"/>
+<text x="45" y="75">sub-01</text>
+<line x1="430.00" x2="423.71" y1="70" y2="70" stroke="#aac9df"/>
+<circle cx="423.71" cy="70" r="5" fill="#146ba0"/>
+<text x="785" y="75">-11.0</text>
+<text x="45" y="102">sub-02</text>
+<line x1="430.00" x2="215.71" y1="97" y2="97" stroke="#aac9df"/>
+<circle cx="215.71" cy="97" r="5" fill="#146ba0"/>
+<text x="785" y="102">-375.0</text>
+<text x="45" y="129">sub-03</text>
+<line x1="430.00" x2="453.71" y1="124" y2="124" stroke="#aac9df"/>
+<circle cx="453.71" cy="124" r="5" fill="#146ba0"/>
+<text x="785" y="129">+41.5</text>
+<text x="45" y="156">sub-04</text>
+<line x1="430.00" x2="279.71" y1="151" y2="151" stroke="#aac9df"/>
+<circle cx="279.71" cy="151" r="5" fill="#146ba0"/>
+<text x="785" y="156">-263.0</text>
+<text x="45" y="183">sub-05</text>
+<line x1="430.00" x2="443.14" y1="178" y2="178" stroke="#aac9df"/>
+<circle cx="443.14" cy="178" r="5" fill="#146ba0"/>
+<text x="785" y="183">+23.0</text>
+<text x="45" y="210">sub-06</text>
+<line x1="430.00" x2="528.57" y1="205" y2="205" stroke="#aac9df"/>
+<circle cx="528.57" cy="205" r="5" fill="#146ba0"/>
+<text x="785" y="210">+172.5</text>
+<text x="45" y="237">sub-07</text>
+<line x1="430.00" x2="496.86" y1="232" y2="232" stroke="#aac9df"/>
+<circle cx="496.86" cy="232" r="5" fill="#146ba0"/>
+<text x="785" y="237">+117.0</text>
+<text x="45" y="264">sub-08</text>
+<line x1="430.00" x2="462.57" y1="259" y2="259" stroke="#aac9df"/>
+<circle cx="462.57" cy="259" r="5" fill="#146ba0"/>
+<text x="785" y="264">+57.0</text>
+<text x="45" y="291">sub-09</text>
+<line x1="430.00" x2="714.29" y1="286" y2="286" stroke="#aac9df"/>
+<circle cx="714.29" cy="286" r="5" fill="#146ba0"/>
+<text x="785" y="291">+497.5</text>
+<text x="45" y="318">sub-10</text>
+<line x1="430.00" x2="370.57" y1="313" y2="313" stroke="#aac9df"/>
+<circle cx="370.57" cy="313" r="5" fill="#146ba0"/>
+<text x="785" y="318">-104.0</text>
+<text x="45" y="345">sub-11</text>
+<line x1="430.00" x2="517.14" y1="340" y2="340" stroke="#aac9df"/>
+<circle cx="517.14" cy="340" r="5" fill="#146ba0"/>
+<text x="785" y="345">+152.5</text>
+<text x="45" y="372">sub-12</text>
+<line x1="430.00" x2="420.86" y1="367" y2="367" stroke="#aac9df"/>
+<circle cx="420.86" cy="367" r="5" fill="#146ba0"/>
+<text x="785" y="372">-16.0</text>
+<text x="45" y="399">sub-13</text>
+<line x1="430.00" x2="491.71" y1="394" y2="394" stroke="#aac9df"/>
+<circle cx="491.71" cy="394" r="5" fill="#146ba0"/>
+<text x="785" y="399">+108.0</text>
+<text x="45" y="426">sub-14</text>
+<line x1="430.00" x2="321.43" y1="421" y2="421" stroke="#aac9df"/>
+<circle cx="321.43" cy="421" r="5" fill="#146ba0"/>
+<text x="785" y="426">-190.0</text>
+<text x="45" y="453">sub-15</text>
+<line x1="430.00" x2="617.14" y1="448" y2="448" stroke="#aac9df"/>
+<circle cx="617.14" cy="448" r="5" fill="#146ba0"/>
+<text x="785" y="453">+327.5</text>
+<text x="45" y="480">sub-16</text>
+<line x1="430.00" x2="409.43" y1="475" y2="475" stroke="#aac9df"/>
+<circle cx="409.43" cy="475" r="5" fill="#146ba0"/>
+<text x="785" y="480">-36.0</text>
+<text x="201.43" y="555" text-anchor="middle">-400</text>
+<text x="315.71" y="555" text-anchor="middle">-200</text>
+<text x="430.00" y="555" text-anchor="middle">0</text>
+<text x="544.29" y="555" text-anchor="middle">200</text>
+<text x="658.57" y="555" text-anchor="middle">400</text>
+<text x="450" y="582" text-anchor="middle">Change in median response time (ms)</text>
+</g></svg>

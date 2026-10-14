@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "48bc48dd-5fee-480f-8dab-8941ca52f752",
+  "recorded_at": "2026-10-14T22:40:47.127273+00:00",
+  "kind": "usage",
+  "skill": "do-full-research-loop",
+  "task": "mixed-gambles-stage02-frozen-treatment",
+  "outcome": "success",
+  "task_outcome": "success",
+  "duration_seconds": null,
+  "duration_scope": null,
+  "skill_digest": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+  "model": null,
+  "measurement": "agent-reported",
+  "unit": "skill-task",
+  "visibility": "shareable"
+}

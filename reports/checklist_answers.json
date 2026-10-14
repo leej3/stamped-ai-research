@@ -1,0 +1,129 @@
+{
+  "checklist_version": "0.3.1",
+  "items": {
+    "stamped-checklist:must/001": {
+      "status": "demonstrated",
+      "reason": "Study components nested under working root; runtime referenced explicitly."
+    },
+    "stamped-checklist:must/002": {
+      "status": "demonstrated",
+      "reason": "Input subdataset, scripts and environment specification share root."
+    },
+    "stamped-checklist:must/003": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/004": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/005": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/006": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/007": {
+      "status": "demonstrated",
+      "reason": "README.md supplies executable usage and requirements."
+    },
+    "stamped-checklist:must/008": {
+      "status": "demonstrated",
+      "reason": "code/replay.sh executed and derivative digests matched in fresh workspace."
+    },
+    "stamped-checklist:must/009": {
+      "status": "demonstrated",
+      "reason": "Analysis uses CLI arguments and relative paths; fresh directory replay passed."
+    },
+    "stamped-checklist:must/010": {
+      "status": "demonstrated",
+      "reason": "Analysis uses Python standard library; Python declared in pixi.toml."
+    },
+    "stamped-checklist:must/011": {
+      "status": "partial",
+      "reason": "Named host and Python version recorded; no other platform tested."
+    },
+    "stamped-checklist:must/012": {
+      "status": "demonstrated",
+      "reason": "README.md and reports/environment.json give analysis requirements."
+    },
+    "stamped-checklist:must/013": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/014": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/015": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/016": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:must/017": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/001": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/002": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/003": {
+      "status": "demonstrated",
+      "reason": "Raw subdataset, code, derivative results and reports separated."
+    },
+    "stamped-checklist:should/009": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/004": {
+      "status": "partial",
+      "reason": "Fresh local venv/workspace replay passed; shared OS and interpreter."
+    },
+    "stamped-checklist:should/005": {
+      "status": "partial",
+      "reason": "Verification constructs disposable venv; ordinary replay uses existing runtime."
+    },
+    "stamped-checklist:should/006": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/007": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:should/008": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:may/001": {
+      "status": "demonstrated",
+      "reason": "inputs/ds000005 is an independently pinned Git subdataset."
+    },
+    "stamped-checklist:may/002": {
+      "status": "demonstrated",
+      "reason": "README.md documents module boundaries and CLI interfaces."
+    },
+    "stamped-checklist:may/003": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:may/004": {
+      "status": "unknown",
+      "reason": "Not assessed at item-specific scope in this bounded offline run."
+    },
+    "stamped-checklist:may/005": {
+      "status": "demonstrated",
+      "reason": "README.md and report link the analysis and outputs."
+    }
+  }
+}
