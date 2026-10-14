@@ -1,0 +1,38 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4Y9KHSR17379GHE3KGM52T8",
+  "strategy": "manual-commit",
+  "branch": "codex/mixed-02-baseline",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "code/verify_rt.py",
+    "derivatives/gambling-rt/implementation_hashes.json",
+    "derivatives/gambling-rt/input_hashes.json",
+    "derivatives/gambling-rt/inventory.tsv",
+    "derivatives/gambling-rt/participant_changes.svg",
+    "derivatives/gambling-rt/participant_changes.tsv",
+    "derivatives/gambling-rt/results.json",
+    "derivatives/gambling-rt/run_summaries.tsv",
+    "derivatives/gambling-rt/software_versions.json",
+    "derivatives/gambling-rt/trial_audit.tsv",
+    "reports/report.md",
+    "reports/run.json",
+    "reports/verification.json"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": ""
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 7890,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 293632,
+    "output_tokens": 3204,
+    "api_call_count": 5
+  }
+}
