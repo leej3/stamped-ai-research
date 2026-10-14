@@ -15,6 +15,7 @@ SKILLS = Path('/Users/johnlee/code/CON/stamped-ai-research/skills')
 NAMES = ['align-with-stamped-principles','assess-alignment-with-stamped-principles','create-repronim-stamped-project','create-stamped-project','do-full-research-loop']
 r = json.loads(Path('derivatives/gambling-rt/results.json').read_text())
 v = json.loads(Path('reports/verification.json').read_text())
+failures = json.loads(Path('reports/failures.json').read_text())
 applications = [
     'Baseline gaps documented before calculation; added source inventory, replay, and reassessment.',
     'Separate criterion judgments, full checklist item coverage, pinned reference conflicts, no aggregate score.',
@@ -61,6 +62,8 @@ limitations = [
  'Fresh external retrieval, fresh software construction, cross-platform replay and independent reproduction were not attempted.',
  'New analysis code/prose license and persistent distribution route remain unresolved.',
  'Native capture and one outer duct wrapper were supplied; their records were not inspected. Computation outputs are captured in native CLI outputs, not separate duct runs.',
+ 'Assessment schema validation was attempted but unavailable because jsonschema is absent in the project and system Python; no dependency installation was allowed.',
+ 'Workshop recorder failed on the same missing dependency; local skill-use evidence is retained, not queued or published.',
  'Assessment is an unreviewed agent self-assessment, not certification or evidence of treatment efficacy.']
 conclusion = f'Sub-01 median valid decision RT changed from {r["runs"][0]["median_rt_ms"]:.0f} ms in run 01 to {r["runs"][1]["median_rt_ms"]:.0f} ms in run 03 (run 03 minus run 01: {r["change"]["value"]:+.0f} ms). This is a descriptive temporal association in one person.'
 lines = ['# Stage 01: sub-01 decision response times','',conclusion,'',
@@ -103,7 +106,12 @@ lines += ['', 'Paper revision 310eefa1bd756a04d69161c216d93af4d354dd05 was consu
  '0.3.1 were supplied offline. Their pinned SHA-256 values were verified.',
  'The paper adds licensing criteria and puts component versions in T.4; the',
  'older data/checklist uses T.5. No silent mapping or latest-version claim is made.',
- 'Detailed unreviewed assessment and all checklist responses are retained.', '',
+ 'Detailed unreviewed assessment and all checklist responses are retained.',
+ 'Schema validation failed because jsonschema was unavailable in both attempted',
+ 'interpreters. The checklist export helper did run successfully. These failures',
+ 'are recorded in failures.json and do not invalidate the scientific checks.',
+ 'Workshop recording likewise lacked jsonschema; local skill-use evidence is',
+ 'retained, with no claim that it was queued or published.', '',
  '## Attribution and execution boundaries', '',
  'OpenfMRI ds005 (ds000005), NSF Grant OCI-1131441 (R. Poldrack, PI).',
  'Tom, S.M., Fox, C.R., Trepel, C., Poldrack, R.A. (2007). The neural basis of',
@@ -132,6 +140,7 @@ for suffix in ['must/003','must/006','must/010','must/011','must/015','must/017'
 items['stamped-checklist:must/005'] = {'status':'not_applicable','reason':'Scoped scientific object uses ordinary Git TSVs and small text/SVG outputs; imaging binaries were not used.'}
 write_json(OUT/'checklist-answers.json', {'checklist_version':checklist['checklist_version'],'items':items})
 write_json(OUT/'checklist-responses.json', {'format':3,'checklist_version':checklist['checklist_version'], 'responses':{k:{'value':'yes' if a['status']=='demonstrated' else ('no' if a['status']=='not_demonstrated' else None),'reason':a['reason']} for k,a in items.items()}})
+subprocess.run([__import__('sys').executable, str(SKILLS/'assess-alignment-with-stamped-principles/scripts/export_checklist.py'), '--checklist', 'references/stamped/checklist/stamped-checklist.json', '--answers', 'reports/checklist-answers.json', '--output', 'reports/checklist-responses.json'], check=True)
 # Immutable component manifest for the assessment, avoiding self-referential digests.
 paths = sorted([*Path('code').glob('*.py'),*Path('derivatives/gambling-rt').glob('*'),Path('README.md'),Path('reports/protocol.md'),Path('reports/verification.json'),Path('reports/skill-use.json'),Path('pixi.toml'),Path('pixi.lock')])
 write_json(OUT/'object-manifest.json', {'files':[{'path':str(p),'sha256':sha(p)} for p in paths], 'source_commit':r['source_commit']})
@@ -161,10 +170,10 @@ write_json(OUT/'assessment.json', assessment)
 outputs = [{'path':str(p),'sha256':sha(p)} for p in sorted([*Path('derivatives/gambling-rt').glob('*'),*Path('reports').glob('*')]) if p.is_file() and p.name not in {'run.json','assessment-validation.txt'}]
 write_json(OUT/'run.json', {'stage':'01-participant-rt','status':'completed','source_commit':r['source_commit'],
  'input_files':r['input_files'],'replay_command':'pixi run --frozen python code/analyze_rt.py && pixi run --frozen python code/verify_rt.py',
- 'outputs':outputs,'failures':[], 'limitations':limitations,'scientific_conclusion':conclusion,
+ 'outputs':outputs,'failures':failures, 'limitations':limitations,'scientific_conclusion':conclusion,
  'research_object_evidence':{name:{'judgment':j,'evidence':e,'uncertainty':g,'next_step':n} for name,j,e,g,n in props.values()},
  'checks':v,'source_attribution':'OpenfMRI ds005; Tom et al. (2007), Science 315(5811):515–518; NSF OCI-1131441',
- 'source_license':'PDDL v1.0','source_bids_version':'1.0.0rc4', 'software_versions':{'datalad':importlib.metadata.version('datalad'),'python_environment':'derivatives/gambling-rt/environment.json'},
+ 'source_license':'PDDL v1.0','source_bids_version':'1.0.0rc4', 'software_versions':{'datalad':importlib.metadata.version('datalad'),'git_annex':'10.20260901-g29d2c4f5723a6bc5dc380b5fd75b4e60aad6e4e1','python_environment':'derivatives/gambling-rt/environment.json'},
  'stopping_condition':'Stage 01 analysis, verification and report complete; unattempted checks explicitly listed.',
  'evidence_streams':{'run_id':'mixed-01-treatment','native':'enabled by runner; not inspected','duct':'one outer wrapper supplied; no nested or per-computation duct','datalad':'local explicit run transformation; inspect resulting commit, separate from logs'}})
 print('Scientific report, run manifest, full checklist answers and structured assessment written.')
