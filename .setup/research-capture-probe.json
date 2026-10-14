@@ -1,0 +1,8 @@
+{
+  "purpose": "Verify native capture for the STAMPED poster study before research delegation",
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "repository": "leej3/stamped-ai-research",
+  "branch": "codex/stamped-poster-study",
+  "required_gate": ["native post-setup capture", "matching uploaded code and checkpoint refs"],
+  "hosted_dashboard_verification": "optional; not requested"
+}
