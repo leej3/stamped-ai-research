@@ -1,0 +1,44 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4Y62130TJ5XXQCX084HZDMW",
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-14T21:45:53.729836Z",
+  "branch": "codex/stamped-poster-study",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".setup/research-capture-probe.json"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-astra",
+  "turn_id": "860c53fcb269",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 40133,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 125184,
+    "output_tokens": 1121,
+    "api_call_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-14T21:45:53.720398Z",
+    "agent_lines": 8,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 8,
+    "total_lines_changed": 8,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
