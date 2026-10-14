@@ -8,3 +8,6 @@ pixi.lock annex.largefiles=nothing
 
 # Keep complete private native events in local annex, never public payload uploads.
 logs/agents/*/codex-events.jsonl annex.largefiles=anything
+
+# Preserve the original worker symlink bytes as captured evidence.
+arms/treatment/worktree/derivatives/gambling-rt/bootstrap_replicates.tsv -filter annex.largefiles=nothing
