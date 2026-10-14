@@ -1,0 +1,12 @@
+Completed: **16 participants**, mean run-03 minus run-01 median RT change **+31.34 ms**, bootstrap 95% interval **−70.28 to +132.66 ms**.
+
+Retained **2,618/2,736 trials**. Differential missingness limits interpretation; this is descriptive temporal association, not a causal practice effect.
+
+- [Report](reports/report.md)
+- [Numerical results](derivatives/gambling-rt/results.json)
+- [Editable figure](derivatives/gambling-rt/participant_changes.svg)
+- [Run manifest](reports/run.json)
+
+Replay: `./code/replay.sh`
+
+Independent numerical checks and fresh same-host replay passed. Source hashes remained unchanged. Local commit: `e225d91`. Retrieval, other platforms, and current BIDS validation remain untested.

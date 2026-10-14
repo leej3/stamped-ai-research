@@ -1,0 +1,17 @@
+{
+  "completed_commands": 23,
+  "conclusion": "No observed other-arm/oracle/prior-arm access in reviewed paths",
+  "hits": [],
+  "markers": [
+    ".runs/mixed-02-baseline",
+    ".runs/mixed-01-",
+    "reference-results.json",
+    "/research/mixed-gambles-design",
+    "/experiments/02-cohort-rt/arms/"
+  ],
+  "method": "Manual command-path review and literal marker scan; not an OS access audit",
+  "source": {
+    "path": ".runs/evidence/mixed-02-treatment/codex-events.jsonl",
+    "sha256": "99fd1352fc5182b64e2643b1d96c63c5e1e9da37df32e8b20c8840fcf9904881"
+  }
+}

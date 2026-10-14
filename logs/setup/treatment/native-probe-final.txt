@@ -1,0 +1,3 @@
+Created the exact probe file using native `apply_patch` and committed it with freshly resolved provenance. Hooks preserved; no push.
+
+Commit: `2fb54fdea52a24b3a458111d734e8d0fd9749da8`

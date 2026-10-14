@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/johnlee/code/CON/stamped-ai-research/research/harness/verify_capture.py",
+    "--workspace",
+    "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+    "--session",
+    "01a13c79-9963-7c21-91b2-0ef91e19f5e4",
+    "--evidence-dir",
+    "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates",
+    "--name",
+    "mixed-02-treatment",
+    "--code-ref",
+    "refs/heads/codex/mixed-02-treatment"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research",
+  "started_at": "2026-10-14T22:13:13.157527+00:00"
+}

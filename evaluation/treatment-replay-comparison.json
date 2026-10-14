@@ -1,0 +1,21 @@
+{
+  "absolute_tolerance_ms": 1e-06,
+  "all_check_results_sha256": "52f3c42dfae8ee9f5145973d219f151625b2744ce76c65d35e9561bbc0d462b6",
+  "check_count": 489,
+  "extraction_map": {
+    "path": "research/mixed-gambles-design/evaluator/stage-02/treatment-replay-extraction-map.json",
+    "sha256": "034648a39828d1e8dd3d9c600b49a030bdfee0bcbc57c4bc8e8c694d37c4f152"
+  },
+  "failed_checks": [],
+  "passed": true,
+  "passed_count": 489,
+  "reconstruction": "Deterministic evaluator script plus pinned original inputs reconstruct full checks; successful scalar details are summarized to avoid duplicating row-source payloads.",
+  "reference": {
+    "path": "research/mixed-gambles-design/evaluator/reference-results.json",
+    "sha256": "39e6cb0af0461a1cd3ae2ae563dcc1390024d71bf27a1483433fee9faacb6db3"
+  },
+  "submission": {
+    "path": "research/mixed-gambles-design/evaluator/stage-02/treatment-replay-normalized.json",
+    "sha256": "9ba020055ccfe59adea31db21ab70de78ecceca5488faa29887e733694988058"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/johnlee/code/CON/stamped-ai-research/research/harness/verify_capture.py",
+    "--workspace",
+    "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+    "--session",
+    "01a13c79-14b4-74b3-8d10-d1ef08ab8770",
+    "--evidence-dir",
+    "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates",
+    "--name",
+    "mixed-02-baseline",
+    "--code-ref",
+    "refs/heads/codex/mixed-02-baseline"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research",
+  "started_at": "2026-10-14T22:12:45.780122+00:00"
+}

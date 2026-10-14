@@ -1,0 +1,26 @@
+[
+  {
+    "path": "code/analyze_rt.py",
+    "sha256": "9a59ace2216304b6003944a0c1376d570dac6c8b5b80f712c06f2fca92fb7d7a"
+  },
+  {
+    "path": "code/verify_rt.py",
+    "sha256": "dcdf161a31780d8f67ab79a6fe763a2eb294978c16d27230d5a53cda5f0800fb"
+  },
+  {
+    "path": "code/replay.sh",
+    "sha256": "02edd06891404a5e77aa2ccc397937be188c9cdabb9567f2207cb6463ffe02b9"
+  },
+  {
+    "path": "pixi.toml",
+    "sha256": "7f9f23d3e3cb34d55bf3155b3eea70f41c1b5df50f38ad89789c56bb0c49beb9"
+  },
+  {
+    "path": "pixi.lock",
+    "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+  },
+  {
+    "path": "references/stamped/principles/stamped-principles.json",
+    "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580"
+  }
+]

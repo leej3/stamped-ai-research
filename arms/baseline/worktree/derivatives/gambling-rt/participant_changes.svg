@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="620" viewBox="0 0 920 620">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#17212b">
+<text x="30" y="30" font-size="21">Participant median decision RT change</text>
+<text x="30" y="55">Run 03 minus run 01; observed valid responses</text>
+<line x1="487.50" x2="487.50" y1="75" y2="530" stroke="#888" stroke-dasharray="4 4"/>
+<text x="40" y="92">sub-01</text>
+<circle cx="481.22" cy="87" r="5" fill="#216a8a"/>
+<text x="850" y="92" text-anchor="end">-11.0</text>
+<text x="40" y="117">sub-02</text>
+<circle cx="273.44" cy="112" r="5" fill="#216a8a"/>
+<text x="850" y="117" text-anchor="end">-375.0</text>
+<text x="40" y="142">sub-03</text>
+<circle cx="511.19" cy="137" r="5" fill="#216a8a"/>
+<text x="850" y="142" text-anchor="end">+41.5</text>
+<text x="40" y="167">sub-04</text>
+<circle cx="337.37" cy="162" r="5" fill="#216a8a"/>
+<text x="850" y="167" text-anchor="end">-263.0</text>
+<text x="40" y="192">sub-05</text>
+<circle cx="500.63" cy="187" r="5" fill="#216a8a"/>
+<text x="850" y="192" text-anchor="end">+23.0</text>
+<text x="40" y="217">sub-06</text>
+<circle cx="585.97" cy="212" r="5" fill="#216a8a"/>
+<text x="850" y="217" text-anchor="end">+172.5</text>
+<text x="40" y="242">sub-07</text>
+<circle cx="554.29" cy="237" r="5" fill="#216a8a"/>
+<text x="850" y="242" text-anchor="end">+117.0</text>
+<text x="40" y="267">sub-08</text>
+<circle cx="520.04" cy="262" r="5" fill="#216a8a"/>
+<text x="850" y="267" text-anchor="end">+57.0</text>
+<text x="40" y="292">sub-09</text>
+<circle cx="771.49" cy="287" r="5" fill="#216a8a"/>
+<text x="850" y="292" text-anchor="end">+497.5</text>
+<text x="40" y="317">sub-10</text>
+<circle cx="428.13" cy="312" r="5" fill="#216a8a"/>
+<text x="850" y="317" text-anchor="end">-104.0</text>
+<text x="40" y="342">sub-11</text>
+<circle cx="574.55" cy="337" r="5" fill="#216a8a"/>
+<text x="850" y="342" text-anchor="end">+152.5</text>
+<text x="40" y="367">sub-12</text>
+<circle cx="478.37" cy="362" r="5" fill="#216a8a"/>
+<text x="850" y="367" text-anchor="end">-16.0</text>
+<text x="40" y="392">sub-13</text>
+<circle cx="549.15" cy="387" r="5" fill="#216a8a"/>
+<text x="850" y="392" text-anchor="end">+108.0</text>
+<text x="40" y="417">sub-14</text>
+<circle cx="379.04" cy="412" r="5" fill="#216a8a"/>
+<text x="850" y="417" text-anchor="end">-190.0</text>
+<text x="40" y="442">sub-15</text>
+<circle cx="674.45" cy="437" r="5" fill="#216a8a"/>
+<text x="850" y="442" text-anchor="end">+327.5</text>
+<text x="40" y="467">sub-16</text>
+<circle cx="466.95" cy="462" r="5" fill="#216a8a"/>
+<text x="850" y="467" text-anchor="end">-36.0</text>
+<text x="25" y="515">Group mean</text>
+<line x1="447.38" x2="563.23" y1="510" y2="510" stroke="#a33827" stroke-width="4"/>
+<circle cx="505.39" cy="510" r="6" fill="#a33827"/>
+<text x="202.08" y="550" text-anchor="middle">-500</text>
+<text x="344.79" y="550" text-anchor="middle">-250</text>
+<text x="487.50" y="550" text-anchor="middle">0</text>
+<text x="630.21" y="550" text-anchor="middle">250</text>
+<text x="772.92" y="550" text-anchor="middle">500</text>
+<text x="450" y="580" text-anchor="middle">Change (ms); negative means shorter RT in run 03</text>
+<text x="450" y="607" text-anchor="middle">Red interval: 95% participant bootstrap percentile interval</text>
+</g></svg>

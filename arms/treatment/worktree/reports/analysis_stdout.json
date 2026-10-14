@@ -1,0 +1,91 @@
+{
+  "stage": "02",
+  "source_commit": "b094fc2f41487f92d382a1a432165ae58caae386",
+  "units": "ms",
+  "participant_ids": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16"
+  ],
+  "participant_change_vector": [
+    -11.0,
+    -375.0,
+    41.5,
+    -263.0,
+    23.0,
+    172.4999999999999,
+    117.0,
+    57.0,
+    497.5,
+    -104.0,
+    152.5,
+    -15.999999999999773,
+    108.0,
+    -190.0,
+    327.5,
+    -36.00000000000023
+  ],
+  "participant_count": 16,
+  "group_mean_change_ms": 31.343749999999993,
+  "ci95_lower_ms": -70.284375,
+  "ci95_upper_ms": 132.65781249999998,
+  "bootstrap_count": 10000,
+  "seed": 20261014,
+  "excluded_participants": [],
+  "inventory": {
+    "participants": 16,
+    "event_files": 48,
+    "selected_event_files": 32,
+    "usable_selected_runs": 32
+  },
+  "primary_audit": {
+    "n_rows": 2736,
+    "n_retained": 2618,
+    "excluded_union": 118,
+    "flag_counts": {
+      "missing_rt": 0,
+      "invalid_numeric_rt": 0,
+      "nonfinite_rt": 0,
+      "nonpositive_rt": 117,
+      "absent_response": 118,
+      "unexpected_response_code": 0,
+      "response_code_pair_disagreement": 0,
+      "response_presence_disagreement": 1,
+      "duplicate_onset": 0,
+      "nonmonotonic_onset": 0
+    }
+  },
+  "all_runs_audit": {
+    "n_rows": 4096,
+    "n_retained": 3942,
+    "excluded_union": 154,
+    "flag_counts": {
+      "missing_rt": 0,
+      "invalid_numeric_rt": 0,
+      "nonfinite_rt": 0,
+      "nonpositive_rt": 153,
+      "absent_response": 154,
+      "unexpected_response_code": 0,
+      "response_code_pair_disagreement": 0,
+      "response_presence_disagreement": 1,
+      "duplicate_onset": 0,
+      "nonmonotonic_onset": 0
+    }
+  },
+  "rt_band": null,
+  "onset_flag_policy": "Duplicate flags later occurrences; nonmonotonic flags strict decrease from previous finite onset; neither excludes RT.",
+  "bootstrap_method": "paired participant percentile bootstrap; RNG restarted for each endpoint"
+}

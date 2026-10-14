@@ -1,0 +1,11 @@
+{
+  "python": "3.13.16 | packaged by conda-forge | (main, Oct  7 2026, 00:20:42) [Clang 21.1.8 ]",
+  "python_implementation": "CPython",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "git": "git version 2.55.0",
+  "analysis_dependencies": "Python standard library only",
+  "invocation": "Python -I -S (isolated mode, no site packages)",
+  "environment_specification": "Existing pixi.toml and pixi.lock; installed interpreter used without environment resolution or installation",
+  "tested_platform_only": true
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "26fea813-6a54-4bc0-896e-04214d7be552",
+  "recorded_at": "2026-10-14T22:40:46.880655+00:00",
+  "kind": "usage",
+  "skill": "align-with-stamped-principles",
+  "task": "mixed-gambles-stage02-frozen-treatment",
+  "outcome": "success",
+  "task_outcome": "success",
+  "duration_seconds": null,
+  "duration_scope": null,
+  "skill_digest": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+  "model": null,
+  "measurement": "agent-reported",
+  "unit": "skill-task",
+  "visibility": "shareable"
+}

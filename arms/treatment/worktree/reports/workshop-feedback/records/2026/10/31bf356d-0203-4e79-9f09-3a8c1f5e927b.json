@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "id": "31bf356d-0203-4e79-9f09-3a8c1f5e927b",
+  "recorded_at": "2026-10-14T22:40:47.002733+00:00",
+  "kind": "usage",
+  "skill": "create-repronim-stamped-project",
+  "task": "mixed-gambles-stage02-frozen-treatment",
+  "outcome": "success",
+  "task_outcome": "success",
+  "duration_seconds": null,
+  "duration_scope": null,
+  "skill_digest": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+  "model": null,
+  "measurement": "agent-reported",
+  "unit": "skill-task",
+  "visibility": "shareable"
+}

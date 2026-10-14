@@ -1,0 +1,51 @@
+{
+  "object_manifest_files": 17,
+  "object_manifest_mismatch": [],
+  "assessment_evidence_checked": 14,
+  "assessment_evidence_mismatch": [],
+  "assessment_evidence_source_gitlink_not_in_snapshot": [
+    "inputs/ds000005/README"
+  ],
+  "assessment_validation_record": "Assessment structure and evidence bookkeeping are valid; judgments still require review.\n",
+  "feedback_record": {
+    "records": [
+      {
+        "id": "26fea813-6a54-4bc0-896e-04214d7be552",
+        "duplicate": false,
+        "visibility": "shareable",
+        "overlay": false
+      },
+      {
+        "id": "aad3a711-0ed1-473e-b2a9-b1f462ffed4c",
+        "duplicate": false,
+        "visibility": "shareable",
+        "overlay": false
+      },
+      {
+        "id": "31bf356d-0203-4e79-9f09-3a8c1f5e927b",
+        "duplicate": false,
+        "visibility": "shareable",
+        "overlay": false
+      },
+      {
+        "id": "df791978-0911-47cc-9b38-59cabdc6172c",
+        "duplicate": false,
+        "visibility": "shareable",
+        "overlay": false
+      },
+      {
+        "id": "48bc48dd-5fee-480f-8dab-8941ca52f752",
+        "duplicate": false,
+        "visibility": "shareable",
+        "overlay": false
+      }
+    ],
+    "validation": "{\"valid\": true, \"records\": 5, \"view\": \"merged\"}\n",
+    "queue_exit_code": 0,
+    "queue_stdout": "{\"shared\": 5, \"sensitive\": 0, \"duplicates\": 0}\n",
+    "queue_stderr": "",
+    "publication": "Not attempted: network and external publication prohibited. Local queue is not publication.",
+    "capture": "No prior conversations read. Outer duct run is still active; its finished capture is unavailable during this task."
+  },
+  "replay_entrypoint": "#!/bin/sh\nset -eu\ncd \"$(dirname \"$0\")/..\"\nif [ -x .pixi/envs/default/bin/python ]; then\n  exec .pixi/envs/default/bin/python -I -S code/analyze.py \"$@\"\nfi\nexec python3 -I -S code/analyze.py \"$@\"\n"
+}

@@ -1,0 +1,486 @@
+{
+  "arms": {
+    "baseline": {
+      "actual_skills_read": [],
+      "actual_skills_read_scope": "Experimental five-skill bundle only; shared control skills were used.",
+      "contamination": "No observed other-arm/oracle/prior-arm access in reviewed paths; shared account privileges do not enforce isolation",
+      "counts_and_exclusions": {
+        "evidence": [
+          "baseline-original-audit-checks.json"
+        ],
+        "finding": "2736 selected rows, 2618 retained, 118 unique excluded; 117 nonpositive, 118 absent, 1 presence disagreement; other scientific flags zero. All 4096 emitted rows independently checked.",
+        "status": "passed"
+      },
+      "dirty_manifest": {
+        "path": "experiments/02-cohort-rt/arms/baseline/snapshot.json",
+        "sha256": "2e5b43c939123acef72caab89fa1aec4c7b140a0d15d69b564c74cb1b11d6266"
+      },
+      "dirty_paths": [],
+      "effort": {
+        "interpretation": "Provider turn totals, input includes cached input; not monetary cost or complete remote compute accounting.",
+        "local_cpu_seconds": null,
+        "provider_tokens": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 946176,
+            "input_tokens": 1004998,
+            "output_tokens": 18015,
+            "reasoning_output_tokens": 5005
+          }
+        ],
+        "wall_seconds": 387.1459320409922
+      },
+      "failures": [
+        {
+          "control": "Workshop feedback recorder",
+          "evidence": "System Python and project Pixi Python both raised ModuleNotFoundError: No module named jsonschema. Recording then succeeded with the existing Workshop Python; no dependency installation or publication attempted.",
+          "status": "recovered"
+        }
+      ],
+      "formal_schema_validation": "not_attempted",
+      "formal_stamped_record_ids": [],
+      "fresh_replay": {
+        "evidence": [
+          "baseline-replay-verification.json",
+          "baseline-replay-comparison.json",
+          "baseline-replay-audit-checks.json"
+        ],
+        "finding": "All 9 derivative files byte-identical; code/lock/source identities agree. This is post-stop coordinator execution.",
+        "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+        "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+        "separate_cost": {
+          "checkout": 0.01456141599919647,
+          "clone": 0.039969915989786386,
+          "documented_replay": 7.069739207974635,
+          "environment": 1.9643383329967037,
+          "inputs": 0.7691834169672802
+        },
+        "status": "passed"
+      },
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/02-cohort-rt/arms/baseline/worktree/reports/report.md",
+          "sha256": "7f17d73868e4888efea705fb0664a74236630de6f69926584eb571a78314f4e2"
+        },
+        "finding": "Descriptive observed-response endpoint, paired equal weights and bootstrap, explicit sub05 differential missingness and sub15 contradictory-row exclusion; no causal or loss-aversion claim.",
+        "status": "passed_manual_read"
+      },
+      "interventions": [
+        "No post-stop worker repairs or extra worker time; collection, independent replay, rendering and later log packaging are coordinator curation."
+      ],
+      "limitations": [
+        "Preconfigured seed and supplied tools/input identities",
+        "No full from-empty project-creation or ReproNim adaptation workflow tested",
+        "No DataLad transformation record in either arm",
+        "New-code licensing and external-recipient availability unresolved",
+        "Same-host/cache replay; cross-platform and complete offline reconstruction untested"
+      ],
+      "numeric_comparison": {
+        "evidence": [
+          "baseline-original-comparison.json",
+          "baseline-original-internal-consistency.json"
+        ],
+        "finding": "489 scalar checks; 16 participants, 31.34375 ms equal-weight mean change; participant bootstrap 95% interval [-70.284375, 132.6578125] ms.",
+        "status": "passed"
+      },
+      "output_commit": "f8df3fef0c46ac4ab0f01015b3a906966c7dad27",
+      "presentation": {
+        "evidence": [
+          {
+            "path": "research/mixed-gambles-design/evaluator/stage-02/baseline-figure-review.png",
+            "sha256": "b37830171743e857163d476f6199123540613581dae0646dcd36bb8e17d6b977"
+          },
+          "experiments/02-cohort-rt/arms/baseline/worktree/derivatives/gambling-rt/participant_changes.svg"
+        ],
+        "finding": "All 16 participant labels and signed changes visible and agree with checked vector; baseline also depicts the group mean/bootstrap interval. Report table agrees.",
+        "status": "passed_manual_render_review"
+      },
+      "research_object": {
+        "Actionable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Documented scientific replay command executed successfully and reproduced checked outputs.",
+          "gaps": [
+            "Actual command includes analysis, verification and formatting"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Distributable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Public source identity/PDDL attribution and ordinary inspectable artifacts retained.",
+          "gaps": [
+            "Explicit new-code license unresolved",
+            "Independent recipient delivery and persistent publication untested"
+          ],
+          "judgment": "partial"
+        },
+        "Ephemeral": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Workers performed disposable local replays; coordinator removed derivatives and rebuilt them in new checkouts.",
+          "gaps": [
+            "Worker disposable replay reused base environment/interpreter; complete cache/OS independence untested",
+            "Post-stop environment reconstruction is coordinator evidence"
+          ],
+          "judgment": "partial"
+        },
+        "Modular": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Immutable input subdataset, code interfaces, derivatives and reports have explicit boundaries.",
+          "gaps": [
+            "No alternate-input/component-upgrade reuse experiment"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Portable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Relative paths and locked osx-arm64 environment work after fresh checkout and environment-prefix recreation.",
+          "gaps": [
+            "Same physical host and caches; another platform untested"
+          ],
+          "judgment": "partial"
+        },
+        "Self-contained": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Pinned source, code, hashes and locked environment support scientific reconstruction.",
+          "gaps": [
+            "No offline dependency closure or complete software bundle",
+            "Replay wrapper also needs locally installed Snapper, beyond the Python scientific module"
+          ],
+          "judgment": "partial"
+        },
+        "Trackable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/baseline/worktree/reports/run.json",
+            "baseline-evaluation.json",
+            "baseline-replay-verification.json"
+          ],
+          "finding": "Source/file inventories, trial audit, software identity and recoverable Git/scientific results retained.",
+          "gaps": [
+            "No native DataLad run/rerun transformation record",
+            "Parent verifies native/duct links later; worker did not inspect final capture"
+          ],
+          "judgment": "partial"
+        }
+      },
+      "run_id": "mixed-02-baseline",
+      "source_and_scope": {
+        "evidence": [
+          "baseline-evaluation.json"
+        ],
+        "finding": "Exact source revision/hashes; primary estimate uses only 32 run 01/03 files. All 48 files are additionally audited and run 02 per-person medians emitted, explicitly excluded from endpoint.",
+        "status": "passed"
+      },
+      "worker_status": "completed; clean Git"
+    },
+    "treatment": {
+      "actual_skills_read": [
+        {
+          "entrypoint_sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+          "evidence": "experiments/02-cohort-rt/arms/treatment/worktree/reports/skill_use.json",
+          "exposure": "entrypoint read observed in native item_3",
+          "reported_scoped_application": "Baseline in protocol; scoped executable improvements; evidence-based reassessment.",
+          "skill": "align-with-stamped-principles"
+        },
+        {
+          "entrypoint_sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+          "evidence": "experiments/02-cohort-rt/arms/treatment/worktree/reports/skill_use.json",
+          "exposure": "entrypoint read observed in native item_3",
+          "reported_scoped_application": "Seven-property evidence table and portable JSON assessment; complete checklist side product.",
+          "skill": "assess-alignment-with-stamped-principles"
+        },
+        {
+          "entrypoint_sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+          "evidence": "experiments/02-cohort-rt/arms/treatment/worktree/reports/skill_use.json",
+          "exposure": "entrypoint read observed in native item_3",
+          "reported_scoped_application": "Pinned DataLad subdataset, source attribution, BIDS declaration, raw/derivative boundary; no imaging pipeline.",
+          "skill": "create-repronim-stamped-project"
+        },
+        {
+          "entrypoint_sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+          "evidence": "experiments/02-cohort-rt/arms/treatment/worktree/reports/skill_use.json",
+          "exposure": "entrypoint read observed in native item_3",
+          "reported_scoped_application": "Explicit object boundary, component manifest, stdlib entrypoint, existing environment and disposable replay.",
+          "skill": "create-stamped-project"
+        },
+        {
+          "entrypoint_sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+          "evidence": "experiments/02-cohort-rt/arms/treatment/worktree/reports/skill_use.json",
+          "exposure": "entrypoint read observed in native item_3",
+          "reported_scoped_application": "Protocol before computation; completed analysis, independent checks, replay, limitations and report.",
+          "skill": "do-full-research-loop"
+        }
+      ],
+      "contamination": "No observed other-arm/oracle/prior-arm access in reviewed paths; shared account privileges do not enforce isolation",
+      "counts_and_exclusions": {
+        "evidence": [
+          "treatment-original-audit-checks.json"
+        ],
+        "finding": "2736 selected rows, 2618 retained, 118 unique excluded; 117 nonpositive, 118 absent, 1 presence disagreement; other scientific flags zero. All 4096 emitted rows independently checked.",
+        "status": "passed"
+      },
+      "dirty_manifest": {
+        "path": "experiments/02-cohort-rt/arms/treatment/snapshot.json",
+        "sha256": "255cf252c7011cf59583feba1f67ccb4957c07decce700860074b91b7e2ebe92"
+      },
+      "dirty_paths": [
+        "?? reports/analysis_stdout.json",
+        "?? reports/verification_stdout.json",
+        "?? reports/workshop-feedback/.feedback.lock"
+      ],
+      "effort": {
+        "interpretation": "Provider turn totals, input includes cached input; not monetary cost or complete remote compute accounting.",
+        "local_cpu_seconds": null,
+        "provider_tokens": [
+          {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 1142784,
+            "input_tokens": 1220003,
+            "output_tokens": 19817,
+            "reasoning_output_tokens": 4315
+          }
+        ],
+        "wall_seconds": 412.5168959159637
+      },
+      "failures": [
+        {
+          "check": "Optional jsonschema import in analysis Python and system Python",
+          "error": "ModuleNotFoundError: No module named jsonschema",
+          "resolution": "Use already installed Workshop Python with jsonschema 4.26.0 for assessment validation; no dependencies installed.",
+          "status": "failed_then_recovered"
+        }
+      ],
+      "formal_schema_validation": "worker project-skill schema/bookkeeping validation passed after recovering existing jsonschema environment; no independent upstream-package validation",
+      "formal_stamped_record_ids": [],
+      "fresh_replay": {
+        "evidence": [
+          "treatment-replay-verification.json",
+          "treatment-replay-comparison.json",
+          "treatment-replay-audit-checks.json"
+        ],
+        "finding": "All 6 derivative files byte-identical; code/lock/source identities agree. This is post-stop coordinator execution.",
+        "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+        "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+        "separate_cost": {
+          "checkout": 0.012597209075465798,
+          "clone": 0.041083249961957335,
+          "documented_replay": 1.9224252920830622,
+          "environment": 2.256510499981232,
+          "inputs": 0.7717270000139251
+        },
+        "status": "passed"
+      },
+      "interpretation": {
+        "evidence": {
+          "path": "experiments/02-cohort-rt/arms/treatment/worktree/reports/report.md",
+          "sha256": "6026c66737699b9afa6b952619928dba3760449fa7683ebb489de9d459052ecf"
+        },
+        "finding": "Descriptive observed-response endpoint, paired equal weights and bootstrap, explicit sub05 differential missingness and sub15 contradictory-row exclusion; no causal or loss-aversion claim.",
+        "status": "passed_manual_read"
+      },
+      "interventions": [
+        "No post-stop worker repairs or extra worker time; collection, independent replay, rendering and later log packaging are coordinator curation."
+      ],
+      "limitations": [
+        "Preconfigured seed and supplied tools/input identities",
+        "No full from-empty project-creation or ReproNim adaptation workflow tested",
+        "No DataLad transformation record in either arm",
+        "New-code licensing and external-recipient availability unresolved",
+        "Same-host/cache replay; cross-platform and complete offline reconstruction untested"
+      ],
+      "numeric_comparison": {
+        "evidence": [
+          "treatment-original-comparison.json",
+          "treatment-original-internal-consistency.json"
+        ],
+        "finding": "489 scalar checks; 16 participants, 31.34375 ms equal-weight mean change; participant bootstrap 95% interval [-70.284375, 132.6578125] ms.",
+        "status": "passed"
+      },
+      "output_commit": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9",
+      "presentation": {
+        "evidence": [
+          {
+            "path": "research/mixed-gambles-design/evaluator/stage-02/treatment-figure-review.png",
+            "sha256": "1bedd7b336a7c544131f9b99fbbd9c5a06ffafd29b0660d60d516229816623bc"
+          },
+          "experiments/02-cohort-rt/arms/treatment/worktree/derivatives/gambling-rt/participant_changes.svg"
+        ],
+        "finding": "All 16 participant labels and signed changes visible and agree with checked vector; baseline also depicts the group mean/bootstrap interval. Report table agrees.",
+        "status": "passed_manual_render_review"
+      },
+      "research_object": {
+        "Actionable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Documented scientific replay command executed successfully and reproduced checked outputs.",
+          "gaps": [
+            "Actual command replays analysis; full treatment report-layer reconstruction is untested"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Distributable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Public source identity/PDDL attribution and ordinary inspectable artifacts retained.",
+          "gaps": [
+            "Explicit new-code license unresolved",
+            "Independent recipient delivery and persistent publication untested"
+          ],
+          "judgment": "partial"
+        },
+        "Ephemeral": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Workers performed disposable local replays; coordinator removed derivatives and rebuilt them in new checkouts.",
+          "gaps": [
+            "Worker disposable replay reused base environment/interpreter; complete cache/OS independence untested",
+            "Post-stop environment reconstruction is coordinator evidence"
+          ],
+          "judgment": "partial"
+        },
+        "Modular": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Immutable input subdataset, code interfaces, derivatives and reports have explicit boundaries.",
+          "gaps": [
+            "No alternate-input/component-upgrade reuse experiment"
+          ],
+          "judgment": "demonstrated"
+        },
+        "Portable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Relative paths and locked osx-arm64 environment work after fresh checkout and environment-prefix recreation.",
+          "gaps": [
+            "Same physical host and caches; another platform untested"
+          ],
+          "judgment": "partial"
+        },
+        "Self-contained": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Pinned source, code, hashes and locked environment support scientific reconstruction.",
+          "gaps": [
+            "No offline dependency closure or complete software bundle",
+            "Treatment report builder uses external frozen skill references"
+          ],
+          "judgment": "partial"
+        },
+        "Trackable": {
+          "evidence": [
+            "experiments/02-cohort-rt/arms/treatment/worktree/reports/run.json",
+            "treatment-evaluation.json",
+            "treatment-replay-verification.json"
+          ],
+          "finding": "Source/file inventories, trial audit, software identity and recoverable Git/scientific results retained.",
+          "gaps": [
+            "No native DataLad run/rerun transformation record",
+            "Parent verifies native/duct links later; worker did not inspect final capture",
+            "Untracked stdout files and feedback lock preserved in coordinator snapshot, not final worker commit"
+          ],
+          "judgment": "partial"
+        }
+      },
+      "run_id": "mixed-02-treatment",
+      "source_and_scope": {
+        "evidence": [
+          "treatment-evaluation.json"
+        ],
+        "finding": "Exact source revision/hashes; primary estimate uses only 32 run 01/03 files. All 48 files are additionally audited and run 02 per-person medians emitted, explicitly excluded from endpoint.",
+        "status": "passed"
+      },
+      "supplemental_manifest_review": {
+        "duct_run_id": "20261014T224326.774814Z-743d7e9b575a461dba149657998820b3",
+        "finding": "17 object-manifest hashes and 14 available assessment evidence references matched; source README is in omitted input gitlink",
+        "reviewer": "skills_design agent; unblinded skill author"
+      },
+      "worker_project_assessment": {
+        "assessment_id": "a9a3a7ae-b0a1-4bff-9b71-eaddcb6ef4a7",
+        "claim": "Project-skill schema/bookkeeping passed; judgments remain unreviewed self-assessment and are separately assessed here.",
+        "evidence": [
+          "experiments/02-cohort-rt/arms/treatment/worktree/reports/assessment.json",
+          "experiments/02-cohort-rt/arms/treatment/worktree/reports/assessment_validation.txt"
+        ]
+      },
+      "worker_status": "completed; three untracked bookkeeping files retained"
+    }
+  },
+  "assessor": {
+    "human_reviewed": false,
+    "independent_of_study_design": false,
+    "role": "agent study designer and reference implementer; did not author worker analyses",
+    "unblinded": true
+  },
+  "common_task_sha256": "b09da1aa17019f381ee190d25badf27b903923108171c94d9d703a3b598da19e",
+  "escalation": {
+    "at_least_one_correct_result_and_replay": true,
+    "evaluation_accounted_for": true,
+    "failures_preserved": true,
+    "prior_pair_stopped": true
+  },
+  "format_version": "0.1.0",
+  "limitations": [
+    "Exploratory pair of one task; no general efficacy inference",
+    "Shared account infrastructure and logical isolation",
+    "Unblinded assessment by study designer",
+    "No aggregate STAMPED score",
+    "Scientific/reference design author evaluates unblinded; not human reviewed",
+    "Complete duct logs copied into experiment/module after stop per user instruction; packaging does not change worker outcomes",
+    "Common default-model drift accepted through bounded recorded amendment; explicit gpt-6-astra/ultra worker overrides unchanged"
+  ],
+  "pair_claim": {
+    "design": "One exploratory unblinded sequential treatment-first pair; common tools/normative references and supplied seed infrastructure shared.",
+    "object_evidence": "Treatment adds pre-analysis protocol, schema-checked assessment/checklist, explicit skill applications and a fresh-venv worker replay. Baseline has a clean Git state, extensive edge-case/independent arithmetic checks, a replay wrapper including verification/formatting, and a group-interval figure. Neither records a DataLad transformation. No overall winner or efficacy claim follows.",
+    "science": "Both arms produced the same correct bounded cohort estimate and independent replay passed.",
+    "wall_difference_treatment_minus_baseline_seconds": 25.370963874971494
+  },
+  "pair_id": "mixed-02",
+  "protocol_sha256": "a7435b3aad2ea419fea2c5000eb7c754ddfa29795f26aa5f574956a005722826",
+  "shared_setup_cost": {
+    "scope": "Source/seed/tool/capture preparation belongs to coordinator, shared by arms.",
+    "status": "not_estimated_here"
+  },
+  "skill_workflow_scope": "Exposure to all five treatment entrypoints plus documented scoped guidance application in a preconfigured seed. This does not validate full from-empty creation, ReproNim adaptation, or every phase of each skill.",
+  "stage": "02",
+  "template": false
+}

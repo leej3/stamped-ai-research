@@ -1,0 +1,14 @@
+{
+  "status": "pair_manifest_validated",
+  "manifest": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-stage02-manifest.json",
+    "mode": "sha256",
+    "sha256": "298404a0f46e64c34e9d79901a41f3a3f44825e117d2500329efcaae4bdf8156"
+  },
+  "common_sha256": "8839baf7d30a29d0b5f736647a077263a3f6a2966ec823b68946e6bd5e1145b5",
+  "arm_order": [
+    "treatment",
+    "baseline"
+  ],
+  "agent_launched": false
+}

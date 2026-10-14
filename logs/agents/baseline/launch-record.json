@@ -1,0 +1,378 @@
+{
+  "started_at": "2026-10-14T22:42:02.680700+00:00",
+  "arm": "baseline",
+  "head": "0417491b7a28eede0ac88998cfea02ac0e81f5a9",
+  "tree": "6d81cd98600cc1c27049549aee0e1f6d73705f3f",
+  "dataset_id": "5928526e-c658-470d-82a5-d57e92d76c4b",
+  "common_sha256": "8839baf7d30a29d0b5f736647a077263a3f6a2966ec823b68946e6bd5e1145b5",
+  "manifest_sha256": "298404a0f46e64c34e9d79901a41f3a3f44825e117d2500329efcaae4bdf8156",
+  "common_files": [
+    {
+      "path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex",
+      "mode": "sha256",
+      "sha256": "50ab38ba21d0d9f8346f32f41848382f15b556190f3c7a07e885a4fb73e379c8"
+    },
+    {
+      "path": "/Users/johnlee/.agents/skills/private-workshop-memory/SKILL.md",
+      "mode": "sha256",
+      "sha256": "029598db52448162bfbb8a6f1df177dc01e9e326bc27928835e4e43b57979100"
+    },
+    {
+      "path": "/Users/johnlee/.agents/skills/private-workshop-memory/scripts/check_transport.py",
+      "mode": "sha256",
+      "sha256": "6e00f3f506dc2638a5db75e35e756d76e4e69c84d7b74110d0bed2ab7e07235f"
+    },
+    {
+      "path": "/Users/johnlee/.codex/AGENTS.md",
+      "mode": "sha256",
+      "sha256": "42f93b54f87ba630e6d92d30eaf9e1221af028590ae348188afdcd4a3f5f9d82"
+    },
+    {
+      "path": "/Users/johnlee/.codex/config.toml",
+      "mode": "redacted_toml",
+      "sha256": "f9cab39e6b8ef88a5970b50fe4c6d497cf48b8f4e060f19aa586def1f3405ecd"
+    },
+    {
+      "path": "/Users/johnlee/.codex/hooks.json",
+      "mode": "redacted_json",
+      "sha256": "aaaa0c8c60515d41ed767190f7502ac0f17ac3ecbc02c1435c04c7092de976e0"
+    },
+    {
+      "path": "/Users/johnlee/.codex/rules/default.rules",
+      "mode": "sha256",
+      "sha256": "42cd0a27be733ecb848053ad8f9fdaeaac2a0b6c62d9fe086d202c3a4b094d58"
+    },
+    {
+      "path": "/Users/johnlee/.codex/skills/datalad/SKILL.md",
+      "mode": "sha256",
+      "sha256": "56d1072c2a157a5bde2df3b1698bf545896e02d6f216cd4675bb7fe2b978d855"
+    },
+    {
+      "path": "/Users/johnlee/.codex/skills/datalad/agents/openai.yaml",
+      "mode": "sha256",
+      "sha256": "bf35236860499c3109d462b28da3183abbd22e1d2b3488b74f5b1fcd284f2948"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/run.py",
+      "mode": "sha256",
+      "sha256": "c3e9ea39eb8d31eb587d0126c599342d9df10741f69b98ce3bc1a6929f213ef7"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/SKILL.md",
+      "mode": "sha256",
+      "sha256": "2e383ed3a67241195466e91375284951225451221dec69dc537277a004c47ff6"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/agents/openai.yaml",
+      "mode": "sha256",
+      "sha256": "1c3686aee92d6e0c3a03b2ec4f3c947a6a4bab4c56fb55a509bc659cd8fe9c29"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/run.py",
+      "mode": "sha256",
+      "sha256": "c3e9ea39eb8d31eb587d0126c599342d9df10741f69b98ce3bc1a6929f213ef7"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/duct/scripts/test_run.py",
+      "mode": "sha256",
+      "sha256": "bbdb20a217aa41a275cd3d5694b0de3ebcbd429504eb867fe83f630f862f649d"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/SKILL.md",
+      "mode": "sha256",
+      "sha256": "bb785ffbfdcab32a32c8ec8aadd4fb484ee59cbe90edd5dc55d345eb3c0dd7ed"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/agents/openai.yaml",
+      "mode": "sha256",
+      "sha256": "dd9e354a78322173231f545fa49bbbcb0027a9fb58b1edda9649cf89d5852b5b"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/skills-workshop/references/workflow.md",
+      "mode": "sha256",
+      "sha256": "53e6e7acd2a96fcc1dd1af512343d8c76136ff5c756770d69d06c4dd028d795f"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/SKILL.md",
+      "mode": "sha256",
+      "sha256": "ec29718af2fb7cb31c1376f0d2c4e3ef5b772cb5f00b2361ba3d2bc910ad8235"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/agents/openai.yaml",
+      "mode": "sha256",
+      "sha256": "b35277f51636bf08f82bba598488ef89b37c91f3423628e9fca112576bf44a00"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/publication.md",
+      "mode": "sha256",
+      "sha256": "6023207c8fc2f9e786154c35277d743985059137b263c03b2338240d0bde792e"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/references/reporting.md",
+      "mode": "sha256",
+      "sha256": "83d614121cedb4417503ae6473d6f5ec598cc439b4fd6c1bf2b1ea92ce86b491"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v1.schema.json",
+      "mode": "redacted_json",
+      "sha256": "8c89556ac9b9967e177ffef673c0d09b3f15dbd82e41b173bcf4660eb2406fd9"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/capture-request-v2.schema.json",
+      "mode": "redacted_json",
+      "sha256": "08db6e21f3310df72ef13b1d8ca20b9a04bfa0d30a5892146d91052d97546764"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/schemas/observation-v2.schema.json",
+      "mode": "redacted_json",
+      "sha256": "37ee3c96b39c8fc6b2471e47553a5f2afccb5e6b0cfc30c96a1cc4286207297f"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/capture.py",
+      "mode": "sha256",
+      "sha256": "c888836574d35b38c140520530641dc048b7609b73543179e7dbc3a80dd7f430"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/feedback.py",
+      "mode": "sha256",
+      "sha256": "c1b97c575597ffe69f9eac1abf245b3d54ee5e5e3742c514b5b406a649f1406c"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/observation_store.py",
+      "mode": "sha256",
+      "sha256": "1525048967d57600f78723492a3729375bb3872385bfd720fcee088ef105d793"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/skills-workshop/control-install/.agents/skills/workshop-feedback/scripts/usage.py",
+      "mode": "sha256",
+      "sha256": "b488564275ebab4a0e2dd35c15f9631cfc6b57ed7266a2dc5358e55288b08832"
+    },
+    {
+      "path": "/Users/johnlee/.local/share/uv/tools/con-duct/bin/duct",
+      "mode": "sha256",
+      "sha256": "87a121c5f4aadfef71abd18b7b9599e9709f5b9b4906e64627a6d2dbdad2d27f"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/SKILL.md",
+      "mode": "sha256",
+      "sha256": "2c7dc2327f1a33113429ab40b6fc26d4175bd9ed8257e84bd3dd2f8a0b06be7d"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/agents/openai.yaml",
+      "mode": "sha256",
+      "sha256": "63c947f223861a26b8a475074bd6587dbd1d92ea315c08672caf1767ecdffb87"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/resolve.sh",
+      "mode": "sha256",
+      "sha256": "7b99c2dbe34bd90cbd5cf2ac54525e7fbf855f081b0c451733755cbfefc55960"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/runtime_context.py",
+      "mode": "sha256",
+      "sha256": "2d2389e4ea1dd67782e518d9d3a9bde8f6a536b81804430bac157603573d9a74"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/test_runtime_context.py",
+      "mode": "sha256",
+      "sha256": "7dff5ee8bcbc1fe23c09b4f36281de7beb39a925f110bba5c3962a6e3f66d0a2"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/SKILL.md",
+      "mode": "sha256",
+      "sha256": "2bdb551cea8dbc9d167fc39b8c1dcd996d71a76fe079ec3a0f640b93081ddb85"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.agents/skills/entireio-setup/scripts/sync.py",
+      "mode": "sha256",
+      "sha256": "04d802a48c5638be4a6b397c97cd77d6885e9432ac3387a199fece3a3366f7fe"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.codex/hooks.json",
+      "mode": "redacted_json",
+      "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.entire/settings.json",
+      "mode": "redacted_json",
+      "sha256": "0b2e70da641caa93348f12ac2bc080ce54b7d3f1215bc139aa9f6c8943a9807a"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/datalad",
+      "mode": "sha256",
+      "sha256": "bdf97dfb33f3bd88209c7ccf0e918639e659f1471f6a28eb5f2ff46af753e3c6"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git",
+      "mode": "sha256",
+      "sha256": "1569b36b24143daf794d6dda13ba2dffbc39ddb6673ac05702bbac92334a4402"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/git-annex",
+      "mode": "sha256",
+      "sha256": "b7e9d8af0281a627c5749bb171c2b4ffef1168234a0455831762167dd13e1346"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/bin/python3.13",
+      "mode": "sha256",
+      "sha256": "dd02c2c899efc25689bad09a3e84de1444338bbd3134f3a1b3633a547d79b27e"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/pixi.lock",
+      "mode": "sha256",
+      "sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "mode": "redacted_toml",
+      "sha256": "5dc743e18d0aabba87455db51e5d7b9b4456ac35fb509d45b1704fc22a9bb212"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/allocation.json",
+      "mode": "redacted_json",
+      "sha256": "ced18b1e40978efb5c47730614f9f0e7bbac7cc015206aba2fb5a5376a45f87c"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/build_manifest.py",
+      "mode": "sha256",
+      "sha256": "69903ee98a44b059f9ed84e7191f1b05083ea4bef1d699232a49c03037ce628d"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/prepare_worker.py",
+      "mode": "sha256",
+      "sha256": "066df4f0c0861a11562a9d356fdcf57d38e18eaa8e4e8bb91dbec180b59d5c31"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/run_one.py",
+      "mode": "sha256",
+      "sha256": "bf0dce85af971351141ff4717cc4f03dee24ba936f2fad4771b152bbbdcc00e1"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/harness/verify_capture.py",
+      "mode": "sha256",
+      "sha256": "9bd385de9ae485ad596cb1fbe30d02d6d010dd1bb6c1e02c09a58921af955282"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/research/mixed-gambles-design/protocol.json",
+      "mode": "redacted_json",
+      "sha256": "92f4628a09d1810776f7775679cbceed09c3462e9f8abb48b2c44a386598d9f8"
+    },
+    {
+      "path": "/opt/homebrew/Caskroom/entire/0.11.4/entire",
+      "mode": "sha256",
+      "sha256": "74c008fe881a3c06600f78afdd978c18864e67a11b10f4d6bbfe21c3f9104f2f"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/git/2.55.0/bin/git",
+      "mode": "sha256",
+      "sha256": "5f0351f649aa1321345229d5256fc8043517778b134a3b4571ecdc3818f124b2"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/pixi/0.81.0/bin/pixi",
+      "mode": "sha256",
+      "sha256": "e671115a49b9f886273a5d7ef19c2d4977e261d378e2340608658146eb2fb479"
+    },
+    {
+      "path": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+      "mode": "sha256",
+      "sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.codex/hooks.json",
+      "mode": "redacted_json",
+      "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.entire/settings.local.json",
+      "mode": "redacted_json",
+      "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/commit-msg",
+      "mode": "sha256",
+      "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/post-commit",
+      "mode": "sha256",
+      "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/post-rewrite",
+      "mode": "sha256",
+      "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/pre-push",
+      "mode": "sha256",
+      "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/prepare-commit-msg",
+      "mode": "sha256",
+      "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/.git/hooks/prepare-commit-msg.pre-entire",
+      "mode": "sha256",
+      "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.codex/hooks.json",
+      "mode": "redacted_json",
+      "sha256": "f75ee1706cc677285dc0ee94b03567f539451c9c8a45f752385887304610b106"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.entire/settings.local.json",
+      "mode": "redacted_json",
+      "sha256": "bc28b0b4a59671aed988d92b5c292932e320543b0a6f320c53eb61b65b01d7d8"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/commit-msg",
+      "mode": "sha256",
+      "sha256": "812bf5cb7b90150b1f721c2f696d7d5907c0a10d5cc448ab0b17cfafef0b5fa6"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/post-commit",
+      "mode": "sha256",
+      "sha256": "3c8e54cbcf8ab462db3943fabdea95068f6790f2ac793d3bdebcecea3fc48c8b"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/post-rewrite",
+      "mode": "sha256",
+      "sha256": "a2aaaa49cef0a896ea363f9395e5d48d652d1e465b11a35add956f074b7c962b"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/pre-push",
+      "mode": "sha256",
+      "sha256": "8de26d136ba3cc73a117d2747e0a72e7a1e2b8a7b931d2efcd82bc0f0ff62a39"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/prepare-commit-msg",
+      "mode": "sha256",
+      "sha256": "b52e386786a4cdefa13587feec6c5938ac9aacf0cd34484b21ef2c0726d6f122"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment/.git/hooks/prepare-commit-msg.pre-entire",
+      "mode": "sha256",
+      "sha256": "58e684e09a429c406d07f731255fa30b13a3fb91809635ed973e0f7fd9368b55"
+    },
+    {
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/mixed-gambles-freeze-amended.json",
+      "mode": "sha256",
+      "sha256": "9b8d1bc5e8b49ae937e33d8cbe122cb8c0bd9eba92f204e3ed1495e9e131941b"
+    }
+  ],
+  "harness_sha256": "bf0dce85af971351141ff4717cc4f03dee24ba936f2fad4771b152bbbdcc00e1",
+  "codex_version": "codex-cli 0.162.0-alpha.17.2",
+  "setup_gate": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.setup/gates/mixed-02-baseline.gate.json",
+    "mode": "sha256",
+    "sha256": "a1ec43212113d6401738c6a2088d1d4c80e54104d979f01293be64a5f4fd3e7c"
+  },
+  "setup_native_session_id": "01a13c79-14b4-74b3-8d10-d1ef08ab8770",
+  "effective_prompt_sha256": "5b7a31d2bc5370f41a7df0b2fcfccc038b14834fe8697371147f81d5e6362d5e",
+  "hard_token_cap": null,
+  "hard_wall_seconds": 480,
+  "resource_caps": "Only wall time enforced; no claimed RAM, CPU, network-byte or tool-call cap"
+}

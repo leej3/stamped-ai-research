@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at": "2026-10-14T22:43:34.782937+00:00",
+  "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+  "head": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9",
+  "tree": "1d79413e7dc00c5e8bcbea978f1318f92072f4bd",
+  "native_session_id": "01a13c8e-20f7-70f3-9434-6e7adab37e83",
+  "checkpoint_id": "01M4Y97TV8QYMRSJA31E1HQJRW",
+  "checkpoint_session_created_at": "2026-10-14T22:41:29.887223Z",
+  "launch_record": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/launch-record.json",
+    "sha256": "24d9e700630733d27dc292e431c24b74eb0ba5fe3a2adab046006f6ed9a423db"
+  },
+  "run_result": {
+    "path": "/Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/run-result.json",
+    "sha256": "5c3fde3ed0476d838e4f41d6ab617a8450f95856c2c7054a2606a4e664285966"
+  },
+  "started_at": "2026-10-14T22:35:09.677149+00:00",
+  "finished_at": "2026-10-14T22:42:02.393752+00:00",
+  "stored_transcript": {
+    "sha256": "f1ff7c7f639ff357eb28d618344ad11ed1e482dfdcd6248404254ec4fb9b4b8a",
+    "bytes": 834840,
+    "identity_events": [
+      {
+        "line": 1,
+        "session_id": "01a13c8e-20f7-70f3-9434-6e7adab37e83",
+        "workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment"
+      }
+    ],
+    "completed_commands": [
+      {
+        "line": 16,
+        "timestamp": "2026-10-14T22:35:24.172Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-3d47d1ac-367d-420c-9e07-8755a19ac144",
+        "event_sha256": "874e53432cbb0faf3d42bb60a9f9fbb658b7c41a29777c26c24645bcb2e0fd79"
+      },
+      {
+        "line": 17,
+        "timestamp": "2026-10-14T22:35:24.274Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-66e648fe-ad5f-4a74-9027-e5de3536f58f",
+        "event_sha256": "566bfb545a1fd93506404aeca643ddf5d81b696540885347939d1028b9a7f221"
+      },
+      {
+        "line": 24,
+        "timestamp": "2026-10-14T22:35:31.781Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-a6f11c83-7198-46b9-b067-e3d8538731d9",
+        "event_sha256": "ff5e640edbfe83d6d69dbcea1a1b4b7ba711c1eb5d24940acb4b7c071f0a8a8f"
+      },
+      {
+        "line": 25,
+        "timestamp": "2026-10-14T22:35:31.811Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-ee9b3fff-0a75-4c29-8d4d-b1f7c2a139fb",
+        "event_sha256": "088390d1d33a4aaa8e040a377eac667723beb9ad32ca2a9bda487f9482fdec31"
+      },
+      {
+        "line": 30,
+        "timestamp": "2026-10-14T22:35:37.690Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c62d7126-5fd1-4302-8f92-fff05ab861ff",
+        "event_sha256": "8de76f993da993dcb9566666837be247501b0b99584223eb1ab05a5a515da485"
+      },
+      {
+        "line": 31,
+        "timestamp": "2026-10-14T22:35:37.691Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-32e61c4c-8522-4405-a53e-9d2c0f5f43a4",
+        "event_sha256": "986c10fc5ce1a5efc9bc5ab550b30345bc0fb09e1d33edec68b3ba10c87c354b"
+      },
+      {
+        "line": 32,
+        "timestamp": "2026-10-14T22:35:37.708Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-0bffbf67-c42d-4794-ad49-8d2ae87edb61",
+        "event_sha256": "29af554961297668163d647c227167a30c1331a25fc6cb975c48e120b9a1301e"
+      },
+      {
+        "line": 41,
+        "timestamp": "2026-10-14T22:35:45.952Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-c68f4740-7f10-41c9-8930-aa7c9e5bbbe4",
+        "event_sha256": "ad63f0d18edec3c8ea4acb08aa0e0d91d73cf64e64edd4c32e7aa638e72c5134"
+      },
+      {
+        "line": 42,
+        "timestamp": "2026-10-14T22:35:46.072Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-2683e4cc-0c2d-455b-b9bd-f9ab4e34b687",
+        "event_sha256": "ceae260895e6b21e0905f2d5d42bd9d8526350c67ec48e14d77fad7846abbaef"
+      },
+      {
+        "line": 51,
+        "timestamp": "2026-10-14T22:36:51.843Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-fa4aa718-e144-4c6c-ac06-e43a9fc4acbd",
+        "event_sha256": "1e3822da81c3459e44e8f3635d902cb6674e7e3820bfd3544400d92a7101288b"
+      },
+      {
+        "line": 79,
+        "timestamp": "2026-10-14T22:38:05.051Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-60417be2-222a-4b37-93fd-3798d4f546a6",
+        "event_sha256": "237412e8ea4f5e2bc4807ccf2c8d1d5afc52be8068d031ad63640360005f92e1"
+      },
+      {
+        "line": 87,
+        "timestamp": "2026-10-14T22:39:57.606Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-e6204541-5c70-44b8-b9eb-f9d2ca296647",
+        "event_sha256": "df13560337c3302b72291173052ba02c17b25aa74dcb792916d8426338d0f1f6"
+      },
+      {
+        "line": 103,
+        "timestamp": "2026-10-14T22:40:19.857Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-b879ac12-de09-4dd2-84b8-0813fca07f63",
+        "event_sha256": "cf40e0f0d9f18a00e9be7cc51b70310afba78c322160525f9951ea4f0da64bf3"
+      },
+      {
+        "line": 110,
+        "timestamp": "2026-10-14T22:40:28.166Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-9a79cdf8-c63f-4f0c-8c46-547fd1df5f40",
+        "event_sha256": "d4342f01755d061f99fbb633daf40f66c5f9d0b128d9a5ebdcf6d20bfafbe7a0"
+      },
+      {
+        "line": 118,
+        "timestamp": "2026-10-14T22:40:31.533Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-d579bbcd-cd65-4913-9659-fd8be1f8a36b",
+        "event_sha256": "14aa3cfcb0fddb0105348c7d0dba7127a6cbe5b50b75d820fedaceb2b5376a17"
+      },
+      {
+        "line": 125,
+        "timestamp": "2026-10-14T22:40:47.465Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-f9dc488d-31eb-472b-87de-3132a1cf8577",
+        "event_sha256": "3c281a97b4dcd58877051b6c6c353a6bcd87ec2852236f69ab6c31a5d03db5cd"
+      },
+      {
+        "line": 132,
+        "timestamp": "2026-10-14T22:41:10.949Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-fa8f6e03-5b7c-460f-b3aa-8dfdd0b9f487",
+        "event_sha256": "d66e40e10fe54ec1f9c4608e2eb1423fd950883299e014a682050d6e022d978c"
+      },
+      {
+        "line": 141,
+        "timestamp": "2026-10-14T22:41:29.913Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-89215294-470b-4cf6-818b-a9abd6d1b99f",
+        "event_sha256": "71d3e21d0ed1ec41f004d15352fe56cfd46fac9992020583f010045b9cd500f5"
+      },
+      {
+        "line": 148,
+        "timestamp": "2026-10-14T22:41:48.099Z",
+        "item_type": "CommandExecution",
+        "item_id": "exec-8244e967-ea70-45db-b1df-511065db77cc",
+        "event_sha256": "5b8ac7d88fe4ee09393b5da7d37780e7401b1fde05c0abd38b6ebbfa6e03757c"
+      }
+    ],
+    "completed_file_changes": [],
+    "command_count": 19,
+    "file_change_count": 0,
+    "unqualified_completed_tool_events": 0,
+    "malformed_lines": 0,
+    "raw_bytes_copied": false
+  },
+  "code": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/heads/codex/mixed-02-treatment",
+    "local_sha": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9",
+    "remote_sha": "e225d91cfa76a8f88bb1f6516fea21bee970f9a9"
+  },
+  "checkpoint": {
+    "remote": "git@github.com:leej3/stamped-ai-research.git",
+    "ref": "refs/entire/checkpoints/RW/01M4Y97TV8QYMRSJA31E1HQJRW",
+    "local_sha": "a56f4828a6d99b80912937f3351f4adc9f924e4c",
+    "remote_sha": "a56f4828a6d99b80912937f3351f4adc9f924e4c"
+  },
+  "dirty_status": "?? reports/analysis_stdout.json\n?? reports/verification_stdout.json\n?? reports/workshop-feedback/.feedback.lock",
+  "interpretation": "Uploaded committed HEAD/checkpoint and post-launch native activity verified. Checkpoint creation time is not session start. Command events do not prove FileChange coverage for shell-written files; transcript completeness, scientific correctness and detached-process absence are not asserted."
+}

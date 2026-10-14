@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13c60-1063-7be3-8eab-fb5df54cb12b",
+  "task_id": null,
+  "project_id": "mixed-02-treatment-8184a3b5678812de",
+  "project_root": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+  "working_directory": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment",
+  "started_at": "2026-10-14T22:35:09.720698+00:00",
+  "git_commit": "2fb54fdea52a24b3a458111d734e8d0fd9749da8",
+  "git_dirty": false,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

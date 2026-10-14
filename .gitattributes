@@ -5,3 +5,6 @@
 *.json annex.largefiles=nothing
 *.toml annex.largefiles=nothing
 pixi.lock annex.largefiles=nothing
+
+# Keep complete private native events in local annex, never public payload uploads.
+logs/agents/*/codex-events.jsonl annex.largefiles=anything

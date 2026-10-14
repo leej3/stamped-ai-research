@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "clone",
+    "--no-hardlinks",
+    "--no-checkout",
+    "/Users/johnlee/code/CON/stamped-ai-research/experiments/02-cohort-rt",
+    "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-treatment"
+  ],
+  "cwd": "/Users/johnlee/code/CON/stamped-ai-research",
+  "started_at": "2026-10-14T22:11:35.247562+00:00"
+}

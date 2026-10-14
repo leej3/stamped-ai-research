@@ -1,0 +1,163 @@
+[
+  {
+    "skill": "align-with-stamped-principles",
+    "version": "0.1.0",
+    "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/align-with-stamped-principles/SKILL.md",
+    "entrypoint_sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289",
+    "actual_reads": [
+      "SKILL.md",
+      "references/principles.md"
+    ],
+    "application": "Baseline in protocol; scoped executable improvements; evidence-based reassessment.",
+    "tree_files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "886c27a5618009f5bc398a3b338a37d9b80e6e12120e941eebd41570b9f98289"
+      },
+      {
+        "path": "references/principles.md",
+        "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+      }
+    ],
+    "tree_manifest_sha256": "ac4461bb268d00745a447d4283d0a0c3b477e13a731dc66ffac0db094a1f3b29",
+    "assessment": "Agent self-report; no causal skill-efficacy inference."
+  },
+  {
+    "skill": "assess-alignment-with-stamped-principles",
+    "version": "0.1.0",
+    "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+    "entrypoint_sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+    "actual_reads": [
+      "SKILL.md",
+      "references/principles.md",
+      "references/assessment-contract.md",
+      "references/checklist-responses.md",
+      "references/research-assessment.schema.json",
+      "scripts/validate_assessment.py"
+    ],
+    "application": "Seven-property evidence table and portable JSON assessment; complete checklist side product.",
+    "tree_files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb"
+      },
+      {
+        "path": "references/assessment-contract.md",
+        "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+      },
+      {
+        "path": "references/checklist-responses.md",
+        "sha256": "29919f38338c935530e9f1781976a02afd7447b6607e5e915f570549d3f68635"
+      },
+      {
+        "path": "references/principles.md",
+        "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+      },
+      {
+        "path": "references/research-assessment.schema.json",
+        "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+      },
+      {
+        "path": "scripts/export_checklist.py",
+        "sha256": "ea667090655f463cf80b80486c94a75ab14a01777682f31903bd38b52670013d"
+      },
+      {
+        "path": "scripts/validate_assessment.py",
+        "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+      }
+    ],
+    "tree_manifest_sha256": "5e032600d44ae1237d3653d398d6b8213768ec196ddf6c19cfcb3d6cfe4f83f0",
+    "assessment": "Agent self-report; no causal skill-efficacy inference."
+  },
+  {
+    "skill": "create-repronim-stamped-project",
+    "version": "0.1.0",
+    "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-repronim-stamped-project/SKILL.md",
+    "entrypoint_sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5",
+    "actual_reads": [
+      "SKILL.md",
+      "references/principles.md",
+      "references/repronim.md"
+    ],
+    "application": "Pinned DataLad subdataset, source attribution, BIDS declaration, raw/derivative boundary; no imaging pipeline.",
+    "tree_files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "d5d6a762726dbab47211bf32a22292c2ce2c80d119f1823d432de9c1b1d8ebb5"
+      },
+      {
+        "path": "references/principles.md",
+        "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+      },
+      {
+        "path": "references/repronim.md",
+        "sha256": "f976644b0d926ca455ded85dd0617915c2295d41d3a637ff8f3d62a6a833a358"
+      }
+    ],
+    "tree_manifest_sha256": "816f1d986de1660c3027624908affa5a3ba373c9c3ae22e712e6f8ad8833b6bc",
+    "assessment": "Agent self-report; no causal skill-efficacy inference."
+  },
+  {
+    "skill": "create-stamped-project",
+    "version": "0.1.0",
+    "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/create-stamped-project/SKILL.md",
+    "entrypoint_sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373",
+    "actual_reads": [
+      "SKILL.md",
+      "references/principles.md"
+    ],
+    "application": "Explicit object boundary, component manifest, stdlib entrypoint, existing environment and disposable replay.",
+    "tree_files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "3a0be8ce388ac9470822536888b4211a8f3f144315135a116b7e3f61bd013373"
+      },
+      {
+        "path": "references/principles.md",
+        "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+      }
+    ],
+    "tree_manifest_sha256": "69793fcc2e9d57fd9bd005a0fd3752e6c6598d89958b4262baf39d07c9a9213b",
+    "assessment": "Agent self-report; no causal skill-efficacy inference."
+  },
+  {
+    "skill": "do-full-research-loop",
+    "version": "0.1.0",
+    "entrypoint": "/Users/johnlee/code/CON/stamped-ai-research/skills/do-full-research-loop/SKILL.md",
+    "entrypoint_sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9",
+    "actual_reads": [
+      "SKILL.md",
+      "references/principles.md",
+      "references/paired-evaluation.md"
+    ],
+    "application": "Protocol before computation; completed analysis, independent checks, replay, limitations and report.",
+    "tree_files": [
+      {
+        "path": "SKILL.md",
+        "sha256": "97dd4f0a92d538992f1e471c2cb0cb24fc2f75bcde299b3a6c15f160e75596b9"
+      },
+      {
+        "path": "references/assessment-contract.md",
+        "sha256": "1e69c45602e5c92fc6c4ae4ca8ba27033e7b52d3e13299fe7e3573e3de1371ec"
+      },
+      {
+        "path": "references/paired-evaluation.md",
+        "sha256": "8c9ac59c52823e26fd889ff7a07c3cdd7208cca25669e34f335fa7a3d2c32a35"
+      },
+      {
+        "path": "references/principles.md",
+        "sha256": "7b8369b70043e4843022e97bf0900f8a85e74692718620c55d2359496234fc95"
+      },
+      {
+        "path": "references/research-assessment.schema.json",
+        "sha256": "8231895db642dd9aa10061aa0ac62b012bea209c494351dd91e13b03a97da3b1"
+      },
+      {
+        "path": "scripts/validate_assessment.py",
+        "sha256": "74d908aeeeaa3f6fa621afc931dd0f1e2eb08499750a456b70b963bfd593f567"
+      }
+    ],
+    "tree_manifest_sha256": "6e75adc4bab08ac22d90b75e06394369207f3ad676b938f626c834e166111f5f",
+    "assessment": "Agent self-report; no causal skill-efficacy inference."
+  }
+]

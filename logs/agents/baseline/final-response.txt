@@ -1,0 +1,12 @@
+Completed: **16 participants**, mean run-03 minus run-01 median RT change **+31.34 ms**, with a 10,000-replicate bootstrap 95% interval of **−70.28 to +132.66 ms**.
+
+Excluded 118 of 2,736 selected trials. Differential missingness remains material; this describes temporal association, not a causal practice effect.
+
+- [Report](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/reports/report.md)
+- [Machine-readable results](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/derivatives/gambling-rt/results.json)
+- [Editable figure](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/derivatives/gambling-rt/participant_changes.svg)
+- [Run evidence and limitations](/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline/reports/run.json)
+
+Replay: `./code/replay.sh`
+
+All 88 verification checks passed, including same-host replay. Saved locally in commit `f8df3fe`. Fresh-environment replay, current BIDS validation, and DataLad transformation provenance remain untested or unrecorded.

@@ -1,0 +1,3 @@
+Created `.setup/native-capture-probe.txt` with the exact bytes and committed it with freshly resolved provenance. Hooks preserved; no push performed.
+
+Commit: `0417491b7a28eede0ac88998cfea02ac0e81f5a9`

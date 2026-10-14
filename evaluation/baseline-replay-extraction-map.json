@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "bootstrap": "results bootstrap_count and seed",
+    "cohort": "results participant_count, group_mean_change, interval_lower/interval_upper",
+    "eligibility": "results.participant_ids and excluded_participants[].participant_id",
+    "participant_changes_ms": "zip results.participant_ids with participant_change_vector in their retained order; exact equal length required",
+    "run_summaries": "run_summaries.tsv primary_selected=1; participant_id/run direct, n_trials->n_presented, excluded_union->n_excluded_union, median_rt_ms->rt_ms; unexpected_response_code_value renamed; integer count parsing",
+    "stage/source_commit": "results.stage normalized 02-cohort-rt to02; source_commit direct",
+    "trial_audit": "trial_audit.tsv participant_id/run/data_row direct; unexpected_response_code_value renamed; 0/1 retained->Boolean. Row union membership checked as complement of the arm's retained flag; per-run union is directly reported. Exact raw onset/RT/code fields checked.",
+    "units": "results.units=milliseconds, no conversion"
+  },
+  "no_missing_results_imputed": true,
+  "reviewer": "study_design agent; unblinded design/reference author; not worker author",
+  "sources": [
+    {
+      "path": ".runs/replay-mixed-02-baseline/derivatives/gambling-rt/results.json",
+      "sha256": "41514407163ec46778c0a6ab03419ae4da10e0e7e1790bc0a45230f80b1d7337"
+    },
+    {
+      "path": ".runs/replay-mixed-02-baseline/derivatives/gambling-rt/run_summaries.tsv",
+      "sha256": "0c5f4a3bc319217b575359ba7aebead4496c7ff5a34a8b47fb111fa5647b67e9"
+    },
+    {
+      "path": ".runs/replay-mixed-02-baseline/derivatives/gambling-rt/trial_audit.tsv",
+      "sha256": "47566901af40c53405d62f0e68f9b1702f90dd776fa011e4eccc74385cf64ab0"
+    },
+    {
+      "path": ".runs/replay-mixed-02-baseline/derivatives/gambling-rt/participant_changes.tsv",
+      "sha256": "2216e308ff05475867177b47ea15b3601959196298483e471d6f8b8a2386670b"
+    }
+  ]
+}

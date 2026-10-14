@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "bootstrap": "results bootstrap_count and seed",
+    "cohort": "results participant_count, group_mean_change_ms, ci95_lower_ms/ci95_upper_ms",
+    "eligibility": "results.participant_ids and excluded_participants[].participant",
+    "participant_changes_ms": "zip results.participant_ids with participant_change_vector in their retained order; exact equal length required",
+    "run_summaries": "run_summary.tsv selected_primary=1; participant->participant_id, n_total->n_presented, median_rt_ms->rt_ms; integer count parsing",
+    "stage/source_commit": "results.json direct fields",
+    "trial_audit": "trial_flags.tsv: participant->participant_id, data_row/counts parsed integer, retained 0/1->Boolean; all emitted run02 rows separately audited, endpoint filters01/03",
+    "units": "results.units=ms renamed milliseconds without numeric conversion"
+  },
+  "no_missing_results_imputed": true,
+  "reviewer": "study_design agent; unblinded design/reference author; not worker author",
+  "sources": [
+    {
+      "path": ".runs/replay-mixed-02-treatment/derivatives/gambling-rt/results.json",
+      "sha256": "90f6b2b87dd579796f4608f87060636c5d6b1fe038031625d76a816e9200a48b"
+    },
+    {
+      "path": ".runs/replay-mixed-02-treatment/derivatives/gambling-rt/run_summary.tsv",
+      "sha256": "7d1e2a5fcd10ae1e769327781f064d65b80a3d2c4de59f6231444ad74119b974"
+    },
+    {
+      "path": ".runs/replay-mixed-02-treatment/derivatives/gambling-rt/trial_flags.tsv",
+      "sha256": "3eecc5fa87613948737acc7d252f0f1d35e44b5a2ebd3940b8e78c0896b08a6d"
+    },
+    {
+      "path": ".runs/replay-mixed-02-treatment/derivatives/gambling-rt/participant_changes.tsv",
+      "sha256": "e6e1fac95a9ddbd5f77eefceb9144ab39d5bbfbbbb528b38e8184be3765e510f"
+    }
+  ]
+}

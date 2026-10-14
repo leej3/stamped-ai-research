@@ -1,0 +1,6 @@
+Cloning into '/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline'...
+done.
+HEAD is now at f8df3fe feat: report cohort RT changes with audited replay evidence
+Submodule 'inputs/ds000005' (https://github.com/OpenNeuroDatasets/ds000005.git) registered for path 'inputs/ds000005'
+Cloning into '/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline/inputs/ds000005'...
+✔ The default environment has been installed.

@@ -1,0 +1,31 @@
+{"arm": "baseline", "science_passed": true, "replay_passed": true, "replay_byte_identical": true}
+{"arm": "treatment", "science_passed": true, "replay_passed": true, "replay_byte_identical": true}
+{
+  "stage": "02",
+  "evaluated_at": "2026-10-14T22:49:26.613497+00:00",
+  "both_arms_stopped": true,
+  "failures_retained": true,
+  "scientific_checks_accounted": true,
+  "replay_accounted": true,
+  "proceed": true,
+  "arm_outcomes": {
+    "baseline": {
+      "worker_outcome": "completed",
+      "science_passed": true,
+      "replay_passed": true,
+      "replay_byte_identical": true
+    },
+    "treatment": {
+      "worker_outcome": "completed",
+      "science_passed": true,
+      "replay_passed": true,
+      "replay_byte_identical": true
+    }
+  },
+  "evidence": "Per-arm evaluation, normalization, comparison, audit, source and replay records in this directory.",
+  "limitations": [
+    "Unblinded design-author agent review, not human-reviewed",
+    "Same host/shared caches and common account controls; logical isolation",
+    "Post-stop collection/replay and later log packaging are coordinator evidence, not worker-produced quality"
+  ]
+}

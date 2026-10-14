@@ -1,0 +1,539 @@
+{
+  "schema_version": "0.1.0",
+  "assessment_id": "a9a3a7ae-b0a1-4bff-9b71-eaddcb6ef4a7",
+  "run_id": "mixed-02-treatment",
+  "status": "finalized",
+  "outcome": "completed",
+  "created_at": "2026-10-14T22:40:47.379128+00:00",
+  "task": {
+    "question": "Cohort first-to-third median decision RT change",
+    "audience": "Research reviewers",
+    "source": {
+      "uri": "reports/protocol.md",
+      "path": "reports/protocol.md",
+      "sha256": "7847f85d4bc2497cdbace2953882a51d2e08e873d3c7670d755743b7509b61a4",
+      "role": "retained task protocol"
+    },
+    "assumptions": [
+      "No causal interpretation; observed valid responses only."
+    ]
+  },
+  "object": {
+    "boundary": "Current working dataset with inputs/ds000005, code, derivatives/gambling-rt, reports and references/stamped.",
+    "snapshot": {
+      "uri": "reports/object_manifest.json",
+      "path": "reports/object_manifest.json",
+      "sha256": "b85d0ccabd0877f3e9cfbd54b10e27fdb3600fe6a6e712a0224b334a818524cb",
+      "role": "retained content snapshot manifest"
+    },
+    "components": [
+      {
+        "uri": "code/source_manifest.json",
+        "path": "code/source_manifest.json",
+        "sha256": "a45c14cb3b6f14a047b397b08690a646633761e62b85480e7c32a6aa16b8ed39",
+        "role": "input identities"
+      },
+      {
+        "uri": "reports/environment.json",
+        "path": "reports/environment.json",
+        "sha256": "484db82737a584d345b3e68b91c039b1ef1aa5a95383d9c66e18e7cf3a03a481",
+        "role": "observed environment"
+      }
+    ],
+    "dirty_snapshot": {
+      "uri": "reports/object_manifest.json",
+      "path": "reports/object_manifest.json",
+      "sha256": "b85d0ccabd0877f3e9cfbd54b10e27fdb3600fe6a6e712a0224b334a818524cb",
+      "role": "working snapshot identities"
+    }
+  },
+  "assessor": {
+    "name": "Codex independent research worker",
+    "kind": "agent",
+    "model": null,
+    "runtime": null,
+    "reasoning_effort": null
+  },
+  "instrument": {
+    "name": "assess-alignment-with-stamped-principles",
+    "version": "0.1.0",
+    "source": {
+      "uri": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "path": "/Users/johnlee/code/CON/stamped-ai-research/skills/assess-alignment-with-stamped-principles/SKILL.md",
+      "sha256": "26c20da2242888f08284b35e886bf9865ec241fd4da6cd0b9288c93fafd75adb",
+      "role": "frozen treatment skill"
+    }
+  },
+  "rubric": {
+    "uri": "references/stamped/checklist/stamped-checklist.json",
+    "path": "references/stamped/checklist/stamped-checklist.json",
+    "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba",
+    "role": "checklist 0.3.1"
+  },
+  "references": [
+    {
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-paper/310eefa1bd756a04d69161c216d93af4d354dd05/main.tex",
+      "revision": "310eefa1bd756a04d69161c216d93af4d354dd05",
+      "path": "references/stamped/paper/main.tex",
+      "sha256": "3415159e6acc0876fc2a86607df102b63153d77e3d22afd1d011fe21caefa611",
+      "role": "pinned assessment reference"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-principles-schema/929e87db4e1248aa6b3b32c368da9e825137175e/stamped-principles.json",
+      "revision": "929e87db4e1248aa6b3b32c368da9e825137175e",
+      "path": "references/stamped/principles/stamped-principles.json",
+      "sha256": "f0f4abe3e6ae9c41ccb58e3fe731898d902fda6ac9defc0ba948d22a88fdd580",
+      "role": "pinned assessment reference"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist.json",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "path": "references/stamped/checklist/stamped-checklist.json",
+      "sha256": "da2eb88ed49dff64f098ad92200dec81c1b4404cc2d3ba1e1e1404d0e10e7bba",
+      "role": "pinned assessment reference"
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/stamped-principles/stamped-checklist-schema/8826b99e15f1db1cc2f0d691d892786a4bb51815/stamped-checklist-schema.yaml",
+      "revision": "8826b99e15f1db1cc2f0d691d892786a4bb51815",
+      "path": "references/stamped/checklist/stamped-checklist-schema.yaml",
+      "sha256": "6c4d481612bf68cbb5198c24b74bcbccc6e9d408a4dd22d1a49aa17a4c83621e",
+      "role": "pinned assessment reference"
+    }
+  ],
+  "conditions": {
+    "tools": [
+      "Python standard library",
+      "Git",
+      "installed Workshop Python for schema validation"
+    ],
+    "permissions": [
+      "Offline local files only",
+      "No agents or external communication"
+    ],
+    "environment": "3.13.16 | packaged by conda-forge | (main, Oct  7 2026, 00:20:42) [Clang 21.1.8 ]; macOS-27.0.1-arm64-arm-64bit-Mach-O",
+    "access_context": "Already-local public behavioral event files",
+    "assistance": "Five frozen treatment skills; common controls and pinned STAMPED sources; no other arms/history/recall inspected.",
+    "budget": "480-second single attempt",
+    "collection_coverage": "Native capture and outer duct supplied; records not inspected; no nested duct; no DataLad transformation capture."
+  },
+  "science": [
+    {
+      "id": "science-paired-estimate",
+      "target": "Specified valid-response paired medians and participant bootstrap",
+      "priority": "essential",
+      "priority_rationale": "Direct scientific deliverable.",
+      "direction": "preserve",
+      "required_activities": [
+        "execute",
+        "compare"
+      ],
+      "observations": [
+        {
+          "id": "science-execute",
+          "activity": "execute",
+          "status": "completed",
+          "description": "Synthetic flag cases, independent Decimal estimates, and deterministic replay passed.",
+          "evidence": [
+            {
+              "id": "science-e-execute",
+              "source": {
+                "uri": "reports/verification.json",
+                "path": "reports/verification.json",
+                "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                "role": "verification"
+              },
+              "description": "Observed numerical and denominator checks.",
+              "producer": "code/verify.py",
+              "kind": "tool_record"
+            }
+          ]
+        },
+        {
+          "id": "science-compare",
+          "activity": "compare",
+          "status": "completed",
+          "description": "Synthetic flag cases, independent Decimal estimates, and deterministic replay passed.",
+          "evidence": [
+            {
+              "id": "science-e-compare",
+              "source": {
+                "uri": "reports/verification.json",
+                "path": "reports/verification.json",
+                "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                "role": "verification"
+              },
+              "description": "Observed numerical and denominator checks.",
+              "producer": "code/verify.py",
+              "kind": "tool_record"
+            }
+          ]
+        }
+      ],
+      "judgment": "demonstrated",
+      "rationale": "Implementation agrees within 1e-9 ms; this does not establish causal interpretation or generalizability."
+    }
+  ],
+  "research_object": {
+    "S": [
+      {
+        "id": "S-local",
+        "target": "Self-containment for bounded offline behavioral analysis",
+        "priority": "essential",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "inspect"
+        ],
+        "observations": [
+          {
+            "id": "S-inspect",
+            "activity": "inspect",
+            "status": "completed",
+            "description": "Essential event bytes, source metadata, scripts, and hashes are local.",
+            "evidence": [
+              {
+                "id": "S-e-inspect",
+                "source": {
+                  "uri": "code/source_manifest.json",
+                  "path": "code/source_manifest.json",
+                  "sha256": "a45c14cb3b6f14a047b397b08690a646633761e62b85480e7c32a6aa16b8ed39",
+                  "role": "evidence"
+                },
+                "description": "Essential event bytes, source metadata, scripts, and hashes are local.",
+                "producer": "Codex analysis worker",
+                "kind": "agent_assertion"
+              }
+            ]
+          }
+        ],
+        "judgment": "partial",
+        "rationale": "Essential event bytes, source metadata, scripts, and hashes are local. Remaining gap: Python/OS binaries and complete license texts are not bundled."
+      }
+    ],
+    "T": [
+      {
+        "id": "T-local",
+        "target": "Trackability for bounded offline behavioral analysis",
+        "priority": "essential",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "inspect"
+        ],
+        "observations": [
+          {
+            "id": "T-inspect",
+            "activity": "inspect",
+            "status": "completed",
+            "description": "Pinned source commit, source/output SHA-256, executable parameters, and environment identity retained.",
+            "evidence": [
+              {
+                "id": "T-e-inspect",
+                "source": {
+                  "uri": "reports/environment.json",
+                  "path": "reports/environment.json",
+                  "sha256": "484db82737a584d345b3e68b91c039b1ef1aa5a95383d9c66e18e7cf3a03a481",
+                  "role": "evidence"
+                },
+                "description": "Pinned source commit, source/output SHA-256, executable parameters, and environment identity retained.",
+                "producer": "Codex analysis worker",
+                "kind": "agent_assertion"
+              }
+            ]
+          }
+        ],
+        "judgment": "partial",
+        "rationale": "Pinned source commit, source/output SHA-256, executable parameters, and environment identity retained. Remaining gap: No DataLad run/rerun transformation record; native and outer duct records uninspected."
+      }
+    ],
+    "A": [
+      {
+        "id": "A-local",
+        "target": "Actionability for bounded offline behavioral analysis",
+        "priority": "essential",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "execute",
+          "compare"
+        ],
+        "observations": [
+          {
+            "id": "A-execute",
+            "activity": "execute",
+            "status": "completed",
+            "description": "Executable replay and verification passed; six deterministic output digests match.",
+            "evidence": [
+              {
+                "id": "A-e-execute",
+                "source": {
+                  "uri": "reports/verification.json",
+                  "path": "reports/verification.json",
+                  "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                  "role": "evidence"
+                },
+                "description": "Executable replay and verification passed; six deterministic output digests match.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          },
+          {
+            "id": "A-compare",
+            "activity": "compare",
+            "status": "completed",
+            "description": "Executable replay and verification passed; six deterministic output digests match.",
+            "evidence": [
+              {
+                "id": "A-e-compare",
+                "source": {
+                  "uri": "reports/verification.json",
+                  "path": "reports/verification.json",
+                  "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                  "role": "evidence"
+                },
+                "description": "Executable replay and verification passed; six deterministic output digests match.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          }
+        ],
+        "judgment": "demonstrated",
+        "rationale": "Executable replay and verification passed; six deterministic output digests match. Remaining gap: Demonstrated only for locally available inputs on this host."
+      }
+    ],
+    "M": [
+      {
+        "id": "M-local",
+        "target": "Modularity for bounded offline behavioral analysis",
+        "priority": "important",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "inspect"
+        ],
+        "observations": [
+          {
+            "id": "M-inspect",
+            "activity": "inspect",
+            "status": "completed",
+            "description": "Input subdataset stays immutable; code, computed outputs, and reports have explicit interfaces.",
+            "evidence": [
+              {
+                "id": "M-e-inspect",
+                "source": {
+                  "uri": "reports/protocol.md",
+                  "path": "reports/protocol.md",
+                  "sha256": "7847f85d4bc2497cdbace2953882a51d2e08e873d3c7670d755743b7509b61a4",
+                  "role": "evidence"
+                },
+                "description": "Input subdataset stays immutable; code, computed outputs, and reports have explicit interfaces.",
+                "producer": "Codex analysis worker",
+                "kind": "agent_assertion"
+              }
+            ]
+          }
+        ],
+        "judgment": "demonstrated",
+        "rationale": "Input subdataset stays immutable; code, computed outputs, and reports have explicit interfaces. Remaining gap: Independent module upgrade compatibility and license compatibility untested."
+      }
+    ],
+    "P": [
+      {
+        "id": "P-local",
+        "target": "Portability for bounded offline behavioral analysis",
+        "priority": "important",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "inspect",
+          "execute"
+        ],
+        "observations": [
+          {
+            "id": "P-inspect",
+            "activity": "inspect",
+            "status": "completed",
+            "description": "Relative paths, standard-library analysis, declared Pixi environment, and isolated Python invocation.",
+            "evidence": [
+              {
+                "id": "P-e-inspect",
+                "source": {
+                  "uri": "reports/environment.json",
+                  "path": "reports/environment.json",
+                  "sha256": "484db82737a584d345b3e68b91c039b1ef1aa5a95383d9c66e18e7cf3a03a481",
+                  "role": "evidence"
+                },
+                "description": "Relative paths, standard-library analysis, declared Pixi environment, and isolated Python invocation.",
+                "producer": "Codex analysis worker",
+                "kind": "agent_assertion"
+              }
+            ]
+          },
+          {
+            "id": "P-execute",
+            "activity": "execute",
+            "status": "completed",
+            "description": "Relative paths, standard-library analysis, declared Pixi environment, and isolated Python invocation.",
+            "evidence": [
+              {
+                "id": "P-e-execute",
+                "source": {
+                  "uri": "reports/environment.json",
+                  "path": "reports/environment.json",
+                  "sha256": "484db82737a584d345b3e68b91c039b1ef1aa5a95383d9c66e18e7cf3a03a481",
+                  "role": "evidence"
+                },
+                "description": "Relative paths, standard-library analysis, declared Pixi environment, and isolated Python invocation.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          }
+        ],
+        "judgment": "partial",
+        "rationale": "Relative paths, standard-library analysis, declared Pixi environment, and isolated Python invocation. Remaining gap: Only the current macOS arm64 host tested; full lock restoration untested."
+      }
+    ],
+    "E": [
+      {
+        "id": "E-local",
+        "target": "Ephemerality for bounded offline behavioral analysis",
+        "priority": "important",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "construct",
+          "execute",
+          "compare"
+        ],
+        "observations": [
+          {
+            "id": "E-construct",
+            "activity": "construct",
+            "status": "completed",
+            "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+            "evidence": [
+              {
+                "id": "E-e-construct",
+                "source": {
+                  "uri": "reports/verification.json",
+                  "path": "reports/verification.json",
+                  "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                  "role": "evidence"
+                },
+                "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          },
+          {
+            "id": "E-execute",
+            "activity": "execute",
+            "status": "completed",
+            "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+            "evidence": [
+              {
+                "id": "E-e-execute",
+                "source": {
+                  "uri": "reports/verification.json",
+                  "path": "reports/verification.json",
+                  "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                  "role": "evidence"
+                },
+                "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          },
+          {
+            "id": "E-compare",
+            "activity": "compare",
+            "status": "completed",
+            "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+            "evidence": [
+              {
+                "id": "E-e-compare",
+                "source": {
+                  "uri": "reports/verification.json",
+                  "path": "reports/verification.json",
+                  "sha256": "e522dbd3d4a8d8691c166c4b412fa42823b1c888600bd436f593d406cb177dd2",
+                  "role": "evidence"
+                },
+                "description": "Fresh disposable workspace and offline venv produced identical retained outputs.",
+                "producer": "Codex analysis worker",
+                "kind": "tool_record"
+              }
+            ]
+          }
+        ],
+        "judgment": "partial",
+        "rationale": "Fresh disposable workspace and offline venv produced identical retained outputs. Remaining gap: Base interpreter and OS reused; no independently rebuilt runtime."
+      }
+    ],
+    "D": [
+      {
+        "id": "D-local",
+        "target": "Distributability for bounded offline behavioral analysis",
+        "priority": "important",
+        "priority_rationale": "Proportionate local reproducibility evidence; no claim of global compliance.",
+        "direction": "maximize",
+        "required_activities": [
+          "inspect",
+          "retrieve"
+        ],
+        "observations": [
+          {
+            "id": "D-inspect",
+            "activity": "inspect",
+            "status": "completed",
+            "description": "Upstream URL, commit, PDDL declaration, and retained local files identify a distribution route.",
+            "evidence": [
+              {
+                "id": "D-e-inspect",
+                "source": {
+                  "uri": "inputs/ds000005/README",
+                  "path": "inputs/ds000005/README",
+                  "sha256": "4e08aba78a824dc9b79b3355985d225fa408ac791d9794b430c56687b12b0988",
+                  "role": "evidence"
+                },
+                "description": "Upstream URL, commit, PDDL declaration, and retained local files identify a distribution route.",
+                "producer": "Codex analysis worker",
+                "kind": "agent_assertion"
+              }
+            ]
+          },
+          {
+            "id": "D-retrieve",
+            "activity": "retrieve",
+            "status": "not_attempted",
+            "description": "Network disallowed; retrieval unattempted.",
+            "evidence": []
+          }
+        ],
+        "judgment": "unknown",
+        "rationale": "Upstream URL, commit, PDDL declaration, and retained local files identify a distribution route. Remaining gap: Remote retrieval and persistent access were not tested; new code has no explicit license."
+      }
+    ]
+  },
+  "metrics": [],
+  "interventions": [],
+  "limitations": [
+    "Run position was not randomized; task composition and response selection can differ across runs.",
+    "The estimand concerns observed valid responses, not every offered decision; sub-05/run-01 retains 21/86 trials (65 absent-code rows).",
+    "Small cohort of 16 participants; percentile bootstrap describes participant-level uncertainty without a hypothesis test.",
+    "No RT-band sensitivity variant was requested or run.",
+    "Source declares BIDS 1.0.0rc4; no current BIDS validation was attempted.",
+    "Fresh retrieval, environment rebuild from the Pixi lock, other platforms, and independent reproduction were not attempted.",
+    "Replay uses a fresh local venv and workspace but shares the installed Python binary and host OS.",
+    "No external publication; generated-code licensing and long-term retrieval remain unresolved.",
+    "Outer duct capture and native capture were supplied by the runner; their records were not inspected or independently verified. No separate duct record is claimed for each computation.",
+    "No DataLad transformation record was created; executable command and hash manifests record this local analysis.",
+    "Paper T.4 includes versions while checklist/principles retain T.5; newer paper S.2, M.3, D.3 licensing requirements are not silently mapped into older checklist items.",
+    "This is an unreviewed agent assessment, not independent validation or an official STAMPED compliance score."
+  ],
+  "review_records": []
+}

@@ -1,0 +1,18 @@
+duct run directory: /Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1
+2026-10-14T18:35:09-0400 [INFO    ] con-duct: python-dotenv not installed, skipping .env file loading
+2026-10-14T18:35:09-0400 [INFO    ] con-duct: duct 0.22.0 is executing '/opt/homebrew/opt/python@3.14/bin/python3.14 /Users/johnlee/code/CON/stamped-ai-research/research/harness/run_one.py --manifest /Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/manifest.json --arm treatment --_worker /Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment'...
+2026-10-14T18:35:09-0400 [INFO    ] con-duct: Log files will be written to /Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1/run_
+2026-10-14T18:42:02-0400 [INFO    ] con-duct: Summary:
+Exit Code: 0
+Command: /opt/homebrew/opt/python@3.14/bin/python3.14 /Users/johnlee/code/CON/stamped-ai-research/research/harness/run_one.py --manifest /Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment/manifest.json --arm treatment --_worker /Users/johnlee/code/CON/stamped-ai-research/.runs/evidence/mixed-02-treatment
+Log files location: /Users/johnlee/.local/state/con-duct/projects/mixed-02-treatment-8184a3b5678812de/20261014T223509.720698Z-eb7b1dea6cad4913ad904514e8228aa1/run_
+Wall Clock Time: 412.576 sec
+Memory Peak Usage (RSS): 25.6 MB
+Memory Average Usage (RSS): 19.5 MB
+Virtual Memory Peak Usage (VSZ): 500.5 GB
+Virtual Memory Average Usage (VSZ): 500.5 GB
+Memory Peak Percentage: 0.10%
+Memory Average Percentage: 0.10%
+CPU Peak Usage: 0.30%
+Average CPU Usage: 0.00%
+

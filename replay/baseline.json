@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-10-14T22:48:47.181069+00:00",
+  "source_workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+  "source_head": "f8df3fef0c46ac4ab0f01015b3a906966c7dad27",
+  "source_status": "",
+  "replay_workspace": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline",
+  "reviewed_command": "./code/replay.sh",
+  "scope": "Fresh Git checkout and new locked Pixi environment prefix on the same host; shared package caches; no agent in checkout.",
+  "network": "Public Git submodule retrieval and Pixi installation permitted; no OS network isolation claimed.",
+  "phases": [
+    {
+      "phase": "clone",
+      "command": [
+        "git",
+        "clone",
+        "--no-hardlinks",
+        "--no-checkout",
+        "/Users/johnlee/code/CON/stamped-ai-research/.runs/mixed-02-baseline",
+        "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs",
+      "returncode": 0,
+      "elapsed_seconds": 0.039969915989786386
+    },
+    {
+      "phase": "checkout",
+      "command": [
+        "git",
+        "checkout",
+        "--detach",
+        "f8df3fef0c46ac4ab0f01015b3a906966c7dad27"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline",
+      "returncode": 0,
+      "elapsed_seconds": 0.01456141599919647
+    },
+    {
+      "phase": "inputs",
+      "command": [
+        "git",
+        "submodule",
+        "update",
+        "--init"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline",
+      "returncode": 0,
+      "elapsed_seconds": 0.7691834169672802
+    },
+    {
+      "phase": "environment",
+      "command": [
+        "pixi",
+        "install",
+        "--locked"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline",
+      "returncode": 0,
+      "elapsed_seconds": 1.9643383329967037
+    },
+    {
+      "phase": "documented_replay",
+      "command": [
+        "bash",
+        "-o",
+        "pipefail",
+        "-c",
+        "./code/replay.sh"
+      ],
+      "cwd": "/Users/johnlee/code/CON/stamped-ai-research/.runs/replay-mixed-02-baseline",
+      "returncode": 0,
+      "elapsed_seconds": 7.069739207974635
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "derivatives/gambling-rt/implementation_hashes.json",
+      "original_sha256": "11afcedba5fd8fd0f8298f27295e14eddab4352e08023727e0e0e8d71ebb90f4",
+      "replay_sha256": "11afcedba5fd8fd0f8298f27295e14eddab4352e08023727e0e0e8d71ebb90f4",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/input_hashes.json",
+      "original_sha256": "faeb234f9bd182069e90be5f15167080d367c2e7f9f41ca85220f55b6189e23f",
+      "replay_sha256": "faeb234f9bd182069e90be5f15167080d367c2e7f9f41ca85220f55b6189e23f",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/inventory.tsv",
+      "original_sha256": "b55c2f898426bd78c4c11755160392c38a57cdf3109834a2262cd748735e3fc1",
+      "replay_sha256": "b55c2f898426bd78c4c11755160392c38a57cdf3109834a2262cd748735e3fc1",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.svg",
+      "original_sha256": "0badaf665ddd1a43e9109a9cf2df72cf5f7ced586ff2d352f82670f7a824a655",
+      "replay_sha256": "0badaf665ddd1a43e9109a9cf2df72cf5f7ced586ff2d352f82670f7a824a655",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/participant_changes.tsv",
+      "original_sha256": "2216e308ff05475867177b47ea15b3601959196298483e471d6f8b8a2386670b",
+      "replay_sha256": "2216e308ff05475867177b47ea15b3601959196298483e471d6f8b8a2386670b",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/results.json",
+      "original_sha256": "41514407163ec46778c0a6ab03419ae4da10e0e7e1790bc0a45230f80b1d7337",
+      "replay_sha256": "41514407163ec46778c0a6ab03419ae4da10e0e7e1790bc0a45230f80b1d7337",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/run_summaries.tsv",
+      "original_sha256": "0c5f4a3bc319217b575359ba7aebead4496c7ff5a34a8b47fb111fa5647b67e9",
+      "replay_sha256": "0c5f4a3bc319217b575359ba7aebead4496c7ff5a34a8b47fb111fa5647b67e9",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/software_versions.json",
+      "original_sha256": "4da1847a725aa1c5ccc9c9286c89f29cc53cd9f9ac431ed855478193da1a04a6",
+      "replay_sha256": "4da1847a725aa1c5ccc9c9286c89f29cc53cd9f9ac431ed855478193da1a04a6",
+      "identical": true
+    },
+    {
+      "path": "derivatives/gambling-rt/trial_audit.tsv",
+      "original_sha256": "47566901af40c53405d62f0e68f9b1702f90dd776fa011e4eccc74385cf64ab0",
+      "replay_sha256": "47566901af40c53405d62f0e68f9b1702f90dd776fa011e4eccc74385cf64ab0",
+      "identical": true
+    }
+  ],
+  "outcome": "command_succeeded_pending_independent_scientific_review",
+  "preexisting_scientific_outputs_removed": true,
+  "finished_at": "2026-10-14T22:48:57.043433+00:00",
+  "source_unchanged": true
+}

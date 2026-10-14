@@ -1,0 +1,3 @@
+[submodule "inputs/ds000005"]
+	path = inputs/ds000005
+	url = https://github.com/OpenNeuroDatasets/ds000005.git
