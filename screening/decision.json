@@ -1,0 +1,8 @@
+{
+  "status": "rejected_before_experimental_arms",
+  "reason": "304 run-2 condition labels conflict across source columns",
+  "decision": "User requested another public dataset",
+  "experimental_arms_started": false,
+  "replacement": "OpenNeuro ds000005",
+  "scope": "Reference calculations are screening/audit evidence, not accepted behavioral findings."
+}

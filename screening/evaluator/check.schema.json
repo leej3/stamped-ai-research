@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:stamped-ai-research:independent-check:0.1.0",
+  "title": "Independent per-criterion scientific or replay check",
+  "type": "object",
+  "required": ["check_id", "run_id", "criterion", "domain", "status", "assessor", "evidence", "limitations"],
+  "properties": {
+    "check_id": {"type": "string", "minLength": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "criterion": {"type": "string", "minLength": 1},
+    "domain": {"enum": ["source", "semantics", "numeric", "interpretation", "replay", "research_object"]},
+    "status": {"enum": ["passed", "failed", "blocked", "not_attempted"]},
+    "assessor": {"type": "object", "required": ["id", "role", "independent_of_author"], "properties": {"id": {"type": "string"}, "role": {"enum": ["agent", "human", "automated_check"]}, "independent_of_author": {"type": "boolean"}, "blinded": {"type": ["boolean", "null"]}}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["locator", "description"], "properties": {"locator": {"type": "string"}, "description": {"type": "string"}, "sha256": {"type": ["string", "null"]}}}},
+    "expected": {},
+    "observed": {},
+    "tolerance": {"type": ["number", "null"]},
+    "units": {"type": ["string", "null"]},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "supersedes": {"type": ["string", "null"]}
+  }
+}

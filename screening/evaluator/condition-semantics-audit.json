@@ -1,0 +1,2835 @@
+{
+  "source_commit": "fdc1ce49d524fc1e77e5b763f10acb02f403c581",
+  "condition_mismatch_counts_by_run": {
+    "2": 304
+  },
+  "correctness_vs_trial_type_suffix": [
+    {
+      "correctness": "correct",
+      "trial_type_suffix": "correct",
+      "n": 1230
+    },
+    {
+      "correctness": "incorrect",
+      "trial_type_suffix": "incorrect",
+      "n": 18
+    }
+  ],
+  "identical_row_order_column_values_across_runs": {
+    "Stimulus": [
+      "sub-01",
+      "sub-02",
+      "sub-03",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-07",
+      "sub-08",
+      "sub-09",
+      "sub-10",
+      "sub-11",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-16",
+      "sub-17",
+      "sub-18",
+      "sub-19",
+      "sub-20",
+      "sub-21",
+      "sub-22",
+      "sub-23",
+      "sub-24",
+      "sub-25",
+      "sub-26"
+    ],
+    "StimVar": [
+      "sub-01",
+      "sub-02",
+      "sub-03",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-07",
+      "sub-08",
+      "sub-09",
+      "sub-10",
+      "sub-11",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-16",
+      "sub-17",
+      "sub-18",
+      "sub-19",
+      "sub-20",
+      "sub-21",
+      "sub-22",
+      "sub-23",
+      "sub-24",
+      "sub-25",
+      "sub-26"
+    ],
+    "correctness": [
+      "sub-02",
+      "sub-04",
+      "sub-05",
+      "sub-06",
+      "sub-09",
+      "sub-10",
+      "sub-12",
+      "sub-13",
+      "sub-14",
+      "sub-15",
+      "sub-17",
+      "sub-19",
+      "sub-20",
+      "sub-22",
+      "sub-24",
+      "sub-25"
+    ],
+    "cond": [],
+    "trial_type": []
+  },
+  "mismatches": [
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "42.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "54.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-01/func/sub-01_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "44.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-02/func/sub-02_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-03/func/sub-03_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "126.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-04/func/sub-04_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-05/func/sub-05_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-06/func/sub-06_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-07/func/sub-07_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "150.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-08/func/sub-08_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-09/func/sub-09_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "42.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-10/func/sub-10_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-11/func/sub-11_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-12/func/sub-12_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "42.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "150.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-13/func/sub-13_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-14/func/sub-14_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "150.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-15/func/sub-15_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-16/func/sub-16_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-17/func/sub-17_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "150.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-18/func/sub-18_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "136.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-19/func/sub-19_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "42.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-20/func/sub-20_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "126.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-21/func/sub-21_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-22/func/sub-22_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 4,
+      "onset": "20.0",
+      "trial_type": "incongruent_incorrect",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond004"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_incorrect",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond002"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-23/func/sub-23_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 18,
+      "onset": "184.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "232.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-24/func/sub-24_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 3,
+      "onset": "10.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 13,
+      "onset": "130.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "144.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 15,
+      "onset": "154.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "246.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-25/func/sub-25_task-flanker_run-2_events.tsv",
+      "row": 25,
+      "onset": "274.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 2,
+      "onset": "0.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 5,
+      "onset": "30.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 6,
+      "onset": "40.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 7,
+      "onset": "52.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 8,
+      "onset": "64.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 9,
+      "onset": "76.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 10,
+      "onset": "88.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 11,
+      "onset": "102.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 12,
+      "onset": "116.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 14,
+      "onset": "140.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 16,
+      "onset": "164.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 17,
+      "onset": "174.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 19,
+      "onset": "196.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 20,
+      "onset": "208.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 21,
+      "onset": "220.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 22,
+      "onset": "234.0",
+      "trial_type": "incongruent_correct",
+      "Stimulus": "congruent",
+      "StimVar": "1",
+      "cond": "cond003"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 23,
+      "onset": "248.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    },
+    {
+      "path": "sub-26/func/sub-26_task-flanker_run-2_events.tsv",
+      "row": 24,
+      "onset": "260.0",
+      "trial_type": "congruent_correct",
+      "Stimulus": "incongruent",
+      "StimVar": "2",
+      "cond": "cond001"
+    }
+  ],
+  "status": "unresolved; no source repair or authoritative-column claim"
+}
