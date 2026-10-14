@@ -1,0 +1,30 @@
+[
+  {
+    "path": "bootstrap_replicates.tsv",
+    "sha256": "cf111610171b78bd77a8585a2f0ba81951c64a6beb125b0abdf95505f46986af"
+  },
+  {
+    "path": "participant_changes.tsv",
+    "sha256": "bfa98a99d7abaa8d70dbf2dbe7eb97df93572ec193c40a5fdbcb9159d27ec015"
+  },
+  {
+    "path": "results.json",
+    "sha256": "bf5e04b37589fbc963fd68c4956b9e8fe14394c0897fdc86b2e5a0a8c0a55925"
+  },
+  {
+    "path": "run_summaries.tsv",
+    "sha256": "3b722f08e7494eda50053141baafe9f9568b53c562f091fa4a47f2ca6cd96d85"
+  },
+  {
+    "path": "sensitivity.svg",
+    "sha256": "bd64985ffe2dda157668334cc30b1c90c5e7f30b605fe7b6fbcc7af140e78d71"
+  },
+  {
+    "path": "software.json",
+    "sha256": "425097bb5cf45a18c11ec5bd8a8677504431d296dfd090be2422e34fef9c8f90"
+  },
+  {
+    "path": "trial_audit.tsv",
+    "sha256": "8c7f9cd92debbeb926c6c19a5214a64d88f261efa7551006dee3537f78fb77dd"
+  }
+]
