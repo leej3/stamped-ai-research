@@ -1,0 +1,983 @@
+[
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "python",
+      "-c",
+      "import datalad; print(datalad.__version__)"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.08149290084838867,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 1,
+    "returncode": 0,
+    "started_unix": 1792026285.975049
+  },
+  {
+    "argv": [
+      "git",
+      "init",
+      "-b",
+      "codex/fixture",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.009003877639770508,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 2,
+    "returncode": 0,
+    "started_unix": 1792026286.057178
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005227088928222656,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 3,
+    "returncode": 0,
+    "started_unix": 1792026286.066319
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "datalad",
+      "create",
+      "--force",
+      "-D",
+      "local workflow rehearsal",
+      "-m",
+      "chore: initialize local rehearsal fixture",
+      "."
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+    "elapsed_seconds": 1.2298109531402588,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 4,
+    "returncode": 0,
+    "started_unix": 1792026286.0718012
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "datalad",
+      "save",
+      "-m",
+      "chore: add deterministic fixture inputs and command"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+    "elapsed_seconds": 0.8350057601928711,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 5,
+    "returncode": 0,
+    "started_unix": 1792026287.3019352
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005910158157348633,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 6,
+    "returncode": 0,
+    "started_unix": 1792026288.1371388
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "datalad",
+      "run",
+      "--explicit",
+      "-i",
+      "input.json",
+      "-o",
+      "outputs/result.json",
+      "-m",
+      "compute fixture sum",
+      "--",
+      "python",
+      "compute.py"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+    "elapsed_seconds": 1.351557970046997,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 7,
+    "returncode": 0,
+    "started_unix": 1792026288.143213
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006501197814941406,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 8,
+    "returncode": 0,
+    "started_unix": 1792026289.495431
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.012684106826782227,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 9,
+    "returncode": 0,
+    "started_unix": 1792026289.502122
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "ls-tree",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.009179115295410156,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 10,
+    "returncode": 0,
+    "started_unix": 1792026289.516049
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a:outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006564140319824219,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 11,
+    "returncode": 0,
+    "started_unix": 1792026289.525419
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "annex",
+      "lookupkey",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+    "elapsed_seconds": 0.0783989429473877,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 12,
+    "returncode": 0,
+    "started_unix": 1792026289.532192
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.026327133178710938,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 13,
+    "returncode": 0,
+    "started_unix": 1792026289.61133
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005627870559692383,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 14,
+    "returncode": 0,
+    "started_unix": 1792026289.637845
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+      "checkout",
+      "--detach",
+      "ccf766583ca825db7f468293d4583244ab54c705"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.008029937744140625,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 15,
+    "returncode": 0,
+    "started_unix": 1792026289.643848
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+      "annex",
+      "init",
+      "local rehearsal native-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+    "elapsed_seconds": 0.23018789291381836,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 16,
+    "returncode": 0,
+    "started_unix": 1792026289.652116
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "python",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/rehearse.py",
+      "replay",
+      "--mode",
+      "native",
+      "--workspace",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+      "--revision",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a",
+      "--base",
+      "ccf766583ca825db7f468293d4583244ab54c705",
+      "--receipt",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/receipts/rehearsal-001/native-replay.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+    "elapsed_seconds": 0.609971284866333,
+    "expected_returncodes": [
+      2
+    ],
+    "number": 17,
+    "returncode": 2,
+    "started_unix": 1792026289.882737
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.02892589569091797,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 18,
+    "returncode": 0,
+    "started_unix": 1792026290.493217
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006470918655395508,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 19,
+    "returncode": 0,
+    "started_unix": 1792026290.522402
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "checkout",
+      "--detach",
+      "ccf766583ca825db7f468293d4583244ab54c705"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.008156061172485352,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 20,
+    "returncode": 0,
+    "started_unix": 1792026290.529275
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "annex",
+      "init",
+      "local rehearsal compat-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+    "elapsed_seconds": 0.22087407112121582,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 21,
+    "returncode": 0,
+    "started_unix": 1792026290.537638
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "python",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/rehearse.py",
+      "replay",
+      "--mode",
+      "compat",
+      "--workspace",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "--revision",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a",
+      "--base",
+      "ccf766583ca825db7f468293d4583244ab54c705",
+      "--receipt",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/receipts/rehearsal-001/compat-replay.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+    "elapsed_seconds": 1.715820074081421,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 22,
+    "returncode": 0,
+    "started_unix": 1792026290.75892
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.02606987953186035,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 23,
+    "returncode": 0,
+    "started_unix": 1792026292.475397
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005342960357666016,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 24,
+    "returncode": 0,
+    "started_unix": 1792026292.5016892
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control",
+      "checkout",
+      "--detach",
+      "ccf766583ca825db7f468293d4583244ab54c705"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.00806117057800293,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 25,
+    "returncode": 0,
+    "started_unix": 1792026292.507325
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control",
+      "annex",
+      "init",
+      "local rehearsal noop-control"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control",
+    "elapsed_seconds": 0.20819592475891113,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 26,
+    "returncode": 0,
+    "started_unix": 1792026292.515638
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "datalad",
+      "run",
+      "--explicit",
+      "-o",
+      "outputs/result.json",
+      "-m",
+      "no-op negative control",
+      "--",
+      "python",
+      "-c",
+      "pass"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control",
+    "elapsed_seconds": 0.3091590404510498,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 27,
+    "returncode": 0,
+    "started_unix": 1792026292.724195
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.02741384506225586,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 28,
+    "returncode": 0,
+    "started_unix": 1792026293.0337741
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005916118621826172,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 29,
+    "returncode": 0,
+    "started_unix": 1792026293.06147
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "annex",
+      "init",
+      "local rehearsal independent-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+    "elapsed_seconds": 0.21414589881896973,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 30,
+    "returncode": 0,
+    "started_unix": 1792026293.0677462
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "remote",
+      "rename",
+      "origin",
+      "local-transfer"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.01012420654296875,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 31,
+    "returncode": 0,
+    "started_unix": 1792026293.2821949
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "ls-tree",
+      "HEAD",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006125926971435547,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 32,
+    "returncode": 0,
+    "started_unix": 1792026293.292587
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "annex",
+      "get",
+      "--from=local-transfer",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+    "elapsed_seconds": 0.16805720329284668,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 33,
+    "returncode": 0,
+    "started_unix": 1792026293.299018
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver",
+      "remote",
+      "get-url",
+      "local-transfer"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005465030670166016,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 34,
+    "returncode": 0,
+    "started_unix": 1792026293.467407
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "worktree",
+      "add",
+      "-b",
+      "codex/peer",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/peer-worktree",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.1709282398223877,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 35,
+    "returncode": 0,
+    "started_unix": 1792026293.473276
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.007309913635253906,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 36,
+    "returncode": 0,
+    "started_unix": 1792026293.644665
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/peer-worktree",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.07105803489685059,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 37,
+    "returncode": 0,
+    "started_unix": 1792026293.652246
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.0067179203033447266,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 38,
+    "returncode": 0,
+    "started_unix": 1792026293.723667
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "bundle",
+      "create",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/archives/rehearsal-001/fixture-history.bundle",
+      "--all"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.013972997665405273,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 39,
+    "returncode": 0,
+    "started_unix": 1792026293.730813
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/archives/rehearsal-001/fixture-history.bundle",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.025030851364135742,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 40,
+    "returncode": 0,
+    "started_unix": 1792026293.745045
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver",
+      "ls-tree",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005860328674316406,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 41,
+    "returncode": 0,
+    "started_unix": 1792026293.7703328
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver",
+      "show",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a:outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.0055141448974609375,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 42,
+    "returncode": 0,
+    "started_unix": 1792026293.776428
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "rev-list",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006311893463134766,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 43,
+    "returncode": 0,
+    "started_unix": 1792026293.869473
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005797863006591797,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 44,
+    "returncode": 0,
+    "started_unix": 1792026293.8760462
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "ccf766583ca825db7f468293d4583244ab54c705"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006203889846801758,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 45,
+    "returncode": 0,
+    "started_unix": 1792026293.8822532
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005743265151977539,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 46,
+    "returncode": 0,
+    "started_unix": 1792026293.8887239
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "rev-list",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.0057680606842041016,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 47,
+    "returncode": 0,
+    "started_unix": 1792026293.894727
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "de0e903728e31f8ee7ef11048f456cbe24f21fb2"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005818843841552734,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 48,
+    "returncode": 0,
+    "started_unix": 1792026293.9007711
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "ccf766583ca825db7f468293d4583244ab54c705"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.005425930023193359,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 49,
+    "returncode": 0,
+    "started_unix": 1792026293.9069052
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001",
+    "elapsed_seconds": 0.006228923797607422,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 50,
+    "returncode": 0,
+    "started_unix": 1792026293.9125671
+  }
+]

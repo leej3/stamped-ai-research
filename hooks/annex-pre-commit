@@ -1,0 +1,3 @@
+#!/bin/sh
+# Process live annex paths, never literal captured pointer text.
+exec git annex pre-commit archives logs

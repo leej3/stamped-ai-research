@@ -1,0 +1,23 @@
+{
+  "datalad_version": "1.7.1",
+  "effective_run_info": null,
+  "mode": "native",
+  "native_record_recognized": false,
+  "ok": false,
+  "original_message_sha256": "1dd551d9ffde3774aa5f2627891911a927439eb9cf5b3b71c62d85c64a6507e0",
+  "parser_file": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py",
+  "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3",
+  "prefix_matches": true,
+  "results": [
+    {
+      "action": "run",
+      "message": [
+        "No run commits found in range %s",
+        "8b9fdf614be370f63e73c65ace796f3f9683fb6a^..8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+      ],
+      "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay",
+      "status": "impossible",
+      "type": "dataset"
+    }
+  ]
+}

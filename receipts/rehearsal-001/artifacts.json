@@ -1,0 +1,12 @@
+[
+  {
+    "bytes": 3071,
+    "path": "archives/rehearsal-001/fixture-history.bundle",
+    "sha256": "22003d14b50a16f0c8e7c730e28adece59c8048366051ad02c44a81ca5a46c88"
+  },
+  {
+    "bytes": 135394,
+    "path": "archives/rehearsal-001/fixture-repositories.tar.gz",
+    "sha256": "f0e72d5f7670cb12f71bfd6dccf2a200bea80d2a5619b451b1d9036129cb5ee6"
+  }
+]

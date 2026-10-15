@@ -1,0 +1,10 @@
+{
+  "pixi_lock_sha256": "947dcf1b61bfc9bbbbaaf699a39c6230c3443a404d9ad4a1a112466ad86b99f3",
+  "pixi_manifest": "/Users/johnlee/code/CON/stamped-ai-research/pixi.toml",
+  "pixi_manifest_sha256": "e32e9e7896fc49cedb4bb661532307326a0108c6b9adfc8592959d27a58a49f3",
+  "provenance_resolver": "/Users/johnlee/code/CON/skills-workshop/.agents/skills/commit-provenance/scripts/resolve.sh",
+  "provenance_resolver_sha256": "7b99c2dbe34bd90cbd5cf2ac54525e7fbf855f081b0c451733755cbfefc55960",
+  "scope": "technical fixture; local transfer only; no scientific trial or push",
+  "script": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/rehearse.py",
+  "script_sha256": "9d1b4f8ef5369fd4d5e9e63cca61983bb62279c590b69650c64051f3b41d168a"
+}

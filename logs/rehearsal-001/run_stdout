@@ -1,0 +1,228 @@
+COMMAND 1: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml python -c 'import datalad; print(datalad.__version__)'
+1.7.1
+COMMAND 2: git init -b codex/fixture /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source
+Initialized empty Git repository in /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source/.git/
+COMMAND 3: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source/.git/hooks
+COMMAND 4: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml datalad create --force -D 'local workflow rehearsal' -m 'chore: initialize local rehearsal fixture' .
+create(ok): /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source (dataset)
+COMMAND 5: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml datalad save -m 'chore: add deterministic fixture inputs and command'
+add(ok): compute.py (file)
+add(ok): input.json (file)
+add(ok): .gitattributes (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 3)
+  save (ok: 1)
+COMMAND 6: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source rev-parse HEAD
+ccf766583ca825db7f468293d4583244ab54c705
+COMMAND 7: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml datalad run --explicit -i input.json -o outputs/result.json -m 'compute fixture sum' -- python compute.py
+run(ok): /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source (dataset) [python compute.py]
+add(ok): outputs/result.json (file)
+save(ok): . (dataset)
+COMMAND 8: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source rev-parse HEAD
+8b9fdf614be370f63e73c65ace796f3f9683fb6a
+COMMAND 9: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show -s --format=%B 8b9fdf614be370f63e73c65ace796f3f9683fb6a
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 10: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source ls-tree 8b9fdf614be370f63e73c65ace796f3f9683fb6a -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 11: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show 8b9fdf614be370f63e73c65ace796f3f9683fb6a:outputs/result.json
+../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.jsonCOMMAND 12: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source annex lookupkey outputs/result.json
+SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json
+COMMAND 13: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay
+COMMAND 14: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay/.git/hooks
+COMMAND 15: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay checkout --detach ccf766583ca825db7f468293d4583244ab54c705
+COMMAND 16: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay annex init 'local rehearsal native-replay'
+init local rehearsal native-replay ok
+(recording state in git...)
+COMMAND 17: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml python /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/rehearse.py replay --mode native --workspace /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay --revision 8b9fdf614be370f63e73c65ace796f3f9683fb6a --base ccf766583ca825db7f468293d4583244ab54c705 --receipt /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/receipts/rehearsal-001/native-replay.json
+{"mode": "native", "datalad_version": "1.7.1", "parser_file": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py", "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3", "native_record_recognized": false, "prefix_matches": true, "original_message_sha256": "1dd551d9ffde3774aa5f2627891911a927439eb9cf5b3b71c62d85c64a6507e0", "effective_run_info": null, "results": [{"action": "run", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/native-replay", "type": "dataset", "status": "impossible", "message": ["No run commits found in range %s", "8b9fdf614be370f63e73c65ace796f3f9683fb6a^..8b9fdf614be370f63e73c65ace796f3f9683fb6a"]}], "ok": false}
+COMMAND 18: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay
+COMMAND 19: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay/.git/hooks
+COMMAND 20: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay checkout --detach ccf766583ca825db7f468293d4583244ab54c705
+COMMAND 21: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay annex init 'local rehearsal compat-replay'
+init local rehearsal compat-replay ok
+(recording state in git...)
+COMMAND 22: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml python /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/rehearse.py replay --mode compat --workspace /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay --revision 8b9fdf614be370f63e73c65ace796f3f9683fb6a --base ccf766583ca825db7f468293d4583244ab54c705 --receipt /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/receipts/rehearsal-001/compat-replay.json
+{"mode": "compat", "datalad_version": "1.7.1", "parser_file": "/Users/johnlee/code/CON/stamped-ai-research/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py", "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3", "native_record_recognized": false, "prefix_matches": true, "original_message_sha256": "1dd551d9ffde3774aa5f2627891911a927439eb9cf5b3b71c62d85c64a6507e0", "effective_run_info": {"chain": [], "cmd": "python compute.py", "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52", "exit": 0, "extra_inputs": [], "inputs": ["input.json"], "outputs": ["outputs/result.json"], "pwd": "."}, "results": [{"action": "get", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay/input.json", "type": "file", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay", "status": "notneeded", "message": "already present"}, {"action": "run", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay", "type": "dataset", "status": "ok", "message": "python compute.py", "run_info": {"cmd": "python compute.py", "chain": ["8b9fdf614be370f63e73c65ace796f3f9683fb6a"], "inputs": ["input.json"], "extra_inputs": [], "outputs": ["outputs/result.json"], "pwd": ".", "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52", "exit": 0}, "exit_code": 0, "msg_path": null}, {"action": "add", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay/outputs/result.json", "type": "file", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay", "status": "ok", "message": "", "key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json"}, {"action": "save", "type": "dataset", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay", "status": "ok"}], "ok": true}
+COMMAND 23: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control
+COMMAND 24: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control/.git/hooks
+COMMAND 25: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control checkout --detach ccf766583ca825db7f468293d4583244ab54c705
+COMMAND 26: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control annex init 'local rehearsal noop-control'
+init local rehearsal noop-control ok
+(recording state in git...)
+COMMAND 27: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml datalad run --explicit -o outputs/result.json -m 'no-op negative control' -- python -c pass
+run(ok): /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/noop-control (dataset) [python -c pass]
+COMMAND 28: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver
+COMMAND 29: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver/.git/hooks
+COMMAND 30: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver annex init 'local rehearsal independent-receiver'
+init local rehearsal independent-receiver ok
+(recording state in git...)
+COMMAND 31: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver remote rename origin local-transfer
+COMMAND 32: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver ls-tree HEAD -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 33: pixi run --manifest-path /Users/johnlee/code/CON/stamped-ai-research/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver annex get --from=local-transfer outputs/result.json
+get outputs/result.json (from local-transfer...) 
+
+100%  24 B            162 KiB/s 0s
+                                  
+ok
+(recording state in git...)
+COMMAND 34: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/independent-receiver remote get-url local-transfer
+/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source
+COMMAND 35: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source worktree add -b codex/peer /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/peer-worktree 8b9fdf614be370f63e73c65ace796f3f9683fb6a
+HEAD is now at 8b9fdf6 feat: retain recorded fixture computation
+COMMAND 36: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source status --short
+ M compute.py
+COMMAND 37: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/peer-worktree status --short
+ M input.json
+COMMAND 38: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show -s --format=%B 8b9fdf614be370f63e73c65ace796f3f9683fb6a
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 39: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source bundle create /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/archives/rehearsal-001/fixture-history.bundle --all
+COMMAND 40: git clone /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/archives/rehearsal-001/fixture-history.bundle /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver
+COMMAND 41: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver ls-tree 8b9fdf614be370f63e73c65ace796f3f9683fb6a -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 42: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/bundle-receiver show 8b9fdf614be370f63e73c65ace796f3f9683fb6a:outputs/result.json
+../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.jsonCOMMAND 43: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source rev-list HEAD
+8b9fdf614be370f63e73c65ace796f3f9683fb6a
+ccf766583ca825db7f468293d4583244ab54c705
+7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673
+COMMAND 44: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show -s --format=%B 8b9fdf614be370f63e73c65ace796f3f9683fb6a
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 45: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show -s --format=%B ccf766583ca825db7f468293d4583244ab54c705
+chore: add deterministic fixture inputs and command
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 46: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/source show -s --format=%B 7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673
+chore: [DATALAD] new dataset
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 47: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay rev-list HEAD
+de0e903728e31f8ee7ef11048f456cbe24f21fb2
+ccf766583ca825db7f468293d4583244ab54c705
+7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673
+COMMAND 48: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay show -s --format=%B de0e903728e31f8ee7ef11048f456cbe24f21fb2
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [
+  "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+ ],
+ "cmd": "python compute.py",
+ "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 49: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay show -s --format=%B ccf766583ca825db7f468293d4583244ab54c705
+chore: add deterministic fixture inputs and command
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 50: git -C /Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/work/rehearsal-001/compat-replay show -s --format=%B 7a5a5f3d5c71829ffa0723ff9680a4bd8ede8673
+chore: [DATALAD] new dataset
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+{
+  "status": "passed",
+  "checks": 15,
+  "run_revision": "8b9fdf614be370f63e73c65ace796f3f9683fb6a",
+  "base_revision": "ccf766583ca825db7f468293d4583244ab54c705",
+  "annex_key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+  "limitations": [
+    "DataLad 1.7.1 requires the disclosed adapter for this commit shape",
+    "retrieval is local and same-host, with no public remote tested",
+    "worktrees isolate tracked working files, not all repository administration",
+    "fixture is synthetic and is not a scientific efficacy trial",
+    "module has not been committed; outer duct completes after this script exits"
+  ]
+}

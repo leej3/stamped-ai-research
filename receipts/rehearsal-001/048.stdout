@@ -1,0 +1,26 @@
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [
+  "8b9fdf614be370f63e73c65ace796f3f9683fb6a"
+ ],
+ "cmd": "python compute.py",
+ "dsid": "c5db23e4-bc7c-431c-b4d3-05ea59950b52",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+

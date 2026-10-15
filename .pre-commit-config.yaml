@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: snapper
+        name: Format prose with Snapper
+        entry: snapper --in-place
+        language: system
+        types: [markdown]
+        exclude: ^(?:logs/|receipts/|agents/)

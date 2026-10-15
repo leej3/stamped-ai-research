@@ -1,0 +1,10 @@
+* annex.largefiles=(largerthan=128kb)
+*.py annex.largefiles=nothing
+*.md annex.largefiles=nothing
+*.json annex.largefiles=nothing
+*.toml annex.largefiles=nothing
+*.lock annex.largefiles=nothing
+.datalad/** annex.largefiles=nothing
+archives/** annex.largefiles=anything
+receipts/** -filter annex.largefiles=nothing
+hooks/** -filter annex.largefiles=nothing
