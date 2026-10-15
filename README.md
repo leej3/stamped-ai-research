@@ -20,7 +20,7 @@ The adapter supports only DataLad 1.7.1 and this exact leading-subject shape; it
   Each fixture code commit invokes it afresh from a fixture-only `prepare-commit-msg` hook.
   Missing exact provenance stops execution.
 - Git author identity already configured.
-  No credentials or network are needed.
+  Fixture execution needs no credentials or network; initial environment installation may use package indexes.
 
 These paths are explicit CLI inputs, not bundled dependencies.
 Receipt files record the script, manifest, lockfile, and resolver hashes.
@@ -29,12 +29,14 @@ This module does not modify global hooks, install packages, push repositories, o
 ## Run once
 
 Run from this module in your own worktree.
+First run `python3 configure_capture_paths.py` to keep literal receipt text out of git-annex's higher-priority local filter rules.
+This changes only this repository's shared `info/attributes`, preserving its other entries.
 Choose a new run ID for each justified execution; existing directories are never overwritten.
 The same ID labels the outer duct capture, receipts, archives, and retained fixtures.
 
 ```bash
 module="$PWD"
-run_id="rehearsal-001"
+run_id="rehearsal-$(date -u +%Y%m%dT%H%M%SZ)"
 duct -p "$module/logs/$run_id/run_" --fail-time 0 \
   --capture-outputs all --outputs all --record-types all \
   python3 "$module/rehearse.py" run \
@@ -99,13 +101,15 @@ Four fresh resolver events cover the four authored fixture code commits.
 
 See [the structured summary](receipts/rehearsal-001/summary.json), [individual checks](receipts/rehearsal-001/checks.json), and [the completed duct metadata and execution summary](logs/rehearsal-001/run_info.json).
 The original run revision is `8b9fdf614be370f63e73c65ace796f3f9683fb6a`.
-No module commit, remote push, credential operation, or scientific trial occurred.
+During that execution, no module commit, remote push, credential operation, or scientific trial occurred.
 
 ## Committing this module
 
 Literal command output can itself look like an annex pointer.
 The initial staging of `011.stdout` and `042.stdout` demonstrated that warning.
-Their bytes and regular-file mode were preserved; `receipts/**` now disables the annex clean filter.
+Their bytes and regular-file mode were preserved.
+The tracked `receipts/**` filter rule alone was insufficient: git-annex writes `* filter=annex` in the higher-priority local `info/attributes`.
+`configure_capture_paths.py` adds only the receipt/hook exceptions there, preserving all other rules.
 The coordinator also preserves Snapper and scopes the legacy annex pre-commit hook to the live `archives/` and `logs/` paths, using `hooks/annex-pre-commit`.
 The original local legacy hook is backed up.
 When installing hooks elsewhere, preserve existing hooks and compose this scoped annex step; do not overwrite an unrelated pre-commit hook.
@@ -120,3 +124,10 @@ That observation remains unchanged; the coordinator's later configuration check 
 
 This fixture does not exercise the historical STAMPED assessment validator, all existing user hooks, native agent-history publication, every annex layout, or another host.
 Keep those scopes separate from its passing checks.
+
+## Public archive availability
+
+The coordinator uploaded all four bundle/tar artifacts to the CON Hub and verified anonymous full retrieval against local bytes.
+See `public-archive-retrieval.json` for URLs, sizes and hashes, and `logs/archive-retrieval-01/` for the complete verification capture.
+This checks public delivery of the archives; the fixture's own retrieval test remains explicitly local.
+The original native fresh-reader session is linked by path and hash in `agents/naive-001-launch.json`; it is not claimed as a module-local full native-history export.

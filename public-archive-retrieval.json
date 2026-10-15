@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-10-15T01:14:34.162482+00:00",
+  "method": "anonymous full HTTP GET and exact byte comparison",
+  "scope": "coordinator archive delivery, separate from fixture-local retrieval",
+  "archives": [
+    {
+      "path": "archives/naive-001/fixture-history.bundle",
+      "key": "SHA256E-s3055--30c338739c35ea320154cd5d9ae10c4a7a0e6e8f870e91b099d53798c35671a5",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s3055--30c338739c35ea320154cd5d9ae10c4a7a0e6e8f870e91b099d53798c35671a5",
+      "http_status": 200,
+      "bytes": 3055,
+      "sha256": "30c338739c35ea320154cd5d9ae10c4a7a0e6e8f870e91b099d53798c35671a5"
+    },
+    {
+      "path": "archives/naive-001/fixture-repositories.tar.gz",
+      "key": "SHA256E-s134533--ef1815befd0f4c7325fcadde8e022de8ffc74b6ddd68153796b2ff6568cb8033.tar.gz",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s134533--ef1815befd0f4c7325fcadde8e022de8ffc74b6ddd68153796b2ff6568cb8033.tar.gz",
+      "http_status": 200,
+      "bytes": 134533,
+      "sha256": "ef1815befd0f4c7325fcadde8e022de8ffc74b6ddd68153796b2ff6568cb8033"
+    },
+    {
+      "path": "archives/rehearsal-001/fixture-history.bundle",
+      "key": "SHA256E-s3071--22003d14b50a16f0c8e7c730e28adece59c8048366051ad02c44a81ca5a46c88",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s3071--22003d14b50a16f0c8e7c730e28adece59c8048366051ad02c44a81ca5a46c88",
+      "http_status": 200,
+      "bytes": 3071,
+      "sha256": "22003d14b50a16f0c8e7c730e28adece59c8048366051ad02c44a81ca5a46c88"
+    },
+    {
+      "path": "archives/rehearsal-001/fixture-repositories.tar.gz",
+      "key": "SHA256E-s135394--f0e72d5f7670cb12f71bfd6dccf2a200bea80d2a5619b451b1d9036129cb5ee6.tar.gz",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s135394--f0e72d5f7670cb12f71bfd6dccf2a200bea80d2a5619b451b1d9036129cb5ee6.tar.gz",
+      "http_status": 200,
+      "bytes": 135394,
+      "sha256": "f0e72d5f7670cb12f71bfd6dccf2a200bea80d2a5619b451b1d9036129cb5ee6"
+    }
+  ]
+}
