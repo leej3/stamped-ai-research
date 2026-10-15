@@ -1,0 +1,10 @@
+{
+  "figures": 2,
+  "formats": [
+    "svg",
+    "png",
+    "pdf"
+  ],
+  "source_files": 5,
+  "arm_agreement_checked": true
+}

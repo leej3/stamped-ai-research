@@ -7,10 +7,13 @@ The public mixed-gambles case replaces an ABCD proposal whose data access was no
 All three pairs are assessed: both arms matched the actual-data checks and passed fresh-checkout scientific replay.
 Stage 03 treatment failed two required missing-token screening cases, which remain unrepaired.
 These small, unblinded comparisons share account infrastructure and do not establish general skill effectiveness.
-The editable poster and checked PDF are delivered; see [delivery details](research/DELIVERY.md) for retrieval, private captures, and two unavailable diagnostic images.
+The editable poster and checked PDF are delivered in [draft PR 35](https://github.com/con/talks/pull/35).
+The later asset update reused the existing artwork and uploaded the previously missing archival images; the initial [delivery details](research/DELIVERY.md) remain a historical handoff record.
 
 ## Start here
 
+- [Follow-up and technical rehearsal](research/retrospective/README.md): isolation audit, integration failures, skill PR improvements and two summary figures.
+- [Working agreement](research/WORKFLOW.md) and [sensitivity policy draft](research/SENSITIVITY-POLICY.md): complete module-local records, worktrees, annex and a proposed risk threshold.
 - [Study report](research/REPORT.md): results, measured costs, limitations, configuration amendment, and retained failures.
 - [Current status](research/STATUS.md): completed work and remaining delivery.
 - [Protocol](research/mixed-gambles-design/protocol.md) and [fixed scientific specification](research/mixed-gambles-design/protocol.json).

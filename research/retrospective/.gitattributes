@@ -1,0 +1,7 @@
+figures/*.png annex.largefiles=anything
+figures/*.pdf annex.largefiles=anything
+figures/*.svg annex.largefiles=anything
+review/*.png annex.largefiles=anything
+figures/*.tsv annex.largefiles=nothing
+*.json annex.largefiles=nothing
+*.py annex.largefiles=nothing

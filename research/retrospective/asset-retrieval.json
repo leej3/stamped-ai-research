@@ -1,0 +1,78 @@
+{
+  "checked_utc": "2026-10-15T01:05:30.173874+00:00",
+  "method": "Anonymous full HTTP GET; exact byte comparison; registered URL",
+  "objects": [
+    {
+      "path": "research/retrospective/figures/pilot-time-and-checks.pdf",
+      "key": "SHA256E-s25914--e997bea0a9a152f45ba0874aa5d388468ed9d46f8f5b06d3867f44f1c37eca01.pdf",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s25914--e997bea0a9a152f45ba0874aa5d388468ed9d46f8f5b06d3867f44f1c37eca01.pdf",
+      "http_status": 200,
+      "bytes": 25914,
+      "sha256": "e997bea0a9a152f45ba0874aa5d388468ed9d46f8f5b06d3867f44f1c37eca01",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/figures/pilot-time-and-checks.png",
+      "key": "SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png",
+      "http_status": 200,
+      "bytes": 145771,
+      "sha256": "5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/figures/pilot-time-and-checks.svg",
+      "key": "SHA256E-s15170--3a31b45499e16fbf561291f5eb163bdea13c6c750efdca221e024964f16d6bc4.svg",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s15170--3a31b45499e16fbf561291f5eb163bdea13c6c750efdca221e024964f16d6bc4.svg",
+      "http_status": 200,
+      "bytes": 15170,
+      "sha256": "3a31b45499e16fbf561291f5eb163bdea13c6c750efdca221e024964f16d6bc4",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/figures/response-time-sensitivity.pdf",
+      "key": "SHA256E-s26721--4320278d274421f4b034f19b27c62c1758ce257738b2e39dcfb1f43616a238f5.pdf",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s26721--4320278d274421f4b034f19b27c62c1758ce257738b2e39dcfb1f43616a238f5.pdf",
+      "http_status": 200,
+      "bytes": 26721,
+      "sha256": "4320278d274421f4b034f19b27c62c1758ce257738b2e39dcfb1f43616a238f5",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/figures/response-time-sensitivity.png",
+      "key": "SHA256E-s164097--604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24.png",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s164097--604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24.png",
+      "http_status": 200,
+      "bytes": 164097,
+      "sha256": "604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/figures/response-time-sensitivity.svg",
+      "key": "SHA256E-s12689--0349fd952bd0befa48a4941f3ae1e9bae789c22eef1e33d687ce4151ed2ff550.svg",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s12689--0349fd952bd0befa48a4941f3ae1e9bae789c22eef1e33d687ce4151ed2ff550.svg",
+      "http_status": 200,
+      "bytes": 12689,
+      "sha256": "0349fd952bd0befa48a4941f3ae1e9bae789c22eef1e33d687ce4151ed2ff550",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/review/pilot-time-and-checks.png",
+      "key": "SHA256E-s43356--af9c312dfcdb3dd774ed121c2173cae81c828bda476f79b9f6f51d2aa770673b.png",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s43356--af9c312dfcdb3dd774ed121c2173cae81c828bda476f79b9f6f51d2aa770673b.png",
+      "http_status": 200,
+      "bytes": 43356,
+      "sha256": "af9c312dfcdb3dd774ed121c2173cae81c828bda476f79b9f6f51d2aa770673b",
+      "matches_local": true
+    },
+    {
+      "path": "research/retrospective/review/response-time-sensitivity.png",
+      "key": "SHA256E-s45326--4d9d71c23b7900aca18532750af09a3834d084c5429fbe652eebf4c29fee2094.png",
+      "url": "https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s45326--4d9d71c23b7900aca18532750af09a3834d084c5429fbe652eebf4c29fee2094.png",
+      "http_status": 200,
+      "bytes": 45326,
+      "sha256": "4d9d71c23b7900aca18532750af09a3834d084c5429fbe652eebf4c29fee2094",
+      "matches_local": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "reviewer": "Codex coordinator",
+  "images": [
+    {
+      "path": "research/retrospective/figures/pilot-time-and-checks.png",
+      "sha256": "5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f"
+    },
+    {
+      "path": "research/retrospective/figures/response-time-sensitivity.png",
+      "sha256": "604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24"
+    }
+  ],
+  "reviewed": [
+    "no clipped labels",
+    "series distinguished by color and shape",
+    "time axis begins at zero",
+    "units and denominators explicit",
+    "intervals and zero reference visible",
+    "uncertainty and inference limits legible"
+  ],
+  "result": "passed_visual_inspection",
+  "poster_minimum_width_inches": 21.6,
+  "scope": "PNG previews and separate Poppler renders of both exported PDFs inspected; labels, intervals and layout passed.",
+  "pdf_render_images": [
+    {
+      "path": "research/retrospective/review/pilot-time-and-checks.png",
+      "sha256": "af9c312dfcdb3dd774ed121c2173cae81c828bda476f79b9f6f51d2aa770673b"
+    },
+    {
+      "path": "research/retrospective/review/response-time-sensitivity.png",
+      "sha256": "4d9d71c23b7900aca18532750af09a3834d084c5429fbe652eebf4c29fee2094"
+    }
+  ]
+}

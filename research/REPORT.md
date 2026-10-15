@@ -6,7 +6,9 @@ The defect was not repaired.
 Treatment used more worker time in every pair and added explicit research-record artifacts.
 Dependency gaps, native DataLad rerun failures, and stage 02 untracked bookkeeping files remain visible.
 These three exploratory pairs do not establish general skill effectiveness.
-The final editable poster and checked PDF are delivered; [delivery notes](DELIVERY.md) separate verified public assets, local private captures, and two incomplete ancillary image uploads.
+The final editable poster and checked PDF are delivered in [draft PR 35](https://github.com/con/talks/pull/35).
+The later asset update reused existing artwork and completed the archival image uploads; the initial [delivery notes](DELIVERY.md) remain historical.
+The [follow-up](retrospective/README.md) documents isolation, integration rehearsals, proposed skill improvements and figures without revising these stopped worker outcomes.
 
 The evidence of record is the [stage 01 assessment](mixed-gambles-design/evaluator/stage-01/assessment.json), with its [readable review](mixed-gambles-design/evaluator/stage-01/review.md), the [stage 02 assessment](mixed-gambles-design/evaluator/stage-02/assessment.json) with its [readable review](mixed-gambles-design/evaluator/stage-02/review.md), and the [stage 03 assessment](mixed-gambles-design/evaluator/stage-03/assessment.json) with its [readable review](mixed-gambles-design/evaluator/stage-03/review.md).
 The [stage 01](mixed-gambles-design/evaluator/stage-01/pair-review.json), [stage 02](mixed-gambles-design/evaluator/stage-02/pair-review.json), and [stage 03](mixed-gambles-design/evaluator/stage-03/pair-review.json) review gates passed; the last gate does not authorize an unspecified additional trial.

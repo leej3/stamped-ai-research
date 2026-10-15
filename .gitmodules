@@ -23,3 +23,7 @@
 	path = experiments/03-rt-sensitivity
 	url = https://github.com/leej3/stamped-ai-research.git
 	branch = codex/mixed-03-rt-sensitivity-source
+[submodule "experiments/04-workflow-rehearsal"]
+	path = experiments/04-workflow-rehearsal
+	url = git@github.com:leej3/stamped-ai-research.git
+	branch = codex/module-workflow-rehearsal

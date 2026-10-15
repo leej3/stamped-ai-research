@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-01/assessment.json",
+      "sha256": "7481c0a07ab8ee82dd13ef124666ff6deb017700887f43a977636bf6e7b5fce0"
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-02/assessment.json",
+      "sha256": "be41ba2194ae4afa4ef063e9906ff1d9481d52676320605567b2f623382bb691"
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/assessment.json",
+      "sha256": "3617219d7e21ec949cabb7ee8a9e554b37df2f7972d843277b6d6e014cc0d0f5"
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/baseline-original-normalized.json",
+      "sha256": "8bac3c8c0253def4bf3e852a02693529c9b8ef0409a2229bbcc0de2c0e667e0a"
+    },
+    {
+      "path": "research/mixed-gambles-design/evaluator/stage-03/treatment-original-normalized.json",
+      "sha256": "51a9c6e284fe52b272865a86a0501a6cab497316fa6fe388acc5f00e55eec2be"
+    }
+  ],
+  "script_sha256": "d45d89669f2eabbe7f7640319d9ef9c16f351c541e4a9a43e37c7633a0811da5",
+  "scope": "Coordinator communication figures from stopped, independently checked pilot results; no worker credit or new scientific trial.",
+  "outputs": [
+    {
+      "path": "figures/pilot-time-and-checks.pdf",
+      "bytes": 25914,
+      "sha256": "e997bea0a9a152f45ba0874aa5d388468ed9d46f8f5b06d3867f44f1c37eca01"
+    },
+    {
+      "path": "figures/pilot-time-and-checks.png",
+      "bytes": 145771,
+      "sha256": "5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f"
+    },
+    {
+      "path": "figures/pilot-time-and-checks.svg",
+      "bytes": 15170,
+      "sha256": "3a31b45499e16fbf561291f5eb163bdea13c6c750efdca221e024964f16d6bc4"
+    },
+    {
+      "path": "figures/response-time-sensitivity.pdf",
+      "bytes": 26721,
+      "sha256": "4320278d274421f4b034f19b27c62c1758ce257738b2e39dcfb1f43616a238f5"
+    },
+    {
+      "path": "figures/response-time-sensitivity.png",
+      "bytes": 164097,
+      "sha256": "604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24"
+    },
+    {
+      "path": "figures/response-time-sensitivity.svg",
+      "bytes": 12689,
+      "sha256": "0349fd952bd0befa48a4941f3ae1e9bae789c22eef1e33d687ce4151ed2ff550"
+    },
+    {
+      "path": "figures/sensitivity-estimates.tsv",
+      "bytes": 320,
+      "sha256": "7fd338e46b9263ac346d7e844d7949b1d07a4041176e7b5417eb2227b7829b57"
+    },
+    {
+      "path": "figures/worker-times.tsv",
+      "bytes": 201,
+      "sha256": "bb56f58600f795316964c5604d820ff0b8c77f9643883e53a180ac35ffd11150"
+    }
+  ]
+}

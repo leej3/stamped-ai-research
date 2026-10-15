@@ -1,0 +1,4 @@
+{
+  "figures-01": "Reconstructed exactly from the recorded edit; SHA-256 matches the source hash recorded before the next edit.",
+  "figures-02": "Copied before the line-ending-only change; SHA-256 matches its generation manifest."
+}

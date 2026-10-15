@@ -1,0 +1,20 @@
+{
+  "source_commit": "3db3674d639e63407fa5ac0f9c9012bf48c12727",
+  "dirty_at_run": true,
+  "scope": "Coordinator figure generation, not a new scientific trial",
+  "created_utc": "2026-10-15T01:03:03.287101+00:00",
+  "files": [
+    {
+      "path": "research/retrospective/make_figures.py",
+      "sha256": "304c9d642e3d9ba54e65eabd4daba11c956925a97237ab8769bf24ad258bd6bf"
+    },
+    {
+      "path": "research/retrospective/make_figures.py.lock",
+      "sha256": "0429dc0e13ae20efd03bfc443636bb8f77bf275684af33ea1ac79fe6cf64d0b4"
+    }
+  ],
+  "applies_to": [
+    "figures-02",
+    "pdf-review-01"
+  ]
+}
