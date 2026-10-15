@@ -109,3 +109,14 @@ Their bytes and regular-file mode were preserved; `receipts/**` now disables the
 The coordinator also preserves Snapper and scopes the legacy annex pre-commit hook to the live `archives/` and `logs/` paths, using `hooks/annex-pre-commit`.
 The original local legacy hook is backed up.
 When installing hooks elsewhere, preserve existing hooks and compose this scoped annex step; do not overwrite an unrelated pre-commit hook.
+
+## Fresh-context reader result
+
+A fresh-context reader on `codex/task-workflow-naive-01` followed the initial guide once, installed a new module Pixi prefix, and passed all 15 checks without assistance, fixes, or retries (9.789 seconds for the harness).
+Installation and environment verification are separate complete duct records.
+See `agents/naive-001-review.md` for exact steps and limits.
+The initial guide did not include the local filter setup above, so the reader observed the two nonblocking pointer-text warnings.
+That observation remains unchanged; the coordinator's later configuration check is separate evidence.
+
+This fixture does not exercise the historical STAMPED assessment validator, all existing user hooks, native agent-history publication, every annex layout, or another host.
+Keep those scopes separate from its passing checks.

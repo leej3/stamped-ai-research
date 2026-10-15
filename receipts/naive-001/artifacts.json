@@ -1,0 +1,12 @@
+[
+  {
+    "bytes": 3055,
+    "path": "archives/naive-001/fixture-history.bundle",
+    "sha256": "30c338739c35ea320154cd5d9ae10c4a7a0e6e8f870e91b099d53798c35671a5"
+  },
+  {
+    "bytes": 134533,
+    "path": "archives/naive-001/fixture-repositories.tar.gz",
+    "sha256": "ef1815befd0f4c7325fcadde8e022de8ffc74b6ddd68153796b2ff6568cb8033"
+  }
+]

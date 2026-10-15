@@ -1,0 +1,75 @@
+{
+  "datalad_version": "1.7.1",
+  "effective_run_info": {
+    "chain": [],
+    "cmd": "python compute.py",
+    "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+    "exit": 0,
+    "extra_inputs": [],
+    "inputs": [
+      "input.json"
+    ],
+    "outputs": [
+      "outputs/result.json"
+    ],
+    "pwd": "."
+  },
+  "mode": "compat",
+  "native_record_recognized": false,
+  "ok": true,
+  "original_message_sha256": "6f8de16cb6d5b30cd8b12cdb069028b3599ecd7b0f0fbe8a3d52c6364cb904b3",
+  "parser_file": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py",
+  "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3",
+  "prefix_matches": true,
+  "results": [
+    {
+      "action": "get",
+      "message": "already present",
+      "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/input.json",
+      "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "status": "notneeded",
+      "type": "file"
+    },
+    {
+      "action": "run",
+      "exit_code": 0,
+      "message": "python compute.py",
+      "msg_path": null,
+      "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "run_info": {
+        "chain": [
+          "bc075185decb23427a42766f50490ce86f99e36f"
+        ],
+        "cmd": "python compute.py",
+        "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+        "exit": 0,
+        "extra_inputs": [],
+        "inputs": [
+          "input.json"
+        ],
+        "outputs": [
+          "outputs/result.json"
+        ],
+        "pwd": "."
+      },
+      "status": "ok",
+      "type": "dataset"
+    },
+    {
+      "action": "add",
+      "key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+      "message": "",
+      "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/outputs/result.json",
+      "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "status": "ok",
+      "type": "file"
+    },
+    {
+      "action": "save",
+      "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "status": "ok",
+      "type": "dataset"
+    }
+  ]
+}

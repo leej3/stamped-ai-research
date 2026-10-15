@@ -1,0 +1,20 @@
+{
+  "agent_task": "/root/naive_workflow",
+  "fork_turns": "none",
+  "seed_commit": "981b9300af668ece958e37594622e97552c777d1",
+  "working_branch": "codex/task-workflow-naive-01",
+  "thread_id": "01a13d19-9dd7-7da1-ace3-12a4117e6f31",
+  "prompt_file": "naive-001-task.txt",
+  "native_history": {
+    "path": "/Users/johnlee/.codex/sessions/2026/10/14/rollout-2026-10-14T21-07-31-01a13d19-9dd7-7da1-ace3-12a4117e6f31.jsonl",
+    "bytes_at_inspection": 421723,
+    "sha256_at_inspection": "04b8a96ee97f007c403ff0d56ba875fdfb563fb64cbb09a2a676125736ada562",
+    "status": "retained at native source; linked here, not a claimed module-local full-history export"
+  },
+  "execution_capture": "all three completed direct duct captures are retained in this module",
+  "scope": "one fresh-context documentation reader on the prepared host; same-account tools and caches available; not a blinded skill-efficacy trial",
+  "coordinator_changes_after_reader_stopped": [
+    "added explicit local attribute setup to remove nonblocking pointer-text warnings",
+    "annexed archives and packaged this report; original run receipts unchanged"
+  ]
+}

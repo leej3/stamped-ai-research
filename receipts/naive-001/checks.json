@@ -1,0 +1,157 @@
+[
+  {
+    "name": "declared_datalad_version",
+    "observed": "1.7.1",
+    "passed": true
+  },
+  {
+    "annex_key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+    "base": "ac6098dd15e1329c314ddb494259e703d2b00135",
+    "name": "real_run_annexed_output",
+    "output": {
+      "exists": true,
+      "lexists": true,
+      "matches_expected": true,
+      "sha256": "f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6"
+    },
+    "passed": true,
+    "revision": "bc075185decb23427a42766f50490ce86f99e36f",
+    "symlink_target": "../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+    "tree_entry": "120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c\toutputs/result.json"
+  },
+  {
+    "annex_payloads": [],
+    "name": "native_replay_starts_without_outputs_or_payloads",
+    "output_lexists": false,
+    "passed": true
+  },
+  {
+    "name": "native_parser_failure_reproduced",
+    "passed": true,
+    "receipt": "native-replay.json"
+  },
+  {
+    "annex_payloads": [],
+    "name": "compat_replay_starts_without_outputs_or_payloads",
+    "output_lexists": false,
+    "passed": true
+  },
+  {
+    "name": "adapted_real_replay_regenerates_expected_bytes",
+    "output": {
+      "exists": true,
+      "lexists": true,
+      "matches_expected": true,
+      "sha256": "f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6"
+    },
+    "passed": true,
+    "qualification": "process-local compatibility adapter, not unmodified native rerun",
+    "receipt": "compat-replay.json"
+  },
+  {
+    "annex_payloads": [],
+    "name": "noop_starts_without_outputs_or_payloads",
+    "output_lexists": false,
+    "passed": true
+  },
+  {
+    "command_exit": 0,
+    "name": "successful_noop_rejected_by_same_output_verifier",
+    "passed": true,
+    "rejection_reason": "expected generated output missing",
+    "verification": {
+      "exists": false,
+      "lexists": false,
+      "matches_expected": false,
+      "sha256": null
+    }
+  },
+  {
+    "name": "receiver_content_initially_missing",
+    "passed": true,
+    "tree_entry": "120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c\toutputs/result.json"
+  },
+  {
+    "name": "explicit_local_remote_retrieval",
+    "output": {
+      "exists": true,
+      "lexists": true,
+      "matches_expected": true,
+      "sha256": "f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6"
+    },
+    "passed": true,
+    "remote_name": "local-transfer",
+    "remote_url": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+    "scope": "independent local checkout, same host; not public or cross-host retrieval"
+  },
+  {
+    "main_status": "M compute.py",
+    "name": "tracked_worktree_edits_isolated",
+    "passed": true,
+    "peer_status": "M input.json"
+  },
+  {
+    "name": "original_run_history_unchanged",
+    "original_run_revision": "bc075185decb23427a42766f50490ce86f99e36f",
+    "passed": true
+  },
+  {
+    "limitation": "Git bundle preserves Git history/pointers, not annex payloads",
+    "name": "bundle_preserves_annex_pointer",
+    "original_tree": "120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c\toutputs/result.json",
+    "passed": true,
+    "restored_tree": "120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c\toutputs/result.json",
+    "target": "../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json"
+  },
+  {
+    "archive_member": "source/outputs/result.json",
+    "name": "archive_preserves_symlink_representation",
+    "passed": true,
+    "scope": "tar retains complete repositories and annex objects; worktree administrative paths are local",
+    "symlink_target": "../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json"
+  },
+  {
+    "commits": [
+      {
+        "commit": "bc075185decb23427a42766f50490ce86f99e36f",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "source"
+      },
+      {
+        "commit": "ac6098dd15e1329c314ddb494259e703d2b00135",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "source"
+      },
+      {
+        "commit": "f880499974025b7d1fbed21358d0bc919596c2c0",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "source"
+      },
+      {
+        "commit": "9ec81f1e30b28a48eea1177becf2753415469326",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "compat-replay"
+      },
+      {
+        "commit": "ac6098dd15e1329c314ddb494259e703d2b00135",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "compat-replay"
+      },
+      {
+        "commit": "f880499974025b7d1fbed21358d0bc919596c2c0",
+        "conventional_subject": true,
+        "exact_trailers_present": true,
+        "repository": "compat-replay"
+      }
+    ],
+    "fresh_resolutions": "provenance.jsonl",
+    "name": "fixture_code_commits_have_fresh_provenance",
+    "passed": true,
+    "scope": "authored code branches; git-annex internal bookkeeping remains tool-generated"
+  }
+]

@@ -1,0 +1,3 @@
+run(ok): /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source (dataset) [python compute.py]
+add(ok): outputs/result.json (file)
+save(ok): . (dataset)

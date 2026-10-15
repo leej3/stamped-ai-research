@@ -1,0 +1,7 @@
+add(ok): compute.py (file)
+add(ok): input.json (file)
+add(ok): .gitattributes (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 3)
+  save (ok: 1)

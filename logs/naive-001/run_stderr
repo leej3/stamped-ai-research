@@ -1,0 +1,24 @@
+[INFO] Making sure inputs are available (this may take some time) 
+[INFO] == Command start (output follows) ===== 
+[INFO] == Command exit (modification check follows) ===== 
+Cloning into '/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay'...
+done.
+HEAD is now at ac6098d chore: add deterministic fixture inputs and command
+[INFO] No run commits found in range bc075185decb23427a42766f50490ce86f99e36f^..bc075185decb23427a42766f50490ce86f99e36f 
+Cloning into '/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay'...
+done.
+HEAD is now at ac6098d chore: add deterministic fixture inputs and command
+[INFO] checkout commit ac6098d; 
+[INFO] run commit bc07518; (compute fixture sum) 
+[INFO] Making sure inputs are available (this may take some time) 
+[INFO] == Command start (output follows) ===== 
+[INFO] == Command exit (modification check follows) ===== 
+Cloning into '/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control'...
+done.
+HEAD is now at ac6098d chore: add deterministic fixture inputs and command
+[INFO] == Command start (output follows) ===== 
+[INFO] == Command exit (modification check follows) ===== 
+Cloning into '/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver'...
+done.
+Preparing worktree (new branch 'codex/peer')
+Cloning into '/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver'...

@@ -8,3 +8,5 @@
 archives/** annex.largefiles=anything
 receipts/** -filter annex.largefiles=nothing
 hooks/** -filter annex.largefiles=nothing
+logs/** -whitespace
+receipts/** -whitespace

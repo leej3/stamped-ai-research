@@ -1,0 +1,14 @@
+{
+  "annex_key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+  "base_revision": "ac6098dd15e1329c314ddb494259e703d2b00135",
+  "checks": 15,
+  "limitations": [
+    "DataLad 1.7.1 requires the disclosed adapter for this commit shape",
+    "retrieval is local and same-host, with no public remote tested",
+    "worktrees isolate tracked working files, not all repository administration",
+    "fixture is synthetic and is not a scientific efficacy trial",
+    "module has not been committed; outer duct completes after this script exits"
+  ],
+  "run_revision": "bc075185decb23427a42766f50490ce86f99e36f",
+  "status": "passed"
+}

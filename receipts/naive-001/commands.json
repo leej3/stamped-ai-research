@@ -1,0 +1,983 @@
+[
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "python",
+      "-c",
+      "import datalad; print(datalad.__version__)"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.08466100692749023,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 1,
+    "returncode": 0,
+    "started_unix": 1792026506.118814
+  },
+  {
+    "argv": [
+      "git",
+      "init",
+      "-b",
+      "codex/fixture",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.010370016098022461,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 2,
+    "returncode": 0,
+    "started_unix": 1792026506.203996
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0053119659423828125,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 3,
+    "returncode": 0,
+    "started_unix": 1792026506.2145221
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "datalad",
+      "create",
+      "--force",
+      "-D",
+      "local workflow rehearsal",
+      "-m",
+      "chore: initialize local rehearsal fixture",
+      "."
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+    "elapsed_seconds": 1.1677310466766357,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 4,
+    "returncode": 0,
+    "started_unix": 1792026506.220078
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "datalad",
+      "save",
+      "-m",
+      "chore: add deterministic fixture inputs and command"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+    "elapsed_seconds": 0.7969069480895996,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 5,
+    "returncode": 0,
+    "started_unix": 1792026507.388156
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005532264709472656,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 6,
+    "returncode": 0,
+    "started_unix": 1792026508.185236
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "datalad",
+      "run",
+      "--explicit",
+      "-i",
+      "input.json",
+      "-o",
+      "outputs/result.json",
+      "-m",
+      "compute fixture sum",
+      "--",
+      "python",
+      "compute.py"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+    "elapsed_seconds": 1.0304710865020752,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 7,
+    "returncode": 0,
+    "started_unix": 1792026508.1908998
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005311012268066406,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 8,
+    "returncode": 0,
+    "started_unix": 1792026509.2215512
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "bc075185decb23427a42766f50490ce86f99e36f"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0052280426025390625,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 9,
+    "returncode": 0,
+    "started_unix": 1792026509.2270222
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "ls-tree",
+      "bc075185decb23427a42766f50490ce86f99e36f",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005545854568481445,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 10,
+    "returncode": 0,
+    "started_unix": 1792026509.2323961
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "bc075185decb23427a42766f50490ce86f99e36f:outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005522012710571289,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 11,
+    "returncode": 0,
+    "started_unix": 1792026509.238113
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "annex",
+      "lookupkey",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+    "elapsed_seconds": 0.07568788528442383,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 12,
+    "returncode": 0,
+    "started_unix": 1792026509.243802
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.024706125259399414,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 13,
+    "returncode": 0,
+    "started_unix": 1792026509.3201458
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005579710006713867,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 14,
+    "returncode": 0,
+    "started_unix": 1792026509.34505
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+      "checkout",
+      "--detach",
+      "ac6098dd15e1329c314ddb494259e703d2b00135"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.007272958755493164,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 15,
+    "returncode": 0,
+    "started_unix": 1792026509.350945
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+      "annex",
+      "init",
+      "local rehearsal native-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+    "elapsed_seconds": 0.2080080509185791,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 16,
+    "returncode": 0,
+    "started_unix": 1792026509.358481
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "python",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/rehearse.py",
+      "replay",
+      "--mode",
+      "native",
+      "--workspace",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+      "--revision",
+      "bc075185decb23427a42766f50490ce86f99e36f",
+      "--base",
+      "ac6098dd15e1329c314ddb494259e703d2b00135",
+      "--receipt",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/receipts/naive-001/native-replay.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay",
+    "elapsed_seconds": 3.17055606842041,
+    "expected_returncodes": [
+      2
+    ],
+    "number": 17,
+    "returncode": 2,
+    "started_unix": 1792026509.5669
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.024885892868041992,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 18,
+    "returncode": 0,
+    "started_unix": 1792026512.737895
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005831003189086914,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 19,
+    "returncode": 0,
+    "started_unix": 1792026512.763063
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "checkout",
+      "--detach",
+      "ac6098dd15e1329c314ddb494259e703d2b00135"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.00722813606262207,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 20,
+    "returncode": 0,
+    "started_unix": 1792026512.769255
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "annex",
+      "init",
+      "local rehearsal compat-replay"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+    "elapsed_seconds": 0.20425701141357422,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 21,
+    "returncode": 0,
+    "started_unix": 1792026512.776727
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "python",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/rehearse.py",
+      "replay",
+      "--mode",
+      "compat",
+      "--workspace",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "--revision",
+      "bc075185decb23427a42766f50490ce86f99e36f",
+      "--base",
+      "ac6098dd15e1329c314ddb494259e703d2b00135",
+      "--receipt",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/receipts/naive-001/compat-replay.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+    "elapsed_seconds": 1.4710028171539307,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 22,
+    "returncode": 0,
+    "started_unix": 1792026512.9813812
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.025538206100463867,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 23,
+    "returncode": 0,
+    "started_unix": 1792026514.4530518
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005431652069091797,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 24,
+    "returncode": 0,
+    "started_unix": 1792026514.4788322
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control",
+      "checkout",
+      "--detach",
+      "ac6098dd15e1329c314ddb494259e703d2b00135"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.007508039474487305,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 25,
+    "returncode": 0,
+    "started_unix": 1792026514.4846148
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control",
+      "annex",
+      "init",
+      "local rehearsal noop-control"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control",
+    "elapsed_seconds": 0.20383596420288086,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 26,
+    "returncode": 0,
+    "started_unix": 1792026514.492362
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "datalad",
+      "run",
+      "--explicit",
+      "-o",
+      "outputs/result.json",
+      "-m",
+      "no-op negative control",
+      "--",
+      "python",
+      "-c",
+      "pass"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control",
+    "elapsed_seconds": 0.3020908832550049,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 27,
+    "returncode": 0,
+    "started_unix": 1792026514.696577
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "--no-hardlinks",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0251619815826416,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 28,
+    "returncode": 0,
+    "started_unix": 1792026514.999058
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "config",
+      "--local",
+      "core.hooksPath",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver/.git/hooks"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005524873733520508,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 29,
+    "returncode": 0,
+    "started_unix": 1792026515.0244632
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "annex",
+      "init",
+      "local rehearsal independent-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+    "elapsed_seconds": 0.2050790786743164,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 30,
+    "returncode": 0,
+    "started_unix": 1792026515.030315
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "remote",
+      "rename",
+      "origin",
+      "local-transfer"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.00941014289855957,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 31,
+    "returncode": 0,
+    "started_unix": 1792026515.23564
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "ls-tree",
+      "HEAD",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.006280183792114258,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 32,
+    "returncode": 0,
+    "started_unix": 1792026515.2453299
+  },
+  {
+    "argv": [
+      "pixi",
+      "run",
+      "--manifest-path",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml",
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "annex",
+      "get",
+      "--from=local-transfer",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+    "elapsed_seconds": 0.16668176651000977,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 33,
+    "returncode": 0,
+    "started_unix": 1792026515.2519271
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver",
+      "remote",
+      "get-url",
+      "local-transfer"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0060939788818359375,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 34,
+    "returncode": 0,
+    "started_unix": 1792026515.418941
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "worktree",
+      "add",
+      "-b",
+      "codex/peer",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/peer-worktree",
+      "bc075185decb23427a42766f50490ce86f99e36f"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.16445374488830566,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 35,
+    "returncode": 0,
+    "started_unix": 1792026515.4254231
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.006467103958129883,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 36,
+    "returncode": 0,
+    "started_unix": 1792026515.590324
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/peer-worktree",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.06830477714538574,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 37,
+    "returncode": 0,
+    "started_unix": 1792026515.597006
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "bc075185decb23427a42766f50490ce86f99e36f"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.006204843521118164,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 38,
+    "returncode": 0,
+    "started_unix": 1792026515.66574
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "bundle",
+      "create",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/archives/naive-001/fixture-history.bundle",
+      "--all"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.014309167861938477,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 39,
+    "returncode": 0,
+    "started_unix": 1792026515.6722639
+  },
+  {
+    "argv": [
+      "git",
+      "clone",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/archives/naive-001/fixture-history.bundle",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.025656700134277344,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 40,
+    "returncode": 0,
+    "started_unix": 1792026515.6868732
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver",
+      "ls-tree",
+      "bc075185decb23427a42766f50490ce86f99e36f",
+      "--",
+      "outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.006164073944091797,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 41,
+    "returncode": 0,
+    "started_unix": 1792026515.712817
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver",
+      "show",
+      "bc075185decb23427a42766f50490ce86f99e36f:outputs/result.json"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005938053131103516,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 42,
+    "returncode": 0,
+    "started_unix": 1792026515.71926
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "rev-list",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.006762981414794922,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 43,
+    "returncode": 0,
+    "started_unix": 1792026515.810949
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "bc075185decb23427a42766f50490ce86f99e36f"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.00550389289855957,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 44,
+    "returncode": 0,
+    "started_unix": 1792026515.817975
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "ac6098dd15e1329c314ddb494259e703d2b00135"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0056650638580322266,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 45,
+    "returncode": 0,
+    "started_unix": 1792026515.823808
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source",
+      "show",
+      "-s",
+      "--format=%B",
+      "f880499974025b7d1fbed21358d0bc919596c2c0"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005747079849243164,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 46,
+    "returncode": 0,
+    "started_unix": 1792026515.82972
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "rev-list",
+      "HEAD"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0060269832611083984,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 47,
+    "returncode": 0,
+    "started_unix": 1792026515.8357692
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "9ec81f1e30b28a48eea1177becf2753415469326"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0055561065673828125,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 48,
+    "returncode": 0,
+    "started_unix": 1792026515.8420339
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "ac6098dd15e1329c314ddb494259e703d2b00135"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.005877971649169922,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 49,
+    "returncode": 0,
+    "started_unix": 1792026515.8478231
+  },
+  {
+    "argv": [
+      "git",
+      "-C",
+      "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay",
+      "show",
+      "-s",
+      "--format=%B",
+      "f880499974025b7d1fbed21358d0bc919596c2c0"
+    ],
+    "cwd": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001",
+    "elapsed_seconds": 0.0058977603912353516,
+    "expected_returncodes": [
+      0
+    ],
+    "number": 50,
+    "returncode": 0,
+    "started_unix": 1792026515.853984
+  }
+]

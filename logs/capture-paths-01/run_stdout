@@ -1,0 +1,9 @@
+{
+  "attributes_file": "/Users/johnlee/.local/share/wt-utils/worktrees/9e6e/stamped-ai-research/experiments/04-workflow-rehearsal/.git/info/attributes",
+  "added_lines": [
+    "receipts/** -filter",
+    "hooks/** -filter"
+  ],
+  "filter_check": "receipts/example.stdout: filter: unset",
+  "scope": "shared by this repository's worktrees"
+}

@@ -1,0 +1,228 @@
+COMMAND 1: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml python -c 'import datalad; print(datalad.__version__)'
+1.7.1
+COMMAND 2: git init -b codex/fixture /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source
+Initialized empty Git repository in /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source/.git/
+COMMAND 3: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source/.git/hooks
+COMMAND 4: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml datalad create --force -D 'local workflow rehearsal' -m 'chore: initialize local rehearsal fixture' .
+create(ok): /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source (dataset)
+COMMAND 5: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml datalad save -m 'chore: add deterministic fixture inputs and command'
+add(ok): compute.py (file)
+add(ok): input.json (file)
+add(ok): .gitattributes (file)
+save(ok): . (dataset)
+action summary:
+  add (ok: 3)
+  save (ok: 1)
+COMMAND 6: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source rev-parse HEAD
+ac6098dd15e1329c314ddb494259e703d2b00135
+COMMAND 7: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml datalad run --explicit -i input.json -o outputs/result.json -m 'compute fixture sum' -- python compute.py
+run(ok): /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source (dataset) [python compute.py]
+add(ok): outputs/result.json (file)
+save(ok): . (dataset)
+COMMAND 8: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source rev-parse HEAD
+bc075185decb23427a42766f50490ce86f99e36f
+COMMAND 9: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show -s --format=%B bc075185decb23427a42766f50490ce86f99e36f
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 10: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source ls-tree bc075185decb23427a42766f50490ce86f99e36f -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 11: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show bc075185decb23427a42766f50490ce86f99e36f:outputs/result.json
+../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.jsonCOMMAND 12: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source annex lookupkey outputs/result.json
+SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json
+COMMAND 13: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay
+COMMAND 14: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay/.git/hooks
+COMMAND 15: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay checkout --detach ac6098dd15e1329c314ddb494259e703d2b00135
+COMMAND 16: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay annex init 'local rehearsal native-replay'
+init local rehearsal native-replay ok
+(recording state in git...)
+COMMAND 17: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml python /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/rehearse.py replay --mode native --workspace /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay --revision bc075185decb23427a42766f50490ce86f99e36f --base ac6098dd15e1329c314ddb494259e703d2b00135 --receipt /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/receipts/naive-001/native-replay.json
+{"mode": "native", "datalad_version": "1.7.1", "parser_file": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py", "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3", "native_record_recognized": false, "prefix_matches": true, "original_message_sha256": "6f8de16cb6d5b30cd8b12cdb069028b3599ecd7b0f0fbe8a3d52c6364cb904b3", "effective_run_info": null, "results": [{"action": "run", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/native-replay", "type": "dataset", "status": "impossible", "message": ["No run commits found in range %s", "bc075185decb23427a42766f50490ce86f99e36f^..bc075185decb23427a42766f50490ce86f99e36f"]}], "ok": false}
+COMMAND 18: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay
+COMMAND 19: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/.git/hooks
+COMMAND 20: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay checkout --detach ac6098dd15e1329c314ddb494259e703d2b00135
+COMMAND 21: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay annex init 'local rehearsal compat-replay'
+init local rehearsal compat-replay ok
+(recording state in git...)
+COMMAND 22: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml python /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/rehearse.py replay --mode compat --workspace /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay --revision bc075185decb23427a42766f50490ce86f99e36f --base ac6098dd15e1329c314ddb494259e703d2b00135 --receipt /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/receipts/naive-001/compat-replay.json
+{"mode": "compat", "datalad_version": "1.7.1", "parser_file": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/.pixi/envs/default/lib/python3.13/site-packages/datalad/local/rerun.py", "parser_sha256": "98faa53f6f762ccb102d06fea017c29338b67df10c92f585798413c23d9b73f3", "native_record_recognized": false, "prefix_matches": true, "original_message_sha256": "6f8de16cb6d5b30cd8b12cdb069028b3599ecd7b0f0fbe8a3d52c6364cb904b3", "effective_run_info": {"chain": [], "cmd": "python compute.py", "dsid": "30753155-48f0-494d-b758-ccdf3669f358", "exit": 0, "extra_inputs": [], "inputs": ["input.json"], "outputs": ["outputs/result.json"], "pwd": "."}, "results": [{"action": "get", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/input.json", "type": "file", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay", "status": "notneeded", "message": "already present"}, {"action": "run", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay", "type": "dataset", "status": "ok", "message": "python compute.py", "run_info": {"cmd": "python compute.py", "chain": ["bc075185decb23427a42766f50490ce86f99e36f"], "inputs": ["input.json"], "extra_inputs": [], "outputs": ["outputs/result.json"], "pwd": ".", "dsid": "30753155-48f0-494d-b758-ccdf3669f358", "exit": 0}, "exit_code": 0, "msg_path": null}, {"action": "add", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay/outputs/result.json", "type": "file", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay", "status": "ok", "message": "", "key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json"}, {"action": "save", "type": "dataset", "path": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay", "refds": "/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay", "status": "ok"}], "ok": true}
+COMMAND 23: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control
+COMMAND 24: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control/.git/hooks
+COMMAND 25: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control checkout --detach ac6098dd15e1329c314ddb494259e703d2b00135
+COMMAND 26: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control annex init 'local rehearsal noop-control'
+init local rehearsal noop-control ok
+(recording state in git...)
+COMMAND 27: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml datalad run --explicit -o outputs/result.json -m 'no-op negative control' -- python -c pass
+run(ok): /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/noop-control (dataset) [python -c pass]
+COMMAND 28: git clone --no-hardlinks /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver
+COMMAND 29: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver config --local core.hooksPath /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver/.git/hooks
+COMMAND 30: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver annex init 'local rehearsal independent-receiver'
+init local rehearsal independent-receiver ok
+(recording state in git...)
+COMMAND 31: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver remote rename origin local-transfer
+COMMAND 32: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver ls-tree HEAD -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 33: pixi run --manifest-path /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/pixi.toml git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver annex get --from=local-transfer outputs/result.json
+get outputs/result.json (from local-transfer...) 
+
+100%  24 B            154 KiB/s 0s
+                                  
+ok
+(recording state in git...)
+COMMAND 34: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/independent-receiver remote get-url local-transfer
+/Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source
+COMMAND 35: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source worktree add -b codex/peer /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/peer-worktree bc075185decb23427a42766f50490ce86f99e36f
+HEAD is now at bc07518 feat: retain recorded fixture computation
+COMMAND 36: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source status --short
+ M compute.py
+COMMAND 37: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/peer-worktree status --short
+ M input.json
+COMMAND 38: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show -s --format=%B bc075185decb23427a42766f50490ce86f99e36f
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 39: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source bundle create /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/archives/naive-001/fixture-history.bundle --all
+COMMAND 40: git clone /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/archives/naive-001/fixture-history.bundle /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver
+COMMAND 41: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver ls-tree bc075185decb23427a42766f50490ce86f99e36f -- outputs/result.json
+120000 blob 36dcc48be717d3f032ed9844c2222ba79cb1bb0c	outputs/result.json
+COMMAND 42: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/bundle-receiver show bc075185decb23427a42766f50490ce86f99e36f:outputs/result.json
+../.git/annex/objects/1P/K7/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json/SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.jsonCOMMAND 43: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source rev-list HEAD
+bc075185decb23427a42766f50490ce86f99e36f
+ac6098dd15e1329c314ddb494259e703d2b00135
+f880499974025b7d1fbed21358d0bc919596c2c0
+COMMAND 44: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show -s --format=%B bc075185decb23427a42766f50490ce86f99e36f
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [],
+ "cmd": "python compute.py",
+ "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 45: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show -s --format=%B ac6098dd15e1329c314ddb494259e703d2b00135
+chore: add deterministic fixture inputs and command
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 46: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/source show -s --format=%B f880499974025b7d1fbed21358d0bc919596c2c0
+chore: [DATALAD] new dataset
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 47: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay rev-list HEAD
+9ec81f1e30b28a48eea1177becf2753415469326
+ac6098dd15e1329c314ddb494259e703d2b00135
+f880499974025b7d1fbed21358d0bc919596c2c0
+COMMAND 48: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay show -s --format=%B 9ec81f1e30b28a48eea1177becf2753415469326
+feat: retain recorded fixture computation
+
+[DATALAD RUNCMD] compute fixture sum
+
+=== Do not change lines below ===
+{
+ "chain": [
+  "bc075185decb23427a42766f50490ce86f99e36f"
+ ],
+ "cmd": "python compute.py",
+ "dsid": "30753155-48f0-494d-b758-ccdf3669f358",
+ "exit": 0,
+ "extra_inputs": [],
+ "inputs": [
+  "input.json"
+ ],
+ "outputs": [
+  "outputs/result.json"
+ ],
+ "pwd": "."
+}
+^^^ Do not change lines above ^^^
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 49: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay show -s --format=%B ac6098dd15e1329c314ddb494259e703d2b00135
+chore: add deterministic fixture inputs and command
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+COMMAND 50: git -C /Users/johnlee/.local/share/wt-utils/worktrees/dabc/04-workflow-rehearsal/work/naive-001/compat-replay show -s --format=%B f880499974025b7d1fbed21358d0bc919596c2c0
+chore: [DATALAD] new dataset
+
+Co-Authored-By: Codex Desktop 26.1007.71326 (runtime codex-cli 0.162.0-alpha.17.2) / gpt-6-astra <codex@openai.com>
+Codex-Reasoning-Effort: ultra
+
+{
+  "status": "passed",
+  "checks": 15,
+  "run_revision": "bc075185decb23427a42766f50490ce86f99e36f",
+  "base_revision": "ac6098dd15e1329c314ddb494259e703d2b00135",
+  "annex_key": "SHA256E-s24--f2edf6454efa143c91f1dd5680730014c21224c34d310a83f0fee1e7633146d6.json",
+  "limitations": [
+    "DataLad 1.7.1 requires the disclosed adapter for this commit shape",
+    "retrieval is local and same-host, with no public remote tested",
+    "worktrees isolate tracked working files, not all repository administration",
+    "fixture is synthetic and is not a scientific efficacy trial",
+    "module has not been committed; outer duct completes after this script exits"
+  ]
+}
