@@ -1,10 +1,12 @@
 # STAMPED poster study
 
-Status, 2026-10-14: all three planned pairs are assessed.
+Status, 2026-10-15: all three planned pairs are assessed.
 All six attempts matched the actual-data scientific checks and passed fresh-checkout replay.
 Stage 03 treatment nevertheless failed two required missing-token screening cases; the defect remains unrepaired.
 Editable HTML and the checked final PDF are delivered.
-See [DELIVERY.md](DELIVERY.md) for exact files and delivery limits.
+The poster is available in [draft PR 35](https://github.com/con/talks/pull/35); [DELIVERY.md](DELIVERY.md) preserves the initial handoff.
+The [follow-up](retrospective/README.md) adds an isolation audit, proposed skill improvements, two summary figures, and a technical rehearsal passing 15 scoped checks in each of two runs.
+The sensitivity threshold remains undecided.
 See [REPORT.md](REPORT.md) for evidence, costs, failures, protocol changes, and limitations.
 
 ## Deliverables
@@ -78,7 +80,8 @@ A separate coordinator attachment preserves the verified payload; all 40,000 rep
 
 ## Publication scope
 
-Work stays on review branches.
-No pull requests, shared-thread comments, conference uploads, or new releases are being submitted.
+The parent study and follow-up are collected on the default branch, `main`, with experiment and source submodules pinned to their retained commits.
+The poster remains [draft PR 35](https://github.com/con/talks/pull/35); the skill PRs remain separate candidates.
+No conference upload or new release is claimed.
 Final poster author order is John A. Lee, Austin Macdonald, Cody C. Baker, Yaroslav O. Halchenko; all share Dartmouth/CON affiliation. ReproNim support and Codex assistance are acknowledged without claiming author review. All six research attempts have verified native capture and uploaded references. Final root/poster packaging transcripts remain local under the privacy hold; current uploaded packaging checkpoints and hosted Entire dashboard ingestion are not claimed.
 The final poster deadline is October 21, 2026, 11:59pm AoE.

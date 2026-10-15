@@ -10,7 +10,7 @@ Original workers and assessments remain unchanged.
 - [Isolation audit](ISOLATION-AUDIT.md): the six agents used separate clones with independent Git metadata and environments.
   Shared live skills and account controls were checked at launch, not continuously frozen.
   No cross-arm reads were observed in the bounded review.
-- [Integration rehearsal](../../experiments/04-workflow-rehearsal/README.md): executable DataLad/annex guidance, negative controls and retained technical runs.
+- [Integration rehearsal](https://github.com/leej3/stamped-ai-research/blob/3b2c8839eadee3298f7fe4c199cff2ad8fcb5435/README.md): executable DataLad/annex guidance, negative controls and retained technical runs.
 - [Changes proposed for PRs 23, 24 and 26](SKILL-PR-IMPROVEMENTS.md): exact candidate versions, concrete file-level changes, acceptance tests and useful practices from both the candidates and this pilot.
   These are proposals, not upstream posts.
 
@@ -29,7 +29,7 @@ The last is a separately executed candidate-helper check.
 None establishes a general ranking of the skill PRs.
 The detailed audit links the historical receipts and distinguishes later coordinator packaging from worker performance.
 
-The [technical rehearsal](../../experiments/04-workflow-rehearsal/README.md) now passes 15 scoped checks in both the author's run and one fresh-context reader's first run.
+The [technical rehearsal](https://github.com/leej3/stamped-ai-research/blob/3b2c8839eadee3298f7fe4c199cff2ad8fcb5435/README.md) now passes 15 scoped checks in both the author's run and one fresh-context reader's first run.
 The reader installed a new locked module environment and needed no assistance, fixes or retries.
 Native DataLad still fails on the prefixed record; the disclosed process-local adapter passes.
 A captured-pointer warning was nonblocking and led to a small local attribute setup step, with the original observation preserved.
@@ -40,14 +40,14 @@ This is evidence for the supplied procedure on this host, not a general reliabil
 The original arms did produce six editable SVGs, one per arm.
 The opportunity is to use a few clear figures to connect the study's design, results and limits, rather than leaving those connections mainly in prose and tables.
 
-![Worker time across three paired tasks](figures/pilot-time-and-checks.png)
+![Worker time across three paired tasks](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
 
 This paired-dot figure shows worker wall time and retains the stage 3 screening failure.
 Both arms passed actual-data checks and direct scientific replay; native DataLad integration is a separate result.
 One pair per task cannot establish causal skill efficacy.
 Setup, evaluation and packaging time are not included.
 
-![Sensitivity of the response-time estimate](figures/response-time-sensitivity.png)
+![Sensitivity of the response-time estimate](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s164097--604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24.png)
 
 This interval plot shows all four predeclared analyses.
 Every interval includes zero.

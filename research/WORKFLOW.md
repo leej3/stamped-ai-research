@@ -51,7 +51,7 @@ Include actual configured hooks and commit conventions.
 Preserve both a successful path and negative controls: a no-op replay must fail, a missing payload must be reported, and archived symlinks must retain their type and target.
 State whether retrieval is local or over a network.
 
-Use the [integration rehearsal](../experiments/04-workflow-rehearsal/README.md) for the current DataLad/annex cases.
+Use the [integration rehearsal](https://github.com/leej3/stamped-ai-research/blob/3b2c8839eadee3298f7fe4c199cff2ad8fcb5435/README.md) for the current DataLad/annex cases.
 Treat a successful scripted smoke check as evidence about those cases, not general agent reliability.
 
 Choose the skill's task before constructing the fixture.

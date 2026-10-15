@@ -232,11 +232,10 @@ These data support scoped actual-data replay and explicit tradeoffs, not a claim
 The poster remains an editable 44-inch square HTML/CSS artifact adapted from con/talks PR 20, retaining exact institutional artwork and the submitted title in metadata.
 The initial SVG is superseded, not erased.
 The central table distinguishes historical abstract tools from observed evidence; actual cost, failures, gaps, and the unresolved ABCD access boundary address the reviewer requests.
-Final source and exports are in [the talks module](../talks/2026-usrse/stamped-ai-study/README.md).
+Final source and exports are in [the archived talks module](https://github.com/con/talks/blob/1e96d413e43ca048c7f45674ada9d5f316a68b91/2026-usrse/stamped-ai-study/README.md).
 The [root adaptation](poster-context/html-adaptation/README.md) records the scientific handoff; older provisional PDFs are superseded.
 [Delivery notes](DELIVERY.md) record the exact PDF hash, external checks, privacy handling, and remaining ancillary upload limits.
 
-Author order is John A. Lee, Austin Macdonald, Cody C. Baker, and Yaroslav O. Halchenko, with Dartmouth/CON affiliation.
-OpenAI Codex assisted the analyses and poster draft; ReproNim supports this work.
-Work stays on review branches; no pull request, shared-thread post, conference upload, or new publication is claimed.
+Author order is John A. Lee, Austin Macdonald, Cody C. Baker, and Yaroslav O. Halchenko, with Dartmouth/CON affiliation. OpenAI Codex assisted the analyses and poster draft; ReproNim supports this work. The study and [subsequent follow-up](retrospective/README.md) are collected on the parent repository's `main` branch.
+The poster remains draft PR 35; no conference upload or new release is claimed.
 The poster deadline remains October 21, 2026, 11:59pm AoE.

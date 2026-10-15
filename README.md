@@ -15,15 +15,20 @@ The later asset update reused the existing artwork and uploaded the previously m
 - [Follow-up and technical rehearsal](research/retrospective/README.md): isolation audit, integration failures, skill PR improvements and two summary figures.
 - [Working agreement](research/WORKFLOW.md) and [sensitivity policy draft](research/SENSITIVITY-POLICY.md): complete module-local records, worktrees, annex and a proposed risk threshold.
 - [Study report](research/REPORT.md): results, measured costs, limitations, configuration amendment, and retained failures.
-- [Current status](research/STATUS.md): completed work and remaining delivery.
+- [Current status](research/STATUS.md): completed work and open limitations.
 - [Protocol](research/mixed-gambles-design/protocol.md) and [fixed scientific specification](research/mixed-gambles-design/protocol.json).
 - [Candidate skill comparison](research/skill-candidates/REVIEW.md): pinned con/skills PRs 23, 24, and 26, kept separate from the frozen treatment.
+
+![Worker time and checks across the three paired tasks](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
+
+The skills arms took longer in these three pairs; one pair per task cannot establish general effectiveness.
+The [follow-up](research/retrospective/README.md) explains this figure and the response-time estimates.
 
 ## Editable poster
 
 The 44 × 44 inch HTML/CSS poster uses the con/talks PR 20 layout and exact institutional artwork.
-Current preparation and build instructions are in [the root adaptation](research/poster-context/html-adaptation/README.md).
-The final module is [con/talks: 2026-usrse/stamped-ai-study](https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study).
+Current source, build and retrieval instructions are in the [poster PR module](https://github.com/con/talks/tree/codex/stamped-example-poster/2026-usrse/stamped-ai-study).
+The [full archival module](https://github.com/con/talks/tree/1e96d413e43ca048c7f45674ada9d5f316a68b91/2026-usrse/stamped-ai-study) and [root adaptation](research/poster-context/html-adaptation/README.md) preserve the earlier production record.
 Its editable source is `index.html`; the final PDF is `exports/stamped-ai-poster.pdf`.
 The PDF is one 44-inch square page, with at least 24-point inspectable text, all expected link annotations, and all four QR codes decoded from the exported pixels.
 A GitHub annex pointer alone is not the PDF: use the module's verified direct download or core-asset retrieval instructions.
@@ -44,13 +49,15 @@ Observed reads and selected applications in prepared seeds do not validate every
 
 ## Experiments and reproduction evidence
 
-| DataLad stage | Retained evidence |
+| Module | Retained evidence |
 | --- | --- |
-| [01: one participant](experiments/01-participant-rt/) | [Assessment](research/mixed-gambles-design/evaluator/stage-01/assessment.json), [review](research/mixed-gambles-design/evaluator/stage-01/review.md) |
-| [02: cohort](experiments/02-cohort-rt/) | [Assessment](research/mixed-gambles-design/evaluator/stage-02/assessment.json), [review](research/mixed-gambles-design/evaluator/stage-02/review.md) |
-| [03: sensitivity](experiments/03-rt-sensitivity/) | [Assessment](research/mixed-gambles-design/evaluator/stage-03/assessment.json), [paired review](research/mixed-gambles-design/evaluator/stage-03/pair-review.json) |
+| [00: source screening](https://github.com/leej3/stamped-ai-research/tree/38f77853e3608b7ffedae91c0a966cf900f557c0) | Rejected Flanker candidate and retained setup evidence; no trial launched. |
+| [01: one participant](https://github.com/leej3/stamped-ai-research/tree/5d53a9f27195a21bc3e77ce7619ccc3eabc292bb) | [Assessment](research/mixed-gambles-design/evaluator/stage-01/assessment.json), [review](research/mixed-gambles-design/evaluator/stage-01/review.md) |
+| [02: cohort](https://github.com/leej3/stamped-ai-research/tree/395d6c460434773281f6e7989a8530139b01be8a) | [Assessment](research/mixed-gambles-design/evaluator/stage-02/assessment.json), [review](research/mixed-gambles-design/evaluator/stage-02/review.md) |
+| [03: sensitivity](https://github.com/leej3/stamped-ai-research/tree/952bad0c3973236748936ada64b45675d1b1f1ff) | [Assessment](research/mixed-gambles-design/evaluator/stage-03/assessment.json), [paired review](research/mixed-gambles-design/evaluator/stage-03/pair-review.json) |
+| [04: workflow rehearsal](https://github.com/leej3/stamped-ai-research/blob/3b2c8839eadee3298f7fe4c199cff2ad8fcb5435/README.md) | Two technical runs pass 15 scoped checks each; the native DataLad failure and explicit compatibility adapter remain separate. |
 
-Each stage preserves arm-specific `arms/<arm>/worktree/` outputs and `snapshot.json` identities.
+Each scientific stage (01–03) preserves arm-specific `arms/<arm>/worktree/` outputs and `snapshot.json` identities.
 Documented scientific commands are in the retained `reports/run.json` files; post-stop coordinator replay records are under the stage's `replay/` directory.
 See the [evaluator guide](research/mixed-gambles-design/evaluator/README.md) and [execution harness guide](research/harness/README.md) before interpreting or re-running them.
 These experiments used pinned event tables from [ds000005](https://github.com/OpenNeuroDatasets/ds000005/tree/b094fc2f41487f92d382a1a432165ae58caae386), not MRI payloads or HPC jobs.
@@ -70,4 +77,5 @@ OpenAI Codex assisted the analyses and poster draft; this statement does not cla
 Source data declare PDDL v1.0 and request Tom et al. (2007) attribution.
 Existing poster/template and institutional assets retain their own notices.
 Licensing of new study code and prose remains unresolved; no blanket license is granted here.
-Work stays on review branches, with no conference upload or new publication claimed.
+The study and follow-up are collected on `main`; the poster remains a draft.
+No conference upload or new release is claimed.
