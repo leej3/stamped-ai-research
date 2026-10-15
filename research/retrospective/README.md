@@ -40,20 +40,22 @@ This is evidence for the supplied procedure on this host, not a general reliabil
 The original arms did produce six editable SVGs, one per arm.
 The opportunity is to use a few clear figures to connect the study's design, results and limits, rather than leaving those connections mainly in prose and tables.
 
-![Worker time across three paired tasks](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
+[View the figure: worker time across three paired tasks (PNG)](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
 
 This paired-dot figure shows worker wall time and retains the stage 3 screening failure.
 Both arms passed actual-data checks and direct scientific replay; native DataLad integration is a separate result.
 One pair per task cannot establish causal skill efficacy.
 Setup, evaluation and packaging time are not included.
 
-![Sensitivity of the response-time estimate](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s164097--604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24.png)
+[View the figure: sensitivity of the response-time estimate (PNG)](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s164097--604bcfcccdf86809c699744cce198cea902333fae054eeb18b05477149706e24.png)
 
 This interval plot shows all four predeclared analyses.
 Every interval includes zero.
 The estimate describes observed responses with equal participant weights; differential missingness and run position prevent a causal interpretation.
 
 Both figures have editable SVG, PNG preview and PDF exports under `figures/`, plus the exact plotted TSV values.
+The links above retrieve the annexed PNGs directly; GitHub cannot display them inline with the archive server's current response headers.
+[Verified asset locations](asset-retrieval.json) also list the SVG and PDF downloads.
 They reuse the poster's cream, navy, green and blue palette.
 At their native 10.8-inch width, the smallest text is 12 pt; use at least **21.6 inches wide** on the poster to meet its 24 pt minimum, or shorten and regenerate the labels at larger type.
 Do not shrink the captions to fit a column.

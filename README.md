@@ -19,7 +19,7 @@ The later asset update reused the existing artwork and uploaded the previously m
 - [Protocol](research/mixed-gambles-design/protocol.md) and [fixed scientific specification](research/mixed-gambles-design/protocol.json).
 - [Candidate skill comparison](research/skill-candidates/REVIEW.md): pinned con/skills PRs 23, 24, and 26, kept separate from the frozen treatment.
 
-![Worker time and checks across the three paired tasks](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
+[View the figure: worker time and checks across the three paired tasks](https://hub.centerforopenneuroscience.org/git-annex-p2phttp/git-annex/5a7e64ff-564e-45fb-ac73-9527ada11d8b/key/SHA256E-s145771--5a0ed34a1378e7abad23891419ffe2c3276b622c4d154d27919c451f8d84d85f.png)
 
 The skills arms took longer in these three pairs; one pair per task cannot establish general effectiveness.
 The [follow-up](research/retrospective/README.md) explains this figure and the response-time estimates.
